@@ -1,0 +1,20 @@
+/* Giriş paragrafı animasyonu - hoş geldiniz yazıldıktan sonra */
+.intro-text--hidden {
+  opacity: 0;
+  transform: translateY(1rem);
+  pointer-events: none;
+}
+
+.intro-text--visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.intro-text {
+  will-change: opacity, transform;
+}
+
+/* Butonlar giriş animasyonu - biraz gecikmeli */
+.intro-buttons.intro-text--hidden {
+  pointer-events: none;
+}
