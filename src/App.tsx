@@ -1,36 +1,36 @@
 import { useState } from 'react';
 import Background from './components/Background';
-import Navbar from "./components/StaggeredMenu"
-import TextType from "./components/TextType"
-import './App.css';
+import Navbar from "./components/StaggeredMenu";
+import TextType from "./components/TextType";
+import FlowingMenu from './components/FlowingMenu'; 
+// SİLDİĞİMİZ DOSYAYI GERİ GETİRDİK: Senin orijinal animasyonların burada
+import './App.css'; 
 
 function App() {
   const [showIntro, setShowIntro] = useState(false);
 
   return (
-    <div className="relative w-full h-screen bg-black overflow-hidden">
+    <div className="relative w-full bg-black font-display">
       
       <Navbar />
 
-      {/* 1. KATMAN: ARKA PLAN */}
-      <div className="absolute inset-0">
+      {/* --- SABİT ARKA PLAN --- */}
+      <div className="fixed top-0 left-0 w-full h-screen z-0 pointer-events-none">
         <Background
           particleCount={400}
           particleSpread={20}
           particleColors={['#ffffff', '#ffffff', '#ffffff']}
           particleBaseSize={100}
-          
-          // YENİ EKLENEN KONTROLLER (PROPS):
-          speed={0.1} // Hızı buradan düşürüyoruz (Daha da yavaş istersen 0.05 yapabilirsin)
-          moveParticlesOnHover={true} // Fare etkileşimini motor seviyesinde açar
-          particleHoverFactor={2} // Farenin parçacıkları itme/çekme gücü
+          speed={0.1}
+          moveParticlesOnHover={true}
+          particleHoverFactor={2}
         />
       </div>
 
-      {/* 2. KATMAN: İÇERİK */}
-      <div className="absolute inset-0 z-[50] flex flex-col items-center justify-center w-full text-white pointer-events-none px-4">
+      {/* --- 1. SAYFA: GİRİŞ EKRANI --- */}
+      <section className="relative z-10 w-full h-screen flex flex-col items-center justify-center pointer-events-none px-4">
         <div className="pointer-events-auto text-center max-w-2xl">
-          {/* TextType ile hoş geldin başlığı */}
+          
           <div className="mb-8 flex justify-center">
             <TextType
               text="Merhaba Hoş Geldiniz..."
@@ -49,7 +49,8 @@ function App() {
               }}
             />
           </div>
-          {/* Bu site ile bağlayan giriş cümlesi - giriş animasyonu */}
+          
+          
           <p
             className={`intro-text text-gray-300 text-lg leading-relaxed transition-all duration-700 ease-out ${
               showIntro ? 'intro-text--visible' : 'intro-text--hidden'
@@ -58,7 +59,8 @@ function App() {
             Bu site, ders çalışmanızı ve ders kaynaklarına erişiminizi kolaylaştırmak için tasarlandı.
             Notlar, kaynaklar ve yararlı linklere tek bir yerden ulaşabilirsiniz.
           </p>
-          {/* Butonlar - giriş animasyonu ile */}
+          
+          
           <div
             className={`intro-buttons mt-10 flex flex-wrap justify-center gap-4 transition-all duration-700 ease-out delay-200 ${
               showIntro ? 'intro-text--visible' : 'intro-text--hidden'
@@ -78,7 +80,25 @@ function App() {
             </button>
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* --- 2. SAYFA: SINIF SEÇİMİ --- */}
+      <section className="relative z-10 w-full min-h-screen flex flex-col items-center justify-center border-t border-gray-800/50 pt-20 pb-20">
+        <h2 className="text-4xl font-bold text-white mb-12 drop-shadow-lg">
+          Sınıfını Seç
+        </h2>
+        
+        <div className="w-full">
+          <FlowingMenu 
+            items={[
+              { link: '#', text: '1. Sınıf', image: 'https://picsum.photos/600/400?random=1' },
+              { link: '#', text: '2. Sınıf', image: 'https://picsum.photos/600/400?random=2' },
+              { link: '#', text: '3. Sınıf', image: 'https://picsum.photos/600/400?random=3' },
+              { link: '#', text: '4. Sınıf', image: 'https://picsum.photos/600/400?random=4' },
+            ]}
+          />
+        </div>
+      </section>
 
     </div>
   );
