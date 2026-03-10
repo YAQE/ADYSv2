@@ -14,7 +14,21 @@
   will-change: opacity, transform;
 }
 
-/* Butonlar giriş animasyonu - biraz gecikmeli */
+/* Butonlar giriş animasyonu - paragraftan sonra yavaşça gelsin */
+.intro-buttons {
+  will-change: opacity, transform;
+  transition:
+    opacity 2.5s ease-out,
+    transform 2.5s ease-out;
+}
+
 .intro-buttons.intro-text--hidden {
+  opacity: 0;
+  transform: translateY(10rem);
   pointer-events: none;
+}
+
+.intro-buttons.intro-text--visible {
+  opacity: 1;
+  transform: translateY(0);
 }
