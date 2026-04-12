@@ -5,6 +5,7 @@ interface MenuItemData {
   link: string;
   text: string;
   image: string;
+  onClick?: () => void; // SADECE BU EKLENDİ
 }
 
 interface FlowingMenuProps {
@@ -24,17 +25,17 @@ interface MenuItemProps extends MenuItemData {
   marqueeTextColor: string;
   borderColor: string;
   isFirst: boolean;
+  onClick?: () => void; // SADECE BU EKLENDİ
 }
 
 const FlowingMenu: React.FC<FlowingMenuProps> = ({
   items = [],
   speed = 15,
   textColor = '#fff',
-  // DEĞİŞİKLİK 1: Arka plan varsayılan olarak tamamen şeffaf yapıldı
   bgColor = 'transparent', 
   marqueeBgColor = '#fff',
-  marqueeTextColor = '#000', // Kayan yazının daha okunaklı olması için siyah yapıldı
-  borderColor = 'rgba(255, 255, 255, 0.15)' // Çizgiler daha zarif ve hafif şeffaf yapıldı
+  marqueeTextColor = '#000',
+  borderColor = 'rgba(255, 255, 255, 0.15)'
 }) => {
   return (
     <div className="w-full h-full overflow-hidden" style={{ backgroundColor: bgColor }}>
@@ -65,7 +66,8 @@ const MenuItem: React.FC<MenuItemProps> = ({
   marqueeBgColor,
   marqueeTextColor,
   borderColor,
-  isFirst
+  isFirst,
+  onClick // BİLEŞENE ÇAĞIRILDI
 }) => {
   const itemRef = useRef<HTMLDivElement>(null);
   const marqueeRef = useRef<HTMLDivElement>(null);
@@ -155,10 +157,13 @@ const MenuItem: React.FC<MenuItemProps> = ({
       ref={itemRef}
       style={{ borderTop: isFirst ? 'none' : `1px solid ${borderColor}` }}
     >
-      {/* DEĞİŞİKLİK 2 & 3: py-12 ile yükseklik artırıldı. text-4xl, font-bold ve tracking-[0.2em] ile yazı büyütüldü. */}
       <a
         className="flex items-center justify-center relative cursor-pointer uppercase no-underline font-bold text-4xl md:text-5xl tracking-[0.2em] py-12"
         href={link}
+        onClick={(e) => {
+          e.preventDefault(); // Sayfanın zıplamasını engeller
+          if (onClick) onClick(); // Tıklandığını sisteme haber verir
+        }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
         style={{ color: textColor }}
@@ -174,7 +179,6 @@ const MenuItem: React.FC<MenuItemProps> = ({
         <div className="h-full w-fit flex" ref={marqueeInnerRef}>
           {[...Array(repetitions)].map((_, idx) => (
             <div className="marquee-part flex items-center flex-shrink-0" key={idx} style={{ color: marqueeTextColor }}>
-              {/* DEĞİŞİKLİK 4: Kayan yazı fontu da ana yazıyla aynı büyüklüğe getirildi */}
               <span className="whitespace-nowrap uppercase font-bold text-4xl md:text-5xl tracking-[0.2em] leading-[1] px-[1vw]">
                 {text}
               </span>

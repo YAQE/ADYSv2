@@ -5,14 +5,59 @@ import TextType from "./components/TextType";
 import FlowingMenu from './components/FlowingMenu'; 
 // SİLDİĞİMİZ DOSYAYI GERİ GETİRDİK: Senin orijinal animasyonların burada
 import './App.css'; 
-
+import ClassDashboard from './components/ClassDashboard';
 import img1 from './assets/classes/1.jpg';
 import img2 from './assets/classes/2.jpg';
 import img3 from './assets/classes/3.jpg';
 import img4 from './assets/classes/4.jpg'; 
-//BURASI SCROLL EFEKTİ VERMEK İÇİN SCROLL'U YAVAŞLATIYOR. DURATİON DEĞERİ İLE SCROLL'UN YAVAŞLIĞINI KONTROL EDİYORSUN.(MS OLARAK)
+
+// --- 1. ADIMDA KONUŞTUĞUMUZ VERİ TABANI ---
+const courseData = {
+  1: {
+    1: [ // 1. Yarıyıl
+      "BMB103 Bilgisayar Mühendisliğine Giriş", "FZK107 Fizik I", 
+      "LIC002 Lineer Cebir", "MAT111 Matematik I", 
+      "TBT001 Temel Bilgi Teknolojileri Kullanımı", "TDİ101 Türk Dili I", 
+      "YDİ109 Yabancı Dil I (İngilizce)"
+    ],
+    2: [ // 2. Yarıyıl
+      "BMB110 Bilgisayar Programlama", "BMB112 Web Teknolojileri", 
+      "FZK108 Fizik II", "MAT114 Matematik II", 
+      "TDİ102 Türk Dili II", "YDİ110 Yabancı Dil II (İngilizce)"
+    ]
+  },
+  2: {
+    1: [ // 3. Yarıyıl
+      "ATİ101 Atatürk İlkeleri ve İnkılâp Tarihi I", "BMB203 Nesneye Yönelik Programlama", 
+      "BMB205 Elektrik Devre Temelleri", "BMB207 Veritabanı Yönetimi", 
+      "DFD002 Diferansiyel Denklemler", "SYA003 Sayısal Analiz", 
+      "YD 003 Yabancı Dilde Okuma ve Konuşma"
+    ],
+    2: [ // 4. Yarıyıl
+      "ATİ102 Atatürk İlkeleri ve İnkılâp Tarihi II", "BMB206 Olasılık ve İstatistik", 
+      "BMB208 Ayrık Matematik", "BMB210 Elektroniğe Giriş", 
+      "BMB212 Veri Yapıları", "BMB214 Programlama Dilleri Prensipleri", 
+      "LMİ103 Mesleki İngilizce I"
+    ]
+  },
+  3: {
+    1: [ // 5. Yarıyıl
+      "BMB309 Bilgisayar Ağlarına Giriş", "BMB311 İşletim Sistemleri", 
+      "BMB317 Otomata Teorisi", "BMB319 Mantık Devreleri", 
+      "BMB315 Web Programlama", "LMİ104 Mesleki İngilizce II"
+    ],
+    2: [ // 6. Yarıyıl
+      "BMB306 Yazılım Mühendisliği", "BMB308 Bilgisayar Ağları", 
+      "BMB310 Sistem Analizi ve Tasarım", "BMB312 Sistem Programlama", 
+      "BMB314 Bilgisayar Organizasyonu", "YDS002 İş Hayatında Yabancı Dil"
+    ]
+  },
+  4: { 1: [], 2: [] } // 4. Sınıf şimdilik rezerve edildi
+};
+
+//BURASI SCROLL EFEKTİ VERMEK İÇİN SCROLL'U YAVAŞLATIYOR.
 const slowScrollTo = (targetY: number) => {
-  const duration = 2000; // animasyon süresi (ms) - 4 saniye
+  const duration = 2000; // animasyon süresi (ms) - 2 saniye
   const startY = window.pageYOffset;
   const distance = targetY - startY;
   let startTime: number | null = null;
@@ -26,7 +71,6 @@ const slowScrollTo = (targetY: number) => {
     if (timeElapsed < duration) requestAnimationFrame(animation);
   };
 
-  // Matematiksel yumuşatma fonksiyonu
   const ease = (t: number, b: number, c: number, d: number) => {
     t /= d / 2;
     if (t < 1) return c / 2 * t * t + b;
@@ -40,6 +84,10 @@ const slowScrollTo = (targetY: number) => {
 function App() {
   const [showIntro, setShowIntro] = useState(false);
 
+  // --- UYGULAMANIN YENİ HAFIZASI ---
+  // Hangi sınıf seçildi? (Başlangıçta null, yani hiçbiri)
+  const [selectedClass, setSelectedClass] = useState<number | null>(null);
+
   const scrollToSection = () => {
     const element = document.getElementById('sinif-secimi');
     if (element) {
@@ -47,6 +95,20 @@ function App() {
       const targetY = rect.top + window.pageYOffset;
       slowScrollTo(targetY);
     }
+  };
+
+  // YENİ EKLENDİ: Sınıf seçildiğinde önce hafızaya alır, sonra yavaşça o sayfaya kayar
+  const handleClassSelect = (classNum: number) => {
+    setSelectedClass(classNum); // 1. Sınıfı hafızaya al
+    
+    // 2. Sayfanın (DOM'un) çizilmesi için milisaniyelik bir süre tanıyıp aşağı kaydır
+    setTimeout(() => {
+      const element = document.getElementById('dashboard-section');
+      if (element) {
+        const targetY = element.getBoundingClientRect().top + window.pageYOffset;
+        slowScrollTo(targetY);
+      }
+    }, 150); 
   };
 
   return (
@@ -90,7 +152,6 @@ function App() {
             />
           </div>
           
-          
           <p
             className={`intro-text text-gray-300 text-lg leading-relaxed transition-all duration-700 ease-out ${
               showIntro ? 'intro-text--visible' : 'intro-text--hidden'
@@ -100,7 +161,6 @@ function App() {
             Notlar, kaynaklar ve yararlı linklere tek bir yerden ulaşabilirsiniz.
           </p>
           
-          
           <div
             className={`intro-buttons mt-10 flex flex-wrap justify-center gap-4 transition-all duration-700 ease-out delay-200 ${
               showIntro ? 'intro-text--visible' : 'intro-text--hidden'
@@ -108,7 +168,8 @@ function App() {
           >
             <button
               type="button"
-              className="intro-btn px-6 py-3 rounded-lg bg-blue-500/20 border border-blue-400/40 backdrop-blur-sm hover:bg-blue-500/40 hover:border-blue-400 hover:scale-105 active:scale-95 transition-all duration-200 font-medium text-white"            onClick={() => window.open('https://cmf-bm.web.nku.edu.tr/DersKatalog/0/s/3945/969#icerik', '_blank')}>
+              className="intro-btn px-6 py-3 rounded-lg bg-blue-500/20 border border-blue-400/40 backdrop-blur-sm hover:bg-blue-500/40 hover:border-blue-400 hover:scale-105 active:scale-95 transition-all duration-200 font-medium text-white"            
+              onClick={() => window.open('https://cmf-bm.web.nku.edu.tr/DersKatalog/0/s/3945/969#icerik', '_blank')}>
               Ders Kataloğunu Gör
             </button>
 
@@ -131,14 +192,27 @@ function App() {
         <div className="w-full">
           <FlowingMenu 
             items={[
-              { link: '#', text: '1. Sınıf', image: img1 },
-              { link: '#', text: '2. Sınıf', image: img2 },
-              { link: '#', text: '3. Sınıf', image: img3 },
-              { link: '#', text: '4. Sınıf', image: img4 },
+              // YENİ EKLENDİ: Artık handleClassSelect fonksiyonunu çağırıyor
+              { link: '#', text: '1. Sınıf', image: img1, onClick: () => handleClassSelect(1) },
+              { link: '#', text: '2. Sınıf', image: img2, onClick: () => handleClassSelect(2) },
+              { link: '#', text: '3. Sınıf', image: img3, onClick: () => handleClassSelect(3) },
+              { link: '#', text: '4. Sınıf', image: img4, onClick: () => handleClassSelect(4) },
             ]}
           />
         </div>
       </section>
+
+      {/* --- 3. SAYFA: DİNAMİK DERSLER VE İÇERİK KUTUSU --- */}
+      {selectedClass !== null && (
+        // YENİ EKLENDİ: id="dashboard-section" ekledik ki kaydırma hedefi burası olsun
+        <section id="dashboard-section" className="relative z-10 w-full min-h-screen flex flex-col items-center justify-start border-t border-gray-800/50 py-20 px-4">
+           {/* TS Tip uyarısını önlemek için courseData'yı keyof typeof ile cast ediyoruz */}
+           <ClassDashboard 
+              classNumber={selectedClass} 
+              classData={courseData[selectedClass as keyof typeof courseData]} 
+           />
+        </section>
+      )}
 
     </div>
   );
