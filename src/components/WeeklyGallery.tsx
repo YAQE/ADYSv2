@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { getWeeklyContent } from '../data/weeklyContent';
 
 interface WeeklyGalleryProps {
   courseName: string;
@@ -10,12 +11,33 @@ const WeeklyGallery: React.FC<WeeklyGalleryProps> = ({ courseName }) => {
   
   const carouselRef = useRef<HTMLDivElement>(null);
   const [dragConstraint, setDragConstraint] = useState(0);
+  const selectedWeekContent = selectedWeek !== null ? getWeeklyContent(courseName, selectedWeek) : undefined;
 
   useEffect(() => {
     if (carouselRef.current) {
       setDragConstraint(carouselRef.current.scrollWidth - carouselRef.current.offsetWidth);
     }
   }, [courseName]); // Ders değiştiğinde de constraint'i yenilemek için courseName eklendi
+
+  useEffect(() => {
+    setSelectedWeek(null);
+  }, [courseName]);
+
+  const getResourceIcon = (type: string) => {
+    if (type.toLowerCase().includes('pdf')) {
+      return (
+        <div className="bg-red-500/20 p-3 rounded-xl mr-4 group-hover:scale-110 transition-transform">
+          <svg className="w-8 h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+        </div>
+      );
+    }
+
+    return (
+      <div className="bg-blue-500/20 p-3 rounded-xl mr-4 group-hover:scale-110 transition-transform">
+        <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+      </div>
+    );
+  };
 
   return (
     <div className="w-full flex flex-col items-center animate-in zoom-in-95 duration-300">
@@ -44,7 +66,6 @@ const WeeklyGallery: React.FC<WeeklyGalleryProps> = ({ courseName }) => {
             {Array.from({ length: 16 }, (_, i) => i + 1).map((week) => (
               <motion.div
                 key={week}
-                // İŞTE SİHİRLİ DOKUNUŞ BURASI: onClick silindi, onTap eklendi!
                 onTap={() => setSelectedWeek(week)}
                 className="min-w-[12rem] h-52 bg-white/5 backdrop-blur-sm border border-white/10 hover:border-blue-400/50 rounded-3xl flex flex-col items-center justify-center transition-colors shadow-lg relative overflow-hidden group cursor-pointer"
                 whileHover={{ scale: 1.02, backgroundColor: "rgba(255,255,255,0.08)" }}
@@ -78,30 +99,30 @@ const WeeklyGallery: React.FC<WeeklyGalleryProps> = ({ courseName }) => {
             
             <div className="p-8 text-gray-300 flex flex-col gap-6 bg-gradient-to-b from-transparent to-white/5 h-[60vh] md:h-auto overflow-y-auto">
               <p className="text-lg leading-relaxed border-l-4 border-blue-500 pl-4 bg-white/5 py-3 rounded-r-lg">
-                Bu hafta işlenen konu başlıklarına, slayt gösterilerine ve ek okuma kaynaklarına aşağıdan erişebilirsiniz.
+                {selectedWeekContent?.description ?? 'Bu hafta için icerik henuz eklenmedi.'}
               </p>
               
-              <div className="grid md:grid-cols-2 gap-4 mt-4">
-                <a href="#" className="flex items-center p-5 border border-white/10 bg-white/5 rounded-2xl hover:bg-white/10 hover:border-blue-400/50 transition-all group">
-                  <div className="bg-red-500/20 p-3 rounded-xl mr-4 group-hover:scale-110 transition-transform">
-                    <svg className="w-8 h-8 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-                  </div>
-                  <div>
-                    <span className="block font-bold text-white text-lg">Ders Sunumu</span>
-                    <span className="block text-sm text-gray-400">PDF Dokümanı</span>
-                  </div>
-                </a>
-
-                <a href="#" className="flex items-center p-5 border border-white/10 bg-white/5 rounded-2xl hover:bg-white/10 hover:border-blue-400/50 transition-all group">
-                  <div className="bg-blue-500/20 p-3 rounded-xl mr-4 group-hover:scale-110 transition-transform">
-                    <svg className="w-8 h-8 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                  </div>
-                  <div>
-                    <span className="block font-bold text-white text-lg">Ders Kaydı</span>
-                    <span className="block text-sm text-gray-400">Video (85 dk)</span>
-                  </div>
-                </a>
-              </div>
+              {selectedWeekContent?.resources?.length ? (
+                <div className="grid md:grid-cols-2 gap-4 mt-4">
+                  {selectedWeekContent.resources.map((resource) => (
+                    <a
+                      key={`${resource.title}-${resource.type}`}
+                      href={resource.href}
+                      className="flex items-center p-5 border border-white/10 bg-white/5 rounded-2xl hover:bg-white/10 hover:border-blue-400/50 transition-all group"
+                    >
+                      {getResourceIcon(resource.type)}
+                      <div>
+                        <span className="block font-bold text-white text-lg">{resource.title}</span>
+                        <span className="block text-sm text-gray-400">{resource.type}</span>
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-sm text-gray-400 mt-2 px-4 py-3 rounded-xl border border-white/10 bg-white/5">
+                  Bu hafta icin baglanti veya kaynak henuz eklenmedi.
+                </p>
+              )}
             </div>
           </div>
         </div>
