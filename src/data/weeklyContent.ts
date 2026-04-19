@@ -80,7 +80,13 @@ const createCourseTemplate = (courseName: string): WeeklyContentByWeek =>
 
 const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
   // Buraya yalnizca ozellestirmek istedigin ders/hafta ekle.
+  // description: Markdown string (baslik, liste, kalin vb.); ayri .md dosyasi gerekmez, modalda render edilir.
   // Ornek:
+  // description: `## Bu hafta
+  // - Madde bir
+  // - Madde iki
+  //
+  // **Not:** Ek bilgi.`,
   // 'BMB112 Web Teknolojileri': {
   //   1: {
   //     description: 'HTML giris, temel etiketler ve semantik yapi.',
@@ -92,7 +98,27 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
   // },
     'BMB214 Programlama Dilleri Prensipleri': {
      1: {
-      description: 'BMB214 Programlama Dilleri Prensipleri',
+      description: `## Giriş ve dersin çerçevesi
+
+Bu hafta **BMB214 Programlama Dilleri Prensipleri** dersinin amacı, kapsamı ve programlama dili kavramına giriş işlenir.
+
+### Konu başlıkları
+- Programlama dili nedir, neden ayrı bir disiplin olarak incelenir?
+- Dil tasarımı ve kullanım alanları (uygulama, sistem, betik dilleri vb.)
+- **Söz dizimi (syntax)** ile **anlam (semantics)** ayrımına giriş
+- Derleme ve yorumlama yaklaşımlarına genel bakış
+
+- Programlama dili nedir, neden ayrı bir disiplin olarak incelenir?
+- Dil tasarımı ve kullanım alanları (uygulama, sistem, betik dilleri vb.)
+- **Söz dizimi (syntax)** ile **anlam (semantics)** ayrımına giriş
+- Derleme ve yorumlama yaklaşımlarına genel bakış
+
+- Programlama dili nedir, neden ayrı bir disiplin olarak incelenir?
+- Dil tasarımı ve kullanım alanları (uygulama, sistem, betik dilleri vb.)
+- **Söz dizimi (syntax)** ile **anlam (semantics)** ayrımına giriş
+- Derleme ve yorumlama yaklaşımlarına genel bakış
+
+**Not:** PDF ve video bağlantıları aşağıdadır; materyaller dönem içinde güncellenebilir.`,
       resources: [
         { title: '1. Hafta Sunum', type: 'PDF', href: '/docs/BMB214/Ders01.pdf' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/watch?v=x0CQyCeW7KY&list=PLq4n-UisAJbJdLkxKgVqJZ2Qk1zitUZ9D' },
