@@ -63,7 +63,7 @@ const WeeklyGallery: React.FC<WeeklyGalleryProps> = ({ courseName }) => {
             dragElastic={0.1}
             className="flex gap-6 py-4 px-2"
           >
-            {Array.from({ length: 16 }, (_, i) => i + 1).map((week) => (
+            {Array.from({ length: 14 }, (_, i) => i + 1).map((week) => (
               <motion.div
                 key={week}
                 onTap={() => setSelectedWeek(week)}
@@ -108,6 +108,8 @@ const WeeklyGallery: React.FC<WeeklyGalleryProps> = ({ courseName }) => {
                     <a
                       key={`${resource.title}-${resource.type}`}
                       href={resource.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex items-center p-5 border border-white/10 bg-white/5 rounded-2xl hover:bg-white/10 hover:border-blue-400/50 transition-all group"
                     >
                       {getResourceIcon(resource.type)}
