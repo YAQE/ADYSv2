@@ -1,6 +1,38 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useLayoutEffect } from 'react';
 import { motion } from 'framer-motion';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { getWeeklyContent } from '../data/weeklyContent';
+
+const weeklyDescriptionMarkdownComponents = {
+  p: ({ children }: React.ComponentProps<'p'>) => (
+    <p className="mb-2 last:mb-0 text-gray-300">{children}</p>
+  ),
+  strong: ({ children }: React.ComponentProps<'strong'>) => (
+    <strong className="font-semibold text-white">{children}</strong>
+  ),
+  ul: ({ children }: React.ComponentProps<'ul'>) => (
+    <ul className="my-2 list-disc space-y-1 pl-5 marker:text-blue-400">{children}</ul>
+  ),
+  ol: ({ children }: React.ComponentProps<'ol'>) => (
+    <ol className="my-2 list-decimal space-y-1 pl-5 marker:text-blue-400">{children}</ol>
+  ),
+  li: ({ children }: React.ComponentProps<'li'>) => <li className="text-gray-300">{children}</li>,
+  h1: ({ children }: React.ComponentProps<'h1'>) => (
+    <h1 className="mt-3 mb-2 text-xl font-bold text-white first:mt-0">{children}</h1>
+  ),
+  h2: ({ children }: React.ComponentProps<'h2'>) => (
+    <h2 className="mt-3 mb-2 text-lg font-bold text-white first:mt-0">{children}</h2>
+  ),
+  h3: ({ children }: React.ComponentProps<'h3'>) => (
+    <h3 className="mt-2 mb-1 text-base font-bold text-white first:mt-0">{children}</h3>
+  ),
+  a: ({ children, href }: React.ComponentProps<'a'>) => (
+    <a href={href} className="text-blue-400 underline underline-offset-2 hover:text-blue-300" target="_blank" rel="noreferrer noopener">
+      {children}
+    </a>
+  ),
+};
 
 interface WeeklyGalleryProps {
   courseName: string;
@@ -8,8 +40,11 @@ interface WeeklyGalleryProps {
 
 const WeeklyGallery: React.FC<WeeklyGalleryProps> = ({ courseName }) => {
   const [selectedWeek, setSelectedWeek] = useState<number | null>(null);
-  
+  const [descriptionExpanded, setDescriptionExpanded] = useState(false);
+  const [descriptionOverflows, setDescriptionOverflows] = useState(false);
+
   const carouselRef = useRef<HTMLDivElement>(null);
+  const descriptionBodyRef = useRef<HTMLDivElement>(null);
   const [dragConstraint, setDragConstraint] = useState(0);
   const selectedWeekContent = selectedWeek !== null ? getWeeklyContent(courseName, selectedWeek) : undefined;
 
@@ -22,6 +57,28 @@ const WeeklyGallery: React.FC<WeeklyGalleryProps> = ({ courseName }) => {
   useEffect(() => {
     setSelectedWeek(null);
   }, [courseName]);
+
+  useEffect(() => {
+    setDescriptionExpanded(false);
+  }, [selectedWeek]);
+
+  useLayoutEffect(() => {
+    const el = descriptionBodyRef.current;
+    if (!el || descriptionExpanded) {
+      return;
+    }
+
+    const measure = () => {
+      const node = descriptionBodyRef.current;
+      if (!node) return;
+      setDescriptionOverflows(node.scrollHeight > node.clientHeight + 2);
+    };
+
+    measure();
+    const ro = new ResizeObserver(measure);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, [selectedWeek, selectedWeekContent?.description, descriptionExpanded]);
 
   const getResourceIcon = (type: string) => {
     if (type.toLowerCase().includes('pdf')) {
@@ -98,9 +155,52 @@ const WeeklyGallery: React.FC<WeeklyGalleryProps> = ({ courseName }) => {
             </div>
             
             <div className="p-8 text-gray-300 flex flex-col gap-6 bg-gradient-to-b from-transparent to-white/5 h-[60vh] md:h-auto overflow-y-auto">
-              <p className="text-lg leading-relaxed border-l-4 border-blue-500 pl-4 bg-white/5 py-3 rounded-r-lg">
-                {selectedWeekContent?.description ?? 'Bu hafta için icerik henuz eklenmedi.'}
-              </p>
+              <div className="relative overflow-hidden rounded-2xl border border-white/10 border-l-4 border-l-blue-500 bg-gradient-to-br from-white/[0.08] to-white/[0.02] py-4 pl-5 pr-4 text-lg leading-relaxed shadow-inner ring-1 ring-white/[0.06] [&_p]:text-lg [&_p]:leading-relaxed">
+                <div
+                  ref={descriptionBodyRef}
+                  className={descriptionExpanded ? '' : 'line-clamp-10'}
+                >
+                  <ReactMarkdown remarkPlugins={[remarkGfm]} components={weeklyDescriptionMarkdownComponents}>
+                    {selectedWeekContent?.description ?? 'Bu hafta için icerik henuz eklenmedi.'}
+                  </ReactMarkdown>
+                </div>
+
+                {!descriptionExpanded && descriptionOverflows && (
+                  <div className="pointer-events-none absolute inset-x-0 bottom-0 flex justify-end bg-gradient-to-t from-white/[0.18] via-white/[0.07] to-transparent pb-2.5 pl-4 pt-16 pr-3">
+                    <button
+                      type="button"
+                      onClick={() => setDescriptionExpanded(true)}
+                      className="pointer-events-auto inline-flex items-center gap-2 rounded-full border border-blue-400/30 bg-blue-500/[0.18] px-3.5 py-1.5 text-sm font-medium text-blue-100 shadow-[0_0_20px_-4px_rgba(59,130,246,0.45)] backdrop-blur-sm transition hover:border-blue-400/55 hover:bg-blue-500/30 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-400/70 focus-visible:ring-offset-2 focus-visible:ring-offset-zinc-950 active:scale-[0.98]"
+                    >
+                      <span>Devamını gör</span>
+                      <svg className="h-3.5 w-3.5 shrink-0 opacity-90" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+                        <path
+                          fillRule="evenodd"
+                          d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+                )}
+
+                {descriptionExpanded && descriptionOverflows && (
+                  <button
+                    type="button"
+                    onClick={() => setDescriptionExpanded(false)}
+                    className="mt-4 inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-sm font-medium text-zinc-400 transition hover:bg-white/[0.06] hover:text-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/20"
+                  >
+                    <svg className="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+                      <path
+                        fillRule="evenodd"
+                        d="M14.77 12.79a.75.75 0 01-1.06-.02L10 8.832 6.29 12.77a.75.75 0 11-1.08-1.04l4.25-4.5a.75.75 0 011.08 0l4.25 4.5a.75.75 0 01-.02 1.06z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    Daha az göster
+                  </button>
+                )}
+              </div>
               
               {selectedWeekContent?.resources?.length ? (
                 <div className="grid md:grid-cols-2 gap-4 mt-4">
