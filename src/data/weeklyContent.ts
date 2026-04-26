@@ -96,7 +96,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
   //     ],
   //   },
   // },
-<<<<<<< HEAD
+
   'BMB103 Bilgisayar Mühendisliğine Giriş': {
     1: {
       description: `Bilgisayar mühendisliği serüvenine başlarken bölümün işleyişini, akademik takvimi ve üniversite kaynaklarını tanımak kritik bir ilk adımdır. Özellikle staj süreçlerinin nasıl yönetileceğini erken öğrenmek, kariyer planlaması için büyük avantaj sağlar. Bu hafta, öğrencilerin üniversite ekosistemine ve idari süreçlere adaptasyonunu hedefler. Kariyer rotanızı çizerken bu organizasyonel yapıyı bilmek size uzun vadede çok zaman kazandıracaktır. Öğrencilerin vizyonlarını genişletmeleri ve bölümün sunduğu fırsatları en verimli şekilde kullanmaları amaçlanır.`,
