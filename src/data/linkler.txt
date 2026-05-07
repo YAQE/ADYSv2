@@ -1,0 +1,1806 @@
+========================================
+LIC002 Lineer Cebir
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/Alg/SystemsTwoVrble.aspx
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://openstax.org/books/college-algebra/pages/7-1-systems-of-linear-equations-two-variables
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://mathworld.wolfram.com/GaussianElimination.html
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.khanacademy.org/math/linear-algebra/matrix-transformations
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://en.wikipedia.org/wiki/Rank_(linear_algebra)
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/Alg/SystemsThreeVrble.aspx
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://math.mit.edu/~gs/linearalgebra/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/LinAlg/Subspaces.aspx
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://en.wikipedia.org/wiki/Basis_(linear_algebra)
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.khanacademy.org/math/linear-algebra/matrix-transformations/linear-transformations
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://math.mit.edu/~gs/linearalgebra/ila0601.pdf <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://en.wikipedia.org/wiki/Inner_product_space
+
+
+========================================
+MAT111 Matematik I
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://openstax.org/books/calculus-volume-1/pages/1-1-review-of-functions
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/ImplicitDeriv.aspx
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://openstax.org/books/calculus-volume-1/pages/4-1-related-rates
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/ShapeofGraphPtI.aspx
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://openstax.org/books/calculus-volume-1/pages/1-4-inverse-functions
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/ExpLogDerivs.aspx
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://openstax.org/books/calculus-volume-1/pages/6-9-calculus-of-the-hyperbolic-functions
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/ParametricEqn.aspx
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/PolarCoordinates.aspx
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://en.wikipedia.org/wiki/Infinitesimal
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcIII/Curvature.aspx
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/MeanValueTheorem.aspx
+
+
+========================================
+TBT001 Temel Bilgi Teknolojileri Kullanımı
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/computer_fundamentals/computer_generations.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://homepage.cs.uri.edu/faculty/wolfe/book/Readings/Reading02.htm
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://support.microsoft.com/en-us/windows
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://support.microsoft.com/en-us/word
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://edu.gcfglobal.org/en/word/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://edu.gcfglobal.org/en/word/paragraph-formatting/1/ <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://support.microsoft.com/en-us/office/insert-a-table-in-word <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://support.microsoft.com/en-us/excel
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://edu.gcfglobal.org/en/excel/intro-to-formulas/1/ <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://support.microsoft.com/en-us/office/quick-start-create-a-macro <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://support.microsoft.com/en-us/powerpoint
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://support.microsoft.com/en-us/office/add-or-delete-audio-in-your-powerpoint-presentation <== HATALI
+
+
+========================================
+TDİ101 Türk Dili I
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://turkoloji.cu.edu.tr/DILBILIM/dilbilim.php <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://dergipark.org.tr/tr/pub/tde/issue/11696/139556 <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://tdk.gov.tr/
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://dergipark.org.tr/tr/search?q=anadili+egitimi
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63259/mod_resource/content/1/4.%20Hafta%20Ba%C5%9Far%C4%B1l%C4%B1%20Anlat%C4%B1m%C4%B1n%20Nitelikleri.pdf
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://acikders.ankara.edu.tr/course/view.php?id=3773
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://dergipark.org.tr/tr/pub/tde/issue/11696/139556 <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://tdk.gov.tr/icerik/yazim-kurallari/ <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63283/mod_resource/content/1/10.%20Hafta%20Anlat%C4%B1m%20Bozukluklar%C4%B1.pdf
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://dergipark.org.tr/tr/pub/dted/issue/44588/553331 <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63289/mod_resource/content/1/12.%20Hafta%20Yaz%C4%B1l%C4%B1%20Anlat%C4%B1m%20T%C3%BCrleri.pdf
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.kutuphane.sakarya.edu.tr/sites/kutuphane.sakarya.edu.tr/file/Resmi_Yazisma_Kurallari_Egitimi_Sunumu.pdf <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63295/mod_resource/content/1/14.%20Hafta%20Sanatsal%20%28Edebi%29%20Metinler.pdf
+
+
+========================================
+YDİ109 Yabancı Dil I (İngilizce)
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-simple
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-simple
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-continuous
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/modal-verbs
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/passive <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/talking-about-the-future
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/prepositions-of-place <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/countable-and-uncountable-nouns <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/relative-clauses <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/conditionals-1 <== HATALI
+
+
+========================================
+BMB110 Bilgisayar Programlama
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/cprogramming/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/flowchart-in-programming/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.w3schools.com/c/c_user_input.php
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/data-types-in-c/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/cprogramming/c_operators.htm
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.w3schools.com/c/c_conditions.php
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/cprogramming/c_while_loop.htm
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.w3schools.com/c/c_for_loop.php
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.geeksforgeeks.org/c-arrays/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.w3schools.com/c/c_functions.php
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.w3schools.com/c/c_structs.php
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/c-pointers/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.tutorialspoint.com/cprogramming/c_pointers.htm
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.geeksforgeeks.org/dynamic-memory-allocation-in-c-using-malloc-calloc-free-and-realloc/
+
+
+========================================
+FZK108 Fizik II
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.khanacademy.org/science/physics/electric-charge-electric-force-and-voltage
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://courses.lumenlearning.com/suny-physics/chapter/18-4-electric-field-concept-of-a-field-revisited/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.khanacademy.org/science/physics/electric-charge-electric-force-and-voltage
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.khanacademy.org/science/physics/electric-charge-electric-force-and-voltage
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.khanacademy.org/science/physics/circuits-topic
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.khanacademy.org/science/physics/circuits-topic
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/ee-kirchhoffs-laws
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://courses.lumenlearning.com/suny-physics/chapter/22-7-magnetic-force-on-a-current-carrying-conductor/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://courses.lumenlearning.com/suny-physics/chapter/22-9-magnetic-fields-produced-by-currents-amperes-law/
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.khanacademy.org/science/physics/magnetic-forces-and-magnetic-fields/magnetic-flux-faradays-law/a/what-is-faradays-law
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://courses.lumenlearning.com/suny-physics/chapter/23-8-inductance/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.khanacademy.org/science/electrical-engineering/ee-circuit-analysis-topic
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://courses.lumenlearning.com/suny-physics/chapter/23-11-reactance-inductive-and-capacitive/
+
+
+========================================
+MAT114 Matematik II
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/IndefiniteIntegrals.aspx
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/SubstitutionRuleIndefinite.aspx
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/IntegrationByParts.aspx
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/PartialFractions.aspx
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/DefiniteIntegrals.aspx
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/ComputingDefiniteIntegrals.aspx
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/AreaBetweenCurves.aspx
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcI/VolumeWithRings.aspx
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/SurfaceArea.aspx
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/ImproperIntegrals.aspx
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/ImproperIntegralsCompTest.aspx
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/PolarArea.aspx
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://tutorial.math.lamar.edu/Classes/CalcII/TaylorSeries.aspx
+
+
+========================================
+TDİ102 Türk Dili II
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://dergipark.org.tr/tr/pub/dted/issue/44588/553331 <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://tdk.gov.tr/icerik/yazim-kurallari/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63289/mod_resource/content/1/12.%20Hafta%20Yaz%C4%B1l%C4%B1%20Anlat%C4%B1m%20T%C3%BCrleri.pdf
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://dergipark.org.tr/tr/search?q=s%C3%B6zl%C3%BC+anlat%C4%B1m+t%C3%BCrleri
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.kultur.gov.tr/TR-96263/etkili-iletisim-ve-beden-dili.html <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://dergipark.org.tr/tr/pub/tde/issue/11696/139556 <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63259/mod_resource/content/1/4.%20Hafta%20Ba%C5%9Far%C4%B1l%C4%B1%20Anlat%C4%B1m%C4%B1n%20Nitelikleri.pdf
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63289/mod_resource/content/1/12.%20Hafta%20Yaz%C4%B1l%C4%B1%20Anlat%C4%B1m%20T%C3%BCrleri.pdf
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.kutuphane.sakarya.edu.tr/sites/kutuphane.sakarya.edu.tr/file/Resmi_Yazisma_Kurallari_Egitimi_Sunumu.pdf <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63283/mod_resource/content/1/10.%20Hafta%20Anlat%C4%B1m%20Bozukluklar%C4%B1.pdf
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://acikders.ankara.edu.tr/pluginfile.php/63283/mod_resource/content/1/10.%20Hafta%20Anlat%C4%B1m%20Bozukluklar%C4%B1.pdf
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://dergipark.org.tr/tr/pub/sdufed/issue/68225/1045231 <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://dergipark.org.tr/tr/search?q=edebi+metin+incelemeleri
+
+
+========================================
+BMB112 Web Teknolojileri
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.w3schools.com/html/html_intro.asp
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.w3schools.com/html/html_lists.asp
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.w3schools.com/html/html_formatting.asp
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.w3schools.com/html/html_links.asp
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.w3schools.com/html/html_tables.asp
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.w3schools.com/html/html5_audio.asp
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.w3schools.com/js/js_if_else.asp
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.w3schools.com/js/js_switch.asp
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.w3schools.com/js/js_loop_for.asp
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.w3schools.com/js/js_arrays.asp
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.w3schools.com/js/js_functions.asp
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.w3schools.com/js/js_array_sort.asp
+
+
+========================================
+YDİ110 Yabancı Dil II (İngilizce)
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://dergipark.org.tr/tr/search?q=t%C3%BCrk+modernle%C5%9Fmesi
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://islamansiklopedisi.org.tr/osmanli-imparatorlugu
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://tr.wikipedia.org/wiki/I._D%C3%BCnya_Sava%C5%9F%C4%B1
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://atam.gov.tr/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://tr.wikipedia.org/wiki/T%C3%BCrk_Kurtulu%C5%9F_Sava%C5%9F%C4%B1
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://atam.gov.tr/lozan-baris-antlasmasi/
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://atam.gov.tr/ataturk-inkilaplari/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://atam.gov.tr/ataturk-ilkeleri/ <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://dergipark.org.tr/tr/search?q=atat%C3%BCrk+d%C3%B6nemi+siyasal+hayat
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://atam.gov.tr/ataturk-donemi-turk-dis-politikasi/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://dergipark.org.tr/tr/search?q=ikinci+d%C3%BCnya+sava%C5%9F%C4%B1+t%C3%BCrkiye
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://dergipark.org.tr/tr/search?q=sava%C5%9F+sonras%C4%B1+t%C3%BCrk+d%C4%B1%C5%9F+politikas%C4%B1
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.tubitak.gov.tr/
+
+
+========================================
+DFD002 Diferansiyel Denklemler
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/speaking
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/vocabulary-games
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/listening
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/speaking
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/listening
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/listening
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/speaking
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+
+========================================
+ATİ102 Atatürk İlkeleri ve İnkılâp Tarihi II
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://dergipark.org.tr/tr/search?q=t%C3%BCrk+modernle%C5%9Fmesi
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://islamansiklopedisi.org.tr/osmanli-imparatorlugu
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://tr.wikipedia.org/wiki/I._D%C3%BCnya_Sava%C5%9F%C4%B1
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://atam.gov.tr/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://tr.wikipedia.org/wiki/T%C3%BCrk_Kurtulu%C5%9F_Sava%C5%9F%C4%B1
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://atam.gov.tr/lozan-baris-antlasmasi/
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://atam.gov.tr/ataturk-inkilaplari/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://atam.gov.tr/ataturk-ilkeleri/ <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://dergipark.org.tr/tr/search?q=atat%C3%BCrk+d%C3%B6nemi+siyasal+hayat
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://atam.gov.tr/ataturk-donemi-turk-dis-politikasi/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://dergipark.org.tr/tr/search?q=ikinci+d%C3%BCnya+sava%C5%9F%C4%B1+t%C3%BCrkiye
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://dergipark.org.tr/tr/search?q=sava%C5%9F+sonras%C4%B1+t%C3%BCrk+d%C4%B1%C5%9F+politikas%C4%B1
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.tubitak.gov.tr/
+
+
+========================================
+BMB208 Ayrık Matematik
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/discrete_mathematics/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/propositional-logic/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematical_induction.htm
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_sets.htm
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.geeksforgeeks.org/relations-and-their-types/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_algebraic_structures.htm <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.geeksforgeeks.org/number-theory-competitive-programming/
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_algorithms.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/cryptography/index.htm
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_probability.htm
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://en.wikipedia.org/wiki/Combinatorial_design
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.tutorialspoint.com/graph_theory/index.htm
+
+
+========================================
+BMB210 Elektroniğe Giriş
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/basic_electronics/basic_electronics_energy_bands.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.allaboutcircuits.com/textbook/semiconductors/chpt-3/introduction-to-diodes-and-rectifiers/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/basic_electronics/basic_electronics_bjt.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/bipolar-junction-transistors-bjt/ <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/basic_electronics/basic_electronics_fet.htm <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.allaboutcircuits.com/textbook/semiconductors/chpt-5/junction-field-effect-transistors-jfet/ <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/linear_integrated_circuits_applications/linear_integrated_circuits_applications_basics_of_operational_amplifier.htm
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.allaboutcircuits.com/textbook/semiconductors/chpt-8/operational-amplifier-applications/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/amplifiers/amplifiers_power.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/sinusoidal_oscillators/index.htm
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/electronic_circuits/electronic_circuits_power_supplies.htm
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.allaboutcircuits.com/textbook/semiconductors/chpt-3/special-purpose-diodes/ <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.tutorialspoint.com/basic_electronics/basic_electronics_thyristors.htm <== HATALI
+
+
+========================================
+LMİ103 Mesleki İngilizce I
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/conjunctions <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/vocabulary-games
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/adjectives
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/vocabulary-games
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/passive <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/imperatives <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/writing
+
+
+========================================
+BMB206 Olasılık ve İstatistik
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/statistics/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/data-visualization-in-statistics/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/statistics/measures_of_central_tendency.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.tutorialspoint.com/statistics/probability_introduction.htm <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.geeksforgeeks.org/random-variables/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/statistics/discrete_probability_distributions.htm <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/statistics/continuous_probability_distributions.htm <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/statistics/sampling_distribution.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/statistics/confidence_intervals.htm <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.tutorialspoint.com/statistics/hypothesis_testing.htm
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/analysis-of-variance-anova/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.tutorialspoint.com/statistics/correlation.htm <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.tutorialspoint.com/statistics/linear_regression.htm
+
+
+========================================
+BMB214 Programlama Dilleri Prensipleri
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/compiler_design/compiler_design_introduction.htm <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://en.wikipedia.org/wiki/History_of_programming_languages
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.geeksforgeeks.org/introduction-to-syntax-analysis/ <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.tutorialspoint.com/compiler_design/compiler_design_type_checking.htm <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.geeksforgeeks.org/static-and-dynamic-scoping/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://en.wikipedia.org/wiki/Structured_programming
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/compiler_design/compiler_design_run_time_environment.htm <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.geeksforgeeks.org/parameter-passing-techniques-in-c-cpp/
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://en.wikipedia.org/wiki/Object-oriented_programming
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://en.wikipedia.org/wiki/Exception_handling
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.tutorialspoint.com/java/java_multithreading.htm
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://en.wikipedia.org/wiki/Interpreter_(computing)
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.geeksforgeeks.org/functional-programming-paradigm/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://en.wikipedia.org/wiki/Logic_programming
+
+
+========================================
+BMB212 Veri Yapıları
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.geeksforgeeks.org/data-structures/
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.geeksforgeeks.org/sorting-algorithms/
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.tutorialspoint.com/data_structures_algorithms/sorting_algorithms.htm
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.geeksforgeeks.org/searching-algorithms/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/data_structures_algorithms/stack_algorithm.htm
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.geeksforgeeks.org/queue-data-structure/
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.geeksforgeeks.org/doubly-linked-list/
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.tutorialspoint.com/data_structures_algorithms/circular_linked_list_algorithm.htm
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/binary-tree-data-structure/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.tutorialspoint.com/data_structures_algorithms/binary_search_tree.htm
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.geeksforgeeks.org/data-structures-and-algorithms-projects/ <== HATALI
+
+
+========================================
+BMB309 Bilgisayar Ağlarına Giriş
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/osi-model-layers-and-protocols/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/signals.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/guided-transmission-media/ <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/wireless_transmission.htm
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/transmission-modes-in-computer-networks/ <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/switching_techniques.htm <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.geeksforgeeks.org/multiplexing-in-computer-network/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/transmission_impairment.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.geeksforgeeks.org/transmission-impairments-in-computer-network/ <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.geeksforgeeks.org/error-detection-in-computer-networks/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/error_detection_and_correction.htm
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.geeksforgeeks.org/stop-and-wait-arq/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.geeksforgeeks.org/sliding-window-protocol-set-1/
+
+
+========================================
+BMB311 İşletim Sistemleri
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/operating_system/os_overview.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/operating-system-architecture/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/operating_system/os_processes.htm
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/operating_system/os_process_synchronization.htm
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/memory-management-in-operating-system/
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/operating_system/os_memory_management.htm
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.geeksforgeeks.org/virtual-memory-in-operating-system/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/operating_system/os_virtual_memory.htm
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.geeksforgeeks.org/file-systems-in-operating-system/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/distributed_operating_system/index.htm <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.geeksforgeeks.org/security-in-operating-system/ <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.tutorialspoint.com/operating_system/os_linux.htm
+
+
+========================================
+BMB319 Mantık Devreleri
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/digital_circuits/digital_circuits_logic_gates.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/karnaugh-map-k-map/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/digital_circuits/digital_circuits_sequential_logic.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/shift-registers-in-digital-logic/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/digital_circuits/digital_circuits_counters.htm
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/ieee-standard-754-floating-point-numbers/
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/digital_circuits/digital_circuits_codes.htm
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.geeksforgeeks.org/introduction-of-register-transfer/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/computer_logical_organization/arithmetic_microoperations.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.geeksforgeeks.org/instruction-formats-in-computer-architecture/ <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.geeksforgeeks.org/computer-organization-timing-and-control/ <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/computer_logical_organization/instruction_cycle.htm <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.geeksforgeeks.org/interrupts/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.geeksforgeeks.org/basic-computer-instructions/ <== HATALI
+
+
+========================================
+LMİ104 Mesleki İngilizce II
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/speaking
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/vocabulary-games
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/vocabulary-games
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/vocabulary-games
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/reading
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/speaking
+
+
+========================================
+BMB317 Otomata Teorisi
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/automata_theory/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/introduction-to-formal-languages-and-automata-theory/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/automata_theory/deterministic_finite_automaton.htm
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.tutorialspoint.com/automata_theory/non_deterministic_finite_automaton.htm
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.geeksforgeeks.org/conversion-from-nfa-to-dfa/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/automata_theory/moore_and_mealy_machines.htm
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.geeksforgeeks.org/regular-expressions-regular-grammar-and-regular-languages/
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.tutorialspoint.com/automata_theory/context_free_grammar_introduction.htm
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/automata_theory/pushdown_automata_introduction.htm
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.geeksforgeeks.org/turing-machine-in-toc/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/automata_theory/turing_machine_introduction.htm
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.tutorialspoint.com/automata_theory/chomsky_classification_of_grammars.htm
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.geeksforgeeks.org/computational-complexity-in-theory-of-computation/ <== HATALI
+
+
+========================================
+BMB315 Web Programlama
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.w3schools.com/html/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.w3schools.com/js/js_ajax_intro.asp
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.tutorialspoint.com/html5/index.htm
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://react.dev/learn
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/internet_technologies/web_servers.htm
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.w3schools.com/php/php_superglobals.asp
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.w3schools.com/php/php_oop_what_is.asp
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.w3schools.com/php/php_mysql_pdo.asp <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://learn.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-8.0
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://learn.microsoft.com/en-us/aspnet/core/mvc/overview?view=aspnetcore-8.0
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://nodejs.org/en/learn/getting-started/introduction-to-nodejs
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://expressjs.com/en/starter/installing.html
+
+
+========================================
+BMB308 Bilgisayar Ağları
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/computer_network_types.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/data-communication-definition-components-types-channels/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.geeksforgeeks.org/protocols-in-computer-network/ <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/osi-model-layers-and-protocols/ <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/network_layer_routing.htm
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/tcp-ip-model/
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/computer_network_models.htm
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.geeksforgeeks.org/network-devices-hub-repeater-bridge-switch-router-gateways/
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/ethernet.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.geeksforgeeks.org/fiber-distributed-data-interface-fddi/ <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.geeksforgeeks.org/asynchronous-transfer-mode-atm-in-computer-network/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/index.htm
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.geeksforgeeks.org/computer-network-tutorials/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.tutorialspoint.com/data_communication_computer_network/index.htm
+
+
+========================================
+BMB314 Bilgisayar Organizasyonu
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/computer_organization/computer_organization_instruction_codes.htm <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/introduction-of-control-unit-and-its-design/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/computer_organization/computer_organization_microprogrammed_control.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/instruction-formats-in-computer-architecture/ <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/computer_organization/computer_organization_instruction_formats.htm <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/pipelining-in-computer-architecture/ <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/computer_architecture/computer_architecture_vector_processing.htm <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.geeksforgeeks.org/computer-arithmetic-in-computer-architecture/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/computer_architecture/computer_architecture_floating_point_arithmetic.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.geeksforgeeks.org/input-output-organization/ <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.tutorialspoint.com/computer_architecture/computer_architecture_dma.htm <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/memory-hierarchy-in-computer-network/ <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.tutorialspoint.com/computer_architecture/computer_architecture_cache_memory.htm <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.geeksforgeeks.org/multiprocessors-in-computer-architecture/ <== HATALI
+
+
+========================================
+BMB310 Sistem Analizi ve Tasarım
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_overview.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/system-analysis-and-design-overview/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/management_information_system/index.htm
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-software-development-life-cycle-sdlc/ <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_project_planning.htm <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-requirements-engineering/ <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-software-requirement-specification-srs/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_input_output.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.geeksforgeeks.org/object-oriented-analysis-and-design/
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.tutorialspoint.com/system_analysis_and_design/index.htm
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-system-design/ <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_testing_quality_assurance.htm
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.geeksforgeeks.org/system-analysis-and-design-overview/ <== HATALI
+
+
+========================================
+BMB312 Sistem Programlama
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.geeksforgeeks.org/introduction-of-operating-system-set-1/
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.tutorialspoint.com/unix/index.htm
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.geeksforgeeks.org/linux-file-permissions/ <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/memory-layout-of-c-program/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/unix_system_calls/index.htm
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/signals-c-language/
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://learn.microsoft.com/en-us/windows/win32/procthread/processes-and-threads
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.geeksforgeeks.org/multithreading-c-cpp/ <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/unix_sockets/index.htm
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.tutorialspoint.com/unix/unix-shell-scripting.htm <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/socket-programming-cc/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started
+
+
+========================================
+BMB306 Yazılım Mühendisliği
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/uml/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-software-development-life-cycle-sdlc/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/software_engineering/software_engineering_overview.htm
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-requirements-engineering/ <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/software_engineering/software_design_basics.htm
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-coding-standards/ <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/software_engineering/software_testing_overview.htm
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-software-maintenance/
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/software_quality_management/index.htm
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-software-configuration-management/ <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.tutorialspoint.com/software_engineering/software_engineering_case_tools.htm <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering-software-project-management-spm/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.tutorialspoint.com/software_engineering/index.htm
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.geeksforgeeks.org/software-engineering/
+
+
+========================================
+YDS002 İş Hayatında Yabancı Dil
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/advanced-vocabulary/idioms <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/advanced-vocabulary/idioms <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://learnenglish.britishcouncil.org/business-english/business-magazine/recruitment <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://learnenglish.britishcouncil.org/business-english/english-for-emails
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://learnenglish.britishcouncil.org/business-english/english-for-emails/applying-for-a-job <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://learnenglish.britishcouncil.org/vocabulary/advanced-vocabulary/phrasal-verbs <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://learnenglish.britishcouncil.org/business-english/english-for-meetings <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://learnenglish.britishcouncil.org/business-english/business-magazine/telephone-english <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/listening
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/listening
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/listening
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://learnenglish.britishcouncil.org/skills/listening
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/adjectives-and-adverbs <== HATALI
+
+
+========================================
+BMSB417 Çevik yazılım geliştirme
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://agilemanifesto.org/
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.atlassian.com/agile/project-management
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.scrum.org/resources/what-is-scrum <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.agilealliance.org/glossary/xp/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://git-scm.com/doc
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://agilemodeling.com/
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://junit.org/junit5/
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://martinfowler.com/bliki/TestDrivenDevelopment.html
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.agilealliance.org/agile101/
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://refactoring.guru/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://cucumber.io/docs/bdd/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.atlassian.com/continuous-delivery/continuous-integration
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.sonarqube.org/
+
+
+========================================
+BMSB406 Makine Öğrenmesine Giriş
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://aima.cs.berkeley.edu/
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://mitpress.mit.edu/9780262538029/machine-learning/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.cs.waikato.ac.nz/ml/weka/book.html <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://link.springer.com/book/10.1007/978-3-030-22475-2
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.geeksforgeeks.org/supervised-machine-learning/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/unsupervised-machine-learning/ <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://scikit-learn.org/stable/supervised_learning.html
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.geeksforgeeks.org/naive-bayes-classifiers/
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.tutorialspoint.com/statistics/index.htm
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://scikit-learn.org/stable/modules/cross_validation.html
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://scikit-learn.org/stable/modules/model_evaluation.html
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/confusion-matrix-machine-learning/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://scikit-learn.org/stable/modules/tree.html
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://scikit-learn.org/stable/modules/clustering.html
+
+
+========================================
+BMSB423 Sayısal Hesaplama Programları
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.mathworks.com/help/matlab/getting-started-with-matlab.html
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.mathworks.com/help/matlab/matlab_prog/vectorization.html
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.mathworks.com/discovery/mathematical-modeling.html <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.mathworks.com/help/matlab/matlab_prog/debugging-matlab-programs.html <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.mathworks.com/help/matlab/math/roots-of-scalar-functions.html
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.mathworks.com/help/matlab/interpolation.html
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.mathworks.com/help/matlab/ref/diff.html <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.mathworks.com/help/matlab/numerical-integration-and-differential-equations.html
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.mathworks.com/help/matlab/ordinary-differential-equations.html
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.mathworks.com/help/matlab/math/systems-of-linear-equations.html
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.mathworks.com/help/matlab/math/eigenvalues-and-eigenvectors.html <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.mathworks.com/help/optim/ug/fsolve.html
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.mathworks.com/help/pde/
+
+
+========================================
+BMSB403 Veri Madenciliği
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/data_mining/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/data-mining-applications/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/data_mining/dm_data_preprocessing.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://machinelearningmastery.com/dimensionality-reduction/ <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/data_mining/dm_dwh_olap.htm <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.geeksforgeeks.org/difference-between-classification-and-clustering-in-data-mining/ <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/data_mining/dm_classification_prediction.htm
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://machinelearningmastery.com/statistical-methods-for-machine-learning/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://scikit-learn.org/stable/supervised_learning.html
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/artificial_neural_network/index.htm
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.geeksforgeeks.org/apriori-algorithm/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/data_mining/dm_mining_text_data.htm
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/ <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.kaggle.com/learn/intro-to-machine-learning
+
+
+========================================
+BMSB421 Veri sıkıştırma yöntemleri
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/telecommunication_switching_systems_and_networks/telecommunication_switching_systems_and_networks_data_compression.htm <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.geeksforgeeks.org/arithmetic-coding-in-data-compression/ <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://en.wikipedia.org/wiki/Move-to-front_transform
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.geeksforgeeks.org/burrows-wheeler-data-transform-algorithm/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://en.wikipedia.org/wiki/Dictionary_coder
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://xlinux.nist.gov/dads/HTML/dictionarycoder.html <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.geeksforgeeks.org/lempel-ziv-algorithm-lz77-lz78-information-theory/ <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.geeksforgeeks.org/lzw-lempel-ziv-welch-compression-technique/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://en.wikipedia.org/wiki/Adaptive_differential_pulse-code_modulation
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://en.wikipedia.org/wiki/MP3
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/run-length-encoding/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://en.wikipedia.org/wiki/JPEG
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://en.wikipedia.org/wiki/Video_compression_picture_types
+
+
+========================================
+BMSB428 Gömülü Sistemler
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/embedded_systems/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/embedded-c-programming/ <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/embedded_systems/embedded_systems_memory_architecture.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.geeksforgeeks.org/interrupts-in-embedded-systems/ <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/embedded_systems/embedded_systems_communication.htm <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/embedded_systems/embedded_systems_real_time_operating_system.htm <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://elinux.org/
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.geeksforgeeks.org/sensors-in-embedded-system/ <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/embedded_systems/embedded_systems_peripherals.htm <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.geeksforgeeks.org/lcd-16x2-interfacing-with-microcontrollers/ <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/internet_of_things/internet_of_things_hardware.htm
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://doc.qt.io/qt-6/embedded-linux.html
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://opencv.org/platforms/
+
+
+========================================
+BMSB402 Görüntü İşleme
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/dip/index.htm
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.tutorialspoint.com/dip/image_transformation.htm <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/dip/concept_of_filtering.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.tutorialspoint.com/dip/image_restoration.htm <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://en.wikipedia.org/wiki/Wiener_deconvolution
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/dip/fourier_transform.htm <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/dip/high_pass_vs_low_pass_filters.htm <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://en.wikipedia.org/wiki/Radon_transform
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/dip/concept_of_geometric_transformation.htm <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://en.wikipedia.org/wiki/Image_registration
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/dip/color_image_processing.htm <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://en.wikipedia.org/wiki/Wavelet_transform
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.tutorialspoint.com/dip/image_compression.htm <== HATALI
+
+
+========================================
+BMSB442 Kolektif Öğrenmeye Giriş
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://pkaya.cv.nku.edu.tr/cv/dokumanlar/
+
+
+========================================
+BMSB426 Proje Hazırlaması ve Yönetimi
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.pmi.org/about/learn-about-pmi/what-is-project-management <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.tutorialspoint.com/pmp-exams/pmp_project_integration_management.htm <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.tutorialspoint.com/pmp-exams/pmp_project_scope_management.htm <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.tutorialspoint.com/pmp-exams/pmp_project_time_management.htm <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.tutorialspoint.com/pmp-exams/pmp_project_cost_management.htm <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/pmp-exams/pmp_project_quality_management.htm <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.tutorialspoint.com/pmp-exams/pmp_project_human_resource_management.htm <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.tutorialspoint.com/pmp-exams/pmp_project_risk_management.htm <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/pmp-exams/pmp_project_procurement_management.htm <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.pmi.org/learning/library <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.tutorialspoint.com/management_concepts/project_management_tools.htm
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.pmi.org/learning/library/project-management-presentations-communication-6598 <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.scrum.org/resources/what-is-a-sprint-retrospective <== HATALI
+
+
+========================================
+BMSB436 Python Programlamaya Giriş
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://docs.python.org/3/tutorial/index.html
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.w3schools.com/python/python_datatypes.asp
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.w3schools.com/python/python_user_input.asp
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://docs.python.org/3/tutorial/datastructures.html
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.w3schools.com/python/python_strings_methods.asp
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://docs.python.org/3/tutorial/modules.html
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://docs.python.org/3/tutorial/errors.html
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://docs.python.org/3/tutorial/classes.html
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://docs.python.org/3/library/sqlite3.html
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://docs.python.org/3/library/index.html
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://pandas.pydata.org/docs/getting_started/index.html
