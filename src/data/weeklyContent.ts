@@ -178,7 +178,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     13: {
       description: `Bir matris dönüşümü sırasında yönü değişmeyen, sadece boyutu değişen özel vektörlerin (eigenvectors) analizi yapılır. Veri mühendisliğinde ve makine öğrenmesinde Principal Component Analysis (PCA) gibi veri küçültme algoritmalarının temel yapıtaşıdır. Google'ın arama motoru sıralama algoritması olan PageRank'in temelinde yatan en önemli matematiksel prensip özvektör hesaplamasıdır. Büyük sistemlerin yapısal dinamiklerini (örneğin ağ trafik analizlerini) ve kararlılığını analiz etmekte kullanılır. Karmaşık bilgi yığınlarının içindeki en belirgin "öz" özellikleri çıkarma sanatı öğretilir.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://math.mit.edu/~gs/linearalgebra/ila0601.pdf' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://math.libretexts.org/Bookshelves/Linear_Algebra/Fundamentals_of_Matrix_Algebra_(Hartman)/04%3A_Eigenvalues_and_Eigenvectors/4.02%3A_Properties_of_Eigenvalues_and_Eigenvectors' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=%C3%B6zde%C4%9Fer+ve+%C3%B6zvekt%C3%B6rler' },
       ],
     },
@@ -330,14 +330,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     6: {
       description: `Madde işaretleri, numaralandırma, satır aralıkları ve girintiler kullanılarak teknik dökümanların hiyerarşik yapıya kavuşturulması öğrenilir. Algoritmaların adım adım mantığını izah ederken veya proje adımlarını planlarken liste ve paragraf yapılarından geniş ölçüde yararlanılır. Otomatik İçindekiler tablosu oluşturmak, ileride yazılacak bitirme tezlerinin ve devasa yazılım kullanım kılavuzlarının olmazsa olmaz standardıdır. Karmaşık bilgi yığınlarını (spaghetti text), hiyerarşik yapılandırılmış bilgiye (structured data) çevirme alışkanlığı kazandırır. Raporların estetik ve okunabilirlik standartları yükseltilir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://edu.gcfglobal.org/en/word/paragraph-formatting/1/' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://kemalsahin.com/docs/microsoft-word-egitimi/temel-bilgiler-ve-ms-worde-giris/microsoft-word-paragraf-bicimlendirme-islemleri/' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=word+paragraf+ayarlar%C4%B1+ve+i%C3%A7indekiler' },
       ],
     },
     7: {
       description: `Verilerin satır ve sütun mantığıyla tablo formatına dönüştürülmesi, hücre bölme/birleştirme ve tasarım işlemleri gerçekleştirilir. Tablolar, ilişkisel veritabanlarının (RDBMS) iki boyutlu yapısını zihinsel olarak simüle etmek ve verileri yapılandırmak için harika araçlardır. Gereksinim analiz raporları hazırlarken özelliklerin ve kısıtlamaların tablolar halinde sunulması, yazılım mühendisliğinde evrensel bir standarttır. Karmaşık proje bütçelerini veya zaman çizelgelerini döküman içinde profesyonelce sunmayı kolaylaştırır. Tablo nesnelerinin özelliklerini yönetmek, nesneye yönelik düşünme (OOP) yapısına ufak bir pratiktir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/en-us/office/insert-a-table-in-word' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://aysegultozan20.weebly.com/tablo-ekle-ve-duumlzen.html' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=word+tablo+olu%C5%9Fturma+ve+d%C3%BCzenleme' },
       ],
     },
@@ -351,28 +351,28 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     9: {
       description: `Temel matematiksel, mantıksal (IF, AND, OR) ve metin formüllerinin hücrelere gömülerek dinamik hesaplamalar yapılması öğrenilir. Excel'de formül yazmak, aslında prosedürel bir programlama dili yazmaya çok benzer; hatta Excel formülleri artık kendi başına bir programlama dili (Turing-complete) kabul edilmektedir. İleride kuracağınız \`if-else\` mantıklarının ve algoritmik hesaplamaların hücre bazlı çalışan hızlı prototipleridir. Hücre referansları (göreceli ve mutlak) mantığını kavramak, kodlama esnasında değişken referanslarını anlamaya direkt katkı sağlar. Algoritmik düşünceyi ofis uygulamaları üzerinde test etmenin en iyi yoludur.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://edu.gcfglobal.org/en/excel/intro-to-formulas/1/' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/tr-tr/office/form%C3%BCl-girme-2e99d6c8-f681-44d4-b6e6-a8fad1a47b2a' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=excel+form%C3%BCl+yazma+ve+mant%C4%B1ksal+fonksiyonlar' },
       ],
     },
     10: {
       description: `Veri doğrulama, koşullu biçimlendirme ve gelişmiş veri arama/filtreleme işlemleri ile hücre dinamikleri derinleştirilir. Büyük veri kümeleri içinde 'VLOOKUP' (Düşeyara) veya 'INDEX/MATCH' kullanımı, veritabanı sorgularının (SQL Join) temel mantığını anlamak için paha biçilemez bir temeldir. Koşullu biçimlendirme, yazılım panellerinde (dashboard) verinin durumuna göre arayüzün dinamik renk değiştirmesi mantığıyla aynıdır. Yanlış veri girişini engellemek için kurulan veri doğrulamaları (data validation), kodda yazacağınız hata önleme mekanizmalarının simülasyonudur. Sistemdeki verilerin güvenilirliğini artırma vizyonu aşılanır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information-in-excel' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/tr-tr/office/excel-de-bilgileri-vurgulamak-i%C3%A7in-ko%C5%9Fullu-bi%C3%A7imlendirme-kullanma-fed60dfa-1d3f-4e13-9ecb-f1951ff89d7f' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=excel+ko%C5%9Fullu+bi%C3%A7imlendirme+ve+veri+do%C4%9Frulama' },
       ],
     },
     11: {
       description: `Hücrelerdeki verilerin tiplerine göre (sayı, tarih, metin) formatlanması ve Pivot Tablolarla verilerin özetlenmesi işlemleri pratik edilir. Veri mühendisliği rotasında devasa logları ve sistem verilerini anlamlı istatistiklere (aggregation) dönüştürmenin en görsel aracı Pivot tablolardır. Veri tiplerinin bellekte kapladığı yeri optimize etmekle, Excel'de doğru formatı kullanmak benzer mühendislik disiplinleridir. Çok boyutlu verileri özetleyerek karar vericilere sunma sanatı geliştirilir. Grafik arayüzle "Büyük Veri" analizine atılan somut ve çok güçlü adımlardır.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/en-us/office/create-a-pivottable-to-analyze-worksheet-data' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/tr-tr/office/%C3%A7al%C4%B1%C5%9Fma-sayfas%C4%B1-verilerini-%C3%A7%C3%B6z%C3%BCmlemek-i%C3%A7in-pivottable-olu%C5%9Fturma-a9a84538-bfe9-40a9-a8e9-f99134456576' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=excel+pivot+tablo+olu%C5%9Fturma' },
       ],
     },
     12: {
       description: `Makrolara (VBA - Visual Basic for Applications) giriş, çoklu çalışma sayfaları arasında linkler kurma ve ileri seviye istatistiksel fonksiyonlar işlenir. Makro kaydetmek, sürekli tekrarlanan ofis işlerini (otomasyon) arka planda kod yazarak bilgisayara devretmenin en somut ve ilk örneğidir. Gelişmiş veri projelerinde Python scriptleriyle Excel dosyalarının otomatize edilmesi için Excel'in obje modelini anlamak gerekir. Farklı sekmeler arasında kurulan formül bağları, mikroservislerin birbirine veri iletmesine benzer bir mantık içerir. Ofis aracını sadece bir tablo olmaktan çıkarıp çalışan bir uygulamaya çevirir.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/en-us/office/quick-start-create-a-macro' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/tr-tr/office/makro-olu%C5%9Fturma-veya-%C3%A7al%C4%B1%C5%9Ft%C4%B1rma-c6b99036-905c-49a6-818a-dfb98b7c3c9c' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=excel+makrolar+ve+%C4%B0leri+fonksiyonlar' },
       ],
     },
@@ -386,7 +386,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     14: {
       description: `Sunumları multimedya ögeleri, geçiş efektleri ve animasyonlarla zenginleştirerek profesyonel pitch-deck (girişimci sunumu) seviyesine çıkarma işlemleri gerçekleştirilir. İleride katılacağınız Hackathon'larda jüriye yazılımınızı anlatırken uygulamanın ekran kayıtlarını (demo) pürüzsüzce sunuma gömmek hayati bir aşamadır. Animasyonların zamanlaması ve tetikleyicileri (triggers), arayüz geliştirmedeki (UI/UX) animasyon mantıklarıyla oldukça paraleldir. İzleyicinin odağını doğru görsel üzerinde tutmak için teknolojik ve psikolojik tasarım teknikleri harmanlanır. Dönem, yazılımcının projesini mükemmel bir şekilde 'satma' pratiği ile sona erer.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/en-us/office/add-or-delete-audio-in-your-powerpoint-presentation' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/tr-tr/office/powerpoint-sununuzda-ses-ekleme-veya-silme-c3b2a9fd-2547-41d9-9182-3dfaa58f1316' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=powerpoint+animasyon+ve+video+ekleme' },
       ],
     },
@@ -395,14 +395,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     1: {
       description: `Dilin genel tanımı, toplumsal bir olgu olarak yapısı ve dünya dillerinin genel tarihsel sınıflandırması öğrenilir. Programlama dillerinin kurallar bütünü (syntax) olduğu gibi, doğal dillerin de kurallı ve sistematik bir yapı olduğu gerçeği tartışılır. Bir bilgisayar dilini derleyicilerin (compiler) anlaması gibi, iletişimde de insanların ortak kodlarla (dil) birbirini anlaması mantığı üzerine düşünülür. Mühendisin kavramsal düşünme yeteneğini ve analitik bakış açısını dilbilimi üzerinden geliştirmesi hedeflenir. Semantik (anlam bilim) ve sentaks (söz dizimi) kelimeleriyle bilgisayar bilimindeki soyutlama kavramları arasındaki paralellikler sezdirilir.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://turkoloji.cu.edu.tr/DILBILIM/dilbilim.php' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.isa-sari.com/ders-notlari/DG.pdf' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=dil+nedir+dilin+%C3%B6zellikleri+t%C3%BCrk+dili' },
       ],
     },
     2: {
       description: `Algoritmaların sadece makineyi değil, onu kullanan toplumu da nasıl şekillendirdiği gibi, dilin de kültür ve düşünce yapısını doğrudan etkilediği incelenir. İletişim teorileri, takım çalışmalarında mühendisler arasındaki bilgi aktarımındaki "gürültüleri" ve anlaşmazlıkları en aza indirmek için değerli dersler sunar. İnsanın düşünce sınırlarının, bildiği kelimelerin ve dilin sınırlarıyla orantılı olduğu kavranır. Yazılımların yerelleştirilmesi (localization) süreçlerinde toplumun dil ve kültür alışkanlıklarının arayüze nasıl etki edeceği tartışılır. Sistem mimarisini kuran mühendisin, sosyolojik analizler yapma becerisine zemin hazırlar.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/pub/tde/issue/11696/139556' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/pub/rumelide/article/1012461' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=dil+k%C3%BClt%C3%BCr+d%C3%BC%C5%9F%C3%BCnce+ili%C5%9Fkisi' },
       ],
     },
@@ -437,14 +437,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     7: {
       description: `Konu seçimi, sınırlandırma, ana fikir belirleme, plan çıkarma (taslak) aşamalarıyla sistematik bir metin inşası pratiğe dökülür. Bir kod algoritması yazmadan önce kağıt üzerinde "Akış Şeması" veya "Sözde Kod" (Pseudocode) yazma mantığının metin üretimi tarafındaki yansımasıdır. Devasa bir projeyi mantıksal bölümlere ayırma (modüler düşünme) alışkanlığı yazılı raporlarda da uygulanır. Hedef kitleyi belirleyerek, yazıyı kullanıcının veya teknik uzmanın anlayacağı seviyeye göre ayarlama vizyonu kazanılır. Disiplinli ve planlı üretim süreçlerinin her alandaki faydası gösterilir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/pub/tde/issue/11696/139556' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/pub/rumelide/article/1012461' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaz%C4%B1l%C4%B1+anlat%C4%B1m+plan%C4%B1+nas%C4%B1l+yap%C4%B1l%C4%B1r' },
       ],
     },
     8: {
       description: `İmla kuralları, noktalama işaretleri ve dilbilgisi kurallarının standartları, profesyonel iletişimin gereği olarak incelenir. Kod yazarken unutulan bir noktalı virgülün programı çökertmesi gibi, yanlış kullanılan virgülün veya bağlacın resmi bir yazışmada ne kadar büyük anlam kargaşası yaratabileceği kavranır. Yazım kurallarına uyum, dökümantasyonlarınızın ve şirketiçi yazışmalarınızın kalite, ciddiyet ve profesyonellik metriklerini belirler. Detaylara dikkat etme, (attention to detail) hatasız (bug-free) kod yazmaya çalışan bir mühendisin ana karakter özelliklerindendir. Biçimsel disiplinin düşünsel kesinliğe katkısı tecrübe edilir.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://tdk.gov.tr/icerik/yazim-kurallari/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://sehithuseyinavnibeyoo.meb.k12.tr/meb_iys_dosyalar/01/18/751903/dosyalar/2017_12/08091054_YAZIM_KURALLARI.pdf' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=t%C3%BCrk%C3%A7e+yaz%C4%B1m+kurallar%C4%B1+ve+noktalama' },
       ],
     },
@@ -465,7 +465,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     11: {
       description: `Farklı amaçlara yönelik kurulan metin stratejilerinin yapısal analizleri ve ne zaman hangi türün kullanılacağı öğrenilir. Yazılım kullanım kılavuzu (manuel) yazarken "açıklayıcı", algoritmik bir mimariyi savunurken veya yatırım ararken "kanıtlayıcı" anlatım kullanmanın önemi fark edilir. UX/UI senaryoları ve kullanıcı hikayeleri (User Stories) tasarlarken, doğru öyküleyici teknikler kullanarak sistem tasarımını müşteri gözünden yaşamak hedeflenir. İletişim stratejisinin hedefe göre modüler bir yapıda optimize edilebileceği görülür. Kullanıcının ikna edilmesi gereken tüm teknik satış süreçlerine hazırlıktır.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/pub/dted/issue/44588/553331' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://edubirdie.com/blog/article-review' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=anlat%C4%B1m+bi%C3%A7imleri+t%C3%BCrk%C3%A7e' },
       ],
     },
@@ -479,7 +479,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     13: {
       description: `Dilekçe, özgeçmiş (CV), tutanak, rapor, iş mektupları gibi resmi ve formel belgelerin standart yazım kalıpları öğretilir. Kurumsal bir bilişim şirketine (örneğin Siemens) yapacağınız iş ve staj başvurularında ilk intibayı CV ve niyet mektubunuzdaki bu profesyonel üslup yaratacaktır. Şirket içinde çıkan bir sistem arızasını veya kriz durumunu üst yönetime aktarmak için tutanak ve "Post-mortem" raporların nasıl hazırlanacağı deneyimlenir. Bürokratik işleyiş ve resmi haberleşme hiyerarşisi, protokol yapıları (HTTP veya TCP gibi) üzerinden kavranır. Kariyerin hukuki ve idari yazışma altyapısı sağlamlaştırılır.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.kutuphane.sakarya.edu.tr/sites/kutuphane.sakarya.edu.tr/file/Resmi_Yazisma_Kurallari_Egitimi_Sunumu.pdf' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.tccb.gov.tr/assets/dosya/resmiyazisma/dosyalar/kilavuz.pdf' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=dilek%C3%A7e+%C3%B6zge%C3%A7mi%C5%9F+rapor+nas%C4%B1l+yaz%C4%B1l%C4%B1r' },
       ],
     },
@@ -537,7 +537,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     7: {
       description: `Pasif yapılar (Passive Voice) ve eylemi yapanın değil, eylemden etkilenenin vurgulandığı resmi veya gazetecilik üslubu incelenir. "Kod Ömer tarafından yazıldı" yerine "Kod yazıldı" (The code was written) diyerek odak noktasının projeye veya ürüne kaydırıldığı evrensel akademik ve teknik dili oluşturur. GitHub commit mesajları, hata logları ve sistem uyarı mesajlarının çok büyük bir çoğunluğu bu pasif İngilizce yapısıyla üretilir ve okunur. Mühendislik raporlarında kişisellikten uzak, tarafsız ve profesyonel (objective) bir dil yaratmanın tek yoludur. Eylemin kendisine odaklanma prensibi pekiştirilir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/passive' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://dersimizingilizce.com/ingilizce-passive-voice-ingilizce-edilgen-yapi.html' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=passive+voice+konu+anlat%C4%B1m%C4%B1+ingilizce' },
       ],
     },
@@ -558,21 +558,21 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     10: {
       description: `Yön tarifleri, seyahat, coğrafi mekanlar ve lokasyon bildiren edatlar (prepositions of place) üzerine yoğunlaşılır. İleride GPS ve haritalama algoritmaları, otonom araçlar veya rota planlama yazılımları geliştirilirken lokasyon değişkenlerini anlatan İngilizce terminolojinin provasıdır. Erasmus veya yurtdışı projelerinde yeni bir şehre adapte olma, havalimanı ve ofis ortamlarında temel yol/yön iletişimini hızlıca sağlama hayati bir sosyal beceridir. Mobil uygulama geliştirirken (Android/iOS) lokasyon bazlı servislerin (LBS) dökümanlarını anlarken prepositions yapıları sıkça kullanılır. Konum kavramının dilbilgisine yansımasıdır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/prepositions-of-place' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://enwadil.com/prepositions-of-place-yer-edatlari-konu-anlatimi/' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ingilizce+y%C3%B6n+tarif+etme+ve+yer+edatlar%C4%B1' },
       ],
     },
     11: {
       description: `Finansal terimler, alışveriş, sayılamayan/sayılabilen isimler (Countable/Uncountable) ve miktar belirteçleri (much, many, a lot of) işlenir. E-ticaret platformları, ödeme sistemleri (FinTech) veya oyun içi satın alma (freemium model) algoritmaları kodlanırken kullanılacak evrensel iş İngilizcesine bir giriştir. Değişkenlerin sayılabilir mi (integer) yoksa sayılamaz mı veya belirsiz mi olduğunu sorgulamak veri tipleri mantığıyla yapısal olarak benzerlik gösterir. Freelance projeler alırken veya proje bütçesi planlarken yabancı müşterilerle yapılacak bütçe ve maaş müzakereleri için gerekli jargondur. Veri miktarlarını tanımlama kapasitesi artırılır.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/countable-and-uncountable-nouns' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://online.lemonacademy.com.tr/blog/ingilizcede-sayilabilen-ve-sayilamayan-isimler' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ingilizce+say%C4%B1labilen+ve+say%C4%B1lamayan+isimler' },
       ],
     },
     12: {
       description: `Gelenekler, kutlamalar ve sıfat cümlecikleri (Relative Clauses) kullanılarak isimlerin detaylıca tanımlanması ve birbirine bağlanması öğrenilir. Bir fonksiyona parametre göndererek onu özelleştirmek gibi, İngilizcede "who, which, that" yapıları ile de bir nesne veya kişiye daha spesifik bir anlam yüklenir. "The code *which* I wrote yesterday" diyerek nesneleri net bir şekilde izole ve işaret etme (pointer mantığı) becerisi kazanılır. Yabancı şirketlerin kültürlerine, tatil günlerine adaptasyon sağlamak kurumsal uyumluluğun bir parçasıdır. Karışık ve detaylı, zincirleme teknik cümleler kurma kapasitesi hedeflenir.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/relative-clauses' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.ef.com.tr/ingilizce-ogreniyorum/ingilizce-gramer/tanimlayici-ilgi-cumlecikleri/' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=relative+clauses+konu+anlat%C4%B1m%C4%B1+ingilizce' },
       ],
     },
@@ -586,7 +586,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     14: {
       description: `Koşullu cümleler (If clauses Type 0, 1, 2) üzerinden varsayımsal senaryolar, ihtimaller ve koşul/sonuç ilişkileri üzerine dil pratikleri gerçekleştirilir. Bilgisayar bilimindeki \`if-else\` mantığının İngilizce dil yapısındaki birebir karşılığı olan çok hayati bir iletişim ve programlama modülüdür. Sistem algoritmalarını doğal dille "Eğer kullanıcı bu butona basarsa, şu veri silinir" (If the user clicks... it will...) şeklinde ifade ederek yazılım tasarımı konuşmaları yapılır. Beklenmedik senaryolar veya risk analizleri planlanırken (What if...?) mühendisin İngilizce tartışma kapasitesini zirveye taşır. Algoritmik düşünceyi ana dilden çıkarıp İngilizce mantığıyla işletme yeteneğiyle dönem tamamlanır.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/conditionals-1' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.ef.com.tr/ingilizce-ogreniyorum/ingilizce-gramer/type-1-conditional/' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=if+clauses+konu+anlat%C4%B1m%C4%B1+ingilizce' },
       ],
     },
@@ -602,7 +602,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     2: {
       description: `Kod yazmaya geçmeden önce bir problemin çözüm adımlarını mantıksal ve görsel olarak nasıl tasarlayacağınız öğretilir. Akış diyagramları, karmaşık bir endüstriyel otomasyon (IIoT) sürecini veya bir veri boru hattını (pipeline) planlarken kullanılacak evrensel mühendislik dilidir. Hata ayıklama (debugging) sürecini kolaylaştırmak için algoritmanın kağıt üzerinde kusursuz işlemesi gerektiği vurgulanır. Bu görselleştirme, takım çalışmalarında projeyi diğer mühendislere anlatmanın en temiz yoludur. Mantıksal tasarımın kodlamadan daha önemli bir mühendislik aşaması olduğu kavranır.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/flowchart-in-programming/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://web.karabuk.edu.tr/ismail.karas/834/Bazi_Temel_Bilgiler.pdf' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=algoritma+ve+ak%C4%B1%C5%9F+diyagramlar%C4%B1+c+programlama' },
       ],
     },
@@ -897,14 +897,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     1: {
       description: `Sözcüklerin birleşerek kurallı ve anlamlı yapı birimleri oluşturduğu cümlenin ögeleri (özne, yüklem, nesne vb.) analiz edilir. Yazılım dillerinde kodların söz dizimi (syntax rules) nasıl derleyici (compiler) tarafından ayrıştırılıyorsa, doğal dilin de beyin tarafından böyle ayrıştırıldığı kavranır. Dökümantasyon yazarken veya takım içi projelerde (Github commit mesajlarında) tam, eksiksiz ve öznenin net olduğu ifadeler kurmanın önemi aşılanır. Yüklemin doğru yere konumlandırılması, aktarılmak istenen eylemin (fonksiyonun) karşı tarafa en hızlı şekilde ulaşmasını sağlar. Karmaşık mühendislik problemlerini basit cümlelerle izah etme pratiklerine başlanır.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/pub/dted/issue/44588/553331' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/en/download/article-file/319377' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%C3%BCmlenin+%C3%B6geleri+t%C3%BCrk+dili' },
       ],
     },
     2: {
       description: `Vurgu, cümlenin diziliş özellikleri ve cümlenin yapısı gibi daha ince semantik detaylar incelenir. Özellikle yapay zeka destekli Doğal Dil İşleme (NLP) projelerinde Türkçe'nin cümlenin neresinde vurgu yaptığını anlamak ve algoritmasını yazmak için bu yapılar bilinmelidir. Geliştirdiğiniz yazılımları sunarken kullanıcının dikkatini projenin inovatif özelliğine (vurgulanan öge) çekmek için yazılı tasarımlar yapılır. Kısa, uzun veya devrik cümle yapılarını bilinçli bir biçimde kullanarak kullanıcı arayüzündeki (UI) metinlerin okunabilirliğini artırma hedeflenir. İfadenin tonu ve algoritması üzerine ince işçilik yapılır.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://tdk.gov.tr/icerik/yazim-kurallari/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://sehithuseyinavnibeyoo.meb.k12.tr/meb_iys_dosyalar/01/18/751903/dosyalar/2017_12/08091054_YAZIM_KURALLARI.pdf' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=t%C3%BCrk%C3%A7ede+c%C3%BCmle+vurgusu+ve+yap%C4%B1s%C4%B1' },
       ],
     },
@@ -925,14 +925,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     5: {
       description: `Etkili iletişim için diksiyon, nefes kontrolü, ses tonu (tonlama) ve beden dilinin sözlü anlatıma katkıları analiz edilir. Erasmus mülakatları veya yurt dışı bağlantılı teknik iş görüşmelerinde ilk intibayı (first impression) en iyi şekilde oluşturmak için altın kurallar içerir. İkna edici bir ses tonu ve kararlı bir beden dili, "ben bu projeyi yönetebilirim" mesajını kod bilgisinden çok daha önce karşıya verir. Online toplantılarda veya video mülakatlarda kameraya karşı etkili konuşma pratikleriyle dijital iletişim becerileri güncellenir. Donanım ve yazılımınız ne kadar iyi olursa olsun, onu sunan vitrinin siz olduğunuz gerçeği pekiştirilir.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.kultur.gov.tr/TR-96263/etkili-iletisim-ve-beden-dili.html' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://yasamboyu.hacettepe.edu.tr/egitimler/etkili-iletisim-beden-dili-ve-diksiyon-egitimi-programi/' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=etkili+konu%C5%9Fma+ve+diksiyon+e%C4%9Fitimi' },
       ],
     },
     6: {
       description: `Bir topluluk karşısında heyecan kontrolü, konuyu dağıtmama, mantıksal geçişler yapma ve dinleyiciyle göz teması kurma gibi konuşma stratejileri detaylandırılır. Teknik bir projeyi örneğin bir yazılım botu veya algoritma tasarımını savunurken, savunma stratejisinin dinleyicide kopukluk yaratmayacak şekilde (linear flow) planlanması gerekir. Sunum esnasında yaşanabilecek potansiyel teknik bir aksaklığı esprilerle veya soğukkanlı cümlelerle tolere edebilme çevikliği kazandırılır. Kelime seçimlerinde argo veya aşırı teknik jargondan (over-jargoning) kaçınarak kapsayıcı bir dil kullanmanın önemi vurgulanır. Retorik sanatının mühendislik sunumlarına entegrasyonu tamamlanır.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/pub/tde/issue/11696/139556' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.turkedebiyati.org/sozlu-anlatim-konusma-turleri/' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=topluluk+%C3%B6n%C3%BCnde+konu%C5%9Fma+ve+heyecan+kontrol%C3%BC' },
       ],
     },
@@ -960,7 +960,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     10: {
       description: `Bir önceki kompozisyon pratiklerine devam edilerek iş dünyasında daha çok kullanılan iş mektubu, rapor, dilekçe gibi profesyonel yapılar derinleştirilir. Staj başvurularında öne geçmenizi sağlayacak o etkili ve özgeçmişi destekleyen niyet mektuplarının (Cover Letter) dil yapısı ve şekil şartları tamamen bu kapsamdadır. Teknik aksaklık tutanakları veya müşteri gereksinim belgeleri hazırlarken resmi protokol dilinden taviz vermeme disiplini edinilir. Bürokratik süreçlerde veya yasal yazışmalarda bağlayıcı sözleşme niteliği taşıyacak metinleri dikkatlice tasarlama vizyonu katar. İş hayatındaki resmi yazışmaların hata affetmeyen yapısı çalışılır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.kutuphane.sakarya.edu.tr/sites/kutuphane.sakarya.edu.tr/file/Resmi_Yazisma_Kurallari_Egitimi_Sunumu.pdf' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.tccb.gov.tr/assets/dosya/resmiyazisma/dosyalar/kilavuz.pdf' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=resmi+yaz%C4%B1%C5%9Fma+kurallar%C4%B1+dilek%C3%A7e+ve+rapor' },
       ],
     },
@@ -981,7 +981,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     13: {
       description: `Kaynak taraması (literatür), alıntı yapma, dipnot gösterme, intihal (plagiarism) kuralları ve kaynakça oluşturma standartları (APA/IEEE) öğretilir. Bitirme tezleri, akademik projeler veya TÜBİTAK/Teknofest başvuru dosyalarının onaylanması için uyulması zorunlu evrensel bilimsel çatı budur. Başka yazılımcıların kütüphanelerini veya algoritmalarını kullanırken lisans haklarına (Open Source Licenses) uymak ve referans vermek, bilimsel etiğin yazılımdaki karşılığıdır. Verilerle ve akademik yayınlarla kendi fikirlerinizi destekleyerek sarsılmaz ve kanıta dayalı argümanlar kurgulama yetisi verir. Mühendis adayını bir bilim insanı formasyonuna yükselten kritik bir konudur.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/pub/sdufed/issue/68225/1045231' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/en/download/article-file/1187081' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bilimsel+ara%C5%9Ft%C4%B1rma+y%C3%B6ntemleri+ve+makale+yaz%C4%B1m%C4%B1' },
       ],
     },
@@ -1146,14 +1146,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     8: {
       description: `Genç Cumhuriyetin eğitim, hukuk, sanayi ve toplumsal alanlarda yaptığı köklü güncellemeler (major system updates) ve yapısal reformlar incelenir. Harf devrimi, aslında toplumun bilgi işleme ve okur-yazarlık (data processing) hızını artırmak için yapılmış en büyük iletişim arayüzü (UI) değişikliğidir. Kurumların laikleşmesi ve modernleşmesi, devlet aygıtının daha rasyonel, bilimsel ve hızlı çalışan bir mimariye (refactoring) kavuşturulmasıdır. Sürekli gelişim (Continuous Integration) ve çağdaş uygarlık seviyesine ulaşma felsefesi aşılanır. Eski ve hantal kod bloklarının (geleneklerin) silinip, modern ve verimli yapılarla değiştirilmesidir.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/ataturk-inkilaplari/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.konusarakogren.com/blog/ingilizce-tanitimiataturk-ilkeleri/' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=atat%C3%BCrk+devrimleri+ve+%C3%B6nemi' },
       ],
     },
     9: {
       description: `Türkiye Cumhuriyeti'nin yazılım mimarisini oluşturan, devletin ve toplumun çalışma prensiplerini belirleyen 6 temel anayasa (core principles) işlenir. Cumhuriyetçilik, halkçılık, laiklik gibi ilkeler; devlet sisteminin hata vermeden, rasyonel, kapsayıcı ve adil çalışmasını sağlayan "Object-Oriented" (Nesne Yönelimli) temel sınıflardır (base classes). İnkılapçılık ilkesi, donanımın ve yazılımın çağa göre sürekli güncellenmesi (update and upgrade) gerektiğini emreden mühendislik vizyonudur. Bu ilkeler, gelecekte kamu veya özel sektörde projeler geliştirirken sahip olmanız gereken aydın ve bilimsel etiğin temelini atar. Sistemin çökmesini engelleyen güvenlik duvarlarıdır.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/ataturk-ilkeleri/' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.konusarakogren.com/blog/ingilizce-tanitimiataturk-ilkeleri/' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=atat%C3%BCrk+ilkeleri' },
       ],
     },
@@ -1346,14 +1346,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     8: {
       description: `Genç Cumhuriyetin altyapısını çağın standartlarına yükseltmek için yapılan köklü güncellemeler (major updates) ve mimari reformlar işlenir. Harf devrimi ve ölçü birimlerinin değiştirilmesi, toplumun bilgi işleme (data processing) hızını ve uluslararası entegrasyonunu sağlamak için yapılmış muazzam arayüz (interface) değişiklikleridir. Eğitimde, hukukta ve sanayide eskiyen kod bloklarının silinip yerine rasyonel ve bilimsel yasaların entegre edilmesidir. Sistemin çalışma verimliliğini (performance optimization) artırarak çağdaş uygarlık seviyesini yakalama algoritmasıdır. Teknolojik ve endüstriyel atılımlar için gereken pürüzsüz zeminin inşasıdır.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/ataturk-inkilaplari/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-inkilaplari' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=atat%C3%BCrk+devrimleri' },
       ],
     },
     9: {
       description: `Türkiye Cumhuriyeti'nin işletim sistemini (OS) ayakta tutan altı temel ilke, devletin ana çerçeve mimarisi (core framework) olarak incelenir. Cumhuriyetçilik ve halkçılık gibi ilkeler sistemin kullanıcı (halk) odaklı ve adil çalışmasını sağlarken, laiklik mantıksal (rasyonel) düşünceyi merkeze alır. İnkılapçılık, sistemin statik kalmasını engelleyip çağın teknolojisine göre sürekli güncellenmesini (continuous deployment) emreden vizyoner bir donanımdır. Bu ilkeler, geleceğin mühendislerine geliştirecekleri projelerde laik, bilimsel ve toplum yararını gözeten bir etik pusula sunar. Devlet ve toplum yapısının çökmesini engelleyen güvenlik protokolleridir.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/ataturk-ilkeleri/' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-inkilaplari' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=atat%C3%BCrk+ilkeleri+nelerdir' },
       ],
     },
@@ -1404,7 +1404,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     2: {
       description: `Doğru (True-1) veya Yanlış (False-0) olabilen önermeler ve AND, OR, NOT, XOR gibi mantıksal bağlaçlarla kurulan doğruluk tabloları incelenir. Yazdığınız kodlardaki \`if-else\` karar mekanizmalarının ve \`while\` döngülerindeki koşulların arkasında yatan kusursuz matematiksel arka plandır. İşlemcilerin (CPU) içindeki mantık kapılarının (Logic Gates) nasıl tasarlandığını ve veriyi nasıl işlediğini kavramanın teorik yoludur. Karmaşık iş kurallarını basitleştirmek (De Morgan Kuralları) ve kodun gereksiz kontroller yapmasını engellemek için bu mantık kullanılır. Bilgisayarın düşünme şekli olan Boole Cebri'nin dilidir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/propositional-logic/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://iep.utm.edu/propositional-logic-sentential-logic/' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ayr%C4%B1k+matematik+%C3%B6nermeler+mant%C4%B1%C4%9F%C4%B1' },
       ],
     },
@@ -1432,7 +1432,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     6: {
       description: `Kümeler üzerinde tanımlanan işlemlerin sağladığı kurallara göre oluşan Gruplar, Halkalar (Rings) ve Cisimler (Fields) gibi soyut yapılar öğrenilir. Kriptografide (şifreleme algoritmalarında) kullanılan Eliptik Eğri (Elliptic Curve) veya AES sistemlerinin güvenliği, sonlu cisimler üzerindeki bu karmaşık cebirsel yapıların kırılmazlığına dayanır. Hata düzelten kodlar (Error Correcting Codes) sayesinde ağ üzerinde veri iletirken kaybolan paketlerin geri getirilmesi bu cebir sayesinde gerçekleşir. Sayıların sadece büyüklük değil, belirli bir modüler evrende yapısal davranışlar sergilediği gösterilir. Veri güvenliğinin ve telekomünikasyonun kalbindeki gizli matematiktir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_algebraic_structures.htm' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Algebraic_structure' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=cebirsel+yap%C4%B1lar+gruplar+halkalar' },
       ],
     },
@@ -1453,7 +1453,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     9: {
       description: `Bir problemi çözmek için izlenen sonlu adım dizileri olan algoritmaların özellikleri, sahte kod (Pseudocode) yazımı ve çalışma zamanı karmaşıklığı (Big O, Omega, Theta) incelenir. İki farklı kod bloğunun (örneğin Arama veya Sıralama algoritmaları) aynı işi yapmasına rağmen hangisinin milyonlarca veride sunucuyu çökerteceği, hangisinin saliseler içinde biteceği matematiksel olarak ispatlanır. Optimizasyon problemlerini çözerken en kısa yolu veya en az maliyetli seçeneği (Greedy Algorithms) bulmanın teorik çerçevesi çizilir. Sadece çalışan değil, verimli (efficient) ve ölçeklenebilir (scalable) kod yazmanın farkındalığı aşılanır. İyi bir yazılımcıyı sıradan bir kodlayıcıdan ayıran en önemli haftadır.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_algorithms.htm' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://firism.com/assets/pdf/firism_ayrik_matematik_algoritmik_karma%C5%9F%C4%B1kl%C4%B1k.pdf' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=algoritma+analizi+ve+zaman+karma%C5%9F%C4%B1kl%C4%B1%C4%9F%C4%B1+big+o' },
       ],
     },
@@ -1504,28 +1504,28 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     2: {
       description: `Elektrik akımına tek yönde izin veren P-N ekleminden oluşan diyotların çalışma prensipleri, karakteristiği ve doğrultmaç (rectifier) devreleri işlenir. Bilgisayarınızın güç adaptörlerinin, prizden gelen değişken alternatif akımı (AC) nasıl sabit doğru akıma (DC) dönüştürerek anakarta zarar vermeden ilettiğinin elektronik mimarisidir. Zener diyotlar kullanılarak voltaj sabitleme ve aşırı gerilimden koruma (regülatör) senaryoları simüle edilir, yazılımların çalıştığı donanım ortamı güvene alınır. Lojik kapıların (AND/OR) ilk ilkel hallerini diyotlarla tasarlayarak dijital mantığın fiziksel tasarımına giriş yapılır. Sinyalleri kırpan ve şekillendiren temel elektronik valflerdir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.allaboutcircuits.com/textbook/semiconductors/chpt-3/introduction-to-diodes-and-rectifiers/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://solutions.mccsemi.com/rectifier-diodes-explained-a-complete-engineers-guide-to-types-and-applications' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=diyot+nedir+%C3%A7al%C4%B1%C5%9Fma+prensibi+ve+do%C4%9Frultma%C3%A7+devreleri' },
       ],
     },
     3: {
       description: `Çift kutuplu yüzey transistörlerinin (Bipolar Junction Transistor - BJT) fiziksel yapısı, aktif, kesim ve doyum bölgelerinde nasıl çalıştığı modellenir. Bir zayıf sinyali alıp şiddetini artırma (Amplifikatör) veya bir elektronik anahtar (Switch) olarak davranma yeteneğiyle 20. yüzyılın en büyük elektronik icadıdır. Yazılım tarafından Arduino veya Raspberry Pi pinlerinden gönderilen 5V zayıf bir sinyalle, yüksek akım çeken bir motoru veya röleyi kontrol etmenin anahtarı BJT kullanmaktır. Transistörün eşdeğer devre modellerini çıkararak, sisteme giren akımın çıkışta nasıl bir karakter sergileyeceğinin matematiksel analizi yapılır. Dijital kontrolün analog güce dönüştüğü elemandır.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/basic_electronics/basic_electronics_bjt.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Bipolar_junction_transistor' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bjt+transist%C3%B6r+%C3%A7al%C4%B1%C5%9Fma+prensibi+ve+modelleme' },
       ],
     },
     4: {
       description: `BJT'lerin Ortak Emiter, Ortak Baz ve Ortak Kollektör gibi farklı konfigürasyonlarla devrelere nasıl entegre edileceği ve sinyal kazanç hesaplamaları öğrenilir. Ses kartlarından veya radyo alıcılarından gelen çok zayıf parazitli sinyalleri, yazılımın işleyebileceği net verilere dönüştüren analog yükselteç katmanlarıdır. Çok katlı (kaskad) devreler tasarlanarak, sinyal izolasyonu ve maksimum güç aktarımı için empedans uyumlaması (matching) yapma becerisi kazandırılır. Mantık kapılarının (TTL - Transistor-Transistor Logic) arka planda yüzlerce BJT ile nasıl dizayn edildiği ve hız limitleri analiz edilir. Yazılım ve sensörler arasındaki sinyal çevirici katmanların pratik kurgusudur.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.allaboutcircuits.com/textbook/semiconductors/chpt-4/bipolar-junction-transistors-bjt/' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Bipolar_junction_transistor' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bjt+y%C3%BCkselte%C3%A7+devreleri+ortak+emiter' },
       ],
     },
     5: {
       description: `BJT'ye göre gerilim kontrollü çalışan ve giriş direnci çok yüksek olan Alan Etkili Transistörlerin (JFET ve MOSFET) mimarisi işlenir. Günümüzdeki modern mikroişlemcilerin (Intel, AMD, ARM) içindeki milyarlarca mikroskobik transistör tamamen CMOS (Komplemanter MOSFET) mimarisine dayanır. BJT'ye kıyasla daha az ısınmaları ve enerji tüketimleri, mobil cihazların ve bataryalı IoT sistemlerinin var olabilmesinin tek fiziksel nedenidir. MOSFET'leri anahtar (0-1) olarak kullanarak, dijital dünyayı var eden mikroelektronik sistemlerin eşdeğer modellemeleri çıkarılır. Bilgisayar mühendisinin, kodunun koşturulduğu gerçek fiziksel kapılarla tanışmasıdır.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/basic_electronics/basic_electronics_fet.htm' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://acikders.ankara.edu.tr/pluginfile.php/40564/mod_resource/content/1/Alan%20Etkili%20Transist%C3%B6rler%20%28Field%20Effect%20Transistors%29.pdf' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fet+ve+mosfet+%C3%A7al%C4%B1%C5%9Fma+prensibi' },
       ],
     },
@@ -1546,14 +1546,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     8: {
       description: `Op-Amp'lar kullanılarak eviren/evirmeyen yükselteçler, türev alıcı, integral alıcı ve enstrümantasyon (ölçüm) amfileri tasarlanır. Biyomedikal mühendislikte kalp ritmi (EKG) veya beyin dalgaları (EEG) gibi mikro-volt seviyesindeki verilerin gürültüsüz şekilde bilgisayara aktarılması bu özel Op-Amp devreleriyle yapılır. PID tabanlı bir robot veya dron kontrol yazılımında, integral ve türev hesaplarını işlemciye bırakmak yerine sıfır gecikmeyle çalışan analog devrelerle çözme stratejisi kazandırılır. Donanım ve yazılım ortak tasarımı (Hardware-Software Codesign) perspektifiyle, hangi görevin kodla, hangisinin elektronik devreyle yapılacağının optimizasyonudur.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.allaboutcircuits.com/textbook/semiconductors/chpt-8/operational-amplifier-applications/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.robotiksistem.com/islemsel_yukseltec_opamp_nedir.html' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=opamp+uygulamalar%C4%B1+t%C3%BCrev+integral+toplay%C4%B1c%C4%B1' },
       ],
     },
     9: {
       description: `A, B, AB ve C sınıfı güç yükselteçlerinin verimlilik analizleri, distorsiyon (bozulma) oranları ve ısı dağılımları (Soğutucu - Heatsink tasarımları) incelenir. Radyo frekans (RF) iletişiminde antene giden sinyali güçlendirmek veya bilgisayar ses sistemlerinde (Hoparlör) dijitalden anoloğa dönmüş sesi yükseltmek için bu devrelere ihtiyaç vardır. Transistörlerin sınır zorlayan akımlarda çalışırken lineerliği (doğrusallığı) nasıl kaybettiği ve enerji kaybının ısıya dönüşmesi mühendislik denklemleriyle ispatlanır. Mobil veya giyilebilir cihaz yazılımları geliştirirken, donanımın güç tüketim sınıflarını bilerek batarya ömrünü optimize etme vizyonu sunar. Sinyalin "Güç" haline dönüştüğü son katmandır.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/amplifiers/amplifiers_power.htm' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://eshop.se.com/in/blog/post/understanding-the-difference-between-voltage-amplifier-and-power-amplifier.html' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%BC%C3%A7+y%C3%BCkselte%C3%A7leri+s%C4%B1n%C4%B1f+a+b+ab' },
       ],
     },
@@ -1588,7 +1588,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     14: {
       description: `Tristör (SCR), Triyak, Diyak gibi dört katmanlı, özellikle yüksek AC voltaj ve akımların dijital devrelerle kontrolünü sağlayan endüstriyel elektronik elemanları öğrenilir. PLC otomasyon sistemlerinde veya akıllı ev (Smart Home) yazılımlarında 5V ile çalışan bir işlemcinin, 220V ile çalışan devasa motorları veya ısıtıcıları güvenle anahtarlaması bu elemanlarla yapılır. Güç elektroniğindeki anahtarlama kayıplarını minimuma indirerek, büyük robotik sistemlerin beyin (yazılım) ve kas (güç) koordinasyonu elektriksel olarak kurulur. Bilişim dünyasının dijital sinyalleri ile sanayi dünyasının yüksek gücü arasındaki kontrol arabirimleri tamamlanarak donanım dersi sonlandırılır.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/basic_electronics/basic_electronics_thyristors.htm' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://maker.robotistan.com/tristor-nedir-cesitleri/' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=trist%C3%B6r+triyak+diyak+%C3%A7al%C4%B1%C5%9Fma+prensibi' },
       ],
     },
@@ -1611,7 +1611,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     3: {
       description: `Fiziksel dalga hareketleri ve deniz terminolojisi üzerinden, birbirine benzeyen ancak teknik olarak farklılaşan kavramların kıyaslanması (Comparison & Contrast) okunur. Veri yapılarında Array ile List'in veya Ağ protokollerinde TCP ile UDP'nin farklarını tartışırken İngilizce olarak benzerlik ve farklılık bildiren bağlaçların (Whereas, However, Similarly) kullanım pratiğidir. Teknik raporlarda spesifik kavramları doğru yerde kullanma ve nüans farklarını belirterek net bir mühendislik dili oluşturma (precision in language) öğretilir. Yanlış terminoloji kullanımının proje analizlerinde (Requirements Analysis) ne kadar büyük kafa karışıklığı yaratacağı okuma üzerinden test edilir. Detaylara odaklanan analitik okuma yetisi geliştirilir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/conjunctions' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.openenglish.com.tr/blog/ingilizce-baglaclar-conjunctions-listesi/' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=comparing+and+contrasting+in+english' },
       ],
     },
@@ -1667,14 +1667,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     11: {
       description: `Su döngüsü, hava olayları ve yağış oluşumunu anlatan, ardışık fiziksel süreçlerin (Sequential Processes) sıralandığı okuma metinleridir. Algoritmaların adım adım çalışma mantığını, akış şemalarını (Flowcharts) ve yazılım derleme aşamalarını İngilizce olarak aktarmak için (Firstly, Then, Subsequently, Finally) kullanılan bağlaçların egzersizidir. Doğal döngülerin anlatımı, sistem mimarilerinde veri boru hatlarının (Data Pipelines) veya CI/CD süreçlerinin kesintisiz akışını anlatan belgelendirme mantığıyla tamamen aynıdır. Zaman kiplerinin edilgen yapıyla (Passive Voice) birleştirilerek kullanıldığı süreç anlatım (Process Description) becerisi maksimize edilir. Olay dizilerini kodlar gibi sıraya koyma dilidir.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/passive' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://dersimizingilizce.com/ingilizce-passive-voice-ingilizce-edilgen-yapi.html' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=describing+a+process+in+english' },
       ],
     },
     12: {
       description: `Fiziksel bir dalga deneyinin kurulumunu ve uygulama adımlarını içeren, Yönerge (Instructional) ve Prosedürel metin formatı incelenir. Yazılım projelerinde "Readme.md" dosyaları, API kurulum yönergeleri (Installation Guides) veya "Nasıl Yapılır" (How-to) dokümanları hazırlamanın en temel İngilizce kalıpları öğretilir. Emir kiplerinin (Imperatives) kaba olmadan, teknik ve yönlendirici bir üslupla (e.g. "Attach the node", "Compile the code") nasıl kullanıldığı analiz edilir. Kullanıcı dostu (User-friendly) manuel yazarlığı yaparak takımın geliştirdiği ürünün dünya çapında anlaşılır olması sağlanır. Talimat verme ve izleme dilinin profesyonel provasıdır.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/imperatives' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://dersimizingilizce.com/ingilizce-imperatives-ingilizce-emir-cumleleri.html' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=giving+instructions+in+english' },
       ],
     },
@@ -1704,21 +1704,21 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     2: {
       description: `Elde edilen dağınık verilerin gruplandırılması, frekans tabloları ve histogram, pasta grafiği, kutu grafiği (Boxplot) gibi görsel araçlarla sunulması incelenir. Python'daki Pandas ve Matplotlib veya Front-End'deki grafik kütüphaneleri (Chart.js) ile bir uygulamanın Admin paneline (Dashboard) veri basarken kullanılan analitik görselleştirme kurallarıdır. Ham verinin içindeki anormallikleri (Outliers) grafiklere bakarak tespit etme ve veriyi algoritmaya sokmadan önce temizleme (Data Preprocessing) disiplini aşılanır. İyi bir mühendisin kod yazmak kadar, veriyi yönetime veya müşteriye "okunabilir" sunma (Data Storytelling) görevini de kavraması hedeflenir. Gözle görünen istatistiğin algoritmik temelleridir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/data-visualization-in-statistics/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.tableau.com/visualization/what-is-data-visualization/' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=istatistik+veri+sunumu+grafikler+histogram' },
       ],
     },
     3: {
       description: `Aritmetik Ortalama, Medyan, Mod gibi verinin merkezini bulan ölçüler ile Varyans, Standart Sapma gibi verinin değişkenliğini hesaplayan formüller öğretilir. Bir web sunucusunun yanıt sürelerinin (Response Time) ortalaması tek başına yanıltıcı olabilir; standart sapma yüksekse kullanıcıların yarısı çok yavaş hizmet alıyor demektir. Algoritmaların hata marjlarını ve sensörlerden gelen gürültülü (noisy) sinyallerin kararlılığını ölçmek için varyans hesaplamaları doğrudan kodlanır. Makine öğrenmesi verilerini ölçeklendirirken (Standardization/Normalization) arka planda tam olarak bu formüller çalıştırılır. Sistemin ortalama ve aşırı uç (extreme) davranışlarını analitik olarak belirleme gücü verir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/statistics/measures_of_central_tendency.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.veribilimiokulu.com/merkezi-egilim-olculeri/' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=merkezi+e%C4%9Filim+ve+da%C4%9F%C4%B1l%C4%B1m+%C3%B6l%C3%A7%C3%BCleri+varyans+standart+sapma' },
       ],
     },
     4: {
       description: `Kesinlikten uzak, şansa veya bilinmeyen parametrelere bağlı olayların matematiksel olarak ölçümlenmesi olan olasılık kuralları, Bayes teoremi ve koşullu olasılık incelenir. E-postalardaki Spam filtreleri (Naive Bayes Classifier) tam olarak bu koşullu olasılık teoremiyle "Eğer bu kelime varsa spam olma olasılığı %95'tir" diyerek çalışır. Rastgele sayılar üreten kriptografik sistemlerde veya ağ trafiğindeki paket çakışmalarında ihtimalleri minimize etmenin altyapısı atılır. Kodunuzun her zaman aynı girdiyle aynı çıktıyı vermediği, doğanın ve verinin kaotik yapısını algoritmalarla dizginleme sanatıdır. Yapay zeka tahmin (Prediction) modellerinin çekirdek felsefesidir.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/statistics/probability_introduction.htm' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.scribd.com/document/810309658/Olas%C4%B1l%C4%B1g-a-Giris-Kavram-Tan%C4%B1m-Uygulama' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=olas%C4%B1l%C4%B1k+teorisine+giri%C5%9F+ve+bayes+teoremi' },
       ],
     },
@@ -1732,14 +1732,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     6: {
       description: `Sonlu ve sayılabilir ihtimalleri modelleyen Binom, Poisson ve Geometrik gibi klasik kesikli (discrete) olasılık dağılımları işlenir. Bir sunucuya belirli bir saatte "N" adet siber saldırı (DDoS) gelme ihtimalini veya müşteri giriş sıklıklarını modellemek Poisson dağılımı ile mükemmel uyum sağlar. Kalite kontrol (QA) süreçlerinde üretilen çiplerin (CPU) % kaçının bozuk çıkacağını hesaplayarak üretim bandı verimliliği (Binom) denetlenir. Yazılımların test senaryolarını kurgularken hataların rastgele değil, belirli bir dağılıma uygun geldiğini fark etmeyi öğretir. Ayrık olayların bilgisayarda modellenmesi ve öngörülmesidir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/statistics/discrete_probability_distributions.htm' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://acikders.ankara.edu.tr/pluginfile.php/130862/mod_resource/content/0/akt102_hafta_05.pdf' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=kesikli+olas%C4%B1l%C4%B1k+da%C4%9F%C4%B1l%C4%B1mlar%C4%B1+binom+poisson' },
       ],
     },
     7: {
       description: `Sürekli değerler alan, integral ile hesaplanan Normal (Çan Eğrisi), Üstel (Exponential) ve Üniform dağılımların yapısı öğrenilir. Doğadaki ve yapay zeka eğitim setlerindeki verilerin %90'ı Normal Dağılım (Gauss) gösterir; bu yüzden yapay zeka modelleri tasarlanırken bu dağılım eğrisi adeta bir anayasa gibi kabul edilir. Elektronik devre bileşenlerinin veya sunucu sabit disklerinin (SSD) arızalanma süreleri (MTBF) Üstel dağılım modelleriyle yazılıma dökülerek bakım zamanları (Predictive Maintenance) hesaplanır. Bilgisayar grafiği (Ray Tracing) ve fizik motorlarında rastgele dağılımları sürekli hale getirmek için Üniform dağılımlar koda yansıtılır. Doğanın sürekliliğinin dijital evrene aktarımıdır.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/statistics/continuous_probability_distributions.htm' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://acikders.ankara.edu.tr/pluginfile.php/116949/mod_resource/content/1/6-Surekli%20Olasilik%20Dagilimi.pdf' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=s%C3%BCrekli+olas%C4%B1l%C4%B1k+da%C4%9F%C4%B1l%C4%B1mlar%C4%B1+normal+da%C4%9F%C4%B1l%C4%B1m' },
       ],
     },
@@ -1753,14 +1753,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     9: {
       description: `Devasa kitle verilerinden (Örn: Tüm Twitter kullanıcıları) alınan küçük örneklem setlerinin, kitleyi ne kadar doğru temsil ettiğini açıklayan Merkezi Limit Teoremi ve örneklem dağılımları incelenir. Büyük veri (Big Data) ortamında milyarlarca satır veriyi işlemek işlemciyi yoracağından, algoritmaların sadece rasgele seçilen %1'lik bir örneklem üzerinde çalışarak %99 doğru sonuç vermesini sağlayan teoridir. Bir uygulamanın yeni arayüzünü (A/B Testi) sadece küçük bir kullanıcı grubuna açarak, genel kitle hakkında karar verme sürecinin matematiksel haklılığıdır. Örneklem varyansının ve ortalamasının, yazılım optimizasyonunda maliyeti nasıl düşürdüğü pratik olarak öğretilir. Makro veriyi mikro ölçekte çözme sanatıdır.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/statistics/sampling_distribution.htm' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://acikders.ankara.edu.tr/pluginfile.php/92906/mod_resource/content/0/ders4.pdf' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=%C3%B6rneklem+da%C4%9F%C4%B1l%C4%B1mlar%C4%B1+ve+merkezi+limit+teoremi' },
       ],
     },
     10: {
       description: `Örneklemden elde edilen sonuçlardan kitle ortalamasına dair "Nokta Tahmini" yapmak ve bu tahmine bir Güven Aralığı (Confidence Interval) biçmek öğrenilir. Bir makine öğrenmesi algoritmasının başarı oranını %85 olarak bulduğunuzda, "Bu oran %95 güven aralığında ±%2 değişebilir" diyebilmek, profesyonel bir veri mühendisinin dilidir. E-ticaret sitelerinde satılan bir ürünün gerçek müşteri memnuniyetini az sayıda yoruma bakarak tahmin eden algoritmalar bu istatistiksel sınırları koda döker. Algoritmanın bulduğu sonuca ne kadar güvenileceğini (Accuracy/Precision) teknik yöneticilere sayısal olarak ispatlama imkanı sunar. Tahmin yürütmenin, bilimsel kesinlikle çerçevelenmesidir.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/statistics/confidence_intervals.htm' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://acikders.ankara.edu.tr/pluginfile.php/30760/mod_resource/content/0/8_G%C3%BCven%20Aral%C4%B1klar%C4%B1%20ve%20%C4%B0statistiksel%20Anlaml%C4%B1l%C4%B1k.pdf' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=istatistik+tahmin+ve+g%C3%BCven+aral%C4%B1%C4%9F%C4%B1+hesaplama' },
       ],
     },
@@ -1781,7 +1781,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     13: {
       description: `İki farklı veri seti veya değişken arasındaki ilişkinin yönünü (pozitif/negatif) ve şiddetini (Korelasyon Katsayısı, r) tespit etme hesaplamaları işlenir. Uygulamadaki "Kullanıcının sayfada kalma süresi" ile "Satın alma ihtimali" arasındaki bağlantıyı bulmak için Veri Madenciliği (Data Mining) algoritmaları bu korelasyonları çıkarır. Sensörlerden gelen sıcaklık arttıkça işlemci hızının ne kadar düştüğünü matematiksel olarak ispatlar ve sistem darboğazlarını (bottleneck) gösterir. Korelasyonun nedensellik (causation) olmadığı bilinciyle, makine öğrenmesinde gereksiz özellikleri (Feature Selection) modelden çıkarma vizyonu katar. Verilerin birbirleriyle nasıl dans ettiğini ölçme sanatıdır.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/statistics/correlation.htm' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://acikders.ankara.edu.tr/pluginfile.php/2154/mod_resource/content/2/konu8a.pdf' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=istatistik+korelasyon+analizi+ve+katsay%C4%B1s%C4%B1' },
       ],
     },
@@ -1797,7 +1797,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     1: {
       description: `Bilgisayarlara hükmetmek için kullanılan yapay dillerin tasarım ilkeleri, yüksek seviyeli/düşük seviyeli dil kavramları ve temel syntax (söz dizimi) kuralları öğrenilir. Sadece kod yazmayı değil, "Neden bu kadar çok programlama dili var?" sorusunu sorarak dillerin arkasındaki mimari felsefeleri ve ticaret mantıklarını analiz etmeye başlarsınız. Bir dilin okunabilirliğinin (readability) ve yazılabilirliğinin proje geliştirme ve bakım maliyetlerini (maintenance cost) nasıl doğrudan etkilediği mühendislik perspektifiyle tartışılır. Makine dili (0-1) ile insan mantığı arasındaki çevirmenlerin genel kavramsal çerçevesi çizilir. Yeni bir dil öğrenmekten ziyade, tüm dilleri öğrenebilme altyapısı atılır.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/compiler_design/compiler_design_introduction.htm' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/compiler-design/introduction-of-compiler-design/' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=programlama+dilleri+prensipleri+ve+kavramlar%C4%B1' },
       ],
     },
@@ -1811,14 +1811,14 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     3: {
       description: `Bir programlama dilinin dilbilgisini (Grammar) tanımlayan BNF (Backus-Naur Form) notasyonu ve Derleyici (Compiler) ile Yorumlayıcı (Interpreter) çalışma mantıkları öğrenilir. Yazdığınız kodun Lexical Analysis (Sözcük Analizi) ve Syntax Analysis (Söz Dizimi) aşamalarından geçerek nasıl makine koduna (Assembly) çevrildiğinin arka uç mühendisliği (Compiler Design) incelenir. Derleme sırasında (Compile-time) oluşan hatalar ile çalışma sırasında (Run-time) oluşan hatalar arasındaki devasa performans farkları bu mimarilerle kanıtlanır. İleride kendi Domain-Specific Language (DSL) betiklerinizi yazabilmeniz için dil tasarımı kurallarını aşılarsınız. Kodunuzun makinede nasıl hayat bulduğunu gösteren teorik şölenidir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/introduction-to-syntax-analysis/' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://ytuce.maliayas.com/files/6d6fb23e-Syntax_Analysis_6.pdf' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=derleyici+tasar%C4%B1m%C4%B1+lexical+ve+syntax+analizi+bnf' },
       ],
     },
     4: {
       description: `Dillerin desteklediği ilkel (Primitive) ve kullanıcı tanımlı veri tipleri, pointer mantıkları ve type-checking (tip kontrolü) felsefeleri işlenir. Statik tipli dillerin (C++, Java) neden daha güvenli ve hızlı olduğu, dinamik tipli dillerin (Python, JavaScript) ise neden geliştirici dostu ama performansa aç olduğu kıyaslanır. Veri tiplerinin bellekte (Heap/Stack) kapladıkları alanlar (byte padding) ve farklı dillerdeki bellek yönetim modelleri analiz edilir. Yanlış tip dönüşümlerinin (Type Coercion) Mars'a gönderilen roket yazılımlarında bile nasıl milyar dolarlık çökmelere yol açtığı vaka analizleriyle incelenir. Sistemin en küçük bilgi parçacıklarına uygulanan sıkı denetim mekanizmalarıdır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/compiler_design/compiler_design_type_checking.htm' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/compiler-design/type-checking-in-compiler-design/' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=programlama+dilleri+veri+tipleri+statik+dinamik' },
       ],
     },
@@ -1839,7 +1839,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     7: {
       description: `Kodun, Fonksiyonlar, Prosedürler ve Makrolar gibi alt programlara (Subprograms) ayrılarak çağrılma mekanizmaları ve çağrı yığıtı (Call Stack) dinamikleri öğrenilir. Aktivasyon kayıtları (Activation Records) sayesinde, bir fonksiyonun kendini çağırmasının (Recursion) bellekte nasıl izole çerçeveler (Stack Frames) açarak çalıştığı donanım seviyesinde incelenir. Alt programlar sayesinde kodu tekrar tekrar yazmaktan kurtulup, modüler (ayrı modüllerde derlenebilen) sistemler kurmanın ekip çalışmasındaki hayati rolü tartışılır. Fonksiyon imzalarının (Signatures) diller tarafından nasıl kontrol edildiği ve arayüz sözleşmelerinin (Interface contracts) temelleri atılır. Kompleksitenin küçük parçalarla fethedilmesidir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/compiler_design/compiler_design_run_time_environment.htm' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.techtarget.com/searchsoftwarequality/definition/runtime' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=alt+programlar+fonksiyon+%C3%A7a%C4%9Fr%C4%B1lar%C4%B1+ve+bellek+y%C3%B6netimi' },
       ],
     },
@@ -1988,7 +1988,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     14: {
       description: `Dönem boyunca öğrenilen Listeler, Yığınlar, Kuyruklar, Sıralama algoritmaları ve Ağaç yapıları harmanlanarak, gerçek dünya problemlerini çözen kapsamlı bir dönem sonu projesi geliştirilir. Öğrencilerin, örneğin bir kütüphane otomasyonunu, yol bulma navigasyonunu (A-Star) veya metin sıkıştırma (Huffman Coding) algoritmasını doğru veri yapılarını entegre ederek tasarlaması beklenir. Proje boyunca, seçilen algoritmaların bellek sızıntısı (Memory Leak) yapmadan ve Big-O karmaşıklığını optimize ederek çalışması en temel kalite metriğidir. "Hangi durumda hangi veri yapısı kullanılmalı?" sorusunun yanıtı sadece teorik olarak değil, bir yazılım ürününün performans testlerinde pratik olarak ispatlanır. Dönem, mimari tasarım yetenekleri sınanmış tam yetkin bir yazılım mühendisi adayı olarak noktalanır.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/data-structures-and-algorithms-projects/' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://codegnan.com/data-structure-and-algorithm-project-ideas/' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+yap%C4%B1lar%C4%B1+proje+%C3%B6rnekleri' },
       ],
     },
@@ -2005,7 +2005,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
       description: `Ağ iletişimini standartlaştıran OSI (Open Systems Interconnection) referans modeli ve TCP/IP protokol yığınları detaylıca incelenir. İleride IoT cihazlarından sunucuya veri çekerken veya mikroservisler arası API haberleşmesi kurarken bu katmanlı mimarinin kurallarına uymak zorundasınız. Her bir ağ katmanının (Fiziksel, Veri Bağı, Ağ, Ulaşım, Uygulama) veriye nasıl başlık (header) ekleyerek paketlediği (encapsulation) öğretilir. Sistem darboğazlarını (bottlenecks) çözerken problemin yazılımda mı yoksa ağ katmanında mı olduğunu teşhis etme yeteneği aşılar. İnternetin anayasası niteliğindeki bu evrensel kurallar bütünü teorik olarak oturtulur.
 http://googleusercontent.com/image_content/426`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/osi-model-layers-and-protocols/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://aws.amazon.com/tr/what-is/osi-model/' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=osi+referans+modeli+ve+katmanlar%C4%B1' },
       ],
     },
@@ -2013,7 +2013,7 @@ http://googleusercontent.com/image_content/426`,
       description: `Sayısal (dijital) verilerin fiziksel ortamda taşınabilmesi için analog veya dijital sinyallere (işaretlere) nasıl dönüştürüldüğü analiz edilir. Genlik (Amplitude), frekans ve faz kavramları üzerinden modülasyon tekniklerinin mantığı kavranarak sinyal iletiminin sınırları çizilir. IoT projelerinde sensörlerden gelen analog frekansların mikrodenetleyiciye dijital olarak aktarılmasındaki o fiziksel sürecin arka planıdır. Bant genişliği (Bandwidth) kapasitesi ile veri aktarım hızı arasındaki matematiksel ilişki (Nyquist ve Shannon teoremleri) kanıtlanır. Gözle görülmeyen verinin elektromanyetik dalgalara kodlanma sanatıdır.
 http://googleusercontent.com/image_content/442`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/data_communication_computer_network/signals.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.sciencedirect.com/topics/computer-science/signal-propagation' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bilgi+ta%C5%9F%C4%B1yan+i%C5%9Faretler+analog+dijital+sinyaller' },
       ],
     },
@@ -2021,7 +2021,7 @@ http://googleusercontent.com/image_content/442`,
       description: `Ağların fiziksel altyapısını oluşturan Çift Burgulu (Twisted Pair), Koaksiyel ve Fiber Optik kabloların kapasiteleri ve zayıflama (attenuation) oranları incelenir. Devasa bulut veri merkezlerinin (Data Centers) birbirine bağlanmasında neden ışık hızında veri taşıyan fiber optiklerin kullanıldığı fiziksel sınırlarla açıklanır. Yerel ağlarda (LAN) veri kayıplarını en aza indirmek için doğru kablo tipini ve topolojisini seçme vizyonu kazandırılır. Elektromanyetik girişimin (EMI) bakır kablolardaki veriyi nasıl bozduğu ve bunun donanımsal olarak nasıl engellendiği öğretilir. Ağ mühendisliğinin fiziksel (Layer 1) dünyasına doğrudan temas edilir.
 http://googleusercontent.com/image_content/462`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/guided-transmission-media/' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://beginnersbook.com/2021/12/types-of-transmission-media-guided-and-unguided/' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=kablolu+ileti%C5%9Fim+ortamlar%C4%B1+fiber+optik+utp' },
       ],
     },
@@ -2035,35 +2035,35 @@ http://googleusercontent.com/image_content/462`,
     6: {
       description: `Temel bant (Baseband) ve geniş bant (Broadband) iletim şekilleri ile verinin senkron veya asenkron olarak nasıl taşındığı incelenir. Yazılımsal arka uç (backend) servislerinin veritabanlarıyla konuşurken kullandığı veri taşıma modlarının (Tam çift yönlü - Full Duplex, Yarı çift yönlü) donanımsal karşılıklarıdır. Cihazların saat vuruşlarıyla (clock cycles) kendi aralarında nasıl senkronize olup veriyi hatasız yakaladığı algoritmalara dökülür. Seri ve paralel veri iletiminin hız, maliyet ve mesafe açısından avantajları karşılaştırılarak optimum sistem tasarımı kurgulanır. İki makine arasındaki veri trafiğinin kuralları ve yönleri belirlenir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/transmission-modes-in-computer-networks/' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.scaler.com/topics/computer-network/transmission-modes-computer-networks/' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+ileti%C5%9Fim+teknikleri+senkron+asenkron' },
       ],
     },
     7: {
       description: `Ağ trafiğini yönetmek için kullanılan Devre Anahtarlama (Circuit Switching) ve Paket Anahtarlama (Packet Switching) mantıkları derinlemesine öğrenilir. İnternetin günümüzdeki esnek ve dayanıklı yapısını sağlayan Paket Anahtarlama felsefesi sayesinde verinin router'lar üzerinden kendi yolunu nasıl bulduğu anlaşılır. Sesli iletişim (VoIP) ile klasik veri aktarımı arasındaki gecikme (latency) gereksinimleri karşılaştırılarak uygun anahtarlama mimarisi seçme vizyonu kazanılır. Tıkanıklık anında (congestion) düğümlerin veriyi nasıl yönlendirdiği (routing) veya düşürdüğü (dropping) mekanizmaları tartışılır. Global bilgi otobanlarındaki kavşak kuralları modellenir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/data_communication_computer_network/switching_techniques.htm' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@yesilyurtsenanur/switch-anahtarlama-y%C3%B6ntemleri-69cd83124ee0' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=devre+ve+paket+anahtarlama+y%C3%B6ntemleri' },
       ],
     },
     8: {
       description: `Frekans, Zaman ve Dalga Boyu Bölmeli Çoklama (FDM, TDM, WDM) yöntemleriyle tek bir kablodan yüzlerce farklı sinyalin aynı anda nasıl iletildiği analiz edilir. Bulut (Cloud) sunuculardaki devasa bant genişliklerinin optik kablolar üzerinden WDM teknolojisi ile nasıl çoğaltılarak maliyetlerin düşürüldüğü görülür. Modemlerin analog-dijital çevrim süreçleri incelenerek ev ağlarından ISP (İnternet Servis Sağlayıcı) merkezlerine uzanan bağlantı zinciri anlaşılır. Kısıtlı iletişim kaynaklarını (kanalları) birçok kullanıcıya verimli bir şekilde paylaştırma (resource sharing) mühendislik çözümleri üretilir. Fiziksel sınırların akıllı algoritmalarla aşılma sanatıdır.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/multiplexing-in-computer-network/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.techtarget.com/searchnetworking/definition/multiplexing' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=a%C4%9Flarda+%C3%A7oklama+y%C3%B6ntemleri+fdm+tdm' },
       ],
     },
     9: {
       description: `Mükemmel tasarlanmış yazılımların bile fiziksel ağ katmanında ısıl gürültü (thermal noise), zayıflama ve şekil bozukluğu (distortion) nedeniyle nasıl bozulduğu (bit corruption) incelenir. Ağ üzerinden akan verilerin kusursuz (lossless) bir şekilde hedefe ulaşmasının önündeki fiziksel ve elektromanyetik düşmanlar tanınır. Kablo uzunluğunun veri sinyalini nasıl zayıflattığı hesaplanarak, ağ aralarına tekrarlayıcı (Repeater) veya yükselteç (Amplifier) konumlandırma stratejileri kurgulanır. İletişim kalitesini belirleyen Sinyal-Gürültü Oranı'nın (SNR) sistemin teorik maksimum hızını nasıl sınırladığı kanıtlanır. Saf matematiksel verinin, kaotik fiziksel dünyaya çarpma anıdır.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/data_communication_computer_network/transmission_impairment.htm' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://my.clevelandclinic.org/health/diseases/conductive-hearing-loss' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ileti%C5%9Fim+ortam%C4%B1nda+hata+kaynaklar%C4%B1+g%C3%BCr%C3%BClt%C3%BC' },
       ],
     },
     10: {
       description: `Kabloların birbirini elektromanyetik olarak etkilemesiyle oluşan Çapraz Karışma (Crosstalk) ve sinyallerin yankılanması (Echo/Reflection) gibi ileri seviye hata kaynakları işlenir. Sunucu odalarındaki veya IoT panolarındaki yoğun kablolamanın, izolasyon (Shielding) kurallarına uyulmazsa sistem verilerini nasıl anlamsız hale getireceği tartışılır. Farklı frekanslardaki sinyallerin ortamda farklı hızlarda ilerlemesinden doğan gecikme bozulmaları (Delay Distortion) algoritmik olarak modellenir. Dış müdahalelere ve fiziksel limitlere karşı dayanıklı ağ altyapıları (robust infrastructure) tasarlama bilinci aşılanır. Ağ sorunlarını yazılımda aramadan önce donanım seviyesinde filtreleme vizyonudur.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/transmission-impairments-in-computer-network/' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.netes.com.tr/blog/iletim-kaybi-ve-geri-donus-kaybi-insertion-loss-vs-return-loss' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=crosstalk+%C3%A7apraz+kar%C4%B1%C5%9Fma+a%C4%9F+hatalar%C4%B1' },
       ],
     },
@@ -2107,7 +2107,7 @@ http://googleusercontent.com/image_content/462`,
     2: {
       description: `Monolitik (Linux), Mikrokernel (Mach), Hibrid (Windows) gibi farklı işletim sistemi çekirdek mimarilerinin avantajları ve tasarım zorlukları tartışılır. Kesmeler (Interrupts) sayesinde donanımdan gelen asenkron olayların (örneğin ağ kartına veri gelmesi) işletim sistemi tarafından nasıl anında algılanıp işlendiği öğrenilir. İleride Docker gibi konteynerizasyon araçlarını veya bulut sunucularını yönetirken, Linux çekirdeğinin mimarisini bilmek size devasa bir optimizasyon gücü (DevOps) verecektir. Çekirdeğin donanımı koruma yolları ve hatalı yazılımların tüm sistemi çökertmesini engelleyen bellek koruma halkaları (Protection Rings) analiz edilir. Derinlemesine mimari analizlerle sistem mühendisliğine giriş yapılır.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/operating-system-architecture/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.nesilteknoloji.com/isletim-sistemi-guvenligi/' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=i%C5%9Fletim+sistemi+mimarileri+monolitik+mikrokernel' },
       ],
     },
@@ -2177,14 +2177,14 @@ http://googleusercontent.com/image_content/462`,
     12: {
       description: `Tek bir makinenin sınırlarını aşıp, ağ üzerinden birbirine bağlı çoklu sunucuların (Distributed Systems) tek bir işletim sistemi gibi davrandığı modern mimarilere giriş yapılır. Bulut bilişimde (Cloud Computing) ve mikroservislerde sıkça karşılaşılan senkronizasyon, lider seçimi (Leader Election) ve ağ gecikmeleri (Network Partition) problemleri OS seviyesinde tartışılır. Verilerin farklı sunucularda yedekli tutulurken (Replication) aynı anda tutarlılığın (Consistency) nasıl sağlanacağına dair CAP Teoremi gibi evrensel kurallar işlenir. Büyük ölçekli veri mühendisliği projelerinde devasa sunucu tarlalarının (Server Farms) nasıl orkestre edildiği (Örn: Kubernetes mantığı) kavranır. Geleceğin devasa uygulamalarının üzerinde koştuğu dağıtık çekirdeklerdir.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/distributed_operating_system/index.htm' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Da%C4%9F%C4%B1t%C4%B1k_sistemler' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=da%C4%9F%C4%B1t%C4%B1lm%C4%B1%C5%9F+sistemler+distributed+systems' },
       ],
     },
     13: {
       description: `İşletim sisteminin kullanıcıları, dosyaları ve işlemleri birbirinden korumak için tasarladığı Erişim Matrisi (Access Matrix), ACL (Erişim Kontrol Listeleri) ve yetkilendirme modelleri öğrenilir. Sistem zafiyetlerini kullanan virüsler, truva atları ve arabellek taşması (Buffer Overflow) gibi siber güvenlik saldırılarının OS katmanında nasıl meydana geldiği ve engellendiği analiz edilir. Kriptografi (Şifreleme) kullanılarak dosya sistemlerinin veya ağ iletişimlerinin çekirdek (Kernel) seviyesinde nasıl şifrelendiği gösterilir. Yazılım geliştirirken "Zero Trust" (Sıfır Güven) mimarisini kurgulamanın, sunucu güvenliği açısından ne kadar kritik olduğu bilinci aşılanır. Uygulama ile donanım arasındaki en kalın çelik kapıdır.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/security-in-operating-system/' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://berqnet.com/sertifika/siber-guvenlik/isletim-sistemi-guvenligi' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=i%C5%9Fletim+sistemleri+g%C3%BCvenlik+ve+koruma' },
       ],
     },
@@ -2208,14 +2208,14 @@ http://googleusercontent.com/image_content/886`,
     2: {
       description: `Karnaugh Haritaları (K-Map) kullanılarak binlerce ihtimal barındıran devasa mantık fonksiyonlarının en az sayıda kapıyla (minimum donanım maliyeti) tasarlanma teknikleri öğretilir. İyi bir algoritmanın zaman karmaşıklığını düşürmek gibi, bir devreyi sadeleştirmek de güç tüketimini, üretim maliyetini ve işlem süresini donanım seviyesinde optimize eder. Birleşik (Combinational) devrelerde çıktıların sadece anlık girişlere bağlı olarak hesaplandığı hafızasız sistemlerin (Toplayıcı, Çıkarıcı vb.) hiyerarşik tasarımları kurgulanır. İleride gömülü sistemler veya IoT devreleri tasarlarken, gereksiz parça kullanımını engelleyerek batarya ömrünü artırma vizyonu sunar. Matematiksel optimizasyonun mikroçiplere işlenmesidir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/karnaugh-map-k-map/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Karnaugh_haritas%C4%B1#:~:text=Karnaugh%20haritas%C4%B1%20(KM%20ya%20da,devrelerine%20odaklanm%C4%B1%C5%9F%20versiyonu%20olarak%20tan%C4%B1t%C4%B1ld%C4%B1.' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=karnaugh+haritalar%C4%B1+ile+devre+sadele%C5%9Ftirme' },
       ],
     },
     3: {
       description: `Sistemlere geçmişi hatırlama yeteneği kazandıran, çıktıların anlık girişlere ve bir önceki duruma bağlı olduğu Sıralı (Sequential) devreler ve bellek yapıları (Flip-Floplar) işlenir. Bilgisayar RAM'lerinin, işlemci önbelleklerinin (Cache) ve durum makinelerinin (State Machines) hafıza tutma yetenekleri tamamen bu yapılara dayanır. Adreslenen bellek bölgelerindeki veriyi bulmaya yarayan Dekoderler (Kod Çözücüler) sayesinde bilgisayarın donanımsal arama-bulma işlemleri modellenir. Yazılımdaki değişkenlerin (Variables) makine içinde fiziksel olarak nerede tutulduğunu ve sistem saatiyle (Clock) nasıl eşzamanlı kilitlendiğini (Latch) kavramak için kritik bir konudur. Dijital dünyada zamanın ve hafızanın algoritmik tasarımıdır.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/digital_circuits/digital_circuits_sequential_logic.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/sequential/seq_1.html' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=s%C4%B1ral%C4%B1+devreler+ve+kod+%C3%A7%C3%B6z%C3%BCc%C3%BC+dekoder' },
       ],
     },
@@ -2250,7 +2250,7 @@ http://googleusercontent.com/image_content/886`,
     8: {
       description: `İşlemci içerisindeki mikro-işlemleri tasvir etmek için kullanılan Yazaç Aktarım Dili (RTL - Register Transfer Language) ve Veri Yolu (Bus) mimarisi öğrenilir. Bir değişkenin değerini RAM'den işlemci içine almanın (Fetch) veya işlemciden belleğe yazmanın (Store) donanım üzerindeki eşzamanlı senkronizasyonu bu dil ile modellenir. Ortak Veri Yolu sayesinde binlerce kablo çekmek yerine sadece bir ana hat üzerinden tüm donanım modüllerinin kontrollü iletişim kurması (Multiplexing) sağlanır. Yüksek seviyeli dillerde (Python, C#) yazılan tek bir atama işleminin (\`x = y + 1\`), mikro-zaman dilimlerinde hangi yazaçlardan geçtiğini mikroskobik olarak gösterir. Merkezi işlem biriminin veri trafik ağı haritasıdır.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/introduction-of-register-transfer/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://assemblylearningtutorial.blogspot.com/2016/10/fonksiyona-yazmac-register-yoluyla.html' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaza%C3%A7+aktar%C4%B1m+dili+rtl+ve+veri+yolu' },
       ],
     },
@@ -2258,28 +2258,28 @@ http://googleusercontent.com/image_content/886`,
       description: `İşlemcinin beyni olan ALU'nun (Aritmetik Lojik Birim) toplama, bitsel kaydırma, AND, XOR gibi donanımsal operasyonları nasıl milisaniyeler içinde tek bir saat vuruşunda (Clock Cycle) yaptığı incelenir. Kriptografi (şifreleme) algoritmalarında kullanılan XOR veya bitsel kaydırma (Shift/Rotate) işlemlerinin yazılımdan ziyade donanım seviyesinde neden çok daha hızlı ve verimli olduğu ispatlanır. Mikro seviyedeki bu basit işlemler birleşerek modern uygulamaların devasa matematiksel matris analizlerini veya görüntü işlemelerini oluşturur. CPU'nun en temel talimat setini (Instruction Set) anlayarak assembly diline ve performans optimizasyonuna zemin hazırlanır. Bilgisayarın dijital kaslarının çalışma mekanizmasıdır.
 http://googleusercontent.com/image_content/1034`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_logical_organization/arithmetic_microoperations.htm' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://maker.robotistan.com/mikroislemci/' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=aritmetik+ve+mant%C4%B1ksal+mikro+i%C5%9Flemler+alu' },
       ],
     },
     10: {
       description: `Bir program komutunun (Instruction) işlemci tarafından anlaşılabilmesi için OpCode (Operasyon Kodu), adres ve mod bitleri gibi bölümlere nasıl ayrıldığı çözümlenir. Program Sayacı (PC), Komut Yazacı (IR) ve Akümülatör (AC) gibi CPU'nun en kritik bileşenlerinin kod çalıştırırken üstlendiği yönetimsel roller analiz edilir. Derleyicilerin (Compilers) yüksek seviyeli kodunuzu nasıl bu spesifik donanım buyruklarına çevirdiğini anlamak, bellek optimizasyonu (Cache hit/miss) yapabilen efsanevi yazılımlar üretmeyi sağlar. Otonom cihazlar (IoT) için özel işlemci yongaları tasarlamak isteyen mühendisler için vazgeçilmez bir mimari temeldir. Makinenin konuştuğu kelime dağarcığının (Instruction Format) donanım karşılığıdır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/instruction-formats-in-computer-architecture/' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://bigdata.gazi.edu.tr/akcayol/files/CAL4InstructionSet.pdf' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=buyruk+kodu+instruction+format+ve+yaza%C3%A7lar' },
       ],
     },
     11: {
       description: `Kodların doğru sırayla ve çakışmadan çalışmasını sağlayan Kontrol Birimi'nin (Control Unit) donanımsal tasarımı, zamanlama sinyalleri (T0, T1...) ile entegre edilerek işlenir. Yazılımdaki komut dizisinin mikroişlemci içinde bir orkestra gibi nasıl saat frekansına (Clock Signal) bağımlı olarak yönetildiği ve yürütüldüğü (Execute) modellenir. Donanım kilitlemeleri (Hazards) ve işlemci döngüsü (Machine Cycle) kavranarak, hızaşırtma (Overclocking) gibi uygulamaların sistemi fiziksel olarak nasıl etkilediği anlaşılır. Yazılım talimatının, kontrol devresindeki fiziksel kapıları açıp kapatan bir dizi sinyale dönüşme sanatıdır. Sistemin kalbinin ve beyninin eşzamanlı orkestrasyonudur.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/computer-organization-timing-and-control/' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@raufpokemon00/mastering-computer-organization-architecture-and-assembly-language-the-ultimate-beginners-guide-d50e944bc91a' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bilgisayar+mimarisi+zamanlama+ve+denetim+birimi' },
       ],
     },
     12: {
       description: `Bir yazılım satırının hafızadan alınması (Fetch), çözümlenmesi (Decode) ve uygulanması (Execute) sürecini kapsayan efsanevi Makine Döngüsü detaylıca pratik edilir. Doğrudan (Direct), Dolaylı (Indirect) veya Kaydedici (Register) adresleme modlarının, bellekteki veriye ulaşım hızlarını ve RAM tüketimlerini nasıl değiştirdiği analiz edilir. Dizileri (Arrays) veya Pointer'ları döngü içerisinde çağırırken donanımın arka planda fazladan kaç bellek döngüsü harcadığı görülerek performans odaklı kod yazma bilinci aşılanır. Makine dilinin çalışma algoritmasını kavrayarak yazılımın alt katmanındaki fiziksel yansımaları tecrübe edilir. Veriyi nerede bulacağını ve ne yapacağını bilmenin donanımsal rehberidir.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_logical_organization/instruction_cycle.htm' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/computer-organization-architecture/different-instruction-cycles/' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=buyruk+d%C3%B6ng%C3%BCs%C3%BC+fetch+decode+execute+adresleme+modlar%C4%B1' },
       ],
     },
@@ -2293,7 +2293,7 @@ http://googleusercontent.com/image_content/1034`,
     14: {
       description: `Tüm dönem boyunca öğrenilen kapılar, yazaçlar, bellek, ALU ve kontrol birimi birleştirilerek sıfırdan kendi ilkel mikroişlemcinizi (CPU) mantıksal olarak tasarlama aşamasına geçilir. Bir bilgisayar mühendisi olarak, yazılımın donanımı değil, donanımın kodların ihtiyacına göre belirli kısıtlar altında nasıl özel dizayn (ASIC/FPGA Design) edildiğini kavrarsınız. Sadece yüksek seviyeli dillerde (C#, Java) yazılımlar üretmenin ötesine geçerek, bir gün kendi akıllı sensör mimarinizi veya şifreleme donanımınızı kurabilecek teorik vizyona ulaşırsınız. Mantık kapılarından başlayan bu yolculuk, "Bir bilgisayar aslında nasıl inşa edilir?" sorusunun yanıtıyla ihtişamlı bir şekilde sonlanır. Kendi işlemcisini tasarlayabilecek yetkinliğin kağıt üzerindeki kanıtıdır.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/basic-computer-instructions/' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://yunus.hacettepe.edu.tr/~eacar/dersler/uygulamalar/yazilim.pdf' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=temel+bilgisayar+tasar%C4%B1m%C4%B1+ve+i%C5%9Flemci+mimarisi' },
       ],
     },
@@ -2409,7 +2409,7 @@ http://googleusercontent.com/image_content/1034`,
     2: {
       description: `Semboller, alfabeler (Alphabets), dizgiler (Strings) ve dillerin (Formal Languages) matematiksel küme mantığıyla ifade edildiği formal tanımlar öğrenilir. İleride derleyici (Compiler) veya veri ayrıştırıcı (Parser) yazdığınızda, makinenin kaynak kodunuzu aslında basit sembol dizileri (strings) olarak okuduğunu anlamanızı sağlar. Yazılım dilinin kendi sentaksını (Söz Dizimi) tanımlayan evrensel matematiksel notasyonlar kavranarak, rastgele karakter dizilerinden kurallı ifadelere (Syntax) geçişin kuralları çizilir. Bilgisayarın anlamlandırdığı dünyayı, kelimeler yerine matematik kümeleriyle modelleme disiplinidir. İletişimi dijital formatta modellemenin alfabesidir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/introduction-to-formal-languages-and-automata-theory/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://ecehanyildirim.medium.com/bi%C3%A7imsel-diller-ve-otomata-teorisi-1-807396f27936' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=otomata+teorisi+alfabe+dizgi+ve+diller' },
       ],
     },
@@ -2493,7 +2493,7 @@ http://googleusercontent.com/image_content/1034`,
     14: {
       description: `"Durma Problemi" (Halting Problem), Hesaplanabilirlik (Computability) ve P vs NP (Polinom zamanlı çözülebilirlik) gibi bilgisayar biliminin çözülememiş en derin felsefi sorunları tartışılarak dönem sonlandırılır. Dünyadaki en güçlü süper bilgisayarların bile sonsuz sürede çözemeyeceği problemlerin (Undecidable Problems) matematiksel olarak ispatlanmasıyla algoritmaların limitleri belirlenir. Şifreleme sistemlerinin (Kriptografi) ve optimizasyon problemlerinin güvenliği, henüz P=NP olup olmadığının bilinmemesi sırrına dayandığı gerçeği analiz edilir. Bir problemi çözmeye çalışmadan önce "Acaba bu problem evrende çözülebilir mi?" vizyonuyla hareket eden entelektüel bilgisayar bilimcileri (Computer Scientists) yetişir. Bilgisayarların her şeye kadir olmadığını kanıtlayan felsefi zirvedir.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/computational-complexity-in-theory-of-computation/' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Computational_complexity_theory' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=hesaplama+teorisi+halting+problem+p+vs+np' },
       ],
     },
@@ -2565,7 +2565,7 @@ http://googleusercontent.com/image_content/1034`,
     10: {
       description: `Web uygulamalarının kalbi olan veritabanı erişimlerinin, PHP üzerinden güvenli PDO (PHP Data Objects) katmanıyla MySQL sunucusuna bağlanarak CRUD (Ekle, Oku, Güncelle, Sil) işlemleri yapması öğretilir. Kötü niyetli saldırıları (SQL Injection) kesin olarak önleyen Önceden Hazırlanmış İfadeler (Prepared Statements) ile veritabanı sorgularının yazım standartları (Best Practices) belirlenir. AJAX ve JSON kullanarak, sayfa yenilenmeden veritabanından dinamik listeler çekme ve bu verileri sayfalama (Paging) algoritmalarıyla arayüze basma senaryoları tasarlanır. Dinamik içeriği bir REST mimarisine uygun şekilde üretip Front-End'e servis etme (API Endpoint yaratma) mantığı tamamen aşılanır. Gerçek zamanlı ve veri odaklı tam yığın (Full-Stack) mimarinin tamamlanmasıdır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/php/php_mysql_pdo.asp' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.php.net/manual/tr/ref.pdo-mysql.php' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=php+pdo+crud+i%C5%9Flemleri+ve+ajax+json' },
       ],
     },
@@ -2616,14 +2616,14 @@ http://googleusercontent.com/image_content/1034`,
     3: {
       description: `Farklı üreticilerin donanımlarının aynı ağda sorunsuz çalışmasını sağlayan evrensel kurallar bütünü olan protokoller incelenir. Karmaşık ağ iletişimini yönetilebilir modüllere bölen katmanlı mimari (Layered Architecture) felsefesi oturtulur. Bir web isteğinin (HTTP) donanım seviyesindeki elektrik sinyallerine inene kadar hangi çeviri katmanlarından geçtiği kavranır. Yazılımcıların sadece kendi katmanlarına odaklanarak (soyutlama) diğer katmanlardaki karmaşadan nasıl kurtarıldığı analiz edilir. İletişim dünyasının ortak dilini ve evrensel anayasasını belirleyen standartlar bütünüdür.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/protocols-in-computer-network/' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@Mehmet_Arif/a%C4%9F-protokolleri-network-bile%C5%9Fenleri-ve-topolojileri-3f090b7b014d' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=a%C4%9F+protokolleri+ve+katmanl%C4%B1+mimari' },
       ],
     },
     4: {
       description: `Tüm ağ eğitiminin omurgasını oluşturan 7 katmanlı Açık Sistem Bağlantıları (OSI) referans modeli detaylıca öğrenilir. Fiziksel katmandan başlayıp Uygulama katmanına kadar uzanan bu model, sistem darboğazlarını (bottleneck) tespit etmek için bir haritadır. Bir paket karşıya ulaşmadığında sorunun kabloda mı (Layer 1) yoksa yazılımda mı (Layer 7) olduğunu teşhis etme yeteneği aşılar. Her katmanın veriye kendi başlığını (header) ekleyerek paketlediği enkapsülasyon süreci matematiksel bir kesinlikle işlenir. Bilişim dünyasındaki sorunları izole etme ve çözme konusunda evrensel bir mühendislik perspektifi kazandırır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/osi-model-layers-and-protocols/' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://bidb.itu.edu.tr/seyir-defteri/blog/2013/09/07/osi-katmanlar%C4%B1' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=osi+referans+modeli+7+katman' },
       ],
     },
@@ -2658,14 +2658,14 @@ http://googleusercontent.com/image_content/1034`,
     9: {
       description: `LAN teknolojilerinde tartışmasız dünya standardı olan Ethernet mimarisi ve IEEE 802.x protokol ailesinin fiziksel/MAC alt katmanları analiz edilir. Kablo üzerinden iletilen verilerin aynı anda gönderildiğinde çarpışmasını engelleyen CSMA/CD erişim kontrol mekanizması donanımsal düzeyde öğrenilir. Gigabit ve 10-Gigabit Ethernet teknolojileriyle verinin bakır kablolar üzerinde hız sınırlarını nasıl zorladığı mühendislik verileriyle kanıtlanır. Fiziksel adresleme (MAC Address) mantığı sayesinde yerel ağdaki cihazların birer eşsiz dijital kimlik kazanma süreci çözümlenir. Sektördeki en yaygın ağ standardının çalışma prensiplerine tam hakimiyet sağlanır.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/data_communication_computer_network/ethernet.htm' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/IEEE_802.3' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ethernet+ve+ieee+802+standartlar%C4%B1' },
       ],
     },
     10: {
       description: `Kampüs ve şehir içi ağlarda (MAN) kullanılan, çift halka (dual-ring) topolojisine sahip fiber optik tabanlı FDDI teknolojisi incelenir. Kablo koptuğunda veya bir düğüm arızalandığında ikinci halkanın devreye girerek sistemi saniyeler içinde kurtarması (Fault Tolerance) mantığı kurgulanır. Devasa veri merkezleri veya hastaneler gibi kesintiye tahammülü olmayan kurumsal yapılar için hataya dayanıklı ağ tasarlama vizyonu aşılar. Yüksek veri hızlarında ışığın gücünden yararlanılarak elektromanyetik girişimlerin (EMI) nasıl sıfıra indirildiği kanıtlanır. Sistem güvenilirliği (Reliability) ve yedeklilik (Redundancy) kavramlarının fiziksel altyapıya işlenmesidir.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/fiber-distributed-data-interface-fddi/' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Fiber_Distributed_Data_Interface' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fddi+fiber+distributed+data+interface+nedir' },
       ],
     },
@@ -2702,7 +2702,7 @@ http://googleusercontent.com/image_content/1034`,
     1: {
       description: `Donanımın anladığı tek dil olan 0 ve 1'lerin (Makine Dili), komut setlerine ve Assembly diline nasıl haritalandığı incelenerek alt seviye mimariye giriş yapılır. Yüksek seviyeli kodlarınızın (Örn: C, Python) derleyiciler (Compiler) aracılığıyla işlemcinin doğrudan yürütebileceği talimatlara dönüşüm evreleri öğrenilir. Bir bilgisayar mühendisi olarak donanım limitlerini anlamak, kod optimizasyonu yaparken işlemciyi gereksiz döngülerle yormaktan kaçınmanızı sağlar. Kodlanan soyut yazılımların, fiziksel transistörler üzerindeki voltaj değişimlerine dönüştüğü o muazzam entegrasyon sınırında durulur. İşletim sistemi ve çekirdek geliştiricilerinin temelini oluşturan alt seviye düşünme yapısıdır.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_organization/computer_organization_instruction_codes.htm' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://bigdata.gazi.edu.tr/akcayol/files/CAL4InstructionSet.pdf' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bilgisayar+organizasyonu+makine+dili+ve+derleyici' },
       ],
     },
@@ -2716,84 +2716,84 @@ http://googleusercontent.com/image_content/1034`,
     3: {
       description: `İşlemci içerisindeki kontrol biriminin (Control Unit) donanımsal olarak nasıl tasarlandığı ve mikroprogramlama (Microprogramming) ile nasıl esnek hale getirildiği öğrenilir. Karmaşık makine komutlarının, denetim belleğinde saklanan daha küçük "mikro-komutlara" bölünerek adım adım nasıl işletildiği analiz edilir. Tasarımcıya, yeni bir işlemci mimarisi üretirken donanımı değiştirmeden sadece mikro-kodu güncelleyerek yeni yetenekler ekleme vizyonu kazandırılır. Komutların işlemci içinde yaratacağı mantıksal yolların ve adres sıralamalarının donanımsal senkronizasyonu kurgulanır. Merkezi işlem biriminin beynindeki otonom kontrol merkezinin anatomisidir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_organization/computer_organization_microprogrammed_control.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Mikroprogramlama' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=mikroprogramlama+ve+denetim+belle%C4%9Fi+tasar%C4%B1m%C4%B1' },
       ],
     },
     4: {
       description: `İşlemcinin içinde geçici ama devasa hızlı veri tutan yazaçların (Registers) genel topolojisi ve veriyolu (Bus) mimarisiyle entegrasyonu incelenir. Bir talimatın (Instruction Format) kaç bitten oluştuğu, opcode ve operand alanlarının işlemci mimarisine göre nasıl standardize edildiği çözümlenir. Yazaç sayısının fazla olmasının derleyicilere daha hızlı kod üretme imkanı sağladığı, ancak donanım maliyetini nasıl artırdığı mühendislik perspektifiyle tartışılır. Değişkenlerin RAM'e inmeden sadece işlemci içinde kalarak manipüle edilmesini sağlayan donanım organizasyonu modellenir. İşlemci çekirdeğinin veri haritalama standartlarıdır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/instruction-formats-in-computer-architecture/' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.donanimhaber.com/windows-cmd-komutlari-ve-kodlari--160039' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=genel+yaza%C3%A7+organizasyonu+ve+buyruk+bi%C3%A7imleri' },
       ],
     },
     5: {
       description: `İşlemcinin bellekteki veriyi bulmak için kullandığı Doğrudan, Dolaylı, İndeksli ve Bağıl gibi adresleme modları (Addressing Modes) detaylıca öğrenilir. Az sayıda ve basit komut setine sahip RISC (Reduced Instruction Set Computer) mimarisi tanıtılarak, mobil işlemcilerin (ARM) neden bu teknolojiyi kullandığı kavranır. Diziler veya işaretçiler (Pointers) kullanıldığında donanımın arka planda veriyi nasıl hesaplayıp getirdiğinin fiziksel adımları incelenir. Karmaşık talimatlar (CISC) yerine basit ama çok hızlı işlenen talimatlarla donanım performansını zirveye çıkarma stratejisi tartışılır. Yazılım veri yapılarının donanımdaki navigasyon pusulasıdır.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_organization/computer_organization_instruction_formats.htm' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.donanimhaber.com/windows-cmd-komutlari-ve-kodlari--160039' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=adresleme+kipleri+ve+risc+mimarisi' },
       ],
     },
     6: {
       description: `Tek bir komutun bitmesini beklemeden diğerinin işleme alındığı Boru Hattı (Pipelining) tekniği ve paralel işlem yapabilme yetenekleri işlenir. Fabrika üretim bantlarına benzeyen bu mimari sayesinde işlemcilerin döngü başına tamamladığı komut sayısını (Throughput) nasıl muazzam artırdığı ispatlanır. Veri bağımlılıkları (Data Hazards) veya atlama komutlarının boru hattını tıkayıp duraklatmasını (Stall/Bubble) önlemek için geliştirilen algoritmik çözümler kurgulanır. Çok çekirdekli sistemler için optimize kod yazma bilinci kazandırılarak yazılımın donanıma paralel akması sağlanır. Zamandan tasarruf etmenin işlemci seviyesindeki en zekice mimarisidir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/pipelining-in-computer-architecture/' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.cise.ufl.edu/~mssz/CompOrg/CDA-pipe.html' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=boru+hatt%C4%B1+pipelining+ve+paralel+i%C5%9Fleme' },
       ],
     },
     7: {
       description: `Boru hattı mantığı daha da geliştirilerek, tek bir komutla devasa veri setleri üzerinde aynı anda işlem yapmayı sağlayan Vektör ve Dizi işlemcileri (SIMD) tanıtılır. Ekran kartlarının (GPU) milyonlarca pikseli veya makine öğrenmesi algoritmalarındaki büyük matrisleri nasıl aynı anda işleyebildiğinin donanımsal sırrı çözülür. Yüksek performanslı hesaplama (HPC) ve yapay zeka sunucuları tasarlarken verinin skaler değil vektörel ele alınmasının donanım maliyetleri analiz edilir. Veri bilimciler için kullanılan kütüphanelerin (Örn: NumPy) donanım tarafındaki bu hızlandırıcılara nasıl bağlandığı kavranır. Geleceğin paralel dünyasına donanımsal bir hazırlıktır.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_architecture/computer_architecture_vector_processing.htm' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Vector_processor' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=vekt%C3%B6r+i%C5%9Flemciler+ve+dizi+i%C5%9Flemcileri+mimari' },
       ],
     },
     8: {
       description: `İşlemcinin Aritmetik Lojik Birimi (ALU) içinde gerçekleştirilen dört işlemin mantık kapıları ve donanımsal algoritmalarla (Örn: Booth Algoritması) nasıl çalıştığı detaylandırılır. Bilgisayarın çıkarma işlemini bile aslında toplama (2'ye Tümleyen) üzerinden yaparak donanım modüllerinden nasıl tasarruf ettiği mühendislik gözüyle incelenir. Çarpma ve bölme gibi işlemciyi yoran süreçlerin bitsel kaydırma (Shift) ve toplama komutlarıyla milisaniyeler içinde nasıl çözüldüğü algoritmalaştırılır. Hızlı çalışan matematik kütüphanelerinin gücünü donanımın bu akıllı aritmetik tasarımlarından aldığı kanıtlanır. Matematiksel soyutlamaların silikon üzerindeki kesin işlemleridir.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/computer-arithmetic-in-computer-architecture/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Computer_arithmetic' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bilgisayar+aritmeti%C4%9Fi+toplama+%C3%A7arpma+algoritmalar%C4%B1' },
       ],
     },
     9: {
       description: `Bilgisayarların ondalıklı sayıları depolamak ve işlemek için kullandığı IEEE 754 Kayan Nokta (Floating Point) standardı ve donanım limitleri öğrenilir. Bir yazılımcı olarak float veya double değişkenlerle çalışırken, sistemin neden bazen 0.1 + 0.2 işlemini 0.30000000000000004 olarak çıkardığı fiziksel kapasite kısıtlarıyla ispatlanır. Mantis (Kesir), Üs (Exponent) ve İşaret bitlerinin işlemcide nasıl hizalanarak toplandığı ve çarpıldığı donanımsal olarak kurgulanır. Finansal uygulamalar veya uzay simülasyonları tasarlarken yaşanacak yuvarlama (Rounding) hatalarını bertaraf etme bilinci aşılanır. Dijital evrendeki hassasiyet sınırlarının çerçevesi çizilir.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_architecture/computer_architecture_floating_point_arithmetic.htm' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Floating-point_arithmetic' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=kayan+nokta+aritmeti%C4%9Fi+floating+point+ieee+754' },
       ],
     },
     10: {
       description: `Klavye, fare, disk gibi yavaş çalışan çevre birimleri (I/O) ile devasa hızlı CPU arasındaki iletişim kopukluğunu çözen arayüz mimarileri incelenir. İşlemci ve çevre birimi arasında senkronizasyonu sağlayan "Handshaking" (El sıkışma) ve Strobe (Uyarıcı) kontrol sinyallerinin donanımsal çalışması modellenir. Asenkron (farklı saat hızlarında çalışan) aktarımların sistemi nasıl kilitlemeden veri alışverişi yapabildiği (Buffer/Kuyruk mantığı) öğretilir. Yazılımların dış dünyadan gelen verilere nasıl tepki verdiğini ve giriş/çıkış darboğazlarını anlama yeteneği kazandırılır. Donanımın yavaş fiziksel çevreyle entegre olma sanatıdır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/input-output-organization/' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@ulassezgn/giri%C5%9F-%C3%A7%C4%B1k%C4%B1%C5%9F-organizasyonu-1f40f12dd99d' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=giri%C5%9F+%C3%A7%C4%B1k%C4%B1%C5%9F+aray%C3%BCz%C3%BC+asenkron+veri+aktar%C4%B1m%C4%B1' },
       ],
     },
     11: {
       description: `Dışarıdan gelen donanım uyarılarını sıraya koyan Kesme (Interrupt) öncelikleri ve işlemciyi yormadan belleğe veri yazan DMA (Doğrudan Bellek Erişimi) mimarisi öğrenilir. Ağ kartından gelen gigabaytlarca veriyi işlemciye uğratmadan DMA denetleyicisi ile doğrudan RAM'e aktararak sistem performansını zirveye çıkarma stratejisi kavranır. İşletim sistemlerinin bu kesme sinyalleriyle arka planda çoklu görev (Multitasking) illüzyonunu nasıl yarattığı donanım düzeyinde ispatlanır. Ağır I/O işlemleri (örneğin video render) yapan yazılımların donanım altyapısında yarattığı trafiği kontrol etme vizyonu sunar. CPU'nun iş yükünü hafifleterek sistemi otonomlaştıran efsanevi teknolojidir.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_architecture/computer_architecture_dma.htm' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Do%C4%9Frudan_bellek_eri%C5%9Fimi' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=do%C4%9Frudan+bellek+eri%C5%9Fimi+dma+ve+kesmeler' },
       ],
     },
     12: {
       description: `Kaydedicilerden (Registers) başlayıp Cache, RAM ve Manyetik disklere kadar uzanan hız-maliyet-kapasite piramidi olan Bellek Hiyerarşisi incelenir. Hızlı ama küçük belleklerin, yavaş ama devasa disklerle nasıl senkronize çalışarak kullanıcıya mükemmel bir performans sunduğu analiz edilir. Sadece adresle değil, doğrudan içeriğin kendisiyle arama yapılabilen Asosiyatif Belleklerin (Content Addressable Memory) router (yönlendirici) donanımlarında nasıl ışık hızında çalıştığı kavranır. Veri odaklı yazılımlar tasarlarken bellek türlerinin erişim sürelerini (Access Time) hesaba katarak algoritma yazma kültürü aşılanır. Dijital depolamanın mimari mühendislik ödünleşimidir.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/memory-hierarchy-in-computer-network/' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@denizbyat/bellek-hiyerar%C5%9Fisi-i%CC%87%C5%9Flemci-ram-i%CC%87li%C5%9Fkisi-arka-planda-nas%C4%B1l-olur-33600025398e' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bellek+hiyerar%C5%9Fisi+ve+yard%C4%B1mc%C4%B1+bellek' },
       ],
     },
     13: {
       description: `İşlemcinin hemen yanında bulunan Ön Bellek (Cache) eşleştirme yöntemleri (Doğrudan, Kümeli) ve RAM'i diske taşıyan Sanal Bellek donanımları öğrenilir. Yazdığınız kodların verileri sırayla (Spatial Locality) veya tekrar tekrar (Temporal Locality) kullanmasının ön bellek isabetini (Cache Hit) artırarak programı nasıl uçurduğu kanıtlanır. Fiziksel RAM yetmediğinde diskin bir kısmını RAM gibi gösteren Bellek Yönetim Birimi'nin (MMU) sayfa tablolarıyla donanımsal çevirimi incelenir. Büyük veri (Big Data) işlerken hafıza darboğazlarını donanım perspektifiyle çözme yetisi kazandırılır. Optimizasyonun kodda değil, önbellek hizalamasında bittiği yerdir.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_architecture/computer_architecture_cache_memory.htm' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://coderspace.io/blog/onbellek-cache-nedir/' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=%C3%B6nbellek+cache+memory+ve+sanal+bellek' },
       ],
     },
     14: {
       description: `Dönemin finalinde, performansı artırmak için birden fazla işlemcinin aynı anda kullanıldığı Çoklu İşlemci (Multiprocessor) ağları ve topolojileri ele alınır. İşlemcilerin birbirleriyle Crossbar veya Hypercube gibi ağ tasarımları üzerinden nasıl bağlandığı ve veriyi nasıl paylaştığı (Shared Memory vs Distributed Memory) tartışılır. Geleceğin oyun geliştiricileri veya bulut (Cloud) mühendisleri için, çok çekirdekli donanımlarda kilitlenmeden (Deadlock) paralel kod çalıştırma (Concurrency) vizyonu sunulur. İşlemci önbelleklerinin kendi aralarında tutarlı (Cache Coherence) kalmasını sağlayan karmaşık donanım protokolleri kurgulanarak ders sonlandırılır. Süper bilgisayar mimarilerinin kapılarını açan ileri düzey ufuk turudur.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/multiprocessors-in-computer-architecture/' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://en-wikipedia-org.translate.goog/wiki/Symmetric_multiprocessing?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=%C3%A7oklu+i%C5%9Flemci+mimarisi+multiprocessors+ba%C4%9Flant%C4%B1+yap%C4%B1lar%C4%B1' },
       ],
     },
@@ -2809,7 +2809,7 @@ http://googleusercontent.com/image_content/1034`,
     2: {
       description: `Bir sistemin elemanları, sınırları, çevreyle etkileşimi, alt sistemleri ve geri besleme (Feedback) mekanizmaları detaylıca tanımlanır. Örneğin büyük bir e-ticaret platformunda stok modülü, ödeme alt sistemi ve kargo API'sinin birbiriyle nasıl izole ama bağlantılı kurgulanması gerektiği incelenir. Sistemin Entropi'si (bozulma eğilimi) tartışılarak, yazılımların neden sürekli bakım ve güncelleme (Maintenance) gerektirdiği gerçeğiyle yüzleşilir. Açık ve kapalı sistem modelleri üzerinden, yazılımın dış dünyadaki verilerle nasıl entegre olacağının vizyonu sunulur. Parçaları değil, bütünü görme odaklı sistem yaklaşımı (Systems Thinking) geliştirilir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/system-analysis-and-design-overview/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www-tutorialspoint-com.translate.goog/system_analysis_and_design/system_analysis_and_design_overview.htm?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sistem+kavram%C4%B1+alt+sistemler+ve+%C3%B6zellikleri' },
       ],
     },
@@ -2823,28 +2823,28 @@ http://googleusercontent.com/image_content/1034`,
     4: {
       description: `Yazılımın doğumundan ölümüne kadar geçen Süreç Modelleri olan Şelale (Waterfall), Çevik (Agile), Helezonik (Spiral) ve Prototipleme metodolojileri öğrenilir. Hangi tür projede katı kurallı Waterfall'un, hangi projede değişime hızlı tepki veren Agile mantığının kullanılacağına dair mühendislik kararları alınır. Günümüz yazılım sektörünün fiili standardı olan Scrum ve Kanban yaklaşımlarıyla takım içi görev dağılımı (Sprint) felsefesi oturtulur. Yanlış seçilmiş bir yaşam döngüsünün, milyon dolarlık projeleri nasıl hüsrana uğrattığı vaka analizleriyle kanıtlanır. Sürecin kendisini yönetmenin, kodu yönetmek kadar önemli olduğu kavratılır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/software-engineering-software-development-life-cycle-sdlc/' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://aws.amazon.com/tr/what-is/sdlc/' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sistem+geli%C5%9Ftirme+ya%C5%9Fam+d%C3%B6ng%C3%BCs%C3%BC+sdlc+modelleri' },
       ],
     },
     5: {
       description: `Bir yazılım projesinin ekonomik, teknik ve operasyonel yapılabilirlik (Fizibilite) analizleri ile proje bütçe/zaman çizelgesi (Gantt Chart) kurgulanır. Fikrin koda dökülmeden önce "Bu yazılımı üretmeye değecek bir iş değeri var mı?" sorusu analitik ve finansal metriklerle cevaplanır. Kaynak atamaları (insan gücü, donanım) yapılarak, kritik yol yöntemi (Critical Path Method) ile projenin teslim tarihinin (Deadline) nasıl garantiye alındığı öğretilir. Risk yönetimi yapılarak ileride çıkabilecek krizlere karşı (Örn: sunucu çökmesi veya eleman ayrılması) B planları kurgulama vizyonu aşılanır. Fikirlerin mühendislik disipliniyle bütçelendirilip projelendirilmesidir.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_project_planning.htm' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://batuhanakpunar.medium.com/yaz%C4%B1l%C4%B1m-proje-plan%C4%B1-nedir-nas%C4%B1l-olu%C5%9Fturulur-82485fbf3695' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaz%C4%B1l%C4%B1m+proje+planlama+ve+fizibilite+analizi' },
       ],
     },
     6: {
       description: `Kullanıcılardan veya müşterilerden "Ne istediklerini" doğru anlama sanatı olan Gereksinim Toplama (Requirement Gathering) mülakatları ve anket teknikleri işlenir. Müşterinin anlattığı muğlak ifadelerin (Örn: Sistem hızlı olsun), ölçülebilir ve test edilebilir fonksiyonel/fonksiyonel olmayan yazılım gereksinimlerine dönüştürülmesi sağlanır. Veri Akış Diyagramları (DFD) çizilerek, sistemin içine giren verilerin hangi işlemlerden (Process) geçip nereye (Data Store) kaydedildiği görselleştirilir. İletişim eksikliğinden kaynaklanan ve projeleri başarısız kılan "yanlış anlama" sorunları analiz aşamasında sıfırlanır. Müşterinin aklındaki hayali, mühendisliğin analitik kalıplarına dökme sanatıdır.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/software-engineering-requirements-engineering/' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www-geeksforgeeks-org.translate.goog/software-engineering/software-engineering-requirements-engineering-process/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc&_x_tr_hist=true' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sistem+analizi+gereksinim+toplama+ve+dfd' },
       ],
     },
     7: {
       description: `Toplanan gereksinimlerin Sistem Gereksinim Belgesi (SRS) adında resmi ve bağlayıcı bir kontrata dönüştürülmesi işlemleri kurgulanır. Veri sözlükleri (Data Dictionary) oluşturularak, veritabanına kaydedilecek her bir değişkenin tipi, boyutu ve kısıtları proje başında netleştirilir. Analizin eksiksiz yapıldığının müşteriyle birlikte doğrulanması (Sign-off) sayesinde, tasarım evresine geçiş için sağlam bir onay mekanizması kurulur. Karmaşık iş kuralları, karar ağaçları (Decision Trees) ve karar tabloları kullanılarak algoritmik if-else bloklarına ön hazırlık yapılır. Analiz safhasının bitişini ve kodlanacak mimarinin temel hatlarını resmileştiren son adımdır.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/software-engineering-software-requirement-specification-srs/' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www-perforce-com.translate.goog/blog/alm/how-write-software-requirements-specification-srs-document?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sistem+%C3%A7%C3%B6z%C3%BCmleme+veri+s%C3%B6zl%C3%BC%C4%9F%C3%BC+ve+srs' },
       ],
     },
@@ -2858,7 +2858,7 @@ http://googleusercontent.com/image_content/1034`,
     9: {
       description: `Analiz evresinde bulunan "Ne yapılacak?" sorusundan çıkarak "Nasıl yapılacak?" sorusunu cevaplayan mimari tasarım ve arayüz (UI/UX) tasarımına geçilir. Son kullanıcının yazılımla etkileşime girdiği ekranların (Forms/Reports) kullanılabilirlik (Usability) ve erişilebilirlik standartlarına göre kurgulanması öğretilir. Kullanıcı deneyimini (UX) merkeze alan yaklaşımlarla, menülerin ve butonların sezgisel (Intuitive) bir sırayla nasıl tasarlanması gerektiği tartışılır. Veritabanı şemalarının (Entity-Relationship) ve uygulama mimarisinin (Örn: MVC) sisteme en uygun şekilde entegre edilmesi planlanır. İşlevselliğin estetik ve mühendislik ergonomisiyle buluştuğu kreatif süreçtir.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/system_analysis_and_design/system_analysis_and_design_input_output.htm' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.ktun.edu.tr/Dosyalar/1022/files/Lojik%20Devreler_Ders%20Notlar%C4%B1.pdf' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sistem+tasar%C4%B1m%C4%B1+ve+kullan%C4%B1c%C4%B1+aray%C3%BCz%C3%BC+ui+ux' },
       ],
     },
@@ -2879,7 +2879,7 @@ http://googleusercontent.com/image_content/1034`,
     12: {
       description: `(Proje sunumlarına devam) Ekiplerin farklı sektörel sorunlar (Örn: Hastane Otomasyonu, Lojistik Takip) için geliştirdikleri yazılım analiz raporları tartışılır. Diğer grupların tasarım zafiyetlerini veya eksik analiz edilen iş gereksinimlerini bularak sınıfça bir kod/tasarım inceleme (Design Review) kültürü oluşturulur. Fizibilite raporlarının maliyet etkinlikleri ve seçilen arayüzlerin kullanılabilirlik (UX) skorları eleştirel bir yaklaşımla değerlendirilir. Takım çalışması, dokümantasyon üretimi ve versiyon kontrol süreçlerinin proje üretimindeki koordinasyonu tecrübe edilir. Farklı problem senaryolarına üretilen çeşitli mimari çözüm yolları gözlemlenir.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/software-engineering-system-design/' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://web.hitit.edu.tr/dosyalar/duyurular/mustafacosar@hititedutr030420145I2T4D5F.pdf' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaz%C4%B1l%C4%B1m+mimarisi+tasar%C4%B1m+incelemesi+design+review' },
       ],
     },
@@ -2893,7 +2893,7 @@ http://googleusercontent.com/image_content/1034`,
     14: {
       description: `Tüm projelerin savunulmasının ardından sistemlerin entegrasyonu, test planları ve sisteme geçiş (Deployment) stratejileri üzerine genel bir kapanış değerlendirmesi yapılır. Hazırlanan tasarımların doğrudan kodlama ekiplerine aktarılabilir düzeyde net (Ambiguity-free) ve anlaşılır olması gerektiği son kez vurgulanır. Öğrencilerin sadece izole kod parçaları yazan programcılar değil, bütünü gören, planlayan ve dökümante eden birer "Sistem Mühendisi" vizyonuyla mezun olmaları sağlanır. Analiz aşamasında yapılan küçük bir hatanın, bakım (Maintenance) aşamasında nasıl devasa maliyetlere dönüştüğü öğrenilmiş bir ders olarak kaydedilir. Dönem, yazılımın yaşam döngüsüne hakim, uçtan uca proje yönetebilecek formasyonla tamamlanır.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/system-analysis-and-design-overview/' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://kontrolotomasyon.wordpress.com/2016/12/05/sistem-analizi-ve-tasarimi-i-proje-degerlendirme-olcutleri-tablosu/' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaz%C4%B1l%C4%B1m+projesi+nas%C4%B1l+canl%C4%B1ya+al%C4%B1n%C4%B1r+deployment' },
       ],
     },
@@ -2916,7 +2916,7 @@ http://googleusercontent.com/image_content/1034`,
     3: {
       description: `Linux üzerinde çoklu kullanıcı (Multi-user) yönetimi, gruplar ve dosya izinleri (chmod/chown) ile sistemin güvenlik sınırlarını nasıl çizdiği öğrenilir. Bir web sunucusu kodladığınızda, o yazılımın "root" yetkileri yerine kısıtlı bir kullanıcıyla çalıştırılmasının (Least Privilege) siber saldırıları nasıl engellediği pratik edilir. Kılavuz (Man pages) okuma kültürü kazandırılarak, ezberlemeden resmi dökümantasyonlar üzerinden komutların derinliklerine inme becerisi aşılanır. Her şeyin bir dosya olduğu ("Everything is a file") Unix felsefesi anlaşılarak donanımların bile birer dosya gibi nasıl okunduğu görülür. Sistemin idari (Administration) ve yetkilendirme mimarisi çözümlenir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/linux-file-permissions/' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.yusufsezer.com.tr/linux-dosya-ve-dizin-izinleri/' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=linux+kullan%C4%B1c%C4%B1+y%C3%B6netimi+ve+dosya+izinleri+chmod' },
       ],
     },
@@ -2958,7 +2958,7 @@ http://googleusercontent.com/image_content/1034`,
     9: {
       description: `Tek bir sürecin içinde aynı bellek alanını paylaşan İş Parçacıklarının (Threads) yaratılması (Pthreads/Win32 Threads) ve çok çekirdekli donanımda paralel çalıştırılması kodlanır. İş parçacıklarının aynı değişkene aynı anda yazmasını engelleyen Mutex ve Semafor kilit mekanizmalarıyla "Race Condition" hataları (Yarış durumu) bertaraf edilir. İşletim sisteminin sanal bellek sayfalarını (Virtual Memory Pages) kod ile doğrudan yönetmek ve belleği başka süreçlerle paylaşmak (Shared Memory) için API'ler kullanılır. Veri yoğunluklu yüksek performanslı uygulamalarda (Örn: Oyun Motorları) aynı anda yüzlerce görevin (I/O, Render, Fizik) asenkron mimaride tasarlanması öğrenilir. Modern yazılımların paralel eşzamanlı gücüdür.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/multithreading-c-cpp/' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://docs.unity3d.com/2020.1/Documentation/Manual/JobSystemMultithreading.html' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c+programlama+pthreads+multithreading+mutex' },
       ],
     },
@@ -2972,7 +2972,7 @@ http://googleusercontent.com/image_content/1034`,
     11: {
       description: `Thread havuzları (Thread Pools) kurgulanarak, sürekli yaratılıp yok edilen thread'lerin işletim sistemine bindirdiği maliyet (overhead) optimize edilir. C diliyle yapılan tüm sistem operasyonlarının, Linux kabuk betikleri (Bash Scripting) kullanılarak otomatikleştirilmesi ve otomasyon algoritmaları kurgulanması öğrenilir. Sunucu loglarını analiz eden, diskte yer azaldığında sistemi uyaran veya otomatik yedekleme (Backup) alan sistem yönetici (SysAdmin) botları kodlanır. Kodun içindeki karmaşık thread senkronizasyonlarının, dışarıdan izole scriptlerle nasıl denetlendiği ve sistemin bütünsel olarak nasıl ayakta tutulduğu tartışılır. Sistem otomasyonu ve paralel işleme becerilerinin sentezidir.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/unix/unix-shell-scripting.htm' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www-freecodecamp-org.translate.goog/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bash+scripting+dersleri+linux+otomasyon' },
       ],
     },
@@ -3009,7 +3009,7 @@ http://googleusercontent.com/image_content/1034`,
     2: {
       description: `Bir yazılımın fikir aşamasından ürünün emekliye ayrılmasına kadar geçen tüm evreleri kapsayan SDLC (Software Development Life Cycle) mimarisi öğrenilir. Klasik ve riskli olan Şelale (Waterfall) modeli ile günümüzdeki değişime hızlı adapte olan Çevik (Agile) ve Scrum metodolojileri proje yönetimi perspektifiyle kıyaslanır. Farklı gereksinimlere sahip projelerde (Örn: Bir oyun vs Banka otomasyonu) hangi süreç modelinin seçilmesinin başarı ihtimalini ve maliyeti nasıl etkileyeceği tartışılır. Sadece iyi kodlayan değil, kodu doğru süreçte ve takım uyumuyla (Sprint) canlıya alan (Deploy) geliştiriciler hedeflenir. Projeyi bir takvime ve disipline bağlayan zaman/süreç yönetimidir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/software-engineering-software-development-life-cycle-sdlc/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://aws.amazon.com/tr/what-is/sdlc/' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaz%C4%B1l%C4%B1m+geli%C5%9Ftirme+ya%C5%9Fam+d%C3%B6ng%C3%BCs%C3%BC+sdlc+modelleri' },
       ],
     },
@@ -3023,7 +3023,7 @@ http://googleusercontent.com/image_content/1034`,
     4: {
       description: `Müşteriden gelen istekleri ölçülebilir, test edilebilir ve mantıklı yazılım metriklerine dönüştüren Gereksinim Mühendisliği (Requirements Engineering) işlenir. Yazılımın ne yapacağını belirleyen fonksiyonel gereksinimler ile ne kadar hızlı ve güvenli yapacağını (Performans) belirleyen fonksiyonel olmayan gereksinimler ayrıştırılır. Paydaş mülakatları ve analiz yöntemleriyle toplanan bu veriler, Software Requirements Specification (SRS) dokümanı haline getirilerek teknik bir kontrata dönüştürülür. Çelişen (Conflict) veya eksik gereksinimlerin kodlama aşamasında nasıl devasa "Bug"lara ve bütçe zararlarına yol açacağı gerçeğiyle yüzleşilir. Tasarım ve koda giden yolun doğru rotasını belirleyen kritik aşamadır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/software-engineering-requirements-engineering/' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://muhammetbaykara.com/wp-content/uploads/2022/04/Gereksinim-M%C3%BChendisli%C4%9Fine-Giri%C5%9F.pdf' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaz%C4%B1l%C4%B1m+gereksinim+analizi+ve+srs+belgesi' },
       ],
     },
@@ -3037,7 +3037,7 @@ http://googleusercontent.com/image_content/1034`,
     6: {
       description: `Tasarlanan mimarinin ve algoritmaların spesifik programlama dilleriyle koda dönüştürülmesi (Implementation) ve temiz kod (Clean Code) standartları işlenir. Takım içinde kod yazarken isimlendirme standartlarına, kodun okunabilirliğine ve SOLID prensiplerine uymanın yazılımın sürdürülebilirliğine (Maintainability) katkıları analiz edilir. Modüler programlama, kod tekrarından kaçınma (DRY) ve fonksiyonları tek bir amaca yönelik (Single Responsibility) yazma alışkanlığı kazandırılır. Başka mühendislerin yıllar sonra bile koda baktığında algoritmayı rahatça anlayabileceği kalitede, endüstriyel üretim yapmak hedeflenir. Teorik diyagramların makineyi harekete geçiren komutlara, zarif bir şekilde dökülmesidir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/software-engineering-coding-standards/' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://blog-codacy-com.translate.goog/coding-standards?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaz%C4%B1l%C4%B1m+ger%C3%A7ekle%C5%9Ftirme+temiz+kod+yazma+clean+code' },
       ],
     },
@@ -3065,14 +3065,14 @@ http://googleusercontent.com/image_content/1034`,
     10: {
       description: `Yazılımın zaman içindeki değişimlerini, sürümlerini ve ekip üyelerinin kod çakışmalarını yöneten Konfigürasyon Yönetimi (SCM) mantığı öğrenilir. Git, GitHub, GitLab gibi Sürüm Kontrol Sistemleri (VCS) kullanılarak aynı proje üzerinde düzinelerce mühendisin dallanarak (Branching) ve birleştirerek (Merging) nasıl güvenle çalıştığı pratik edilir. Hatalı bir kod canlı sunucuya çıktığında, sistemi çökertmeden saniyeler içinde eski ve güvenli versiyona (Rollback) nasıl geri dönüldüğü deneyimlenir. Sürekli Entegrasyon (CI) araçlarıyla, gönderilen her yeni kodun otomatik olarak derlenip test edilmesi (Pipeline) otomatize edilir. Yazılımın gelişim tarihini güvence altına alan ve ekip koordinasyonunu sağlayan can damarıdır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/software-engineering-software-configuration-management/' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://aws.amazon.com/tr/what-is/configuration-management/' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yaz%C4%B1l%C4%B1m+konfig%C3%BCrasyon+y%C3%B6netimi+ve+git+kullan%C4%B1m%C4%B1' },
       ],
     },
     11: {
       description: `Yazılım geliştirme yaşam döngüsünün çeşitli aşamalarını (UML tasarımı, Kod üretimi, Test) otomatize eden CASE araçları (Computer-Aided Software Engineering) incelenir. Veritabanı şemalarından otomatik olarak arka uç (Backend/CRUD) kodları üreten (Forward Engineering) veya mevcut koddan UML şemaları çıkaran (Reverse Engineering) araçların verimliliği tartışılır. Jira, Trello, Azure DevOps gibi proje takip uygulamalarının gereksinimleri, görev atamalarını (Issue Tracking) ve test raporlarını tek bir ekranda nasıl birleştirdiği gösterilir. Bir mühendisin manuel ve amelelik gerektiren işlerden kurtularak vaktini tamamen algoritmik tasarıma odaklayabilmesini sağlayan profesyonel ortamdır. Verimliliği ve standartlaşmayı sağlayan mühendislik asistanlarıdır.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/software_engineering/software_engineering_case_tools.htm' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@yusufozcan/bilgisayar-destekli-yaz%C4%B1l%C4%B1m-m%C3%BChendisli%C4%9Fi-case-273b2834cc00' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=case+ara%C3%A7lar%C4%B1+bilgisayar+destekli+yaz%C4%B1l%C4%B1m+m%C3%BChendisli%C4%9Fi' },
       ],
     },
@@ -3102,21 +3102,21 @@ http://googleusercontent.com/image_content/1034`,
     1: {
       description: `İş dünyasında ve özellikle uluslararası yazılım ekiplerinde iletişimin büyük bir kısmı resmi olmayan deyimler (idioms) üzerinden yürür. Günlük "Stand-up" toplantılarında veya Slack yazışmalarında "crunch time" (yoğun mesai) veya "back to the drawing board" (başa dönmek) gibi zaman ve eylem deyimlerinin ne anlama geldiğini bilmek zorunludur. Küresel bir teknoloji firmasında çalışırken yabancı yöneticilerin veya müşterilerin kullandığı alt metinleri anlamak, yanlış iletişimden doğacak kodlama hatalarını önler. Kelime kelime çeviri yapmanın işe yaramadığı bu dil yapıları, profesyonel şirket kültürüne (Company Culture) entegre olmanın ilk adımıdır. Doğal ve akıcı bir İngilizce ile takım içi sosyal zekanızı (EQ) dille ifade etme pratiğidir.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/vocabulary/advanced-vocabulary/idioms' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://englishlikeanative-co-uk.translate.goog/blog/common-english-idioms-for-hard-work-and-business/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=business+english+idioms+for+work' },
       ],
     },
     2: {
       description: `Hayvan, yol veya duygu durumlarını ifade eden deyimlerle iş İngilizcesindeki mecaz kullanımları (metaphors) derinleştirilir. Proje yönetim süreçlerinde bir hatayı veya problemi tartışırken kullanılan "elephant in the room" (görmezden gelinen büyük sorun) gibi ifadeleri anlamak, kriz anlarındaki (bug hunting) takım dinamiklerini okumanızı sağlar. Teknik yetenekleriniz ne kadar iyi olursa olsun, duyguları ve şirket içi politikaları anlatan bu deyimleri bilmemek sizi toplantılarda dışlanmış hissettirebilir. Müşteri geri bildirimlerindeki (feedback) kızgınlık veya memnuniyet seviyesini, kullandıkları deyimlerden analiz edebilme (sentiment analysis) vizyonu kazandırır. Yabancı dilde "satır aralarını okuma" beceriniz gelişir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/vocabulary/advanced-vocabulary/idioms' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.openenglish.com.tr/blog/is-hayatinda-sik-kullanilan-10-ingilizce-deyim/' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=common+idioms+in+the+workplace' },
       ],
     },
     3: {
       description: `İnsan Kaynakları (HR) jargonu ve işe alım/işten çıkarma süreçlerinin İngilizce terminolojisi incelenir. İleride Silikon Vadisi merkezli veya Avrupa tabanlı bir teknoloji şirketine başvururken okuyacağınız "Job Description" (İş Tanımı) belgelerindeki beklentileri doğru analiz etmeniz için bu kavramlar şarttır. İşe alım sürecindeki (Recruitment Pipeline) mülakatlarda yeteneklerinizi pazarlarken veya şirket tekliflerini (Offer) değerlendirirken kullanılan evrensel kalıplardır. Özgeçmişinizi (CV) uluslararası tarama sistemlerine (ATS) uygun anahtar kelimelerle hazırlamak için gereken profesyonel kelime dağarcığını sağlar. İş arama sürecinizi lokalden globale taşıyacak olan kurumsal temeldir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/business-english/business-magazine/recruitment' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.iienstitu.com/tr/blog/ik-ise-alim-uzmanlarinin-bilmesi-gereken-ingilizce-terimler' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=english+for+human+resources+recruitment' },
       ],
     },
@@ -3130,7 +3130,7 @@ http://googleusercontent.com/image_content/1034`,
     5: {
       description: `Etkili bir iş başvurusu yapma, niyet mektubu (Cover Letter) yazma ve çalışma saatleri ile değişim fiillerinin profesyonel kullanımı pratik edilir. "Asynchronous working" (eşzamanlı olmayan çalışma) veya "flexible hours" gibi modern uzaktan (Remote) yazılım geliştirme ekiplerinin kullandığı çalışma modellerinin jargonu öğrenilir. Bir sistemin veya projenin durumundaki değişiklikleri "evolve", "scale", "deprecate" gibi sektörel değişim fiilleriyle raporlama (Status Report) becerisi kazandırılır. Başvuru e-postalarınızda veya GitHub profilinizde kendinizi profesyonel bir formatta sunmanın dilbilgisel şablonları kurgulanır. Hedeflenen global IT şirketine atılan ilk yazılı adımın simülasyonudur.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/business-english/english-for-emails/applying-for-a-job' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.superprof.com.tr/blog/ingilizce-is-basvurusu-maili/' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=how+to+apply+for+a+job+in+english+cover+letter' },
       ],
     },
@@ -3144,14 +3144,14 @@ http://googleusercontent.com/image_content/1034`,
     7: {
       description: `Çevik yazılım (Agile/Scrum) kültürünün merkezinde yer alan toplantıların (Sprint Planning, Daily Stand-up) yönetim ve katılım jargonu incelenir. Yabancı takım arkadaşlarınızla yapacağınız bir toplantıda söz alma, kibarca araya girme (interrupting), bir fikre katılma veya profesyonelce itiraz etme (disagreeing) kalıpları öğretilir. Uygulama mimarisinde yapılmasını istediğiniz bir değişikliği üst yönetime veya müşteriye sunarken (Pitching) kullanılan ikna edici toplantı İngilizcesi pratik edilir. Toplantı gündemini (Agenda) belirleme ve toplantı notları (Meeting Minutes) çıkarma süreçleri dökümante edilir. Fikirlerinizi uluslararası bir masada (veya Zoom ekranında) özgüvenle savunma eğitimidir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/business-english/english-for-meetings' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.openenglish.com.tr/blog/ingilizce-toplanti-kaliplari-toplanti-ingilizcesi/' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=business+english+for+meetings' },
       ],
     },
     8: {
       description: `Telefon ve VoIP (Zoom, Microsoft Teams) görüşmelerinde kendini tanıtma, mesaj bırakma ve teknik destek sağlama gibi sesli iletişim dinamikleri çalışılır. Uzaktan (Remote) çalışırken sunucuda yaşanan acil bir çöküşü (Crash) yurtdışındaki DevOps ekibine hızlı bir telefon aramasıyla aktarmak için gereken refleksif İngilizce geliştirilir. Kötü bağlantı durumlarında "You are breaking up" (Sesiniz kesik kesik geliyor) veya "There is a lag" (Gecikme var) gibi teknik aksaklıkları kibarca ifade etme yöntemleri öğretilir. Yazılı iletişimdeki düşünme payının olmadığı anlık sesli iletişimde panik yapmadan profesyonelliği koruma stratejileridir. Küresel iletişimde ses tonu ve hazırcevaplık sınırları test edilir.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/business-english/business-magazine/telephone-english' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://online.lemonacademy.com.tr/blog/telefonda-resmi-konusma-icin-ingilizce-ifadeler' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=telephone+english+phrases+business' },
       ],
     },
@@ -3193,7 +3193,7 @@ http://googleusercontent.com/image_content/1034`,
     14: {
       description: `İş İngilizcesinde sıfatların gücünü artırmak için kullanılan derecelendirme ve pekiştirme zarfları (Intensifiers - highly, extremely, totally) öğrenilerek dönem sonlandırılır. Geliştirdiğiniz bir algoritmayı sadece "fast" (hızlı) diye pazarlamak yerine "highly efficient" (son derece verimli) veya "extremely scalable" (muazzam ölçeklenebilir) diyerek projelerinizin değerini kelimelerle katlama (Marketing) sanatıdır. Müşteri sunumlarında, yatırımcı toplantılarında veya GitHub'daki dokümantasyonlarınızda iddialı, profesyonel ve ikna edici bir metin yazarlığı (Technical Writing) standardına ulaşılır. Dönem boyunca öğrenilen tüm iş İngilizcesi yapılarının, son derece estetik ve kuvvetli (Impactful) bir retorikle harmanlandığı zirve noktasıdır. Global pazarda kodunuz kadar, kendinizi de en üst seviyede ifade etme yetkinliği kazanılır.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/adjectives-and-adverbs' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://dersimizingilizce.com/ingilizce-adjectives-and-adverbs-sifatlar-ve-zarflar.html' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=business+english+intensifiers+and+strong+adjectives' },
       ],
     },
@@ -3316,7 +3316,7 @@ http://googleusercontent.com/image_content/1034`,
     3: {
       description: `Algoritmaların yakıtı olan ham verinin (Raw Data) toplanması, analiz edilmesi ve makineye sunulmadan önce geçirdiği temizlik süreçleri (Data Preprocessing) öğrenilir. Kirli veya eksik veriyle (Garbage In, Garbage Out) dünyanın en iyi algoritmasının bile çöp üreteceği gerçeği mühendislik perspektifiyle aşılanır. Aykırı değerlerin (Outliers) tespiti, eksik verilerin doldurulması ve kategorik verilerin sayısal matrislere dönüştürülmesi (One-Hot Encoding) gibi kritik adımlar pratik edilir. Python üzerinde Pandas ve NumPy gibi kütüphaneler kullanılarak veritabanlarından çekilen bilginin modellemeye hazır hale getirilmesi sağlanır. Başarılı bir yapay zekanın gizli kahramanlık aşamasıdır.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.cs.waikato.ac.nz/ml/weka/book.html' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www-geeksforgeeks-org.translate.goog/machine-learning/introduction-to-weka-key-features-and-applications/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc&_x_tr_hist=true' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+%C3%B6n+i%C5%9Fleme+data+preprocessing+python' },
       ],
     },
@@ -3337,7 +3337,7 @@ http://googleusercontent.com/image_content/1034`,
     6: {
       description: `Etiketsiz veriler yığını içinde gizli kalmış grupları, yapıları ve ilişkileri keşfetmeye yarayan Gözetimsiz Öğrenme algoritmaları öğrenilir. E-ticaret sitelerinde müşterilerin satın alma alışkanlıklarına göre otomatik segmentlere ayrılması (Müşteri Kümeleme - Clustering) bu yöntemin en popüler örneğidir. Yüksek boyutlu karmaşık veri setlerindeki gereksiz değişkenleri silerek sistemi hızlandıran Boyut İndirgeme (PCA) teknikleri analiz edilir. Veri mühendisi olarak, makineye ne bulacağını söylemeden makinenin kendi kendine anlamsal bağlar kurmasına (Keşif) izin verirsiniz. Büyük veri okyanusunda pusulasız bir şekilde anlamlı adalar bulma işlemidir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/unsupervised-machine-learning/' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://aws-amazon-com.translate.goog/compare/the-difference-between-machine-learning-supervised-and-unsupervised/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%B6zetimsiz+%C3%B6%C4%9Frenme+unsupervised+learning+k%C3%BCmeleme' },
       ],
     },
@@ -3416,14 +3416,14 @@ http://googleusercontent.com/image_content/1034`,
     3: {
       description: `Gerçek dünyadaki fiziksel ve mühendislik problemlerinin (Örn: Serbest düşüş, nüfus artışı veya RC devreleri) diferansiyel denklemlerle kurulup MATLAB'a aktarılması sürecidir. Fonksiyon grafikleri (2D ve 3D Plotlar) çizdirilerek, soyut matematiksel denklemlerin zamana veya uzaya bağlı görsel davranışları (Simulation) analiz edilir. Toplanan veriler üzerine eğri uydurma (Curve Fitting) işlemleri yapılarak, eldeki sınırlı bilgiden sistemin genel davranış karakteristiği ortaya çıkarılır. Veri mühendisliği (Data Engineering) projelerinizde veriyi sadece tutmak değil, onun ardındaki fiziksel veya istatistiksel modeli (Pattern) bulma vizyonu katar. Doğanın kurallarını kod satırlarına ve grafiklere dönüştürme pratiğidir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.mathworks.com/discovery/mathematical-modeling.html' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/en/download/article-file/402881' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=matlab+ile+matematiksel+modelleme+ve+grafik+%C3%A7izimi' },
       ],
     },
     4: {
       description: `İlk üç haftada öğrenilen temel fonksiyonlar ve modelleme yetenekleri kullanılarak öğrencilerin seçeceği mini bir mühendislik probleminin sayısal çözümü kurgulanır. Karmaşık bir formülün (Örn: Bir sensörün gürültülü verisinin analizi) MATLAB üzerinde modüler (function dosyaları) olarak yazılarak çalıştırılması istenir. Hata ayıklama (Debugging) araçları aktif olarak kullanılarak, algoritmanın nerede tıkandığını veya matematiksel olarak nerede patladığını (NaN, Inf) bulma disiplini edinilir. Sadece kod yazmak değil, bir mühendislik problemini baştan sona dokümante ederek (Live Scripts) sunma yeteneği geliştirilir. Teorik bilgilerin ilk kez bağımsız bir algoritmik ürüne dönüştüğü aşamadır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.mathworks.com/help/matlab/matlab_prog/debugging-matlab-programs.html' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.mathworks.com/help/matlab/matlab_prog/debugging-process-and-features.html' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=matlab+live+scripts+ve+debugging+kullan%C4%B1m%C4%B1' },
       ],
     },
@@ -3444,7 +3444,7 @@ http://googleusercontent.com/image_content/1034`,
     7: {
       description: `Analitik olarak türevi alınamayan veri setlerinin (Örneğin anlık toplanan GPS hız verileri) anlık değişim oranlarını hesaplayan sayısal türev (Farklar) algoritmaları işlenir. Taylor serileri yardımıyla ileri, geri ve merkezi fark yaklaşımları MATLAB'da kodlanarak, zaman aralığının (dt) küçülmesiyle doğruluğun artması paradoksu incelenir. Yuvarlama hatalarının (Round-off errors) türev işleminde nasıl patladığını (Noise amplification) görerek, gerçek dünyadaki gürültülü (noisy) sensör verilerinden türev alırken ne kadar dikkatli olunması gerektiği aşılanır. Otonom araçların veya oyun fizik motorlarının (Physics Engine) anlık ivme hesaplamalarının dijital temelidir. Değişimin hızını ayrık verilerden söküp alma sanatıdır.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.mathworks.com/help/matlab/ref/diff.html' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.mathworks.com/help/symbolic/sym.diff.html' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=matlab+say%C4%B1sal+t%C3%BCrev+hesaplama+diff' },
       ],
     },
@@ -3479,7 +3479,7 @@ http://googleusercontent.com/image_content/1034`,
     12: {
       description: `Matrislerin karakteristik özelliklerini belirleyen özdeğer (Eigenvalue) ve özvektör (Eigenvector) hesaplamaları MATLAB'ın \`eig\` fonksiyonuyla analiz edilir. Google'ın dünyayı değiştiren PageRank arama algoritmasının veya Yüz Tanıma (Face Recognition) teknolojilerindeki PCA (Boyut İndirgeme) sistemlerinin tam olarak bu özdeğer hesaplaması üzerine kurulu olduğu gösterilir. Sistemlerin rezonans (titreşim) frekanslarını ve mekanik/yazılımsal kararlılıklarını (Stability) tespit eden ileri düzey fizik ve ağ (Network) analizlerinde kullanılır. Devasa veri yığınlarının içindeki en belirleyici ve karakteristik ana eksenleri (Principal Components) matematiksel olarak çekip alma sanatıdır. Bilginin özünü keşfetmenin sayısal yoludur.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.mathworks.com/help/matlab/math/eigenvalues-and-eigenvectors.html' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://web.itu.edu.tr/~orssi/dersler/DSA/odev1_ek.pdf' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=matlab+%C3%B6zde%C4%9Fer+%C3%B6zvekt%C3%B6r+eig+kullan%C4%B1m%C4%B1' },
       ],
     },
@@ -3509,35 +3509,35 @@ http://googleusercontent.com/image_content/1034`,
     2: {
       description: `Veri madenciliğinin bankacılıkta sahtekarlık tespiti (Fraud Detection), e-ticarette ürün öneri sistemleri (Recommendation Systems) ve sağlıkta genetik analiz gibi endüstriyel uygulama alanları incelenir. Kredi kartı şirketlerinin saniyeler içinde milyonlarca işlemi tarayarak bir işlemin çalıntı olup olmadığına nasıl karar verdiği algoritmik bir bakışla (Anomaly Detection) tartışılır. Şirketlerin pazarlama bütçelerini optimize etmek için Hedef Kitle Analizi ve Sepet Analizi yöntemlerini nasıl kullandığı gerçek vaka çalışmalarıyla (Case Studies) gösterilir. Veri yığınlarının sadece bir depolama yükü değil, şirketleri milyarlarca dolar zarardan kurtaran stratejik bir silaha nasıl dönüştüğü öğretilir. Algoritmaların sektörel değer yaratma kapasitesi gözler önüne serilir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/data-mining-applications/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/download/article-file/787239' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+madencili%C4%9Fi+uygulama+alanlar%C4%B1+fraud+detection' },
       ],
     },
     3: {
       description: `Bir madencilik projesinin toplam eforunun %80'ini oluşturan, kirli verinin toplanması ve makinenin anlayacağı formata temizlenmesi (Data Preprocessing) süreçleri işlenir. Eksik verilerin (Missing Values) ortalamalarla doldurulması, aykırı değerlerin (Outliers) filtrelerden geçirilmesi ve verilerin 0-1 aralığına normalize edilmesi gibi zorunlu mühendislik adımları pratik edilir. Farklı tablolardan, log dosyalarından veya NoSQL dokümanlarından gelen heterojen (karışık) veri türlerinin (Categorical/Numerical) bir araya getirilme (Data Integration) teknikleri öğretilir. "Çöp giren çöp çıkar" (GIGO) kuralı gereği, dünyanın en iyi makine öğrenmesi modelinin bile kirli veriyle çökeceği bilinci aşılanır. Başarılı analizin arka planındaki sabırlı veri işçiliğidir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/data_mining/dm_data_preprocessing.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@ilkbaharnaz/data-preprocessing-veri-%C3%B6n-i%CC%87%C5%9Fleme-85236484f913' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+madencili%C4%9Fi+veri+%C3%B6n+i%C5%9Fleme+data+preprocessing' },
       ],
     },
     4: {
       description: `Temizlenen verinin boyutunun algoritmaları yormaması için Boyut İndirgeme (Dimensionality Reduction) ve Özellik Seçimi (Feature Selection) yöntemleri öğrenilir. Bir hastanın 500 farklı kan tahlili verisinden sadece kanser ile en çok ilgili olan 5 özelliği (Feature) bulup çıkaran İstatistiksel (Örn: Korelasyon, PCA) araçlar incelenir. Ayrıklaştırma (Discretization) teknikleri kullanılarak, örneğin sürekli yaş verilerinin "Genç", "Orta Yaş", "Yaşlı" gibi kategorik etiketlere dönüştürülmesi ve ağaç algoritmalarına hazırlanması sağlanır. Sistem performansını (CPU/RAM) korurken aynı zamanda modelin doğruluk payını (Accuracy) artırma (Trade-off) mühendisliği tartışılır. Veriyi damıtarak en saf ve en anlamlı haline getirme evresidir.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://machinelearningmastery.com/dimensionality-reduction/' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://medium.com/data-science-tr/makine-%C3%B6%C4%9Frenmesi-dersleri-boyut-azaltma-pca-5ae9e902ef92' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=boyut+indirgeme+pca+ve+%C3%B6zellik+se%C3%A7imi' },
       ],
     },
     5: {
       description: `Günlük operasyonel veritabanlarının (OLTP) aksine, karar analizi için tasarlanmış devasa Veri Ambarı (Data Warehouse) mimarileri ve ETL (Extract, Transform, Load) süreçleri tanıtılır. Verinin üç boyutlu küpler (Data Cubes) halinde düzenlendiği Çevrimiçi Analitik İşleme (OLAP) konseptiyle, yöneticilerin milyonlarca satır veriyi saniyeler içinde (Slice and Dice) nasıl filtrelediği görülür. Çok sayıda farklı şubenin veya API'nin verisinin merkezi bir bulut veri ambarına akarken karşılaşılan veri tutarsızlıkları ve senkronizasyon (Integration) problemleri çözümlenir. Klasik SQL bilgilerinizin, kurumsal çapta veri mimarileri (Data Engineering) inşa etme seviyesine yükseltildiği haftadır. Geçmişin tüm bilgisini geleceği yönetmek için tek bir merkeze toplama stratejisidir.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/data_mining/dm_dwh_olap.htm' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://mkotan.sakarya.edu.tr/sites/mkotan.sakarya.edu.tr/file/EKO469_VM_H05_VeriAmbarlariveOLAP.pdf' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+ambar%C4%B1+data+warehouse+ve+olap+nedir' },
       ],
     },
     6: {
       description: `Madenciliğin iki ana kolu olan, geçmiş verilere bakarak hedefi tahmin etme (Sınıflandırma - Classification) ve etiketsiz verilerden gizli gruplar bulma (Kümeleme - Clustering) teknikleri karşılaştırılır. Spam mailleri ayıklayan algoritmalar (Sınıflandırma) ile müşterileri satın alma alışkanlıklarına göre A, B, C segmentlerine bölen K-Means (Kümeleme) algoritmalarının çalışma felsefeleri pratik edilir. Öğrenme sürecinin gözetimli mi (hedefi bilerek) yoksa gözetimsiz mi (veriye bırakarak) tasarlandığı durumlarda algoritmaların performansı (Big-O) nasıl etkilediği analiz edilir. Python (Scikit-Learn) veya Weka kullanılarak gerçek veri setleri üzerinde bu iki büyük yapay zeka paradigmasının ilk kodlamaları yapılır. Verinin içindeki örüntüleri (Pattern) çıkarma savaşının başladığı noktadır.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/difference-between-classification-and-clustering-in-data-mining/' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.ahmetcevahircinar.com.tr/2017/05/21/siniflandirma-ve-kumeleme-nedir-ve-farki-nedir/' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+madencili%C4%9Fi+s%C4%B1n%C4%B1fland%C4%B1rma+ve+k%C3%BCmeleme+fark%C4%B1' },
       ],
     },
@@ -3551,7 +3551,7 @@ http://googleusercontent.com/image_content/1034`,
     8: {
       description: `Verinin sadece kodla değil istatistikle konuşturulduğu, olasılık dağılımları, güven aralıkları ve hipotez testleri gibi matematiksel doğrulama yöntemleri işlenir. Madencilik algoritmasının bulduğu sonucun rastgele bir tesadüf mü yoksa istatistiksel olarak anlamlı (Statistically Significant) bir gerçek mi olduğu p-değeri (p-value) ile kanıtlanır. Karışıklık Matrisi (Confusion Matrix), ROC eğrisi, Kesinlik (Precision) ve Duyarlılık (Recall) gibi endüstri standardı performans metrikleri üzerinden modellerin sağlık testleri (Diagnostics) yapılır. Algoritmanın performansını müşteriye sadece "Çalışıyor" diyerek değil, akademik istatistik formülleriyle savunma vizyonu katar. Kod ile ulaşılan sonucun, bilimsel mahkemede ispatlanmasıdır.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://machinelearningmastery.com/statistical-methods-for-machine-learning/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@sevgicann.kilic/makine-%C3%B6%C4%9Frenmesi-teknikleri-477b025348a7' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+madencili%C4%9Fi+performans+metrikleri+confusion+matrix' },
       ],
     },
@@ -3586,7 +3586,7 @@ http://googleusercontent.com/image_content/1034`,
     13: {
       description: `Farklı veri madenciliği projelerinin başarılarının karşılaştırıldığı ve endüstriyel standartların belirlendiği geniş çaplı değerlendirme (Evaluation) süreçleri ele alınır. Aşırı öğrenme (Overfitting) engellemek için kullanılan Çapraz Doğrulama (Cross-Validation) ve model maliyet hesaplamaları (Cost-Sensitive Learning) şirketlerin kâr/zarar tablolarına doğrudan etki eden faktörler olarak tartışılır. Bir bankanın kredisini onaylayan algoritmanın ayrımcılık (Bias) yapmamasını sağlamak, etik (AI Ethics) ve mahremiyet (Privacy) açısından hukuki çerçevelerle bir mühendis sorumluluğu olarak aşılanır. Sadece performanslı değil, güvenilir, hesap verebilir ve etik değerlere sahip algoritmalar geliştirmenin önemidir. Veri bilimcinin ürettiği modelin sorumluluğunu alması gerektiği aşamadır.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://machinelearningmastery.com/metrics-evaluate-machine-learning-algorithms-python/' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://scikit--learn-org.translate.goog/stable/modules/model_evaluation.html?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+madencili%C4%9Fi+model+de%C4%9Ferlendirme+ve+%C3%A7apraz+do%C4%9Frulama' },
       ],
     },
@@ -3709,35 +3709,35 @@ http://googleusercontent.com/image_content/1034`,
     2: {
       description: `Bilgisayarınızda (Host) yazdığınız C/C++ kodunun, farklı bir işlemci mimarisine (ARM veya AVR) sahip mikrokontrolcüye (Target) Çapraz Derleyici (Cross-Compiler) ile nasıl dönüştürüldüğü öğrenilir. Yazılan binary (Hex) dosyasının bootloader veya harici programlayıcılar aracılığıyla donanım hafızasına (Flash Memory) yazılması işlemi uygulamalı olarak (Örn: Arduino/STM32) gösterilir. Sistemde ekran (Monitor) olmadığı için hataları konsola yazdırmak (printf) yerine, donanım içi hata ayıklama (In-Circuit Debugging) araçlarıyla değişkenlerin bellek adreslerinde anlık nasıl takip edildiği pratik edilir. Kurumsal C# veya Python uygulamalarının konfor alanından çıkılarak donanımla en ham seviyede yüzleşilir. Kodun bilgisayarı terk edip çıplak metalde (Bare-metal) hayat bulduğu ilk andır.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/embedded-c-programming/' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://gomulu-sistemler.readthedocs.io/tr/latest/giris.html' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%B6m%C3%BCl%C3%BC+sistemler+ilk+program+cross+compiler+stm32' },
       ],
     },
     3: {
       description: `Kısıtlı donanım kaynaklarına sahip bu sistemlerde Flash (Kod hafızası), SRAM (Değişkenler) ve EEPROM (Kalıcı veriler) birimlerinin yazılım (Pointer'lar) ile nasıl efektif yönetileceği incelenir. İşlemcinin dış dünyayla bağ kurduğu çevre birimleri olan Zamanlayıcılar (Timers), ADC (Analog-Dijital Çevirici) ve PWM (Darbe Genişlik Modülasyonu) modüllerinin donanımsal Register yapıları koda dökülür. Sıcaklık veya ışık sensöründen gelen analog voltajın, ADC üzerinden geçirilip sayısal bir \`integer\` değişkene çevrilme algoritmaları tasarlanır. Kod yazarken gereksiz bir \`double\` değişken tanımlamanın bile mikrokontrolcünün hafızasını nasıl tüketebileceği (Memory Management) mühendislik disipliniyle aşılanır. Kısıtlılıklar içinde maksimum verim ve performans yaratma sanatıdır.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/embedded_systems/embedded_systems_memory_architecture.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://batuhandaz.medium.com/mimari-tipler-g%C3%B6m%C3%BCl%C3%BC-sistemler-3-cfad5a3f3ac4' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%B6m%C3%BCl%C3%BC+sistemler+adc+pwm+ve+timer+kullan%C4%B1m%C4%B1' },
       ],
     },
     4: {
       description: `İşlemcinin sürekli sensörleri kontrol etmesi (Polling) yerine, bir olay olduğunda (Örn: Düğmeye basılması veya sensör verisi gelmesi) donanımın yazılımı otomatik uyardığı Kesme (Interrupt) mimarisi öğrenilir. İşlemcinin mevcut ana kod döngüsünü dondurup anında acil durum fonksiyonuna (ISR - Interrupt Service Routine) atlaması ve geri dönmesi donanım seviyesinde kodlanır. Gerçek zamanlı sistemlerde (Real-time) mikrosaniyelik tepkilerin (Örn: Arabalardaki ABS veya Hava Yastığı) yazılım gecikmesine (Delay) takılmadan nasıl garanti altına alındığı ispatlanır. Hata potansiyeli çok yüksek olan kesme çakışmalarının ve önceliklerinin (Priority) tasarımı yapılarak sistem kararlılığı (Stability) sağlanır. Olay güdümlü (Event-driven) donanım programlamanın ustalık sınıfıdır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/interrupts-in-embedded-systems/' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://ugrdmr.wordpress.com/2015/06/20/deneme/' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%B6m%C3%BCl%C3%BC+sistemlerde+kesmeler+interrupts+isr' },
       ],
     },
     5: {
       description: `İşlemcinin diğer entegrelerle (Sensör, Ekran, Bellek) veya bilgisayarlarla iletişim kurmasını sağlayan UART, I2C, SPI ve kablosuz haberleşme (Wi-Fi/IR) protokolleri bit seviyesinde kurgulanır. Sadece iki kablo (SDA/SCL) üzerinden 100'den fazla sensörü paralel olarak bağlayıp yönetebilen I2C veriyolunun adresleme ve paketleme mantığı incelenir. İleride IoT projelerinde gömülü cihazların (Örn: ESP32) bulut sunuculara (Backend) veri gönderebilmesi için gereken Wi-Fi/UART entegrasyonu yazılımsal olarak sağlanır. Donanım senkronizasyonu ve saat frekanslarının (Clock) iki farklı çip arasında haberleşmeyi nasıl hatasız sürdürdüğü pratik edilir. Parçaların birbiriyle konuştuğu dijital sinir ağlarının kurulumudur.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/embedded_systems/embedded_systems_communication.htm' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www-opal--rt-com.translate.goog/blog/6-types-of-communication-protocols-in-embedded-systems/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=i2c+spi+uart+haberle%C5%9Fme+protokolleri+farklar%C4%B1' },
       ],
     },
     6: {
       description: `Sadece tek bir "while(1)" döngüsü koşturan çıplak donanım (Bare-metal) programlamadan çıkılarak, Gömülü Linux (Embedded Linux) ve Gerçek Zamanlı İşletim Sistemleri (RTOS) dünyasına geçiş yapılır. Raspberry Pi gibi güçlü mikroişlemcilerin üzerinde çalışan hafifletilmiş Linux dağıtımları kurularak, donanım sürücülerinin (Drivers) işletim sistemiyle nasıl konuştuğu analiz edilir. Ağ işlemleri, dosya sistemi ve grafik arayüz gerektiren kompleks gömülü projelerde, işletim sisteminin çoklu görev (Multithreading/Multitasking) ve kaynak yönetimini nasıl üstlendiği görülür. Yüksek seviyeli yazılım (Örn: Python/Node.js) ile alt seviye GPIO pinleri arasına OS soyutlama (Abstraction) katmanı yerleştirilir. Donanıma akıllı bir yönetici atama sürecidir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/embedded_systems/embedded_systems_real_time_operating_system.htm' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www-ibm-com.translate.goog/think/topics/real-time-operating-system?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=embedded+linux+g%C3%B6m%C3%BCl%C3%BC+linux+ve+rtos+nedir' },
       ],
     },
@@ -3758,21 +3758,21 @@ http://googleusercontent.com/image_content/1034`,
     9: {
       description: `Sıcaklık, nem, ivme (Gyroscope), gaz ve mesafe (Ultrasonic) gibi çevresel sensörlerden gelen raw (ham) verilerin kalibrasyonu ve gürültü filtreleme algoritmaları koda dökülür. Bir otonom cihaz veya drone geliştirirken, ivmeölçerlerden gelen titrek verilerin yazılımsal filtrelerle (Örn: Kalman veya Hareketli Ortalama Filtreleri) nasıl pürüzsüz (Smooth) bir fiziksel rotaya dönüştürüldüğü incelenir. Aynı zamanda, PID kontrolcüler (Oransal-İntegral-Türev) yazılarak ısıtıcıların veya robot motorlarının dış dünyadaki bozucu etkilere (rüzgar, yük) karşı istenen hedefe sarsıntısız ulaşması sağlanır. Yazılımınızın fiziksel dünyanın kaosuyla yüzleştiği ve ona hükmettiği ileri düzey matematiksel kontrol mekanizmalarıdır. Gerçek dünyaya algı ve refleks kazandırma aşamasıdır.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/sensors-in-embedded-system/' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://circuitcellar-com.translate.goog/research-design-hub/basics-of-design/sensor-solutions-for-embedded-systems/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%B6m%C3%BCl%C3%BC+sistemler+sens%C3%B6r+okuma+ve+kalman+filtresi' },
       ],
     },
     10: {
       description: `Temel işlemcinin gücünün yetmediği durumlarda sistemi harici donanım modülleriyle (ADC/DAC çipleri, Harici EEPROM, Motor Sürücüler, RTC - Gerçek Zaman Saati) genişletme yöntemleri öğrenilir. Bir işlemciye dışarıdan SPI protokülü ile bağlanan ek bir hafıza veya ağ kartı (Ethernet Shield) sayesinde sistem kapasitesinin donanımsal olarak nasıl modüler büyütüldüğü tecrübe edilir. Güç elektroniği bileşenleri (Röleler, Mosfetler) kullanılarak, 3.3V ile çalışan zayıf mikrokontrolcünün 220V şebeke gücüyle çalışan endüstriyel cihazları güvenle kontrol etmesi sağlanır. Donanım limitlerinin yazılımla değil, akıllı donanım eklentileriyle aşılma vizyonu katar. Anakart tasarımının ve genişletilebilirliğin (Scalability) donanımsal karşılığıdır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/embedded_systems/embedded_systems_peripherals.htm' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://revantechnology.com/blog/haberlesme-protokolleri/' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=harici+eeprom+ve+rtc+kullan%C4%B1m%C4%B1+i2c' },
       ],
     },
     11: {
       description: `İşlenen sensör verilerinin ve sistem durumlarının son kullanıcıya gösterilmesi için Karakter LCD (16x2), OLED ve TFT Dokunmatik ekranların donanım kütüphaneleri (Libraries) yazılır. Ekrana basit bir metin basmanın bile arka planda ekran çipine (Controller) gönderilen onlarca başlatma (Initialization) ve adresleme hex komutu gerektirdiği görülerek grafik arayüzlerin (GUI) alt katmanı öğrenilir. Bellek kısıtı olan sistemlerde ikonların ve fontların (Bitmaps) dizi (Array) olarak oluşturulup ekrana piksel piksel çizdirilme matematiği kavranır. Endüstriyel panellerde veya akıllı cihazlarda kullanıcının donanımla ilk etkileşime girdiği görsel arayüz iletişim kodlarıdır. Çıplak makineye bir yüz ve ifade kazandırma sanatıdır.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/lcd-16x2-interfacing-with-microcontrollers/' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.allaboutcircuits.com/technical-articles/how-to-a-162-lcd-module-with-an-mcu/' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=lcd+ve+oled+ekran+kullan%C4%B1m%C4%B1+mikrodenetleyici' },
       ],
     },
@@ -3809,21 +3809,21 @@ http://googleusercontent.com/image_content/1034`,
     2: {
       description: `Görüntü matrisindeki piksellerin komşularına bakılmaksızın (Noktasal İşlemler) sadece kendi değerlerinin matematiksel fonksiyonlarla değiştirildiği Kontrast, Parlaklık ve Gamma düzeltme işlemleri kurgulanır. Karanlık çıkmış bir uydunun veya tıbbi röntgenin Histogram Eşitleme (Histogram Equalization) algoritmasıyla otomatik olarak nasıl detaylarının ortaya çıkarıldığı kodlanır (Örn: MATLAB veya OpenCV). Eşikleme (Thresholding) yapılarak piksellerin 0 (Siyah) ve 1 (Beyaz) olarak ikiye ayrılmasıyla objelerin arka plandan koparılıp izole edilmesi (Segmentation) öğretilir. Yapay zeka modellerine veriyi vermeden önce sistemin (Modelin) detayları daha iyi görmesini sağlayan veri ön işleme (Preprocessing) adımlarıdır. Matris değerleriyle oynayarak gizli detayları aydınlatma sanatıdır.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/dip/image_transformation.htm' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www-sciencedirect-com.translate.goog/topics/computer-science/image-transformation?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%B6r%C3%BCnt%C3%BC+i%C5%9Fleme+histogram+e%C5%9Fitleme+ve+e%C5%9Fikleme' },
       ],
     },
     3: {
       description: `Piksellerin sadece kendisiyle değil, etrafındaki komşu piksellerle (Kernel/Mask) çarpılarak konvolüsyon (Convolution) işleminden geçirildiği Uzamsal Filtreleme (Spatial Filtering) yöntemleri işlenir. Mean (Ortalama) veya Gauss filtreleriyle görüntüdeki karlanmanın (Noise) nasıl bulanıklaştırılarak yok edildiği (Smoothing) algoritmik olarak test edilir. Sobel ve Laplacian gibi türevsel filtreler kullanılarak, pikseller arasındaki ani renk değişimlerinden kenar ve hatların (Edge Detection) nasıl çizildiği ve otonom şerit takibinin temelleri öğrenilir. Derin Öğrenmede (CNN - Convolutional Neural Networks) ağın ilk katmanlarının görüntünün kenarlarını ve özelliklerini (Feature Extraction) bu filtrelerle çıkardığı mühendislik vizyonuyla aşılanır. Pikseller arası matematiksel ilişkilerden anlam çıkarma evresidir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/dip/concept_of_filtering.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://pulsar.com.tr/robotik/goruntu-isleme-filtreleri-nedir-ve-cesitleri-nelerdir/' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%B6r%C3%BCnt%C3%BC+i%C5%9Fleme+konvol%C3%BCsyon+kenar+bulma+filtreleri' },
       ],
     },
     4: {
       description: `Görüntünün kameradan, lensten veya hareketten dolayı bozulduğu durumlarda, bozucu etkinin (Degradation Model) matematiksel tersini bularak orijinal görüntüyü geri getirme (Image Restoration) felsefesi öğrenilir. Sensörlerin ısınmasından veya veri iletiminden kaynaklanan Tuz-Biber (Salt and Pepper) gürültüsü veya Gauss gürültüleri gibi fiziksel bozucu etkilerin istatistiksel modelleri çıkarılır. Median (Ortanca) filtreleme gibi doğrusal olmayan (Non-linear) yaklaşımlarla, görüntünün kenar keskinliğini (Sharpness) bozmadan gürültü piksellerinin nasıl başarıyla yok edildiği pratik edilir. Fotoğraf geliştirmenin (Enhancement) aksine, fiziksel bozulma fonksiyonunu tersine mühendislikle (Reverse Engineering) çözerek gerçekliği kurtarma operasyonudur. Kusurlu lenslerin hatalarını kodla onarma tekniğidir.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/dip/image_restoration.htm' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www-sciencedirect-com.translate.goog/topics/computer-science/image-restoration?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=image+restoration+noise+models+median+filter' },
       ],
     },
@@ -3837,14 +3837,14 @@ http://googleusercontent.com/image_content/1034`,
     6: {
       description: `Görüntüyü uzaysal düzlemden (x,y) alarak karmaşık sayılardan oluşan frekans düzlemine geçiren 2 Boyutlu Fourier Dönüşümü (2D FFT) efsanesi öğrenilir. Bir görüntünün düz ve pürüzsüz kısımlarının düşük frekans (Low-frequency), kenar ve ani renk değişimlerinin ise yüksek frekans (High-frequency) olarak yeni bir boyutta (Spectrum) nasıl temsil edildiği görselleştirilir. Bilgisayar mühendisliğinin en soyut ancak en güçlü aracı olan Fourier uzayında piksellerle değil, frekans dalgalarıyla oynamanın (Filtrelemenin) algoritmik avantajları analiz edilir. Klasik pikselleri matrislerle tek tek çarpmaktan kurtulup, sistemi frekans matematiğiyle manipüle ederek işlemciyi rahatlatma felsefesidir. Doğanın görsel dalgalarını matematiksel titreşimlere bölme aşamasıdır.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/dip/fourier_transform.htm' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Fourier_d%C3%B6n%C3%BC%C5%9F%C3%BCm%C3%BC' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=2d+fourier+transform+image+processing' },
       ],
     },
     7: {
       description: `Fourier uzayında Düşük Geçiren (Low-pass) filtrelerle pürüzsüzleştirme ve Yüksek Geçiren (High-pass) filtrelerle keskinleştirme işlemleri pratik olarak uygulanır. Bir fotoğraftaki periyodik gürültülerin (örneğin eski televizyonlardaki yatay tarama çizgileri) Fourier spektrumunda nasıl izole yıldızlar gibi parladığı ve Notch (Çentik) filtreleriyle o çizgilerin sihir gibi nasıl silindiği kodlanır. Uzaysal uzaydaki çok ağır (O(N^2)) konvolüsyon işlemlerinin, frekans uzayında sadece basit bir çarpma işlemine (O(N)) dönüşerek sistemi nasıl devasa hızlandırdığı (Convolution Theorem) ispatlanır. Ağır işlem gücü isteyen yapay zeka vizyon projelerinde (Computer Vision) yazılım optimizasyonu yapabilmenin gizli silahıdır. Spektrum üzerinde cerrahi müdahale ile fotoğrafı iyileştirmektir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/dip/high_pass_vs_low_pass_filters.htm' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Y%C3%BCksek_ge%C3%A7iren_filtre' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=frequency+domain+filtering+low+pass+high+pass+image+processing' },
       ],
     },
@@ -3865,7 +3865,7 @@ http://googleusercontent.com/image_content/1034`,
     10: {
       description: `Matrislerin (Görüntünün) döndürülmesi (Rotation), ölçeklenmesi (Scaling), kaydırılması (Translation) ve eğilmesi (Shearing) gibi Affine Dönüşüm algoritmaları işlenir. Farklı açılardan çekilmiş bir faturanın veya yüzün, yapay zekaya (OCR veya Face Recognition) gönderilmeden önce algoritmalar tarafından (Perspective Transform) nasıl düzleştirilip standart bir forma sokulduğu kurgulanır. Tam sayı olmayan piksellerin hesaplanması sırasında oluşan boşlukları doldurmak için Bilineer ve Bikübik (Bicubic) interpolasyon teknikleri kullanılarak kalitenin nasıl korunduğu öğretilir. Google Earth veya oyun motorlarındaki (Unity) kamera açısı değişimlerinin arkasındaki pürüzsüz vektörel piksellendirme matematiğidir. Görüntüyü bozmadan sanal uzayda eğip bükme sanatıdır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/dip/concept_of_geometric_transformation.htm' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/D%C3%B6n%C3%BC%C5%9F%C3%BCm_geometrisi' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=geometrik+transformasyonlar+affine+perspective+image+processing' },
       ],
     },
@@ -3879,7 +3879,7 @@ http://googleusercontent.com/image_content/1034`,
     12: {
       description: `İnsan gözünün algıladığı RGB (Kırmızı, Yeşil, Mavi) modelinden çıkılarak; parlaklık ve rengi ayıran HSI, YCbCr, CMYK ve LAB gibi farklı renk uzaylarının (Color Spaces) neden ve nasıl kullanıldığı incelenir. Derin öğrenme algoritmalarında objeyi takip ederken (Object Tracking) ışık değişimlerinden etkilenmemek için RGB yerine sadece rengin özünü taşıyan Hue (Ton) kanalının kullanılmasının algoritmik avantajları kodlanır. Renkli görüntülerde yoğunluk (Intensity) ve doygunluk (Saturation) üzerinde oynayarak profesyonel fotoğraf düzenlemelerinin arka plan matematiği gösterilir. Video sıkıştırma algoritmalarının (MPEG/JPEG) insan gözünün renge duyarsızlığından yararlanıp (Chroma Subsampling) boyut tasarrufu yapma felsefesi aşılanır. Dijital dünyanın boya paletini matematiksel olarak ayrıştırma evresidir.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/dip/color_image_processing.htm' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@ebrukirikkayis/renkli-g%C3%B6r%C3%BCnt%C3%BC-i%CC%87%C5%9Fleme-a9f99bc3f7b8' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=color+image+processing+rgb+hsv+cmyk' },
       ],
     },
@@ -3893,7 +3893,7 @@ http://googleusercontent.com/image_content/1034`,
     14: {
       description: `Dönemin finalinde, görüntü verisindeki tekrarları (Redundancy) matematiksel olarak azaltıp kaliteden ödün vermeden boyut tasarrufu sağlayan Görüntü Sıkıştırma (Image Compression) algoritmaları işlenir. Huffman kodlaması, RLE ve LZW gibi kayıpsız algoritmaların yanı sıra; Ayrık Kosinüs Dönüşümü (DCT) ile yüksek frekansları silerek çalışan Kayıplı (JPEG) sıkıştırma mantığı uçtan uca özetlenir. Web sitelerinin hızını artıran Front-End optimizasyonlarının ve Backend sunucu maliyetlerini düşüren o muazzam veri paketleme felsefesinin tam donanımsal karşılığı kavranır. Görüntülerin oluşturulmasından, filtrelenmesine, frekanslarına ayrılıp nihayetinde ağda hızlıca iletilecek kadar küçültülmesine kadar tam bir mühendislik yaşam döngüsüyle ders tamamlanır. Bilginin kalitesini koruyarak entropiye meydan okumanın dijital sanatı noktalanır.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/dip/image_compression.htm' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www-sciencedirect-com.translate.goog/topics/computer-science/image-compression?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=image+compression+techniques+dct+huffman+jpeg' },
       ],
     },
@@ -4002,56 +4002,56 @@ http://googleusercontent.com/image_content/1034`,
     1: {
       description: `Mühendislikte "Proje" kavramının operasyonel (sürekli) işlerden farkı; belirli bir başlangıcı, bitişi ve bütçesi olan eşsiz bir değer üretme süreci olarak tanımlanır. Yazılım dünyasındaki yüksek başarısızlık oranlarının temel sebebinin kodlama değil, kapsam ve zaman yönetiminin yapılamaması olduğu vaka analizleriyle incelenir. Geleneksel (Predictive/Waterfall) proje yönetimi ile modern bilişim sektörünü domine eden Çevik (Agile/Scrum) yaklaşımlarının temel farkları, takım dinamikleri ve proje yöneticisinin (Project Manager / Scrum Master) görevleri tanıtılır. Bir bilgisayar mühendisi olarak sadece kendinize verilen kodu (task) yazmak yerine, o taskın büyük vizyona ve şirket hedeflerine nasıl hizmet ettiğini görebilen kuşbakışı (Bird's-eye view) perspektif aşılanır. Kodu değil, insanı, parayı ve zamanı yönetme sanatına ilk adımdır.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.pmi.org/about/learn-about-pmi/what-is-project-management' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.pmi.org/about/what-is-project-management' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=proje+y%C3%B6netimi+nedir+giri%C5%9F' },
       ],
     },
     2: {
       description: `Projedeki kapsam, zaman, maliyet ve kalite gibi parçalı alanların tek bir çatı altında senkronize edilerek birleştirilmesi (Integration) evresi öğrenilir. Proje Başlatma Belgesi (Project Charter) hazırlanarak yazılım projesinin resmi olarak nasıl var edildiği ve proje yöneticisine (PM) nasıl kurumsal yetki atandığı gösterilir. Proje yönetimi planının oluşturulması, müşteri değişiklik taleplerinin (Change Requests) kontrolsüz bir şekilde kod tabanını (Codebase) bozmadan önce "Bütünleşik Değişiklik Kontrolü" sürecinden nasıl geçtiği incelenir. Modüler yazılmış kodların entegrasyonu (CI/CD) gibi, projedeki finansal ve iş gücü parçalarının da çökmeden bir araya getirilme mekanizmasıdır. Büyük resmi bozmadan projeye yön verme disiplinidir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/pmp-exams/pmp_project_integration_management.htm' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://business-adobe-com.translate.goog/blog/basics/integration-management?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=project+integration+management+pmp' },
       ],
     },
     3: {
       description: `Yazılımın neleri yapacağını (In-scope) ve daha da önemlisi "neleri yapmayacağını" (Out-of-scope) net olarak belirleyen kapsam sınırlarının çizilmesi (Scope Management) işlenir. Müşteri gereksinimlerinin (Requirements) toplanması ve büyük yazılım hedefinin parçalanarak yönetilebilir İş Kırılım Ağacı (Work Breakdown Structure - WBS) paketlerine bölünmesi öğretilir. Yazılımcıların en büyük kabusu olan ve projeyi bitirmeyen "Kapsam Sünmesi" (Scope Creep - sürekli ek özellik istenmesi) hastalığının kontrat ve analiz belgeleriyle nasıl önleneceği tartışılır. Özelliklerin (Features) gereksiz yere eklenmesini (Gold-plating) engelleyerek takımın sadece taahhüt edilen çekirdek işe (MVP) odaklanması hedeflenir. Müşteri istekleri ile mühendislik gerçekleri arasına çekilen kırmızı çizgidir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/pmp-exams/pmp_project_scope_management.htm' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Kapsam_(proje_y%C3%B6netimi)' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=project+scope+management+wbs+kapsam+s%C3%BCnmesi' },
       ],
     },
     4: {
       description: `Yazılım modüllerinin tamamlanma sürelerinin tahminlenmesi, aktivite dizilişlerinin (Bağımlılıklar - Finish-to-Start vb.) belirlenmesi ve proje takviminin (Schedule) oluşturulması incelenir. Kritik Yol Yöntemi (Critical Path Method - CPM) kullanılarak, projede geciktiğinde tüm projenin teslim tarihini kaydıracak (Zero Float) en hayati görev zinciri matematiksel olarak bulunur. Geciken bir yazılımı yetiştirmek için koda yeni geliştiriciler eklemenin (Crashing) veya testleri geliştirme ile paralel yapmanın (Fast-tracking) projedeki riski ve maliyeti nasıl artırdığı mühendislik kanunlarıyla (Brooks Kanunu) tartışılır. Agile Sprint planlamalarıyla (Velocity) takımın hızını doğru ölçerek müşteriye gerçekçi tarihler verme (Deadline) yetkinliği kazandırılır. Zamanın, paradan ve kaynaktan daha değerli olduğu gerçeğinin yönetimidir.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/pmp-exams/pmp_project_time_management.htm' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://aims-education.translate.goog/study-online/what-is-project-time-management/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=proje+zaman+y%C3%B6netimi+critical+path+method+gantt' },
       ],
     },
     5: {
       description: `Projede harcanacak adam/saat (Efor) maliyetlerinin, donanım (Sunucu/Bulut) giderlerinin ve risk yedeklerinin hesaplanarak (Cost Estimation) proje bütçesinin oluşturulması öğrenilir. Kazanılmış Değer Yönetimi (Earned Value Management - EVM) metrikleri sayesinde, "Projenin %50'si bitti ama bütçenin %70'ini harcadık, nerede hata var?" analizinin matematiksel (SPI, CPI formülleri) olarak yapılması öğretilir. Bulut bilişimde (AWS/Azure) kod yazarken bir arka uç (Backend) geliştiricinin yazdığı verimsiz bir döngünün sunucu maliyetini nasıl astronomik olarak artıracağı vizyonuyla, yazılımın finansal boyutu birleştirilir. Kaynakların (para) sadece kodun çalışması için değil, projenin şirkete kâr getirmesi (ROI) için yönetilmesi gerektiği aşılanır. Mühendisliğin finansal zekayla harmanlandığı karar alma aşamasıdır.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/pmp-exams/pmp_project_cost_management.htm' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://business-adobe-com.translate.goog/blog/basics/cost-management?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=proje+maliyet+y%C3%B6netimi+earned+value+management' },
       ],
     },
     6: {
       description: `Geliştirilen yazılımın, baştan belirlenen fonksiyonel ve güvenlik standartlarını (Örn: ISO/IEC 25010) karşılamasını güvence altına alan Kalite Yönetim (QA) süreçleri işlenir. Kalitenin test (Testing) aşamasında ürüne sonradan katılamayacağı, daha tasarım ve kodlama aşamasında (Code Reviews, CI/CD) sürekli kontrolle "önlenmesi" (Prevention over Inspection) gerektiği felsefesi oturtulur. Pareto Şeması (80/20 kuralı) veya Ishikawa (Kılçık) diyagramları kullanılarak, sistemde ortaya çıkan yazılım hatalarının (Bugs) kök nedenlerinin (Root Cause Analysis) sistematik bir şekilde nasıl bulunup yok edileceği incelenir. Müşteriye hatalı bir yazılım teslim edildikten sonra çıkacak imaj kaybı ve onarım maliyetlerinin, test sürecindeki efordan yüzlerce kat daha pahalı (Cost of Poor Quality) olduğu ispatlanır. Kaliteyi bir lüks değil, mühendislik standardı yapma sürecidir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/pmp-exams/pmp_project_quality_management.htm' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://business-adobe-com.translate.goog/blog/basics/quality-management?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=proje+kalite+y%C3%B6netimi+qa+ve+qc+fark%C4%B1' },
       ],
     },
     7: {
       description: `Projede çalışacak donanım, ağ ve yazılım ekiplerinin rolleri, yetkinlik matrisleri ve takım dinamiklerinin (Tuckman merdiveni: Forming, Storming, Norming, Performing) yönetimi incelenir. Sadece iyi kod bilen (Hard skills) değil, iletişim kurabilen, egoları bir kenara bırakıp ortak kod sahipliği (Collective Ownership) sergileyebilen (Soft skills) bir yazılım takımı kurmanın zorlukları psikolojik açıdan tartışılır. Çevik (Agile) takımlarda hiyerarşik bir "Patron" (Command and Control) yerine, takımın önündeki engelleri kaldıran "Hizmetkar Lider" (Servant Leader / Scrum Master) kavramının motivasyonu (Maslow, McGregor teorileri) nasıl yükselttiği görülür. Teknik krizlerden çok, takım içi çatışmaların (Conflict Resolution) yazılım projelerini nasıl batırdığına dair vaka analizleri yapılır. En karmaşık sistem olan "İnsanı" optimize etme sanatı öğrenilir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/pmp-exams/pmp_project_human_resource_management.htm' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.sem.etu.edu.tr/egitim/proje-uygulamali-insan-kaynaklari-yonetimi' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=proje+insan+kaynaklar%C4%B1+y%C3%B6netimi+ve+tak%C4%B1m+dinamikleri' },
       ],
     },
     8: {
       description: `Proje paydaşlarına (Stakeholders) doğru bilginin, doğru zamanda ve formatta iletilmesi (İletişim) ile gelecekteki olası felaketlerin önceden planlanması (Risk Yönetimi) birleştirilerek işlenir. Sunucu çökmesi, veri sızıntısı (Data Breach) veya ana geliştiricinin işten ayrılması gibi risklerin gerçekleşme olasılıkları ve etkileri (Risk Matrix) önceden puanlanarak azaltma/kaçınma planları (Mitigation) hazırlanır. Yazılımın teknik detaylarını bilmeyen bir yatırımcıya veya CEO'ya projenin gidişatını (Status Report) sıkıcı olmadan ama gerçekleri gizlemeden anlatabilme (Executive Summary) iletişim teknikleri pratik edilir. "Sorun çıkınca bakarız" (Reaktif) kültüründen, "Sorun çıkma ihtimaline karşı B planımız var" (Proaktif) vizyonuna geçiş yapılır. Başarısızlık ihtimallerini yöneterek projeyi sarsılmaz kılan zırhın örülmesidir.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/pmp-exams/pmp_project_risk_management.htm' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://projectmanagement-ie.translate.goog/blog/project-risk-management/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=proje+risk+y%C3%B6netimi+risk+matrisi+ileti%C5%9Fim+plan%C4%B1' },
       ],
     },
@@ -4065,14 +4065,14 @@ http://googleusercontent.com/image_content/1034`,
     10: {
       description: `Yazılım projesi için dışarıdan alınacak bulut hizmetleri (AWS/Azure), dış kaynak (Outsourcing/Freelance) hizmetleri veya hazır API'lerin sözleşme tipleri (Sabit fiyat, Zaman/Malzeme) ve Tedarik Yönetimi işlenir. Taahhüt edilen tüm yazılım testleri geçip ürün canlıya (Production) alındıktan sonra, projenin sadece "bitti" denilerek bırakılamayacağı, resmi kapanış belgelerinin (Sign-off) imzalanması gerektiği öğretilir. Tüm süreç boyunca yapılan hatalardan ve doğrulardan çıkarılan "Alınan Dersler" (Lessons Learned / Retrospective) kayıtlarının şirket hafızasına eklenerek kurumsal bilginin (Organizational Process Assets) nasıl artırıldığı tartışılır. Bir işi eksiksiz, yasal ve kurumsal prosedürlere uygun şekilde tamamlayıp devretme (Handover) bilinci kazandırılır. Başarılı bir yolculuğun resmi ve idari son noktasıdır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/pmp-exams/pmp_project_procurement_management.htm' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www-geeksforgeeks-org.translate.goog/business-studies/what-is-project-procurement-management/?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc&_x_tr_hist=true' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=proje+tedarik+y%C3%B6netimi+ve+proje+kapan%C4%B1%C5%9F%C4%B1' },
       ],
     },
     11: {
       description: `Dönem boyunca öğrenilen Zaman, Kapsam, Risk ve Çevik/Geleneksel planlama araçlarının (Jira, MS Project vb.) kullanılarak hazırlanan gerçek bir IT projesi simülasyonunun yatırımcı (Jüri) karşısına çıkarıldığı sunum aşamasıdır. Ekiplerin (veya bireylerin) bir yazılım girişimini (Örn: Yerli bir IoT Akıllı Tarım sistemi) kodlamasından ziyade, "Bu ürün 6 ayda, 5 yazılımcıyla, 500 bin TL bütçeyle, şu riskler alınarak nasıl piyasaya sürülecek?" sorusuna profesyonel savunmalar (Pitching) yapmaları beklenir. Maliyet tahminlemelerindeki hataların veya iş kırılım ağacındaki (WBS) eksikliklerin jüri tarafından sorgulanarak (Stress Test) öğrencilerin baskı altında savunma yapma ve müzakere yetenekleri ölçülür. Mühendislik bilgisinin yönetimsel (Managerial) formatta ambalajlanmasıdır.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.pmi.org/learning/library' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.academia.edu/10347447/PMI_Proje_Y%C3%B6netimi_Yakla%C5%9F%C4%B1m%C4%B1' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=it+project+management+presentation+examples' },
       ],
     },
@@ -4086,14 +4086,14 @@ http://googleusercontent.com/image_content/1034`,
     13: {
       description: `(Proje sunumlarına devam) Risk analizi ve kalite güvence (QA) planlarına ağırlık verilen projelerde, olası felaket senaryoları karşısında (Örn: Veri tabanı hacklenmesi veya kilit personelin ayrılması) takımların B planlarının inandırıcılığı ölçülür. Yazılımın sadece üretilip canlıya (Deploy) alınması değil, sonrasındaki 1 yıllık bakım (Maintenance) ve sunucu masraflarının (Opex) toplam sahip olma maliyetine (TCO) doğru eklenip eklenmediği sorgulanır. Bir mühendisin hayal gücüyle ürettiği parlak bir kod fikrinin, kurumsal dünyanın ticari, yasal ve zamansal gerçeklik duvarlarına çarpıp şekillenmesi (Grooming) süreci deneyimlenir. Vizyoner kodlama ile acımasız bütçe yönetiminin ortak paydaya getirilmesidir.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.pmi.org/learning/library/project-management-presentations-communication-6598' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://support.microsoft.com/tr-tr/topic/proje-y%C3%B6netim-hedefi-proje-bilgilerini-iletme-c56bd8ca-42df-45c4-9f84-ef0b33714d17' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=project+risk+management+presentation+and+mitigation' },
       ],
     },
     14: {
       description: `Tüm projelerin dinlenmesinin ardından, ekiplerin birbirlerinden öğrendikleri yönetimsel zafiyetler ve en iyi pratiklerin (Best Practices) "Alınan Dersler" (Lessons Learned) vizyonuyla özetlenerek dönemin kapanışının yapıldığı haftadır. Öğrencilerin sadece "Verilen işi yapan (Coder)" seviyesinden çıkıp, "Kendi girişimini (Startup) kurabilen, ekibini yöneten ve bütçesini savunan bir Teknoloji Lideri (Tech Lead / CTO)" profiline geçiş yapmaları hedeflenir. İster bir savunma sanayi şirketinde büyük bir modülü yönetin, ister kendi oyun stüdyonuzu kurun; insan, zaman ve parayı senkronize edemeyen hiçbir deha fikrin ürüne dönüşemeyeceği felsefesiyle mezuniyete uğurlanırlar. Mühendislik zekasını yönetici vizyonuyla taçlandıran büyük finaldir.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.scrum.org/resources/what-is-a-sprint-retrospective' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://batuhanakpunar.medium.com/b%C3%B6l%C3%BCm-13-sprint-retrospective-sprint-retrospectifi-toplant%C4%B1s%C4%B1-%EF%B8%8F-9e226853b137' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=project+closure+and+lessons+learned+project+management' },
       ],
     },
@@ -4309,7 +4309,7 @@ http://googleusercontent.com/image_content/1034`,
     2: {
       description: `Devreye enerji sağlayan bağımlı/bağımsız kaynaklar (Voltaj/Akım) ve enerjiyi tüketen/şekillendiren pasif elemanlar tanıtılır. Bilgisayarınızın güç kaynağının (PSU) alternatif akımı nasıl doğru akıma çevirdiği ve bileşenlere nasıl dağıttığı modellenir. Transistörler ve sensörler gibi bağımlı kaynakların, başka bir yerden gelen sinyalle (örneğin yazılımdan gelen bir komutla) enerjiyi nasıl kontrol ettiği incelenir. Donanım modüllerinin birbirleriyle elektriksel olarak nasıl konuştuğu ve enerji alışverişi yaptığı temel düzeyde anlaşılır. Gömülü sistem geliştiricileri için kullanılacak malzemelerin alfabesidir.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/electrical-circuit-elements' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Elektronik_devre_elemanlar%C4%B1' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=elektrik+devre+elemanlar%C4%B1+ba%C4%9F%C4%B1ml%C4%B1+ba%C4%9F%C4%B1ms%C4%B1z+kaynaklar' },
       ],
     },
@@ -4337,63 +4337,63 @@ http://googleusercontent.com/image_content/1034`,
     6: {
       description: `Düğüm yönteminin alternatifi olan Çevre Akımları (Mesh Current) yöntemi ve Kirchhoff'un Gerilim Yasası (KVL) incelenir. İki boyutlu düzlemsel devrelerin analizinde, gözlü (loop) yapıların matrislere çevrilerek yazılımsal simülatörlere (SPICE programları) nasıl aktarıldığının algoritmasıdır. Paralel çalışan bilgisayar donanımlarının birbirlerinin akım kapasitelerini nasıl etkilediklerini anlamak için ağ analizleri yapılır. Bir devreyi hem akım hem de gerilim açısından iki farklı yaklaşımla çözebilme esnekliği kazandırır. Olası kısa devre senaryolarının tahribatlarını öngörmeyi sağlar.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/mesh-analysis' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.youtube.com/watch?v=0qzMXb8s4so&list=PL8bWVLVI4XKRsfeHaQDyHsyfdN86vNeBr' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=%C3%A7evre+ak%C4%B1mlar%C4%B1+y%C3%B6ntemi+mesh+analysis' },
       ],
     },
     7: {
       description: `Süperpozisyon, Thevenin ve Norton eşdeğer devre teoremleri ile karmaşık sistemlerin inanılmaz ölçüde basitleştirilmesi öğretilir. Koskoca bir bilgisayar anakartının, belirli bir USB portundan bakıldığında tek bir direnç ve voltaj kaynağına (Thevenin modeli) indirgenebilmesi vizyonunu sunar. Bu teoremler, modüler yazılım geliştirmede fonksiyonların içinin ne olduğuyla ilgilenmeyip sadece giriş/çıkış değerlerine odaklanmakla aynı mantıktır. Cihazlar arası veri aktarımında empedans optimizasyonu yapma becerisi kazandırılır. Mühendislere, kompleks bir kaosu sadeleştirme gücü verir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/dccircuits/dcp_7.html' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.allaboutcircuits.com/textbook/direct-current/chpt-10/thevenins-theorem/' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=thevenin+norton+ve+s%C3%BCperpozisyon+teoremleri' },
       ],
     },
     8: {
       description: `Kaynak Dönüşümü teoremleri ve maksimum güç transferi prensiplerinin sayısal analizleri ile doğrusal devre teknikleri tamamlanır. Özellikle batarya ile çalışan mobil cihazlarda işlemciye aktarılan gücün verimini maksimize etmek için uyumlama yapılması gerektiği anlaşılır. Sensörlerden gelen zayıf sinyallerin yükselteçlere en verimli şekilde nasıl aktarılacağının elektriksel altyapısıdır. Devre bileşenlerinin teorik limitleri gösterilerek, yazılım kodlarının talep edebileceği gücün üst sınırları çizilir. Ara sınav öncesi tüm DC (Doğru Akım) analiz yöntemlerinin entegrasyonudur.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/dccircuits/dcp_9.html' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://devreyakan.com/maksimum-guc-transferi/' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=maksimum+g%C3%BC%C3%A7+transferi+teoremi' },
       ],
     },
     9: {
       description: `Analog bilgisayarların kalbi ve sinyal işlemenin en güçlü donanımı olan Op-Amp'ların (İşlemsel Kuvvetlendiriciler) ideal modelleri öğrenilir. İnsan sesini mikrofon üzerinden alıp, bilgisayarın ses kartındaki (ADC) çeviriciye ulaşmadan önce sinyali bozmadan büyütmek bu entegre devrelerle yapılır. Toplayıcı, çıkarıcı devreler, bilgisayarların 1 ve 0'lar olmadan önce analog voltajları toplayarak nasıl matematik yaptığını gösterir. Sensör okumalarında gelen gürültülü verileri temizleyip yazılımın işleyebileceği net sinyallere dönüştüren donanım harikasıdır. Analog dünya ile dijital işlemci arasındaki çevirmen elemandır.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/opamp/opamp_1.html' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://devreyakan.com/islemsel-yukseltecler-nedir-opamp-giris/' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=i%C5%9Flemsel+kuvvetlendiriciler+opamp+nedir' },
       ],
     },
     10: {
       description: `Türev alıcı, integral alıcı ve fark alıcı özellikleriyle Op-Amp'ların daha karmaşık analog matematik ve filtreleme işlemleri incelenir. Diferansiyel denklemler dersinde gördüğünüz integral işlemlerinin yazılımla değil, donanımsal ve sıfır gecikmeyle (zero-latency) nasıl çözüldüğü uygulamalı olarak görülür. Tıbbi cihazlardan gelen kalp atışı verilerindeki vücut gürültüsünü filtrelemek gibi ileri düzey sinyal şartlandırma yöntemleri kurgulanır. Otonom robotlarda yazılımın yükünü hafifletmek için hesaplamaların bir kısmını analog devrelere devretme stratejisi kazandırır. Analog-Dijital ortak tasarım vizyonunu pekiştirir.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/opamp/opamp_6.html' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://maker.robotistan.com/opamp/' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=opamp+t%C3%BCrev+ve+integral+al%C4%B1c%C4%B1+devreler' },
       ],
     },
     11: {
       description: `Sadece enerji harcayan dirençlerin aksine, manyetik ve elektrik alanda enerji depolayarak zamana bağlı davranan kapasitör (C) ve indüktör (L) elemanları öğrenilir. Bilgisayarın DRAM bellek hücrelerinin aslında mikroskobik kapasitörlerden oluştuğu ve veriyi bu şekilde sakladığı kavranır. İndüktörler sayesinde, bilgisayarın güç beslemesinde yaşanacak ani akım kopmalarını engelleyen voltaj tamponları oluşturulur. Zaman değişimine tepki veren donanımlar sayesinde yazılımdaki "zamanlayıcılar" ve saat frekanslarının (clock cycles) nasıl üretildiği anlaşılır. Bellek ve zamanlama kavramlarının fiziksel karşılıklarıdır.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/capacitor/cap_1.html' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/Kondansat%C3%B6r' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bobinler+ve+kondansat%C3%B6rler+devre+analizi' },
       ],
     },
     12: {
       description: `Direnç ve bobinden oluşan devrelerin bir anahtar kapandığında (Basamak Giriş) anında değil, zamanla eksponansiyel olarak nasıl tepki verdiği analiz edilir. Elektrik motorlarını yazılımla sürmeye kalktığınızda motorun neden anında tam hıza ulaşamadığının (indüktif gecikme) matematiksel modellemesidir. Diferansiyel denklemler dersindeki teorilerin, donanım üzerindeki akım artış formüllerine dönüştüğü ilk somut aşamadır. Donanımın yazılımdan gelen komutlara verdiği tepki sürelerini hesaplayarak gerçek zamanlı sistemler kurgulama yetisi kazanılır. Fiziksel sınırların algoritmik beklentilerle senkronizasyonudur.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/inductor/lr-circuit.html' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://eee.sakarya.edu.tr/sites/eee.sakarya.edu.tr/file/03_RL_ve_RC_Devreleri.pdf' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=rl+devreleri+ge%C3%A7ici+rejim+do%C4%9Fal+yan%C4%B1t' },
       ],
     },
     13: {
       description: `Direnç ve kapasitörden oluşan devrelerin şarj ve deşarj süreleri, zaman sabiti kavramı üzerinden elektronik gecikme hesabı yapılır. Mekanik klavyelerdeki tuşlara basıldığında oluşan elektriksel titremeleri donanımsal olarak filtreleyen (debouncing) RC filtrelerinin mantığı kavranır. Yazılıma giren sensör verilerinin hızını, kondansatör boyutunu değiştirerek donanım seviyesinde yavaşlatma ve filtreleme sanatı öğrenilir. DRAM belleklerin neden saniyede binlerce kez yenilenmek (refresh) zorunda olduğu, kondansatörün deşarj denklemleri üzerinden ispatlanır. Analog hafızanın ve zamanlamanın matematiksel sırrı çözülür.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/rc/rc_1.html' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/RC_devresi' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=rc+devreleri+%C5%9Farj+de%C5%9Farj+zaman+sabiti' },
       ],
     },
     14: {
       description: `Direnç, bobin ve kondansatörün bir arada bulunduğu ikinci dereceden devrelerin sönümlü, kritik sönümlü ve salınımlı tepkileri incelenerek dönem tamamlanır. Wi-Fi veya Bluetooth modüllerinizin havadan doğru frekansı yakalamasını sağlayan "Rezonans" olayının devre seviyesindeki ispatı ve hesaplamasıdır. Kontrol sistemlerinde bir robot kolun hedefine giderken titremesini engellemek için kritik sönümleme şartlarının donanımsal modellemesi yapılır. İşlemcinizin mikrodalga frekanslarında çalışırken bakır yolların sistemi nasıl kararsızlığa sokabileceğini gösteren yüksek frekanslı uyarılardır. Donanım ve yazılımın kararlı bir şekilde titreşmesi için gerekli elektromanyetik ahenktir.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/accircuits/series-resonance.html' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://devreyakan.com/seri-rezonans-devresi/' },
         { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=rlc+devreleri+ge%C3%A7ici+durum+ve+rezonans' },
       ],
     },
@@ -4423,7 +4423,7 @@ http://googleusercontent.com/image_content/1034`,
     4: {
       description: `OOP'nin temel yapıtaşları olan Sınıflar (Class) ve bu sınıflardan üretilen Nesneler (Object) üzerinden bellek yönetimi incelenir. Sınıfın içindeki kritik verilerin dışarıdan rastgele değiştirilmesini engelleyen "Kapsülleme" (Encapsulation) ilkesi ile yazılımsal güvenlik duvarları inşa edilir. Nesne belleğe doğduğunda çalışan yapıcı metotlar (Constructor) ve belleği temizleyen yıkıcılar ile obje yaşam döngüsü kontrol altına alınır. Soyutlama (Abstraction) sayesinde dış dünyadaki gereksiz detaylardan arınmış, temiz ve odaklanmış dijital varlıklar kurgulanır. Kodun güvenilirliğini ve modülerliğini sağlayan mühendislik kalkanları oluşturulur.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/classes-structs-records' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/tr-tr/dotnet/csharp/fundamentals/object-oriented/' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+s%C4%B1n%C4%B1flar+nesneler+ve+kaps%C3%BClleme' },
       ],
     },
@@ -4444,7 +4444,7 @@ http://googleusercontent.com/image_content/1034`,
     7: {
       description: `Kalıtım zincirinde metotların alt sınıflar tarafından mecburi ezilmesini sağlayan \`Abstract\` sınıflar ve şablon sözleşmeler olan \`Interface\` (Arayüz) yapıları öğrenilir. Çoklu kalıtımın yasak olduğu dillerde, sınıflara farklı yetenekler kazandırmak için interfaceler üzerinden yazılım sözleşmeleri imzalanır. Sınıfın kalıtım vermesini engelleyerek hiyerarşiyi sonlandıran \`Sealed\` anahtar kelimesiyle sistemin tasarım sınırları çizilir. Plug-in tabanlı (eklentilerle büyüyen) mimariler, arayüz çok biçimliliği kullanılarak esnek bağlarla tasarlanır. Sürdürülebilir büyük sistemlerin en üst düzey tasarım kurallarıdır.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/interfaces' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@enesozpolat_61576/javada-aray%C3%BCzler-interfaces-f0ce4ae50cab' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+abstract+class+ve+interface+kullan%C4%B1m%C4%B1' },
       ],
     },
@@ -4502,14 +4502,14 @@ http://googleusercontent.com/image_content/1034`,
     1: {
       description: `Bilgisayarların ondalıklı sayıları (Floating Point) bellekte kısıtlı bitlerle saklamasından doğan kesme ve yuvarlama hataları öğrenilir. Roket yörünge hesaplamaları gibi hassas yazılımlarda bu küçük hataların zamanla birikerek sistemi nasıl felakete sürükleyeceği analiz edilir. Mutlak, bağıl ve yüzde hata kavramlarıyla, yazdığınız bir algoritmanın sonucuna ne kadar güvenebileceğinizin matematiksel garantisi sağlanır. Bilgisayarın her zaman "tam doğru" hesap yapmadığı gerçeğiyle yüzleşerek defansif kodlama zihniyeti aşılanır. Teorik matematiğin dijital donanımdaki kısıtlı sınırları çizilir.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/numerical_methods/numerical_methods_errors.htm' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://acikders.ankara.edu.tr/pluginfile.php/71484/mod_resource/content/1/Say%C4%B1sal%20Analiz.pdf' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+analiz+hata+kaynaklar%C4%B1+ve+hata+hesab%C4%B1' },
       ],
     },
     2: {
       description: `Sonlu farklar (ileri, geri ve merkezi farklar), öteleme operatörü gibi ayrık veri grupları üzerinde matematiksel işlemler yapmayı sağlayan kavramlar tanıtılır. Sinyal işlemede ayrık zamanlı sensör verilerini filtrelemek veya görüntü matrisleri üzerinde türev işlemleri yapmak için bu operatörler koda dökülür. Fonksiyonun denklemi bilinmediğinde bile, eldeki birkaç veri noktasıyla sistemin gidişatını öngörmeyi sağlar. Sürekli dünyayı, bilgisayarın anlayabileceği ayrık veri adımlarına dönüştürmenin aracıdır. İnterpolasyon ve türev algoritmalarının çekirdek yapısıdır.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Finite_difference' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://en-wikipedia-org.translate.goog/wiki/Finite_difference_method?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+analiz+fark+operat%C3%B6rleri' },
       ],
     },
@@ -4537,7 +4537,7 @@ http://googleusercontent.com/image_content/1034`,
     6: {
       description: `Lineer cebir temelleri hatırlatılarak, yüksek boyutlu matrislerin determinantlarının bilgisayar tarafından minimum işlem yüküyle nasıl hesaplanacağı öğrenilir. Üç boyutlu grafikleri modellediğimiz devasa matrislerin çöküp çökmeyeceğini bu determinantlar belirler. Algoritma karmaşıklığında klasik yöntemle O(N!) süren hesabın sayısal ayrıştırmalarla O(N^3) seviyesine nasıl çekilebileceği mühendislik vizyonuyla gösterilir. Paralel hesaplama birimlerine (GPU) matris operasyonlarını bölme fikrinin ana mantığıdır. Matrislerin donanım üzerindeki hesaplama maliyetleri tartışılır.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/numerical_methods/numerical_methods_solving_linear_equations.htm' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://matrixcalc.org/tr/slu.html' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=matris+ve+determinant+say%C4%B1sal+y%C3%B6ntemler' },
       ],
     },
@@ -4565,14 +4565,14 @@ http://googleusercontent.com/image_content/1034`,
     10: {
       description: `Gauss Eleminasyonu gibi direkt yöntemlerin yerine, iterasyon yaparak sonuca adım adım yaklaşan Jacobi ve Gauss-Seidel algoritmaları yazılıma dökülür. İçi çoğunlukla sıfır dolu devasa verilerle (Seyrek matrisler) uğraşırken bu iteratif yöntemlerin bellek taşkınını önleyen esnekliği kanıtlanır. Bilgisayarın rastgele bir tahminle başlayıp, hatayı her döngüde azaltarak doğru sonucu kendi kendine bulması felsefesi aşılanır. Makine öğrenmesi ağlarının "Öğrenme" sürecinin temel çalışma vizyonunu inşa eder. Algoritmaların hata marjı belirleyerek sonsuz döngüden çıkma koşulları kurgulanır.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/numerical_methods/numerical_methods_solving_linear_equations.htm' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://en-wikibooks-org.translate.goog/wiki/Numerical_Methods/Solution_of_Linear_Equation_Systems?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=jacobi+ve+gauss+seidel+y%C3%B6ntemleri+say%C4%B1sal+analiz' },
       ],
     },
     11: {
       description: `Bir sistemin dönüşüm dinamiklerini karakterize eden özdeğerleri bulmak için Kuvvet Yöntemi (Power Iteration) gibi algoritmayla çözülebilen yollar öğrenilir. Google'ın arama motoru olan PageRank'in arkasında yatan milyarlarca boyutlu matrislerin ana vektörlerini bulma işlemi tam olarak budur. Boyut İndirgeme (PCA) yaparak, gereksiz verileri silip sadece "Öz" veriyi saklamak suretiyle büyük veri analitiğini optimize etmenin kapısı aralanır. Büyük sistemlerin yapısal stabilitesini ve çökmelerini kodlayarak tespit etme imkanı sunar. Veri madenciliğinin matematiksel matkabıdır.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Eigenvalue_algorithm' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://bilgisayarkavramlari.com/2008/12/29/ozdegerlerin-hesaplanmasi-eigenvalue-calculation/' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+analiz+%C3%B6zde%C4%9Fer+ve+%C3%B6zvekt%C3%B6r+bulma+kuvvet+y%C3%B6ntemi' },
       ],
     },
@@ -4602,7 +4602,7 @@ http://googleusercontent.com/image_content/1034`,
     1: {
       description: `Modern uygulamaların kalbi olan Veritabanı Yönetim Sistemlerinin (DBMS) mimarisi, dosya sistemlerinden farkları ve veriyi saklama paradigmaları öğrenilir. İnternet devlerinin milyarlarca veriyi klasörlerde değil, neden ACID özelliklerine sahip yönetim sistemlerinde tuttuğu analiz edilir. Verinin "Bilgiye" dönüşmesi sürecinde veri bütünlüğü, eşzamanlılık kontrolü ve güvenlik gibi arka uç mühendisliğinin ana görevleri tanıtılır. Veri soyutlama katmanları ile yazılımcı, kullanıcı ve veritabanı motoru arasındaki sınırlar çizilir. "Veri yeni petroldür" felsefesinin teknik altyapısına giriş yapılır.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/dbms-tutorial' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www-geeksforgeeks-org.translate.goog/dbms/introduction-of-dbms-database-management-system-set-1/?_x_tr_hist=true&_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veritaban%C4%B1+y%C3%B6netim+sistemleri+giri%C5%9F+vtys' },
       ],
     },
@@ -4644,7 +4644,7 @@ http://googleusercontent.com/image_content/1034`,
     7: {
       description: `Veritabanındaki tekrar eden verileri silmek, güncelleme anormalliklerini engellemek için uygulanan Normal Form kuralları detaylıca öğrenilir. Bir tabloda "Müşteri Şehri" değiştirildiğinde diğer kayıtlarda eski kalmasını engelleyen tutarlılık kuralları, tabloları atomik boyutlara ayırarak sağlanır. Fazla normalizasyonun \`JOIN\` maliyetini artırarak sistemi yavaşlattığı "Performans vs Tasarım" paradoksu tartışılarak "Denormalizasyon" vizyonu katar. Kalitesiz veri tasarımlarını kurumsal endüstri standartlarına yükseltmenin altın kurallarıdır. Kalıcı ve hatasız mimarinin matematiğidir.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/dbms-normalization' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www-ibm-com.translate.goog/think/topics/database-normalization?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veritaban%C4%B1+normalizasyon+1nf+2nf+3nf' },
       ],
     },
@@ -4686,7 +4686,7 @@ http://googleusercontent.com/image_content/1034`,
     13: {
       description: `Microsoft ekosisteminin dışına çıkılarak, açık kaynak (Open Source) ekosisteminin lideri MySQL sisteminin mimarisi ve farkları tanıtılır. Maliyetsiz ve hızlı olması sebebiyle girişimlerin (Startups) neden ilk olarak MySQL tercih ettiği altyapısal perspektiften analiz edilir. SQL dilindeki temel komutların farklı RDBMS motorlarındaki küçük syntax ve optimizasyon farklarına adaptasyon süreci yaşanır. Tek bir teknolojiye bağımlı kalmadan, platform bağımsız veri mimarı olma vizyonu genişletilir. Sektörel esneklik ve açık kaynak kültürü yazılımcı kimliğine dahil edilir.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://dev.mysql.com/doc/' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://aws.amazon.com/tr/rds/mysql/what-is-mysql/' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=mysql+kurulumu+ve+temel+kullan%C4%B1m%C4%B1' },
       ],
     },
