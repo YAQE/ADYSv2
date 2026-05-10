@@ -1804,3 +1804,255 @@ BMSB436 Python Programlamaya Giriş
 
   --- 14. Hafta ---
   [PDF] 14. Hafta Sunum: https://pandas.pydata.org/docs/getting_started/index.html
+========================================
+ATİ101 Atatürk İlkeleri ve İnkılâp Tarihi I
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://dergipark.org.tr/tr/search?q=aydinlanma+ve+sanayi+devrimi
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://islamansiklopedisi.org.tr/osmanli-imparatorlugu
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://atam.gov.tr/
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://tr.wikipedia.org/wiki/I._D%C3%BCnya_Sava%C5%9F%C4%B1 <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://atam.gov.tr/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://atam.gov.tr/
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://atam.gov.tr/
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://atam.gov.tr/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://atam.gov.tr/
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://tr.wikipedia.org/wiki/T%C3%BCrk_Kurtulu%C5%9F_Sava%C5%9F%C4%B1 <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://atam.gov.tr/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://atam.gov.tr/lozan-baris-antlasmasi/
+
+========================================
+BMB205 Elektrik Devre Temelleri
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.electronics-tutorials.ws/dccircuits/dcp_1.html <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.javatpoint.com/electrical-circuit-elements <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.electronics-tutorials.ws/resistor/res_1.html <== HATALI
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.javatpoint.com/star-delta-transformation <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.electronics-tutorials.ws/dccircuits/dcp_4.html <== HATALI
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.javatpoint.com/mesh-analysis <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.electronics-tutorials.ws/dccircuits/dcp_7.html <== HATALI
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.electronics-tutorials.ws/dccircuits/dcp_9.html <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.electronics-tutorials.ws/opamp/opamp_1.html <== HATALI
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.electronics-tutorials.ws/opamp/opamp_6.html <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.electronics-tutorials.ws/capacitor/cap_1.html <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.electronics-tutorials.ws/inductor/lr-circuit.html <== HATALI
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.electronics-tutorials.ws/rc/rc_1.html <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.electronics-tutorials.ws/accircuits/series-resonance.html <== HATALI
+
+========================================
+BMB203 Nesneye Yönelik Programlama
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/classes-structs-records <== HATALI
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/inheritance
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/interfaces <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://docs.oracle.com/javase/tutorial/java/concepts/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/desktop/winforms/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/core/testing/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/
+
+========================================
+SYA003 Sayısal Analiz
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.tutorialspoint.com/numerical_methods/numerical_methods_errors.htm <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://en.wikipedia.org/wiki/Finite_difference <== HATALI
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.geeksforgeeks.org/interpolation-in-numerical-methods/
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://mathworld.wolfram.com/NumericalDifferentiation.html
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.geeksforgeeks.org/numerical-integration-in-numerical-methods/
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.tutorialspoint.com/numerical_methods/numerical_methods_solving_linear_equations.htm <== HATALI
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://mathworld.wolfram.com/MatrixInverse.html
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://www.geeksforgeeks.org/finding-inverse-of-a-matrix-using-gauss-jordan-method/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.tutorialspoint.com/numerical_methods/numerical_methods_solving_linear_equations.htm <== HATALI
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://en.wikipedia.org/wiki/Eigenvalue_algorithm <== HATALI
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.geeksforgeeks.org/newton-raphson-method/
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.geeksforgeeks.org/runge-kutta-4th-order-method-solve-differential-equation/
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://mathworld.wolfram.com/BoundaryValueProblem.html
+
+========================================
+BMB207 Veritabanı Yönetimi
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.javatpoint.com/dbms-tutorial <== HATALI
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.geeksforgeeks.org/introduction-of-er-model/
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.geeksforgeeks.org/mapping-from-er-model-to-relational-model/
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://www.w3schools.com/sql/sql_select.asp
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.w3schools.com/sql/sql_join.asp
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.w3schools.com/sql/sql_insert.asp
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.javatpoint.com/dbms-normalization <== HATALI
+
+  --- 9. Hafta ---
+  [PDF] 9. Hafta Sunum: https://learn.microsoft.com/en-us/sql/sql-server/
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.w3schools.com/sql/sql_create_table.asp
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://learn.microsoft.com/en-us/sql/t-sql/tutorial-writing-transact-sql-statements
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://learn.microsoft.com/en-us/sql/relational-databases/security/securing-sql-server
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://dev.mysql.com/doc/ <== HATALI
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/
+
+========================================
+YD 003 Yabancı Dilde Okuma ve Konuşma
+========================================
+  --- 1. Hafta ---
+  [PDF] 1. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-1
+
+  --- 2. Hafta ---
+  [PDF] 2. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/features/6-minute-english
+
+  --- 3. Hafta ---
+  [PDF] 3. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-2
+
+  --- 4. Hafta ---
+  [PDF] 4. Hafta Sunum: https://dictionary.cambridge.org/dictionary/english/
+
+  --- 5. Hafta ---
+  [PDF] 5. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-3
+
+  --- 6. Hafta ---
+  [PDF] 6. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-4
+
+  --- 7. Hafta ---
+  [PDF] 7. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-5
+
+  --- 8. Hafta ---
+  [PDF] 8. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-6
+
+  --- 10. Hafta ---
+  [PDF] 10. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-7
+
+  --- 11. Hafta ---
+  [PDF] 11. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-8
+
+  --- 12. Hafta ---
+  [PDF] 12. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-9
+
+  --- 13. Hafta ---
+  [PDF] 13. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-10
+
+  --- 14. Hafta ---
+  [PDF] 14. Hafta Sunum: https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-11
+

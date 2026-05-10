@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const icerikler = fs.readFileSync('src/icerikler.txt', 'utf8');
+const icerikler = fs.readFileSync('src/data/icerikler.txt', 'utf8');
 const lines = icerikler.split(/\r?\n/);
 
 const parsedData = {};

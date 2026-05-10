@@ -4198,6 +4198,606 @@ http://googleusercontent.com/image_content/1034`,
       ],
     },
   },
+  'ATİ101 Atatürk İlkeleri ve İnkılâp Tarihi I': {
+    1: {
+      description: `Avrupa'da yaşanan aydınlanma ve sanayi devriminin teknolojik ve sosyolojik altyapıları analiz edilir. Bir bilgisayar mühendisi olarak, Osmanlı İmparatorluğu'nun bu donanım ve sanayi devrimini neden kaçırdığını anlamak vizyonunuzu genişletir. Toplumların bilimden uzaklaştıkça sistemlerinin nasıl çöktüğü (system failure) mühendislik perspektifiyle değerlendirilir. Günümüz bilişim devrimini (Endüstri 4.0) yakalamak için tarihsel hatalardan ders çıkarma bilinci aşılanır. İnovasyona ve güncellemeye kapalı sistemlerin er ya da geç yok olacağı gerçeğiyle yüzleşilir.`,
+      resources: [
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/search?q=aydinlanma+ve+sanayi+devrimi' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bat%C4%B1da+ayd%C4%B1nlanma+ve+sanayi+devrimi' },
+      ],
+    },
+    2: {
+      description: `Çökmekte olan imparatorluk sistemini yamalarla (geçici reformlarla) ayakta tutmaya çalışan yenilik hareketleri incelenir. Altyapısı (donanımı) eskimiş bir devlete, sadece dışarıdan yeni kurumlar (yazılımlar) ekleyerek sistemin kurtarılamayacağı analitik olarak görülür. Batıcılık, Türkçülük ve İslamcılık gibi farklı ideolojik paradigmaların devleti kurtarma algoritmaları tartışılır. Kriz anlarında eskiyen kodları (kurumları) refactor etmek yerine tamamen sıfırdan yazmanın gerekebileceği mühendislik vizyonuyla aktarılır. Köklü sistem değişikliklerinin sancılı ama zorunlu doğası kavranır.`,
+      resources: [
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://islamansiklopedisi.org.tr/osmanli-imparatorlugu' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=osmanl%C4%B1+modernle%C5%9Fme+hareketleri' },
+      ],
+    },
+    3: {
+      description: `Sanayileşen ülkelerin hammadde ve pazar arayışının tetiklediği küresel bloklaşma (network gruplaşmaları) analiz edilir. Teknoloji üreten ve üretemeyen ülkeler arasındaki devasa güç uçurumunun, dünya savaşının ana nedeni olduğu gerçeğiyle yüzleşilir. Diplomasi trafiğinin ve gizli antlaşmaların devletler arası iletişim protokollerini nasıl kilitlediği tartışılır. Osmanlı'nın bu küresel tehdit (threat) ortamında sistemini nasıl korumaya çalıştığı incelenir. Büyük krizler öncesi risk analizi (risk management) yapmanın önemi vurgulanır.`,
+      resources: [
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=birinci+d%C3%BCnya+sava%C5%9F%C4%B1+nedenleri+ve+blokla%C5%9Fma' },
+      ],
+    },
+    4: {
+      description: `Teknolojinin, mekanize birliklerin ve telgraf gibi iletişim ağlarının ilk defa küresel ölçekte bir savaşın kaderini belirlediği dönem incelenir. İletişim hatlarının ve lojistik (resource management) ağlarının çökmesiyle Osmanlı ordularının yaşadığı darboğazlar tartışılır. Mondros Mütarekesi ile ülkenin tüm donanım ve iletişim altyapısına el konulması (sistemin hacklenmesi) süreci anlatılır. Merkezi otoritenin çöküşüyle birlikte sistemin tamamen çevrimdışı (offline) kaldığı karanlık bir dönemdir. Kriz anlarında ulusal savunma sistemlerinin ne kadar kırılgan olabileceği görülür.`,
+      resources: [
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/I._D%C3%BCnya_Sava%C5%9F%C4%B1' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=osmanl%C4%B1+imparatorlu%C4%9Fu+birinci+d%C3%BCnya+sava%C5%9F%C4%B1+cepheler' },
+      ],
+    },
+    5: {
+      description: `Merkezi sunucunun (İstanbul Hükümeti) işlevini yitirmesiyle, Anadolu'da dağıtık (decentralized) direniş ağlarının (Yararlı Cemiyetler) nasıl kurulduğu öğrenilir. Aynı anda sisteme virüs gibi sızarak çöküşü hızlandırmaya çalışan Zararlı Cemiyetlerin faaliyetleri analiz edilir. Paris Konferansı'nda emperyalist devletlerin masada haritaları (veritabanını) kendi çıkarlarına göre nasıl yeniden yazdığı tartışılır. Lokal (yerel) direniş düğümlerinin (nodes), çöken bir sistemi ayakta tutma çabası mühendislik gözüyle incelenir. Otonom ve bağımsız savunma mekanizmalarının doğuşudur.`,
+      resources: [
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yararl%C4%B1+ve+zararl%C4%B1+cemiyetler+mondros' },
+      ],
+    },
+    6: {
+      description: `Anadolu'daki dağınık ve bağımsız direniş ağlarının (cemiyetlerin) tek bir ortak protokol (Sivas Kongresi) etrafında birleştirilmesi sürecidir. Amasya Genelgesi ile kurtuluşun algoritması yazılmış, yöntemi ve amacı açıkça belgelendirilmiştir (System Requirements). Erzurum Kongresi ile doğudaki yerel modüller entegre edilmiş, Sivas'ta ise tüm ulusal modüller tek bir çatı altında (Anadolu ve Rumeli Müdafaa-i Hukuk) toplanmıştır. Çöken merkezi otoriteye alternatif, yepyeni ve güvenli bir işletim sisteminin (Milli İrade) temelleri atılır. Organizasyon ve entegrasyon yeteneğinin tarihi zirvesidir.`,
+      resources: [
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=amasya+genelgesi+erzurum+ve+sivas+kongreleri' },
+      ],
+    },
+    7: {
+      description: `Kurulan yeni direniş ağının, eski sistem (İstanbul) tarafından hukuki olarak tanınma (authentication) çabaları olan Amasya Görüşmeleri incelenir. Son Mebusan Meclisi'nin toplanarak ulusal sınırları ve bağımsızlık şartlarını içeren Misak-ı Milli'yi (Milli Yemin) onaylaması, projenin kapsam sınırlarını (Scope Definition) kesin olarak çizer. Bu belge, emperyalist devletlere karşı çekilen sarsılmaz bir güvenlik duvarı (Firewall) niteliğindedir. İşgalcilerin meclisi basarak sistemi zorla kapatması (Force Quit) ile yasal zemin tamamen Ankara'ya kayar. Kararlılığın resmi ve hukuki koda dökülmesidir.`,
+      resources: [
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=misaki+milli+ve+amasya+g%C3%B6r%C3%BC%C5%9Fmeleri' },
+      ],
+    },
+    8: {
+      description: `Eski sistemin fiilen çökmesiyle, Ankara'da ulusal egemenliğe dayalı yepyeni bir meclisin (TBMM) yeni bir devletin ana sunucusu olarak devreye alınmasıdır. Aynı süreçte işgalcilerin dayattığı, ülkeyi parçalayan Sevr Antlaşması'nın (hukuki bir virüs) Ankara tarafından kesin olarak reddedilmesi incelenir. Londra Konferansı'nda TBMM'nin diplomatik olarak varlığını dünyaya kabul ettirme (handshake) girişimleri analiz edilir. Bir bilgisayar mühendisi olarak sıfırdan güvenilir ve bağımsız bir mimari kurmanın tarihi yansıması gözlemlenir. Yasal, askeri ve idari kodların tamamen millileştirilmesidir.`,
+      resources: [
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=tbmm+a%C3%A7%C4%B1l%C4%B1%C5%9F%C4%B1+ve+sevr+antla%C5%9Fmas%C4%B1' },
+      ],
+    },
+    9: {
+      description: `Osmanlı İmparatorluğu'nun çöküşünden başlayıp TBMM'nin açılmasına kadar uzanan kriz ve yeniden yapılanma süreçlerinin analitik olarak değerlendirildiği ara haftadır. Öğrencilerin, ulusal sistemin hangi darboğazlardan (bottlenecks) geçerek bağımsızlık refleksini geliştirdiğini kavrama düzeyi test edilir. Tarihsel olaylar sadece kronolojik değil, neden-sonuç (Cause and Effect) algoritmalarıyla analiz edilme becerisi üzerinden puanlanır. Askeri zaferler ve diplomasi trafiğine geçilmeden önce temel altyapının sağlamlık onayı verilir. Mühendis adaylarının tarihsel kriz yönetimi vizyonu ölçülür.`,
+      resources: [
+        { title: '9. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: '#' },
+      ],
+    },
+    10: {
+      description: `Kurulan yeni devletin sınır güvenliğini sağlamak için uluslararası arenada komşularıyla imzaladığı doğu ve güney güvenlik protokolleridir. Gümrü Antlaşması ile yeni devletin ilk uluslararası resmi bağlantısı (Connection Established) başarıyla sağlanmıştır. Moskova ve Ankara Antlaşmaları sayesinde, büyük küresel ağdaki (Dünya siyaseti) güçlü aktörlerle (SSCB ve Fransa) karşılıklı tanınma ve müttefiklik algoritmaları kurgulanır. Bu sayede tüm donanım ve insan kaynağı sadece en tehlikeli cepheye (Batı Cephesi) kaydırılarak kaynak optimizasyonu yapılır. Diplomasiyi kullanarak askeri yükü hafifletme sanatıdır.`,
+      resources: [
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=g%C3%BCmr%C3%BC+moskova+ankara+antla%C5%9Fmalar%C4%B1' },
+      ],
+    },
+    11: {
+      description: `Yeni kurulan düzenli ordunun (optimize edilmiş yeni sistem) sahada verdiği ilk büyük savunma testleri (İnönü Savaşları) incelenir. Sakarya Savaşı öncesi ordunun tüm ihtiyaçlarını karşılamak için çıkarılan Tekalif-i Milliye kararları, mükemmel bir lojistik ve kaynak yönetimi (Resource Allocation) şaheseridir. Kıt kaynaklarla, sayıca üstün düşmana karşı cephe optimizasyonları yapılarak "Hattı müdafaa yoktur, sathı müdafaa vardır" algoritması sahaya sürülür. Sistemin çökme noktasına geldiği anlarda, yenilikçi taktiklerle hayatta kalma ve sistemi savunma direncidir. Taktiksel zekanın sayısal üstünlüğü yendiği kırılma noktasıdır.`,
+      resources: [
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/T%C3%BCrk_Kurtulu%C5%9F_Sava%C5%9F%C4%B1' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sakarya+meydan+muharebesi+ve+tekalifi+milliye' },
+      ],
+    },
+    12: {
+      description: `Savunmadan taarruza geçilerek, düşman unsurların sistemden tamamen ve kesin olarak temizlendiği (System Wiped) Büyük Taarruz süreci öğrenilir. Gizlilik içinde hazırlanan planların, kusursuz bir senkronizasyon ve hızla (Processing Speed) icra edilerek hedefe ulaşılması askeri bir mühendislik başarısıdır. Elde edilen kesin askeri zaferin ardından silahların susmasını sağlayan Mudanya Mütarekesi ile askeri kodlar yerini diplomatik metinlere bırakır. Bir projenin aylar süren planlama aşamasından sonra başarıyla canlıya alınması (Deployment) gibi, bağımsızlığın sahada tescillenmesidir. Operasyonel başarının diplomatik masaya taşınmasıdır.`,
+      resources: [
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=b%C3%BCy%C3%BCk+taarruz+ve+mudanya+m%C3%BCtarekesi' },
+      ],
+    },
+    13: {
+      description: `Dönem boyunca işlenen bağımsızlık savaşının diplomatik ve askeri safhalarının, öğrencilerin analizleriyle sınıf ortamına sunulduğu haftadır. Öğrenciler, kısıtlı kaynaklarla kazanılan bu büyük başarıyı modern mühendislik, lojistik ve kriz yönetimi (Crisis Management) çerçevesinden yorumlayarak sunum yaparlar. Tarihsel olayları sadece ezberlemek değil, oradaki liderlik ve strateji yeteneklerini profesyonel hayata entegre etme pratikleri gerçekleştirilir. Topluluk önünde konuşma ve geçmişin verilerinden (Data) geleceğe dair çıkarımlar yapma becerisi güçlendirilir. Tarihin, mühendislik sunumlarına dönüştüğü interaktif bir aşamadır.`,
+      resources: [
+        { title: '13. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: '#' },
+      ],
+    },
+    14: {
+      description: `Askeri zaferin küresel masada diplomatik ve hukuki bir protokolle tescillenmesi, uluslararası sistemde yeni devletin "tanınma" (authentication) evresidir. Kapitülasyonların kaldırılarak ekonomik ve teknolojik gelişimin önündeki dış engellerin (firewalls) tamamen temizlenmesi müzakere edilir. Zorlu diplomatik süreçlerde sınır şartlarının korunması, yazılım projelerindeki lisanslama ve telif hakları savunmasına benzer bir sabır gerektirir. Yeni kurulan sistemin dünya ağlarına (Global Network) bağımsız, eşit ve onurlu bir düğüm (node) olarak kabul ettirilmesidir. Modern ve tam bağımsız Türkiye'nin kuruluş kodlarının onaylandığı nihai zaferdir.`,
+      resources: [
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/lozan-baris-antlasmasi/' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=lozan+bar%C4%B1%C5%9F+antla%C5%9Fmas%C4%B1+ve+%C3%B6nemi' },
+      ],
+    },
+  },
+  'BMB205 Elektrik Devre Temelleri': {
+    1: {
+      description: `Bilgisayarların en alt seviyedeki fiziksel varlığını oluşturan yük, akım, gerilim ve güç gibi temel devre değişkenleri (Circuit Variables) öğrenilir. Yazdığınız kodların (0 ve 1'lerin), fiziksel dünyada aslında anakart üzerindeki anlık gerilim farkları (genellikle 0V ve 5V) olduğu bilinci oturtulur. Veri merkezlerinin veya yüksek performanslı işlemcilerin (CPU) tükettiği enerjiyi (Watt) analiz etmek için gerilim ve akım ilişkisi çok iyi bilinmelidir. Yazılımın donanım üzerinde ne kadar "ağır" çalıştığını anlamanın yolu, bu değişkenlerin hareketini kavramaktan geçer. Kodlamadan elektroniğe doğru atılan ilk sağlam köprüdür.`,
+      resources: [
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/dccircuits/dcp_1.html' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=elektrik+devre+temelleri+ak%C4%B1m+gerilim' },
+      ],
+    },
+    2: {
+      description: `Devreye enerji sağlayan bağımlı/bağımsız kaynaklar (Voltaj/Akım) ve enerjiyi tüketen/şekillendiren pasif elemanlar tanıtılır. Bilgisayarınızın güç kaynağının (PSU) alternatif akımı nasıl doğru akıma çevirdiği ve bileşenlere nasıl dağıttığı modellenir. Transistörler ve sensörler gibi bağımlı kaynakların, başka bir yerden gelen sinyalle (örneğin yazılımdan gelen bir komutla) enerjiyi nasıl kontrol ettiği incelenir. Donanım modüllerinin birbirleriyle elektriksel olarak nasıl konuştuğu ve enerji alışverişi yaptığı temel düzeyde anlaşılır. Gömülü sistem geliştiricileri için kullanılacak malzemelerin alfabesidir.`,
+      resources: [
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/electrical-circuit-elements' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=elektrik+devre+elemanlar%C4%B1+ba%C4%9F%C4%B1ml%C4%B1+ba%C4%9F%C4%B1ms%C4%B1z+kaynaklar' },
+      ],
+    },
+    3: {
+      description: `Elektrik akımına zorluk gösteren dirençlerin seri/paralel bağlantıları, Ohm Yasası ve güç harcamaları (ısı yayılımı) incelenir. İşlemci çekirdeklerinin içindeki milyarlarca transistörün sahip olduğu mikroskobik dirençlerin bilgisayarı neden ısıttığı kanıtlanır. Sensörlerden gelen analog direnç değişimlerini, yazılımın okuyabileceği dijital voltaj verilerine dönüştürmenin (Voltaj Bölücü) matematiksel kuralları öğrenilir. Kod yazarken performans darboğazı yaratan işlemlerin, donanımda gereksiz güç tüketimi olarak karşınıza çıkacağı kavranır. Akımın donanım üzerindeki yolculuğu modellenir.`,
+      resources: [
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/resistor/res_1.html' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=diren%C3%A7+devreleri+seri+paralel+ohm+yasas%C4%B1' },
+      ],
+    },
+    4: {
+      description: `Direnç devrelerinin daha kompleks topolojileri olan Yıldız-Üçgen (Wye-Delta) dönüşümleri ve köprü devreleri (Wheatstone Bridge) işlenir. Nesnelerin İnterneti (IoT) projelerinde hassas sensörler, analog veriyi okumak için Wheatstone köprüsü prensibini kullanır. Karmaşık ve içinden çıkılmaz gibi görünen bir devre mimarisini, eşdeğer ve daha basit bir modele (Refactoring) dönüştürme pratiği kazandırır. Sistem mühendisliğinde topolojinin sadece ağ (network) kablolarında değil, doğrudan donanım kartlarında (PCB) da önemli olduğu gösterilir. Yazılımın dış dünyadan en hassas verileri nasıl topladığının elektriksel tasarımıdır.`,
+      resources: [
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/star-delta-transformation' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=y%C4%B1ld%C4%B1z+%C3%BC%C3%A7gen+d%C3%B6n%C3%BC%C5%9F%C3%BCm%C3%BC+ve+wheatstone+k%C3%B6pr%C3%BCs%C3%BC' },
+      ],
+    },
+    5: {
+      description: `Karmaşık ağları çözmek için Düğüm Gerilimleri (Node Voltage) yöntemi ve Kirchhoff'un Akım Yasası (KCL) temelinde analizler yapılır. Bilgisayarın anakartı üzerindeki güç dağıtım hatlarındaki (Power Rails) voltaj stabilitesi düğüm denklemleri ile hesaplanır. Algoritmik düşünce yapısına çok benzer şekilde, lineer denklem sistemleri (Matrisler) kurularak bilgisayara bu devrelerin nasıl çözdürüleceği mantığı kavranır. Herhangi bir devredeki arızayı bulmak (debugging) için avometre ile nereyi ölçeceğinizi öğretir. Bilinmeyen değişkenleri sistematik bir yaklaşımla ortaya çıkarma sanatıdır.`,
+      resources: [
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/dccircuits/dcp_4.html' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=d%C3%BC%C4%9F%C3%BCm+gerilimleri+y%C3%B6ntemi+devre+analizi' },
+      ],
+    },
+    6: {
+      description: `Düğüm yönteminin alternatifi olan Çevre Akımları (Mesh Current) yöntemi ve Kirchhoff'un Gerilim Yasası (KVL) incelenir. İki boyutlu düzlemsel devrelerin analizinde, gözlü (loop) yapıların matrislere çevrilerek yazılımsal simülatörlere (SPICE programları) nasıl aktarıldığının algoritmasıdır. Paralel çalışan bilgisayar donanımlarının birbirlerinin akım kapasitelerini nasıl etkilediklerini anlamak için ağ analizleri yapılır. Bir devreyi hem akım hem de gerilim açısından iki farklı yaklaşımla çözebilme esnekliği kazandırır. Olası kısa devre senaryolarının tahribatlarını öngörmeyi sağlar.`,
+      resources: [
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/mesh-analysis' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=%C3%A7evre+ak%C4%B1mlar%C4%B1+y%C3%B6ntemi+mesh+analysis' },
+      ],
+    },
+    7: {
+      description: `Süperpozisyon, Thevenin ve Norton eşdeğer devre teoremleri ile karmaşık sistemlerin inanılmaz ölçüde basitleştirilmesi öğretilir. Koskoca bir bilgisayar anakartının, belirli bir USB portundan bakıldığında tek bir direnç ve voltaj kaynağına (Thevenin modeli) indirgenebilmesi vizyonunu sunar. Bu teoremler, modüler yazılım geliştirmede fonksiyonların içinin ne olduğuyla ilgilenmeyip sadece giriş/çıkış değerlerine odaklanmakla aynı mantıktır. Cihazlar arası veri aktarımında empedans optimizasyonu yapma becerisi kazandırılır. Mühendislere, kompleks bir kaosu sadeleştirme gücü verir.`,
+      resources: [
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/dccircuits/dcp_7.html' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=thevenin+norton+ve+s%C3%BCperpozisyon+teoremleri' },
+      ],
+    },
+    8: {
+      description: `Kaynak Dönüşümü teoremleri ve maksimum güç transferi prensiplerinin sayısal analizleri ile doğrusal devre teknikleri tamamlanır. Özellikle batarya ile çalışan mobil cihazlarda işlemciye aktarılan gücün verimini maksimize etmek için uyumlama yapılması gerektiği anlaşılır. Sensörlerden gelen zayıf sinyallerin yükselteçlere en verimli şekilde nasıl aktarılacağının elektriksel altyapısıdır. Devre bileşenlerinin teorik limitleri gösterilerek, yazılım kodlarının talep edebileceği gücün üst sınırları çizilir. Ara sınav öncesi tüm DC (Doğru Akım) analiz yöntemlerinin entegrasyonudur.`,
+      resources: [
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/dccircuits/dcp_9.html' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=maksimum+g%C3%BC%C3%A7+transferi+teoremi' },
+      ],
+    },
+    9: {
+      description: `Analog bilgisayarların kalbi ve sinyal işlemenin en güçlü donanımı olan Op-Amp'ların (İşlemsel Kuvvetlendiriciler) ideal modelleri öğrenilir. İnsan sesini mikrofon üzerinden alıp, bilgisayarın ses kartındaki (ADC) çeviriciye ulaşmadan önce sinyali bozmadan büyütmek bu entegre devrelerle yapılır. Toplayıcı, çıkarıcı devreler, bilgisayarların 1 ve 0'lar olmadan önce analog voltajları toplayarak nasıl matematik yaptığını gösterir. Sensör okumalarında gelen gürültülü verileri temizleyip yazılımın işleyebileceği net sinyallere dönüştüren donanım harikasıdır. Analog dünya ile dijital işlemci arasındaki çevirmen elemandır.`,
+      resources: [
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/opamp/opamp_1.html' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=i%C5%9Flemsel+kuvvetlendiriciler+opamp+nedir' },
+      ],
+    },
+    10: {
+      description: `Türev alıcı, integral alıcı ve fark alıcı özellikleriyle Op-Amp'ların daha karmaşık analog matematik ve filtreleme işlemleri incelenir. Diferansiyel denklemler dersinde gördüğünüz integral işlemlerinin yazılımla değil, donanımsal ve sıfır gecikmeyle (zero-latency) nasıl çözüldüğü uygulamalı olarak görülür. Tıbbi cihazlardan gelen kalp atışı verilerindeki vücut gürültüsünü filtrelemek gibi ileri düzey sinyal şartlandırma yöntemleri kurgulanır. Otonom robotlarda yazılımın yükünü hafifletmek için hesaplamaların bir kısmını analog devrelere devretme stratejisi kazandırır. Analog-Dijital ortak tasarım vizyonunu pekiştirir.`,
+      resources: [
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/opamp/opamp_6.html' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=opamp+t%C3%BCrev+ve+integral+al%C4%B1c%C4%B1+devreler' },
+      ],
+    },
+    11: {
+      description: `Sadece enerji harcayan dirençlerin aksine, manyetik ve elektrik alanda enerji depolayarak zamana bağlı davranan kapasitör (C) ve indüktör (L) elemanları öğrenilir. Bilgisayarın DRAM bellek hücrelerinin aslında mikroskobik kapasitörlerden oluştuğu ve veriyi bu şekilde sakladığı kavranır. İndüktörler sayesinde, bilgisayarın güç beslemesinde yaşanacak ani akım kopmalarını engelleyen voltaj tamponları oluşturulur. Zaman değişimine tepki veren donanımlar sayesinde yazılımdaki "zamanlayıcılar" ve saat frekanslarının (clock cycles) nasıl üretildiği anlaşılır. Bellek ve zamanlama kavramlarının fiziksel karşılıklarıdır.`,
+      resources: [
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/capacitor/cap_1.html' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bobinler+ve+kondansat%C3%B6rler+devre+analizi' },
+      ],
+    },
+    12: {
+      description: `Direnç ve bobinden oluşan devrelerin bir anahtar kapandığında (Basamak Giriş) anında değil, zamanla eksponansiyel olarak nasıl tepki verdiği analiz edilir. Elektrik motorlarını yazılımla sürmeye kalktığınızda motorun neden anında tam hıza ulaşamadığının (indüktif gecikme) matematiksel modellemesidir. Diferansiyel denklemler dersindeki teorilerin, donanım üzerindeki akım artış formüllerine dönüştüğü ilk somut aşamadır. Donanımın yazılımdan gelen komutlara verdiği tepki sürelerini hesaplayarak gerçek zamanlı sistemler kurgulama yetisi kazanılır. Fiziksel sınırların algoritmik beklentilerle senkronizasyonudur.`,
+      resources: [
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/inductor/lr-circuit.html' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=rl+devreleri+ge%C3%A7ici+rejim+do%C4%9Fal+yan%C4%B1t' },
+      ],
+    },
+    13: {
+      description: `Direnç ve kapasitörden oluşan devrelerin şarj ve deşarj süreleri, zaman sabiti kavramı üzerinden elektronik gecikme hesabı yapılır. Mekanik klavyelerdeki tuşlara basıldığında oluşan elektriksel titremeleri donanımsal olarak filtreleyen (debouncing) RC filtrelerinin mantığı kavranır. Yazılıma giren sensör verilerinin hızını, kondansatör boyutunu değiştirerek donanım seviyesinde yavaşlatma ve filtreleme sanatı öğrenilir. DRAM belleklerin neden saniyede binlerce kez yenilenmek (refresh) zorunda olduğu, kondansatörün deşarj denklemleri üzerinden ispatlanır. Analog hafızanın ve zamanlamanın matematiksel sırrı çözülür.`,
+      resources: [
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/rc/rc_1.html' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=rc+devreleri+%C5%9Farj+de%C5%9Farj+zaman+sabiti' },
+      ],
+    },
+    14: {
+      description: `Direnç, bobin ve kondansatörün bir arada bulunduğu ikinci dereceden devrelerin sönümlü, kritik sönümlü ve salınımlı tepkileri incelenerek dönem tamamlanır. Wi-Fi veya Bluetooth modüllerinizin havadan doğru frekansı yakalamasını sağlayan "Rezonans" olayının devre seviyesindeki ispatı ve hesaplamasıdır. Kontrol sistemlerinde bir robot kolun hedefine giderken titremesini engellemek için kritik sönümleme şartlarının donanımsal modellemesi yapılır. İşlemcinizin mikrodalga frekanslarında çalışırken bakır yolların sistemi nasıl kararsızlığa sokabileceğini gösteren yüksek frekanslı uyarılardır. Donanım ve yazılımın kararlı bir şekilde titreşmesi için gerekli elektromanyetik ahenktir.`,
+      resources: [
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.electronics-tutorials.ws/accircuits/series-resonance.html' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=rlc+devreleri+ge%C3%A7ici+durum+ve+rezonans' },
+      ],
+    },
+  },
+  'BMB203 Nesneye Yönelik Programlama': {
+    1: {
+      description: `C dilindeki prosedürel yaklaşımdan, veriyi ve fonksiyonları nesneler (objeler) içinde gruplayan modern programlama felsefesine geçiş yapılır. Günümüz endüstrisinde standart olarak kabul edilen .NET altyapısı ve Java Virtual Machine (JVM) mimarileri tanıtılır. Gerçek dünyadaki nesnelerin dijital dünyada özellikler ve davranışlar olarak nasıl modelleneceğinin vizyonu çizilir. Yazılım krizini önleyen kodun tekrar kullanılabilirliği (reusability) kavramı ile tanışılır. Spagetti kod yazmaktan çıkıp, sürdürülebilir mimariler kurmanın ilk adımıdır.`,
+      resources: [
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/oop' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=nesneye+y%C3%B6nelik+programlamaya+giri%C5%9F' },
+      ],
+    },
+    2: {
+      description: `Microsoft'un amiral gemisi dillerinden olan C# dilinin temel söz dizimi (syntax), CLR üzerindeki derleme süreçleri ve modern IDE'lerin kullanımı işlenir. Bellek güvenliğine (type-safety) sahip C# dilinde değer (value) tipleri ve dizilerin belleğin neresinde (Stack) tutulduğunun analizi yapılır. C öğrenirken edindiğiniz algoritmik yetenekleri, çok daha yüksek seviyeli ve güvenli bir dilin söz dizimiyle yeniden kurgulama pratiğidir. Geliştirme ortamının hata ayıklama (debugging) yetenekleriyle verimliliğinizi (productivity) artırırsınız. Kurumsal seviyede bir dilin iskelet yapısına sağlam bir giriş yapılır.`,
+      resources: [
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+de%C4%9Fi%C5%9Fkenler+veri+tipleri+ve+diziler' },
+      ],
+    },
+    3: {
+      description: `Statik dizilerin sınırlarından kurtularak, boyutu dinamik olarak değişebilen \`List\` ve gelişmiş koleksiyon yapıları öğrenilir. \`String\` (metin) nesnelerinin bellekte nasıl "değiştirilemez" (immutable) davrandığı ve büyük metin manipülasyonlarının sisteme olan performansı tartışılır. Konsol tabanlı temel I/O işlemleri ve yazılan metotlarla basit mantıksal oyunlar kodlanarak fonksiyonel ayrıştırma pratik edilir. C dilindeki pointer dizileriyle eziyet çekerek yapılan işlemlerin, C# kütüphaneleriyle ne kadar zarif ve güvenli yapıldığı fark edilir. Gelişmiş veri yapılarına geçiş için hazır kütüphanelerin gücü keşfedilir.`,
+      resources: [
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+listeler+metotlar+ve+string+i%C5%9Flemleri' },
+      ],
+    },
+    4: {
+      description: `OOP'nin temel yapıtaşları olan Sınıflar (Class) ve bu sınıflardan üretilen Nesneler (Object) üzerinden bellek yönetimi incelenir. Sınıfın içindeki kritik verilerin dışarıdan rastgele değiştirilmesini engelleyen "Kapsülleme" (Encapsulation) ilkesi ile yazılımsal güvenlik duvarları inşa edilir. Nesne belleğe doğduğunda çalışan yapıcı metotlar (Constructor) ve belleği temizleyen yıkıcılar ile obje yaşam döngüsü kontrol altına alınır. Soyutlama (Abstraction) sayesinde dış dünyadaki gereksiz detaylardan arınmış, temiz ve odaklanmış dijital varlıklar kurgulanır. Kodun güvenilirliğini ve modülerliğini sağlayan mühendislik kalkanları oluşturulur.`,
+      resources: [
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/classes-structs-records' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+s%C4%B1n%C4%B1flar+nesneler+ve+kaps%C3%BClleme' },
+      ],
+    },
+    5: {
+      description: `Kapsüllenmiş verilere güvenli erişim sağlayan \`Property\` (get/set) yapıları ve nesne üretmeden doğrudan sınıfa bağlı çalışan \`Static\` üyeler öğrenilir. Proje büyüdükçe kod dosyalarını organize eden \`Namespace\` ve derlenmiş kütüphane parçaları (DLL) oluşturma mantığı kavranır. Ekip çalışmalarında aynı sınıfı farklı dosyalarda eşzamanlı geliştirmeyi sağlayan \`Partial Class\` mimarisiyle takım kodlamasına hazır hale gelinir. Kendi yazdığınız nesnelere diziymiş gibi \`obj[0]\` formatında erişim sağlayan İndeksleyiciler kodlanır. Profesyonel projelerin dosya ve erişim mimarisi standartları belirlenir.`,
+      resources: [
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+properties+static+ve+namespace+kavramlar%C4%B1' },
+      ],
+    },
+    6: {
+      description: `Bir sınıfın özelliklerini ve kodlarını başka bir sınıfa miras bırakarak kod tekrarını tamamen bitiren kalıtım (Inheritance) felsefesi işlenir. Miras alınan özelliklerin alt sınıflarda farklı tepkiler vermesini sağlayan Çok Biçimlilik (Polymorphism) sayesinde dinamik kodlar yazılır. Aynı isme sahip fakat farklı parametreler alan metotlar (Overloading) ile yazılımın esnekliği artırılır. Operatör aşırı yüklemesi yapılarak kendi özel veri tiplerinizle doğal matematiksel işlemler kodlanır. Yazılım evrimini ve hiyerarşisini kurmanın en güçlü aracıdır.`,
+      resources: [
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/inheritance' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+kal%C4%B1t%C4%B1m+inheritance+ve+polymorphism' },
+      ],
+    },
+    7: {
+      description: `Kalıtım zincirinde metotların alt sınıflar tarafından mecburi ezilmesini sağlayan \`Abstract\` sınıflar ve şablon sözleşmeler olan \`Interface\` (Arayüz) yapıları öğrenilir. Çoklu kalıtımın yasak olduğu dillerde, sınıflara farklı yetenekler kazandırmak için interfaceler üzerinden yazılım sözleşmeleri imzalanır. Sınıfın kalıtım vermesini engelleyerek hiyerarşiyi sonlandıran \`Sealed\` anahtar kelimesiyle sistemin tasarım sınırları çizilir. Plug-in tabanlı (eklentilerle büyüyen) mimariler, arayüz çok biçimliliği kullanılarak esnek bağlarla tasarlanır. Sürdürülebilir büyük sistemlerin en üst düzey tasarım kurallarıdır.`,
+      resources: [
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/object-oriented/interfaces' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+abstract+class+ve+interface+kullan%C4%B1m%C4%B1' },
+      ],
+    },
+    8: {
+      description: `Dönemin ilk yarısında öğrenilen kapsülleme, kalıtım, çok biçimlilik ve arayüzler gibi OOP felsefelerinin hem teorik hem kod bazında test edildiği aşamadır. Öğrencinin karmaşık bir gerçek dünya problemini doğru nesne hiyerarşisiyle tasarlayabilme becerisi ölçülür. Kodun çalışmasından ziyade, kodun modüler, esnek ve nesne yönelimli kurallara uygun tasarlanıp tasarlanmadığı kontrol edilir. C# dilinden ziyade OOP'nin dil bağımsız mühendislik vizyonunun özümsenmesi hedeflenir. İyi bir yazılım mimarı olma yolunda kritik bir vizyon kontrolüdür.`,
+      resources: [
+        { title: '8. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: '#' },
+      ],
+    },
+    9: {
+      description: `C# üzerinde oturtulan OOP konseptlerinin, platform bağımsız çalışan Java ekosistemine nasıl adapte edileceği gösterilir. JVM ve JRE kavramlarıyla derleme süreçleri karşılaştırılarak, her iki büyük kurumsal dilin de güçlü yönleri tartışılır. Syntax farklılıklarından ziyade, arka plandaki Garbage Collector bellek yönetim farklarına odaklanılır. Yeni bir dil öğrenmenin aslında sadece "sözlüğe bakmak" olduğu, arka plandaki mühendislik kurallarının evrensel olduğu aşılanır. Çok dilli (polyglot) bir mühendis profilinin temeli atılır.`,
+      resources: [
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://docs.oracle.com/javase/tutorial/java/concepts/' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=java+nesneye+y%C3%B6nelik+programlama+oop' },
+      ],
+    },
+    10: {
+      description: `Sınıflara göre bellekte daha hafif olan \`Struct\` yapıları ve kod okunabilirliğini artıran sabitler dizisi \`Enum\` incelenir. İstenmeyen çökmeleri engelleyen modern hata yakalama blokları (\`try-catch-finally\`) ile yazılımı dayanıklı hale getiren Exception Handling stratejileri pratik edilir. Çalışma zamanında kodun kendi yapısını inceleyip değiştirebildiği olağanüstü \`Reflection\` (Yansıma) mekanizması öğretilir. Metadatalarla (Attributes) derleyiciye özel komutlar vermek, ORM araçlarının arka planda nasıl çalıştığını kavramak için şarttır. Uygulamanın direncini ve dinamizmini artıran ileri seviye araçlardır.`,
+      resources: [
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/exceptions/' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+exception+handling+try+catch+ve+enum' },
+      ],
+    },
+    11: {
+      description: `C dilindeki fonksiyon işaretçilerinin güvenli OOP karşılığı olan \`Delegate\` yapıları ve tetikleyici olaylar (\`Events\`) öğrenilir. Bir butona tıklandığında hangi fonksiyonun çalışacağını belirleyen arayüz programlama mantığının (Event-Driven Programming) kalbidir. Masaüstü yazılımları geliştirmek için kullanılan Windows Forms altyapısına giriş yapılarak, sürükle-bırak arayüzlerin arka planında dönen kodlar incelenir. Yayıncı-Abone (Publisher-Subscriber) tasarım deseninin temelleri bu event mantığı üzerine kurulur. Görsel arayüz (GUI) kodlama dünyasına güçlü bir geçiş yapılır.`,
+      resources: [
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+delegates+events+ve+windows+forms' },
+      ],
+    },
+    12: {
+      description: `Form elemanlarının tasarım ekranında değil, doğrudan C# kodlarıyla dinamik olarak yaratılması ve silinmesi işlemleri pratik edilir. Kullanıcı yetkisine veya veritabanından gelen veri sayısına göre arayüzün kendi kendini anlık olarak nasıl çizdiği (Responsive) kavranır. Karmaşık otomasyon yazılımları geliştirirken olayları dinamik nesnelere kod üzerinden bağlama sanatı icra edilir. Grafiksel kullanıcı arayüzü ile arka plan nesneleri arasındaki karmaşık veri geçişleri sorunsuzca yönetilir. Kodun, arayüz tasarımından bağımsız kontrol yeteneği maksimize edilir.`,
+      resources: [
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/desktop/winforms/' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+dinamik+kontroller+olu%C5%9Fturma+winforms' },
+      ],
+    },
+    13: {
+      description: `Bellek adreslerine doğrudan erişim (Unsafe), Çoklu iş parçacıkları (Multithreading), ve Yazılım Mühendisliği prensipleri incelenir. İşlemcinin çekirdeklerini aynı anda çalıştırarak asenkron kod yazma ve threadlerin çakışmasını engelleme (Deadlocks) zorlukları aşılır. SOLID prensipleri ve Tasarım Desenleri ile kodun yıllarca bozulmadan genişleyebilmesinin kuralları tartışılır. Kodların hatasızlığını otomatik testlerle kanıtlayan \`Unit Testing\` ve arayüz ile veriyi ayıran \`MVC\` mimarisine giriş yapılır. Endüstriyel, kurumsal ve kusursuz yazılım üretim standartlarının tamamı özetlenir.`,
+      resources: [
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/core/testing/' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+solid+prensipleri+ve+multithreading' },
+      ],
+    },
+    14: {
+      description: `Geliştirilen nesne yönelimli masaüstü uygulamalarının, veritabanlarıyla (SQL Server) iletişim kurmasını sağlayan \`ADO.NET\` veri erişim katmanı öğrenilir. Veritabanına bağlantı açma, sorgu gönderme ve gelen verileri bellekte tutarak nesnelere dönüştürme işlemleri gerçekleştirilir. SQL injection gibi güvenlik açıklarını engellemek için parametrik sorguların önemi ve kullanımı üzerinde durulur. Kapanış haftasıyla birlikte; arayüzü olan, kurallara uygun yazılmış ve verileri kalıcı olarak saklayabilen tam teşekküllü otomasyon projeleri hayata geçirilir. Saf bir yazılım mühendisliği döngüsü tamamlanır.`,
+      resources: [
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+ado.net+ile+veritaban%C4%B1+ba%C4%9Flant%C4%B1s%C4%B1' },
+      ],
+    },
+  },
+  'SYA003 Sayısal Analiz': {
+    1: {
+      description: `Bilgisayarların ondalıklı sayıları (Floating Point) bellekte kısıtlı bitlerle saklamasından doğan kesme ve yuvarlama hataları öğrenilir. Roket yörünge hesaplamaları gibi hassas yazılımlarda bu küçük hataların zamanla birikerek sistemi nasıl felakete sürükleyeceği analiz edilir. Mutlak, bağıl ve yüzde hata kavramlarıyla, yazdığınız bir algoritmanın sonucuna ne kadar güvenebileceğinizin matematiksel garantisi sağlanır. Bilgisayarın her zaman "tam doğru" hesap yapmadığı gerçeğiyle yüzleşerek defansif kodlama zihniyeti aşılanır. Teorik matematiğin dijital donanımdaki kısıtlı sınırları çizilir.`,
+      resources: [
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/numerical_methods/numerical_methods_errors.htm' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+analiz+hata+kaynaklar%C4%B1+ve+hata+hesab%C4%B1' },
+      ],
+    },
+    2: {
+      description: `Sonlu farklar (ileri, geri ve merkezi farklar), öteleme operatörü gibi ayrık veri grupları üzerinde matematiksel işlemler yapmayı sağlayan kavramlar tanıtılır. Sinyal işlemede ayrık zamanlı sensör verilerini filtrelemek veya görüntü matrisleri üzerinde türev işlemleri yapmak için bu operatörler koda dökülür. Fonksiyonun denklemi bilinmediğinde bile, eldeki birkaç veri noktasıyla sistemin gidişatını öngörmeyi sağlar. Sürekli dünyayı, bilgisayarın anlayabileceği ayrık veri adımlarına dönüştürmenin aracıdır. İnterpolasyon ve türev algoritmalarının çekirdek yapısıdır.`,
+      resources: [
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Finite_difference' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+analiz+fark+operat%C3%B6rleri' },
+      ],
+    },
+    3: {
+      description: `Newton, Lagrange ve Spline gibi interpolasyon yöntemleri ile eldeki ayrık veri noktaları arasından geçecek en uygun polinom fonksiyonunu bilgisayara buldurma işlemi öğrenilir. Oyun motorlarında veya 3D animasyonlarda anahtar kareler arasındaki yumuşak geçişleri (tweening) hesaplamak tamamen interpolasyon ile yapılır. Eksik veya kopuk sensör verilerinin arasını matematiksel olarak tahmin ederek veriyi tamamlama sanatıdır. Verinin denklemi olmadığında, veriye uyan bir denklem uydurma yetisi kazandırılır. Büyük veri biliminde veriyi pürüzsüzleştirme operasyonlarının kalbidir.`,
+      resources: [
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/interpolation-in-numerical-methods/' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+analiz+interpolasyon+lagrange+newton' },
+      ],
+    },
+    4: {
+      description: `Fonksiyonun analitik türevi alınamadığında, bilgisayara Taylor serileri ve limit yaklaşımlarıyla yaklaşık türev nasıl aldırılır incelenir. Derin Öğrenme modellerini eğitirken kayıp fonksiyonunun eğimini bulmak (Gradient Descent) bu sayısal türev yaklaşım mantığını kullanır. Adım aralığını küçülterek doğru sonuca yaklaşma ile yuvarlama hatalarının artması arasındaki o kritik denge hesaplanır. Hataların türev alındıkça nasıl büyüdüğünü analiz ederek sensör verilerini önceden filtrelemenin önemi vurgulanır. Mathcad veya Python gibi yazılımlarla teorik hesapların programmatik çözümleri simüle edilir.`,
+      resources: [
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://mathworld.wolfram.com/NumericalDifferentiation.html' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+t%C3%BCrev+ileri+geri+merkezi+farklar' },
+      ],
+    },
+    5: {
+      description: `Eğri altındaki alanları (integral) Yamuk kuralı, Simpson kuralları yöntemleriyle bilgisayarlara döngüler üzerinden toplatarak hesaplatma stratejileridir. Diferansiyel formülü çok karmaşık olan bir enerji hesabını, küçük dilimlerine bölerek \`for\` döngüsüyle toplamak algoritmik verimlilik sağlar. Olasılık yoğunluk fonksiyonlarından kümülatif olasılıkları çıkarırken veri bilimi kütüphanelerinin arka planındaki çalışan algoritmalar tamamen bunlardır. Hangi yöntemin işlemciyi daha az yorarak daha az hatayla sonuç verdiğinin maliyet analizleri yapılır. Sürekli kalkülüsü bilgisayarın discrete mantığına uydurmanın zarif yoludur.`,
+      resources: [
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/numerical-integration-in-numerical-methods/' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+integrasyon+yamuk+ve+simpson+kural%C4%B1' },
+      ],
+    },
+    6: {
+      description: `Lineer cebir temelleri hatırlatılarak, yüksek boyutlu matrislerin determinantlarının bilgisayar tarafından minimum işlem yüküyle nasıl hesaplanacağı öğrenilir. Üç boyutlu grafikleri modellediğimiz devasa matrislerin çöküp çökmeyeceğini bu determinantlar belirler. Algoritma karmaşıklığında klasik yöntemle O(N!) süren hesabın sayısal ayrıştırmalarla O(N^3) seviyesine nasıl çekilebileceği mühendislik vizyonuyla gösterilir. Paralel hesaplama birimlerine (GPU) matris operasyonlarını bölme fikrinin ana mantığıdır. Matrislerin donanım üzerindeki hesaplama maliyetleri tartışılır.`,
+      resources: [
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/numerical_methods/numerical_methods_solving_linear_equations.htm' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=matris+ve+determinant+say%C4%B1sal+y%C3%B6ntemler' },
+      ],
+    },
+    7: {
+      description: `Denklem sistemlerini çözmek için devasa matrislerin tersini alan LU parçalanması, Gauss-Jordan gibi algoritmalar kodlanabilir formda incelenir. Makine öğrenmesinde Çoklu Lineer Regresyon modelinin ağırlık katsayılarını tek adımda bulmak için dev boyutlu veri matrislerinin tersini almak zorunludur. Direkt ters alma işleminin bilgisayar belleğini nasıl doldurduğu, bunun yerine matrisi Alt-Üst üçgen matrislere ayırmanın ne kadar hızlı olduğu kanıtlanır. Algoritmaların birbirleriyle sadece doğruluk değil, "Big O" hızı bakımından yarıştırıldığı aşamadır. Hızlı matematiksel hesaplama motorlarının sırları öğrenilir.`,
+      resources: [
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://mathworld.wolfram.com/MatrixInverse.html' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=invers+matris+bulma+gauss+jordan+lu+par%C3%A7alanmas%C4%B1' },
+      ],
+    },
+    8: {
+      description: `Sayısal analiz tekniklerinin, hata kavramının ve matris manipülasyonlarının teorik olarak kağıt üzerinde test edildiği akademik ara değerlendirmedir. Öğrencinin "her problemin formülü yoktur, ama algoritması yazılabilir" felsefesini ne ölçüde içselleştirdiği sınanır. Farklı sayısal yaklaşımların doğuracağı hata oranlarını analiz edip optimum yöntemi seçebilme mühendislik refleksi kontrol edilir. Lineer olmayan karmaşık denklemlere geçmeden önce analitik zekanın onaylanması sağlanır. Yazılımın arka planındaki matematik motorunu kurma becerisi belgelendirilir.`,
+      resources: [
+        { title: '8. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: '#' },
+      ],
+    },
+    9: {
+      description: `Matrislerin tersini bulmada kullanılan SVD (Singular Value Decomposition) gibi ileri düzey sayısal parçalama mantıkları detaylandırılır. Derin öğrenme veya oyun fiziği motorları gibi ağır arka uç matematiği yazan mühendisler için vazgeçilmez bir altyapıdır. Matris boyutları büyüdükçe hafızaya erişim hatalarını ve sıfıra bölme çökmelerini engelleme stratejileri pratik edilir. Kararsız (Ill-conditioned) veri setlerini tespit edip yazılımın patlamasını engelleme yolları sunulur. Sağlam algoritmik mimariler için gerekli matematiksel hijyen (precision) öğretilir.`,
+      resources: [
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/finding-inverse-of-a-matrix-using-gauss-jordan-method/' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=matris+tersi+alma+say%C4%B1sal+analiz+%C3%B6rnekler' },
+      ],
+    },
+    10: {
+      description: `Gauss Eleminasyonu gibi direkt yöntemlerin yerine, iterasyon yaparak sonuca adım adım yaklaşan Jacobi ve Gauss-Seidel algoritmaları yazılıma dökülür. İçi çoğunlukla sıfır dolu devasa verilerle (Seyrek matrisler) uğraşırken bu iteratif yöntemlerin bellek taşkınını önleyen esnekliği kanıtlanır. Bilgisayarın rastgele bir tahminle başlayıp, hatayı her döngüde azaltarak doğru sonucu kendi kendine bulması felsefesi aşılanır. Makine öğrenmesi ağlarının "Öğrenme" sürecinin temel çalışma vizyonunu inşa eder. Algoritmaların hata marjı belirleyerek sonsuz döngüden çıkma koşulları kurgulanır.`,
+      resources: [
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/numerical_methods/numerical_methods_solving_linear_equations.htm' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=jacobi+ve+gauss+seidel+y%C3%B6ntemleri+say%C4%B1sal+analiz' },
+      ],
+    },
+    11: {
+      description: `Bir sistemin dönüşüm dinamiklerini karakterize eden özdeğerleri bulmak için Kuvvet Yöntemi (Power Iteration) gibi algoritmayla çözülebilen yollar öğrenilir. Google'ın arama motoru olan PageRank'in arkasında yatan milyarlarca boyutlu matrislerin ana vektörlerini bulma işlemi tam olarak budur. Boyut İndirgeme (PCA) yaparak, gereksiz verileri silip sadece "Öz" veriyi saklamak suretiyle büyük veri analitiğini optimize etmenin kapısı aralanır. Büyük sistemlerin yapısal stabilitesini ve çökmelerini kodlayarak tespit etme imkanı sunar. Veri madenciliğinin matematiksel matkabıdır.`,
+      resources: [
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://en.wikipedia.org/wiki/Eigenvalue_algorithm' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+analiz+%C3%B6zde%C4%9Fer+ve+%C3%B6zvekt%C3%B6r+bulma+kuvvet+y%C3%B6ntemi' },
+      ],
+    },
+    12: {
+      description: `Analitik çözümü olmayan kompleks polinomların köklerini bulmak için Bisection (İkiye Bölme) ve Newton-Raphson algoritmaları kodlanır. Veri yapılarındaki "Binary Search" (İkili Arama) algoritmasının matematiksel kardeşi olan Bisection yöntemiyle çözüm aralıkları daraltılarak performansı optimize etme süreci gösterilir. Newton-Raphson yönteminin teğetler çizerek çözüme inanılmaz bir hızla yaklaşması, iyi tasarlanmış bir algoritmanın işlem gücünden ne kadar tasarruf ettirdiğini kanıtlar. Köklerin ıraksama tehlikeleri tartışılarak, algoritmaların sınır durumları için hata denetimleri yazma gerekliliği öğretilir. Yapay zekada hiperparametre optimizasyonu felsefesine hazırlıktır.`,
+      resources: [
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/newton-raphson-method/' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=newton+raphson+ve+ikiye+b%C3%B6lme+y%C3%B6ntemi+say%C4%B1sal+analiz' },
+      ],
+    },
+    13: {
+      description: `Zamana bağlı hareket formüllerini analitik olarak çözmek yerine, bilgisayara zaman adımları belirterek iteratif olarak (Euler ve Runge-Kutta) çözdürme mantığı kavranır. Tüm popüler oyun motorları (Unity, Unreal Engine) yerçekimini ve objelerin çarpışma hızlarını hesaplarken tam olarak bu Runge-Kutta algoritmalarını kullanırlar. Adım aralığını küçülttükçe simülasyonun ne kadar daha hassas ve "gerçekçi" sonuçlar vereceği pratik edilir. Algoritma hızı ile fiziksel doğruluğun nasıl optimize edildiği (Trade-off) mühendislik vizyonuyla tartışılır. Sanal dünyada fizik kurallarını koda dökmenin omurgasıdır.`,
+      resources: [
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/runge-kutta-4th-order-method-solve-differential-equation/' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=euler+ve+runge+kutta+y%C3%B6ntemleri+say%C4%B1sal+analiz' },
+      ],
+    },
+    14: {
+      description: `Klasik başlangıç değerleri yerine her iki ucun da bilindiği Sonlu Farklar (Finite Differences) ile sınır değer algoritmaları kurgulanır. Kararsız "Stiff" sistemlerin, klasik yazılım algoritmalarını nasıl sonsuz döngüye veya taşmaya (overflow) soktuğu analiz edilerek kapalı (Implicit) algoritmalar incelenir. Isı transferi ve donanım soğutma tasarım yazılımlarının arka planındaki ileri düzey hesaplama metodolojileridir. Sadece bir kod yazıcısı değil, sistemlerin karmaşık doğasını modelleyebilen analitik bir mühendis formasyonuyla dönem noktalanır. İleri bilgisayar biliminin simülasyon aşamasıdır.`,
+      resources: [
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://mathworld.wolfram.com/BoundaryValueProblem.html' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=s%C4%B1n%C4%B1r+de%C4%9Fer+problemleri+say%C4%B1sal+analiz+stiff+denklemler' },
+      ],
+    },
+  },
+  'BMB207 Veritabanı Yönetimi': {
+    1: {
+      description: `Modern uygulamaların kalbi olan Veritabanı Yönetim Sistemlerinin (DBMS) mimarisi, dosya sistemlerinden farkları ve veriyi saklama paradigmaları öğrenilir. İnternet devlerinin milyarlarca veriyi klasörlerde değil, neden ACID özelliklerine sahip yönetim sistemlerinde tuttuğu analiz edilir. Verinin "Bilgiye" dönüşmesi sürecinde veri bütünlüğü, eşzamanlılık kontrolü ve güvenlik gibi arka uç mühendisliğinin ana görevleri tanıtılır. Veri soyutlama katmanları ile yazılımcı, kullanıcı ve veritabanı motoru arasındaki sınırlar çizilir. "Veri yeni petroldür" felsefesinin teknik altyapısına giriş yapılır.`,
+      resources: [
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/dbms-tutorial' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veritaban%C4%B1+y%C3%B6netim+sistemleri+giri%C5%9F+vtys' },
+      ],
+    },
+    2: {
+      description: `Bir yazılım projesindeki gerçek dünya varlıklarını tablolara dökmeden önce Varlık-İlişki (ER) diyagramlarıyla kavramsal olarak modelleme sanatı işlenir. Bire-bir, Bire-çok ve Çoka-çok ilişki tipleriyle verilerin birbirine nasıl bağlanacağı ve Primary/Foreign Key mantığı kavranır. Kötü tasarlanmış bir modelin, yazılım aşamasında projeyi nasıl yavaşlatacağı bağımlılık (Coupling) üzerinden tartışılır. Algoritma yazmadan önce akış şeması çizmek gibi, kod yazmadan önce verinin mimarisini kağıda hatasız tasarlamak öğretilir. Güçlü bir uygulamanın sarsılmaz veri kolonlarını atma aşamasıdır.`,
+      resources: [
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/introduction-of-er-model/' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=varl%C4%B1k+ili%C5%9Fki+modeli+er+diyagram%C4%B1+veri+taban%C4%B1' },
+      ],
+    },
+    3: {
+      description: `Kağıt üzerinde tasarlanan kavramsal ER diyagramlarının, ilişkisel veritabanı kurallarına göre tablolara dönüştürülme kuralları pratik edilir. Çoka-çok ilişkilerin veritabanlarında doğrudan kullanılamaması gerçeğiyle yüzleşip, araya "Bağlantı Tabloları" kurarak problemi çözme yetisi kazanılır. Zayıf varlıkların ilişkisel modele çevrilirken veri tekrarını engelleme stratejileri belirlenir. Tasarımcının zihnindeki soyut kurgunun, bilgisayar belleğindeki fiziksel tablolara eşleştirilmesidir. Doğru Schema mimarisi kurmanın tüm pratik kuralları netleşir.`,
+      resources: [
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/mapping-from-er-model-to-relational-model/' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=er+diyagram%C4%B1n%C4%B1+tablolara+d%C3%B6n%C3%BC%C5%9Ft%C3%BCrme' },
+      ],
+    },
+    4: {
+      description: `Veritabanı motoruyla konuşmanın evrensel dili olan SQL'e ve temel veri çekme operasyonu olan \`SELECT\` komutuna giriş yapılır. Tablolardan filtreleme (\`WHERE\`), sıralama (\`ORDER BY\`) yapılarak büyük veri yığınları içinden sadece istenen bilginin izole edilmesi öğrenilir. Veritabanının ham veriyi, uygulama (Front-end) için anlamlı paketler haline getirme gücü test edilir. MS Access gibi temel görsel araçlar kullanılarak, arkada dönen SQL sorgularının tablo çıktıları hızlıca gözlemlenir. Backend geliştiriciliğin en çok kullanılacak kod satırları yazılmaya başlar.`,
+      resources: [
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/sql/sql_select.asp' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sql+select+kullan%C4%B1m%C4%B1+ve+temel+sorgular' },
+      ],
+    },
+    5: {
+      description: `Farklı tablolara dağıtılmış parçalı bilgilerin \`JOIN\` komutlarıyla birleştirilerek anlamlı, tek bir rapor haline getirilmesi işlemleridir. Müşterinin profilini, siparişlerini üç farklı tablodan saniyenin onda biri hızında eşleştirip tek ekrana basmanın mimarisi bu Join algoritmalarıyla yapılır. Yanlış yazılan bir Join sorgusunun kartezyen çarpıma yol açarak sunucuyu nasıl çökertebileceği performans açısından analiz edilir. İlişkisel algebra mantığının SQL sintaksındaki tam karşılığıdır. Verileri mantıksal ağlarla birbirine bağlama sanatıdır.`,
+      resources: [
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/sql/sql_join.asp' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sql+join+kullan%C4%B1m%C4%B1+inner+left+right+join' },
+      ],
+    },
+    6: {
+      description: `Veri Manipülasyon Dili (DML) komutları olan \`INSERT\`, \`UPDATE\`, \`DELETE\` ile tabloların içeriklerini dinamik olarak yönetme pratiği yapılır. Bir uygulamanın arayüzünden form gönderildiğinde arka planda verinin nasıl eklendiği veya güncellendiği bu komutlara dayanır. \`GROUP BY\` kullanılarak, milyonlarca satış verisinden istatistiksel kümeleme hesaplamaları sunucu tarafında çözdürülür. \`DELETE\` yerine "Soft Delete" mantığı gibi sektörel iyi uygulamalar (best practices) tartışılır. Sistem dinamizmini kodla kontrol etme seviyesine gelinir.`,
+      resources: [
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/sql/sql_insert.asp' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sql+insert+update+delete+ve+group+by+having' },
+      ],
+    },
+    7: {
+      description: `Veritabanındaki tekrar eden verileri silmek, güncelleme anormalliklerini engellemek için uygulanan Normal Form kuralları detaylıca öğrenilir. Bir tabloda "Müşteri Şehri" değiştirildiğinde diğer kayıtlarda eski kalmasını engelleyen tutarlılık kuralları, tabloları atomik boyutlara ayırarak sağlanır. Fazla normalizasyonun \`JOIN\` maliyetini artırarak sistemi yavaşlattığı "Performans vs Tasarım" paradoksu tartışılarak "Denormalizasyon" vizyonu katar. Kalitesiz veri tasarımlarını kurumsal endüstri standartlarına yükseltmenin altın kurallarıdır. Kalıcı ve hatasız mimarinin matematiğidir.`,
+      resources: [
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/dbms-normalization' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veritaban%C4%B1+normalizasyon+1nf+2nf+3nf' },
+      ],
+    },
+    8: {
+      description: `Varlık-İlişki (ER) diyagramı modelleme, tablolara dönüştürme kuralları, Normalizasyon formları ve temel SQL sorgulama yeteneklerinin kağıt üzerinde değerlendirildiği aşamadır. Öğrencinin karmaşık bir senaryoyu okuyup eksiksiz bir veritabanı mimarisi kurgulama kapasitesi test edilir. Gelişigüzel tasarlanmış veya veri tekrarı barındıran tabloların tespiti yapılarak analitik düşünce kontrol edilir. İleri düzey sunucu yönetimi ve T-SQL programlamaya geçmeden önce altyapının sağlamlığından emin olunan duraktır. Sağlam veri temeli atmadan üstüne yazılım inşa edilemeyeceği gerçeği bir kez daha kanıtlanır.`,
+      resources: [
+        { title: '8. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: '#' },
+      ],
+    },
+    9: {
+      description: `Dünyanın en çok kullanılan kurumsal İlişkisel Veritabanı Sistemlerinden biri olan Microsoft SQL Server mimarisi, kurulumu ve SSMS kullanımı incelenir. Sadece sorgu yazmak değil, veritabanı motorunun işlemci ve RAM kullanımını, yedekleme (Backup) stratejilerini yönetme vizyonu sunulur. Verilerin kaybolmaması ve sistemin 7/24 kesintisiz çalışması için bir Veritabanı Yöneticisi (DBA) gibi düşünme pratiği aşılanır. Klasik dosya saklamanın ötesine geçilerek, bir sunucu ortamında veri güvenliğinin anlaşılması sağlanır. Profesyonel iş hayatında karşılaşılacak endüstriyel arayüzlere geçiş yapılır.`,
+      resources: [
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/sql/sql-server/' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ms+sql+server+kurulumu+ve+kullan%C4%B1m%C4%B1' },
+      ],
+    },
+    10: {
+      description: `SQL içindeki Data Definition Language (DDL) komutları olan \`CREATE\`, \`ALTER\`, \`DROP\` kullanılarak veritabanı nesnelerini tamamen kodla üretme işlemleri gerçekleştirilir. Arayüzden tıklayarak tablo yapmak yerine, büyük projelerde veritabanı kurulumlarını (Migration) otomatik kod betikleriyle yapmanın zorunluluğu kavranır. İndeksleme mantığı öğretilerek, milyonlarca satırlık bir tabloda arama hızının $O(\\log N)$ hızına nasıl çıkarıldığı kanıtlanır. "Constraint" komutlarıyla veritabanı seviyesinde hatalı veri girişini engelleyen sarsılmaz güvenlik kilitleri kodlanır. Sistemin iskeletini komutlarla modifiye etme becerisidir.`,
+      resources: [
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/sql/sql_create_table.asp' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sql+ddl+komutlar%C4%B1+create+alter+drop' },
+      ],
+    },
+    11: {
+      description: `Standart SQL'in sorgulama sınırlarını aşarak içine değişken tanımlama ve \`IF-ELSE\` döngüleri ekleyen Transact-SQL (T-SQL) öğrenilir. Sık kullanılan iş mantıklarını Stored Procedure (Saklı Yordamlar) halinde veritabanı sunucusuna gömerek ağ trafiğini olağanüstü azaltma stratejileri kurgulanır. Veri eklendiğinde otomatik çalışan Trigger mekanizmalarıyla sistemin kendini denetleyen otonom bir yapıya dönüştürülmesi sağlanır. Arka Uç geliştiricisinin yükünü hafifleterek iş kurallarını doğrudan veri katmanında çözme yeteneğidir. Veritabanı motoruna prosedürel programlama aklı ekleme sanatıdır.`,
+      resources: [
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/sql/t-sql/tutorial-writing-transact-sql-statements' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=tsql+dersleri+stored+procedure+trigger' },
+      ],
+    },
+    12: {
+      description: `Veritabanı güvenliğinin en kritik aşaması olan Rol tabanlı erişim kontrolü, yetkilendirme (\`GRANT\`, \`REVOKE\`) ve kimlik doğrulama modelleri işlenir. Bir yazılımda sadece admin'in verileri silmesini veritabanı seviyesinde kilitleyerek siber saldırıların (SQL Injection) hasarı minimize edilir. Farklı uygulamalara veritabanında ayrı "Schema" bölgeleri tahsis ederek veri izolasyonunu kurgulama yetisi kazandırılır. İç/Dış tehditlere karşı verinin en alt katmanda korunması felsefesi aşılanır. Profesyonel sistem yöneticiliğinin veritabanındaki karşılığıdır.`,
+      resources: [
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/sql/relational-databases/security/securing-sql-server' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sql+server+kullan%C4%B1c%C4%B1+yetkilendirme+ve+g%C3%BCvenlik' },
+      ],
+    },
+    13: {
+      description: `Microsoft ekosisteminin dışına çıkılarak, açık kaynak (Open Source) ekosisteminin lideri MySQL sisteminin mimarisi ve farkları tanıtılır. Maliyetsiz ve hızlı olması sebebiyle girişimlerin (Startups) neden ilk olarak MySQL tercih ettiği altyapısal perspektiften analiz edilir. SQL dilindeki temel komutların farklı RDBMS motorlarındaki küçük syntax ve optimizasyon farklarına adaptasyon süreci yaşanır. Tek bir teknolojiye bağımlı kalmadan, platform bağımsız veri mimarı olma vizyonu genişletilir. Sektörel esneklik ve açık kaynak kültürü yazılımcı kimliğine dahil edilir.`,
+      resources: [
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://dev.mysql.com/doc/' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=mysql+kurulumu+ve+temel+kullan%C4%B1m%C4%B1' },
+      ],
+    },
+    14: {
+      description: `Oluşturulan veritabanlarının C#, Java veya Python gibi nesne yönelimli dillerle nasıl konuşturulacağı bağlantı kütüphaneleriyle birleştirilir. Yazılım kodundaki objeler ile veritabanındaki tablolar arasındaki uyumsuzluğu gideren ORM teknolojilerinin giriş mantığı tartışılır. Bağlantı havuzlama tekniğiyle sistemin binlerce anlık kullanıcıya yanıt verirken çökmemesinin sunucu taraflı optimizasyonu kurgulanır. Veriyi tasarlama, güvenliğini sağlama ve onu canlı bir yazılım projesinin parçası yapma vizyonuyla, gerçek bir "Full-Stack" mühendislik rotası tamamlanmış olur.`,
+      resources: [
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c%23+ile+sql+server+veritaban%C4%B1+ba%C4%9Flant%C4%B1s%C4%B1+ado.net' },
+      ],
+    },
+  },
+  'YD 003 Yabancı Dilde Okuma ve Konuşma': {
+    1: {
+      description: `Küresel teknoloji şirketlerinin merkezlerinden biri olan Birleşik Krallık'ın kültürel ve politik temellerini İngilizce okuma parçalarıyla analiz etmeye başlarsınız. Çeşitli milletlerin tek bir çatı altında nasıl kimlik oluşturduğu, farklı modüllerin ortak bir yazılım mimarisinde uyumla çalışmasına benzetilebilir. İngiliz sistemini anlatan ileri düzey metinler okunarak, akademik okuma yeteneği ve uluslararası terminoloji dağarcığı geliştirilir. Yabancı şirketlerin kurumsal iletişim dilinde neden resmi bir yapı olduğunu anlamanın sosyal kökenlerini keşfedersiniz. Evrensel iş İngilizcesine kültürel bir giriş yapılır.`,
+      resources: [
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-1' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=uk+culture+and+political+system+documentary' },
+      ],
+    },
+    2: {
+      description: `Din ve inanç özgürlüğü gibi hassas toplumsal yapıların Birleşik Krallık kültürü içindeki yeri İngilizce olarak tartışılır. Küresel ve çok uluslu yazılım ekiplerinde çalışırken, farklı inançlara sahip iş arkadaşlarıyla kapsayıcı bir iletişim dili kurmanın sosyal temelleridir. Metinler aracılığıyla argüman oluşturma ve fikirleri İngilizce olarak kibar ama etkili bir şekilde ifade etme teknikleri pratik edilir. Kelime haznesine soyut ve felsefi terimler eklenerek, akıcı tartışma (Fluency) yeteneği geliştirilir. Sosyal mühendislik ve iş etiği vizyonunuzu genişleten bir aşamadır.`,
+      resources: [
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/features/6-minute-english' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=religion+in+the+uk+history+and+culture' },
+      ],
+    },
+    3: {
+      description: `İngiliz kültüründeki aile dinamikleri, resmi tatiller ve günlük yaşam rutinleri üzerinden günlük diyalog kalıpları geliştirilir. Global şirketlerin tatil günlerinin çalışma takvimlerini (Sprints) nasıl etkilediği ve "Small Talk" kültürünün yabancı ekiplerle kaynaşmadaki önemi aşılanır. Toplantı öncesi festivaller hakkında İngilizce sohbet edebilmek, takım içi sosyal uyumu olağanüstü artırır. Gündelik yaşam kelimeleriyle dolu okuma parçalarıyla pratik çeviri becerileri ve İngilizce düşünme refleksleri hızlandırılır. Sosyal zeka dil becerileriyle entegre edilir.`,
+      resources: [
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-2' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=british+festivals+and+family+culture+esl' },
+      ],
+    },
+    4: {
+      description: `Özel kavramların listelendiği sözlükçelerin nasıl verimli okunacağı ve bağlamdan anlam çıkarma (Guessing from context) stratejileri pratik edilir. API dokümantasyonları okurken karşınıza çıkan bilinmeyen terimleri bağlamdan analiz ederek anlama yeteneğidir. Kelimelerin köklerini ve eklerini inceleyerek yeni kelimeler türetme mantığı, yazılımdaki değişken adlandırma standartlarını çözmek gibidir. Teknik makaleleri tarama hızını (Skimming & Scanning) artıracak güçlü bir sözcük ve analitik okuma antrenmanıdır. Etkili bilgi çıkarma ve yorumlama becerisi pekiştirilir.`,
+      resources: [
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://dictionary.cambridge.org/dictionary/english/' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=how+to+guess+meaning+from+context+in+english' },
+      ],
+    },
+    5: {
+      description: `Dünyanın finans ve teknoloji başkentlerinden biri olan Londra'nın tarihi, mimarisi ve teknoloji merkezleri üzerine metinler incelenir. FinTech ve startup ekosistemlerinin neden Londra'da kümelendiğini anlatan analizler okuyarak girişimcilik vizyonunuzu yabancı dille harmanlarsınız. Metro veya şehir ulaşımıyla ilgili okumalar, yön tarif etme ve seyahat İngilizcesi pratiği yapmanın yanı sıra karmaşık ağ yapılarını İngilizce kurgulamaya yardımcı olur. Metropol kültürü ve teknoloji merkezlerindeki hızlı iş yaşantısına dil bazında zihinsel hazırlık yapılır. Profesyonel kariyer hedeflerinize ilham verecek global metinler okunur.`,
+      resources: [
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-3' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=london+history+and+culture+documentary+for+students' },
+      ],
+    },
+    6: {
+      description: `İngiltere'nin Güneydoğu bölgesinin coğrafi yapısı, üniversiteleri ve inovasyon merkezleri hakkında detaylı okuma parçaları ele alınır. Akademik araştırma kültürünün ve üniversite-sanayi işbirliğinin İngilizce metinler üzerinden nasıl ifade edildiği incelenir. Mekan betimlemeleri sayesinde, sistem tasarımlarınızı veya bir yazılımın arayüzünü detaylı İngilizce sıfatlar kullanarak anlatma yeteneğiniz güçlendirilir. Coğrafi dokunun ekonomiye etkileri tartışılırken mantıksal neden-sonuç cümleleri kurma kalıpları pratik edilir. Karşılaştırmalı ve betimleyici dil yapıları sağlamlaştırılır.`,
+      resources: [
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-4' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=southeast+england+geography+and+culture' },
+      ],
+    },
+    7: {
+      description: `Tarım ile yüksek teknolojinin kesiştiği "Silicon Fen" (Cambridge çevresi) gibi bölgeleri barındıran East Anglia üzerine okumalar yapılır. Biyoteknoloji ve bilgisayar bilimlerinin doğuşuna ev sahipliği yapmış bu bölgenin ekosistemini anlatan spesifik teknik metinler çevrilir. Sakin bölgelerin nasıl global Ar-Ge üslerine dönüştüğünü tartışırken fikir bildirme kalıplarını İngilizce kullanma refleksiniz gelişir. Bilimsel makaleler okurken ihtiyaç duyacağınız inovasyon ve araştırma kavram kümelerine hakimiyetiniz artar. Akademik İngilizcenin bilim ve coğrafyayla harmanlandığı haftadır.`,
+      resources: [
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-5' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=east+anglia+cambridge+silicon+fen+tech' },
+      ],
+    },
+    8: {
+      description: `Sanayi Devrimi'nin doğduğu topraklar olan Midlands bölgesinin tarihsel endüstriyel evrimi, dijitalleşmeye geçişi anlatan makalelerle işlenir. Donanım ve imalat sanayisinin Endüstri 1.0'dan Endüstri 4.0'a uzanan yolculuğunu anlatan İngilizce terimler dağarcığınıza eklenir. Bir ülkenin teknolojik altyapı çöküşlerini anlatan vaka analizlerini okuyup özetleme teknikleriyle okuduğunu sentezleme yetisi artırılır. Sunum yetenekleri çalıştırılarak, geçmiş teknolojilerle güncel yazılımların kıyaslaması dinleyicilere İngilizce aktarılır. Teknik İngilizcenin sanayisel formlarıyla pratik yapılır.`,
+      resources: [
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-6' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=midlands+england+industrial+revolution+history' },
+      ],
+    },
+    9: {
+      description: `Dönemin başından bu yana işlenen okuma parçalarından yola çıkarak İngilizce okuma (Reading), anlama ve kelime kapasitesinin ölçüldüğü teorik sınavdır. Mühendis adaylarının, sadece kodlama dillerine değil, yabancı bir dilin karmaşık ve uzun paragraf yapılarına da odaklanıp içinden istenilen veriyi çıkarabilme yeteneği sınanır. Okuma hızınız ve bilmediğiniz kelimeleri bağlamdan tahmin etme başarınız değerlendirilerek uluslararası sınavlara hazırlık seviyeniz analiz edilir. Konuşma pratiklerindeki akıcılığın ve özgüvenin ne ölçüde geliştiği gözlemlenir. Global iletişim yetkinliğinizin ara onay noktasıdır.`,
+      resources: [
+        { title: '9. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: '#' },
+      ],
+    },
+    10: {
+      description: `İngiltere'nin kuzey kırsalları, doğa koruma alanları ve sınır bölgelerinin karakteristik özelliklerini anlatan doğa-kültür ağırlıklı metinler üzerine çalışılır. Doğa ve çevre terminolojisi ile harmanlanan okumalar, sürdürülebilir teknoloji veya yenilenebilir enerji yazılımları hakkında makaleler okumak için dilsel temel atar. Topluluk karşısında tartışma aktivitelerinde teknolojinin çevreye etkisi konusunda güçlü ve ikna edici İngilizce argümanlar kurma pratiği yapılır. Farklı yöresel aksanların dinleme egzersizleriyle tanıtılması, global toplantılardaki telaffuzlara adaptasyonu kolaylaştırır. Esnek okuma ve çok yönlü anlama becerileri hedeflenir.`,
+      resources: [
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-7' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yorkshire+dales+and+northern+england+documentary' },
+      ],
+    },
+    11: {
+      description: `İngiltere'nin Güneybatı sahillerinin turizm, tarih ve denizcilik faaliyetlerini işleyen turistik ve ekonomik okuma metinleri incelenir. Yabancı müşterilere yazılım projeleri (turizm rezervasyon sistemleri gibi) sunarken ihtiyaç duyulacak coğrafi ve hizmet sektörü İngilizcesi pratik edilir. Bir uygulamayı veya sistemi detaylarıyla tanıtan yazıları okuyup benzer formlarda İngilizce sunumlar hazırlama etkinlikleri yapılır. Müşteri memnuniyeti ve deneyim odaklı kelime yapılarıyla iş İngilizcesi dağarcığı desteklenir. Anlatıma ikna edici ve çekici bir ton katmanın dilsel stratejileri kavranır.`,
+      resources: [
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-8' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=south+west+england+cornwall+culture' },
+      ],
+    },
+    12: {
+      description: `Kendi özerk yapısı, tarihi, buluşları ve eğitim sistemiyle İskoçya'nın kültürel ve teknolojik profili İngilizce olarak analiz edilir. İskoçya'nın bilimsel keşiflerdeki rolünü okuyarak, bilim tarihi ve teknolojik inovasyonları anlatan akademik İngilizce metinleri tarama becerisi ivme kazanır. Farklı aksanlar serisinin en zorlusu olan İskoç aksanına maruz kalmak, uluslararası toplantılarda her türlü telaffuzu anlayabilme yeteneğini güçlendirir. İki farklı kültürün benzerliklerini zıtlık bağlaçlarıyla akıcı bir şekilde tartışma pratiği pekiştirilir.`,
+      resources: [
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-9' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=scotland+history+culture+and+innovations' },
+      ],
+    },
+    13: {
+      description: `Madencilik geçmişi, sanayinin dönüşümü ve dilin korunması gibi konular üzerinden Galler'in sosyal ve ekonomik yapısını anlatan metinler okunur. Eski sanayi tesislerinin nasıl modern siber güvenlik ve bilişim kümelerine dönüştürüldüğünü anlatan vaka çalışmalarını okuyarak sektörel dönüşüm İngilizcesi geliştirilir. Doğal dillerin korunması ile programlama dillerinin eskimesi arasında analojiler kurularak sistemlerin hayatta kalma mücadeleleri İngilizce konuşma konusu yapılır. Sınıf içi soru sorma/cevaplama pratikleri ile iş mülakatlarında kullanacağınız İngilizce düşünme hızı maksimize edilir. Kendiliğinden iletişim kurma özgüveni desteklenir.`,
+      resources: [
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-10' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=wales+culture+history+and+geography' },
+      ],
+    },
+    14: {
+      description: `Politik süreçlerin çözümü, ekonomik toparlanma ve Kuzey İrlanda'nın kendine has sosyo-kültürel dinamikleri İngilizce araştırma metinleriyle incelenerek dönem tamamlanır. Bir toplumdaki kriz süreçlerinin yazılı metinlere nasıl döküldüğünü okumak, yazılım şirketlerindeki büyük krizleri anlatan resmi PR metinlerini anlamanızı sağlar. Karmaşık olay örgüsünü kafada İngilizce modelleyip özetleme sanatının zirvesine ulaşılır. Bir bilgisayar mühendisi olarak sadece kod okuyan değil; farklı kültürleri ve uluslararası makaleleri akıcı bir şekilde anlayıp tartışabilen bir dünya vatandaşı formasyonuyla dil eğitimi noktalanır.`,
+      resources: [
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-11' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=northern+ireland+history+and+culture+explained' },
+      ],
+    },
+  },
 };
 
 export const weeklyContentByCourse: WeeklyContentByCourse = Object.fromEntries(
