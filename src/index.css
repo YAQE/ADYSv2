@@ -4,3 +4,11 @@
 {
 --font-display: "Inter", sans-serif;
 }
+
+/* Yükleme / hata anında beyaz ekran olmaması için */
+html,
+body,
+#root {
+  min-height: 100%;
+  background-color: #000;
+}

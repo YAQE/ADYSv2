@@ -3,6 +3,10 @@ import Background from './components/Background';
 import Navbar from "./components/StaggeredMenu";
 import TextType from "./components/TextType";
 import FlowingMenu from './components/FlowingMenu';
+import ProfileCard from './components/ProfileCard';
+import { SocialLogoLinks } from './components/SocialLogoLinks';
+import ScrollToTop from './components/ScrollToTop';
+import type { StaggeredMenuItem } from './components/StaggeredMenu';
 // SİLDİĞİMİZ DOSYAYI GERİ GETİRDİK: Senin orijinal animasyonların burada
 import './App.css';
 import ClassDashboard from './components/ClassDashboard';
@@ -10,6 +14,8 @@ import img1 from './assets/classes/1.jpg';
 import img2 from './assets/classes/2.jpg';
 import img3 from './assets/classes/3.jpg';
 import img4 from './assets/classes/4.jpg';
+import omerpp from './assets/pp/\u00f6merpp.jfif';
+import yaqepp from './assets/pp/yaqepp.jfif';
 
 // --- 1. ADIMDA KONUŞTUĞUMUZ VERİ TABANI ---
 const courseData = {
@@ -70,6 +76,14 @@ const courseData = {
   }
 };
 
+/** Menü sırası: site ile aynı (Ana sayfa → Sınıf → Dersler → Tanışma) */
+const MAIN_NAV_ITEMS: StaggeredMenuItem[] = [
+  { label: 'Ana Sayfa', ariaLabel: 'Giriş bölümüne git', link: '#ana-sayfa' },
+  { label: 'Sınıfını Seç', ariaLabel: 'Sınıf seçim alanına git', link: '#sinif-secimi' },
+  { label: 'Dersler', ariaLabel: 'Dersler bölümüne git', link: '#dashboard-section' },
+  { label: 'Tanışalım', ariaLabel: 'Tanışma zamanı bölümüne git', link: '#tanisma-zamani' },
+];
+
 //BURASI SCROLL EFEKTİ VERMEK İÇİN SCROLL'U YAVAŞLATIYOR.
 const slowScrollTo = (targetY: number) => {
   const duration = 2000; // animasyon süresi (ms) - 2 saniye
@@ -97,8 +111,9 @@ const slowScrollTo = (targetY: number) => {
 };
 
 function App() {
+  
   const [showIntro, setShowIntro] = useState(false);
-
+  
   // --- UYGULAMANIN YENİ HAFIZASI ---
   // Hangi sınıf seçildi? (Başlangıçta null, yani hiçbiri)
   const [selectedClass, setSelectedClass] = useState<number | null>(null);
@@ -129,7 +144,7 @@ function App() {
   return (
     <div className="relative w-full bg-black font-display">
 
-      <Navbar isFixed openMenuButtonColor="#000000" />
+      <Navbar isFixed menuButtonColor="#f8fafc" openMenuButtonColor="#000000" items={MAIN_NAV_ITEMS} />
 
       {/* --- SABİT ARKA PLAN --- */}
       <div className="fixed top-0 left-0 w-full h-screen z-0 pointer-events-none">
@@ -145,7 +160,7 @@ function App() {
       </div>
 
       {/* --- 1. SAYFA: GİRİŞ EKRANI --- */}
-      <section className="relative z-10 w-full h-screen flex flex-col items-center justify-center pointer-events-none px-4">
+      <section id="ana-sayfa" className="relative z-10 w-full h-screen flex flex-col items-center justify-center pointer-events-none px-4">
         <div className="pointer-events-auto text-center max-w-2xl">
 
           <div className="mb-8 flex justify-center">
@@ -215,17 +230,104 @@ function App() {
         </div>
       </section>
 
-      {/* --- 3. SAYFA: DİNAMİK DERSLER VE İÇERİK KUTUSU --- */}
-      {selectedClass !== null && (
-        // YENİ EKLENDİ: id="dashboard-section" ekledik ki kaydırma hedefi burası olsun
-        <section id="dashboard-section" className="relative z-10 w-full min-h-screen flex flex-col items-center justify-start border-t border-gray-800/50 py-20 px-4">
-          {/* TS Tip uyarısını önlemek için courseData'yı keyof typeof ile cast ediyoruz */}
-          <ClassDashboard
-            classNumber={selectedClass}
-            classData={courseData[selectedClass as keyof typeof courseData]}
-          />
-        </section>
-      )}
+      {/* --- 3. SAYFA: DERSLER (anchor hep var; sınıf yoksa yönlendirici metin) --- */}
+      <section
+        id="dashboard-section"
+        className="relative z-10 w-full scroll-mt-24 border-t border-gray-800/50 py-20 px-4"
+      >
+        {selectedClass !== null ? (
+          <div className="flex min-h-screen flex-col items-center justify-start">
+            <ClassDashboard
+              classNumber={selectedClass}
+              classData={courseData[selectedClass as keyof typeof courseData]}
+            />
+          </div>
+        ) : (
+          <div className="flex min-h-[45vh] flex-col items-center justify-center px-4 text-center">
+            <p className="max-w-lg text-lg text-gray-400">
+              Ders haftalık içerikleri için önce{' '}
+              <span className="font-semibold text-blue-400">Sınıfını Seç</span> bölümünden sınıfınızı seçin.
+            </p>
+          </div>
+        )}
+      </section>
+
+      {/* --- 4. SAYFA: TANIŞMA --- */}
+      <section
+        id="tanisma-zamani"
+        className="relative z-10 w-full min-h-screen scroll-mt-24 flex flex-col items-center justify-center border-t border-gray-800/50 py-20 px-4"
+      >
+        <div className="max-w-6xl w-full">
+          <h2 className="text-5xl font-bold text-white mb-16 drop-shadow-lg text-center">
+            Tanışalım
+          </h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* İlk Geliştirici */}
+            <div className="bg-white/5 backdrop-blur-sm rounded-lg p-8 border border-white/10">
+              <div className="flex justify-center mb-8">
+                <ProfileCard
+                  avatarUrl={omerpp}
+                  name="Ömer Türkoğlu"
+                  title="Computer Engineer"
+                  showUserInfo
+                  enableTilt
+                />
+              </div>
+
+              <p className="text-gray-300 text-center leading-relaxed mb-8">
+              Merhaba, ben Ömer. Namık Kemal Üniversitesi Bilgisayar Mühendisliği öğrencisiyim. 
+              Öğrendiğim teorik bilgileri gerçek dünya projelerine dönüştürmeyi seviyorum. 
+              LinkedIn ve GitHub üzerinden iletişime geçebilirsiniz.
+              </p>
+
+              <SocialLogoLinks
+                linkedInHref="https://www.linkedin.com/in/omeerturkoglu/"
+                githubHref="https://github.com/omeerturkoglu"
+              />
+            </div>
+
+            {/* İkinci Geliştirici */}
+            <div className="bg-white/5 backdrop-blur-sm rounded-lg p-8 border border-white/10">
+              <div className="flex justify-center mb-8">
+                <ProfileCard
+                  avatarUrl={yaqepp}
+                  name="Yakup Aydın"
+                  title="Computer and Electrical Engineer"
+                  showUserInfo
+                  enableTilt
+                />
+              </div>
+
+              <p className="text-gray-300 text-center leading-relaxed mb-8">
+              Merhaba! Ben Yakup. Bilgisayar Mühendisliği ve Elektrik Elektronik Mühendisliği öğrencisi olarak yazılım ve teknoloji alanlarında kendimi geliştiriyor, farklı projeler üzerinde çalışıyorum. 
+              Öğrendiklerimi gerçek projelere dönüştürmeyi seviyorum. 
+              LinkedIn, GitHub ve Web siteme aşağıdaki butonlardan ulaşabilirsiniz.
+              </p>
+
+              {/* websiteHref: kendi alan adresin ile değiştir (isteğe bağlı boş bırakılabilir) */}
+              <SocialLogoLinks
+                linkedInHref="https://www.linkedin.com/in/yakup-ayd%C4%B1n-b97607290/"
+                githubHref="https://github.com/YAQE"
+                websiteHref="https://aydinyakup.com"
+              />
+            </div>
+          </div>
+          
+          <div className="mt-16 text-center">
+            <p className="text-gray-400 text-sm">
+              Bu proje, Namık Kemal Üniversitesi Bilgisayar Mühendisliği öğrencileri tarafından 
+              geliştirilmiş olup, sürekli olarak güncellenmektedir.
+            </p>
+            <p className="text-gray-500 text-xs mt-2">
+              © 2024 Namık Kemal Üniversitesi Bilgisayar Mühendisliği - DYS Platformu
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Ekranda sabit: sayfa sonuna bağlı değil; scroll ile hep aynı köşede */}
+      <ScrollToTop />
 
     </div>
   );

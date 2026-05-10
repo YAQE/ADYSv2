@@ -1,0 +1,94 @@
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.875rem;
+  padding: 0.5rem;
+}
+
+/* 3D için sahne; transform çocukta inline */
+.profile-card--stage {
+  perspective: none;
+}
+
+.profile-card__avatar-wrap {
+  border-radius: 9999px;
+  padding: 4px;
+  background: linear-gradient(135deg, rgba(96, 165, 250, 0.55), rgba(167, 139, 250, 0.42));
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+}
+
+.profile-card__avatar-wrap--motion {
+  cursor: pointer;
+  will-change: transform;
+  transition:
+    box-shadow 0.22s ease,
+    filter 0.22s ease;
+}
+
+.profile-card__avatar-wrap--lit {
+  box-shadow:
+    0 28px 56px -20px rgba(59, 130, 246, 0.55),
+    0 14px 30px -16px rgba(167, 139, 250, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  filter: saturate(1.12);
+}
+
+.profile-card__avatar {
+  display: block;
+  width: 168px;
+  height: 168px;
+  border-radius: 9999px;
+  object-fit: cover;
+  border: 2px solid rgba(24, 24, 27, 0.9);
+  pointer-events: none;
+  transform-style: preserve-3d;
+  user-select: none;
+}
+
+.profile-card__name {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #fafafa;
+  text-align: center;
+  transition:
+    transform 0.22s ease,
+    text-shadow 0.22s ease;
+}
+
+.profile-card__name--lit {
+  transform: translateY(2px);
+  text-shadow: 0 0 24px rgba(96, 165, 250, 0.45);
+}
+
+.profile-card__title {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: rgb(147, 197, 253);
+  text-align: center;
+  transition: transform 0.22s ease;
+}
+
+.profile-card__title--lit {
+  transform: translateY(2px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-card__avatar-wrap--motion {
+    cursor: default;
+  }
+
+  .profile-card__avatar-wrap--lit {
+    box-shadow: none;
+    filter: none;
+  }
+
+  .profile-card__name--lit,
+  .profile-card__title--lit {
+    transform: none;
+    text-shadow: none;
+  }
+}

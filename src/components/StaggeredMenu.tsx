@@ -2,6 +2,7 @@ import React, { useCallback, useLayoutEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import './StaggeredMenu.css';
 import myLogo from '../assets/logos/images.png'; // burada direkt import ediyorum aşağıda myLogo şeklinde kullanıyorum 405. satırda
+import { smoothScrollToElement } from '../utils/smoothScroll';
 
 export interface StaggeredMenuItem {
   label: string;
@@ -308,28 +309,23 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
     const inner = textInnerRef.current;
     if (!inner) return;
     textCycleAnimRef.current?.kill();
+    /* Sabit iki satır: uzun döngü + yüzde hesabı bazen son karede boş gösteriyordu */
+    setTextLines(['Menu', 'Close']);
 
-    const currentLabel = opening ? 'Menu' : 'Close';
-    const targetLabel = opening ? 'Close' : 'Menu';
-    const cycles = 3;
-    const seq: string[] = [currentLabel];
-    let last = currentLabel;
-    for (let i = 0; i < cycles; i++) {
-      last = last === 'Menu' ? 'Close' : 'Menu';
-      seq.push(last);
+    if (opening) {
+      gsap.set(inner, { yPercent: 0 });
+      textCycleAnimRef.current = gsap.to(inner, {
+        yPercent: -50,
+        duration: 0.48,
+        ease: 'power3.out'
+      });
+    } else {
+      textCycleAnimRef.current = gsap.to(inner, {
+        yPercent: 0,
+        duration: 0.38,
+        ease: 'power3.out'
+      });
     }
-    if (last !== targetLabel) seq.push(targetLabel);
-    seq.push(targetLabel);
-    setTextLines(seq);
-
-    gsap.set(inner, { yPercent: 0 });
-    const lineCount = seq.length;
-    const finalShift = ((lineCount - 1) / lineCount) * 100;
-    textCycleAnimRef.current = gsap.to(inner, {
-      yPercent: -finalShift,
-      duration: 0.5 + lineCount * 0.07,
-      ease: 'power4.out'
-    });
   }, []);
 
   const toggleMenu = useCallback(() => {
@@ -440,35 +436,29 @@ export const StaggeredMenu: React.FC<StaggeredMenuProps> = ({
             {items && items.length ? (
               items.map((it, idx) => (
                 <li className="sm-panel-itemWrap" key={it.label + idx}>
-                  <a className="sm-panel-item" href={it.link} aria-label={it.ariaLabel} data-index={idx + 1}>
+                  <a
+                    className="sm-panel-item"
+                    href={it.link}
+                    aria-label={it.ariaLabel}
+                    data-index={idx + 1}
+                    onClick={(e) => {
+                      if (!it.link.startsWith('#')) return;
+                      e.preventDefault();
+                      const id = it.link.slice(1);
+                      const target = document.getElementById(id);
+                      closeMenu();
+                      if (target) {
+                        window.setTimeout(() => {
+                          smoothScrollToElement(target, 2800, 80);
+                        }, 280);
+                      }
+                    }}
+                  >
                     <span className="sm-panel-itemLabel">{it.label}</span>
                   </a>
                 </li>
               ))
-            ) : (
-              <>
-                <li className="sm-panel-itemWrap" aria-hidden="true">
-                  <span className="sm-panel-item">
-                    <span className="sm-panel-itemLabel">Dersler</span>
-                  </span>
-                </li>
-                <li className="sm-panel-itemWrap" aria-hidden="true">
-                  <span className="sm-panel-item">
-                    <span className="sm-panel-itemLabel">Mühendisin Göt Deliği</span>
-                  </span>
-                </li>
-                <li className="sm-panel-itemWrap" aria-hidden="true">
-                  <span className="sm-panel-item">
-                    <span className="sm-panel-itemLabel">Kaynakça</span>
-                  </span>
-                </li>
-                <li className="sm-panel-itemWrap" aria-hidden="true">
-                  <span className="sm-panel-item">
-                    <span className="sm-panel-itemLabel">Hakkımızda</span>
-                  </span>
-                </li>
-              </>
-            )}
+            ) : null}
           </ul>
           {displaySocials && socialItems && socialItems.length > 0 && (
             <div className="sm-socials" aria-label="Social links">

@@ -29,7 +29,9 @@
   padding: 2em;
   background: transparent;
   pointer-events: none;
-  z-index: 110;
+  /* prelayers (115) / panel (120) üstünde: aksi halde "Close" metni renkli katmanların altında kalıyor */
+  z-index: 140;
+  isolation: isolate;
 }
   
   .staggered-menu-header > * {
@@ -80,7 +82,7 @@
     overflow: hidden;
     white-space: nowrap;
     width: var(--sm-toggle-width, auto);
-    min-width: var(--sm-toggle-width, auto);
+    min-width: max(5.5ch, var(--sm-toggle-width, 0px));
   }
   
   .sm-toggle-textInner {
@@ -353,3 +355,13 @@
       filter: invert(100%);
     }
   }
+
+/* Menü açık: Close + ikon siyah */
+.staggered-menu-wrapper[data-open] .sm-toggle {
+  color: #000000 !important;
+  text-shadow: none;
+}
+
+.staggered-menu-wrapper[data-open] .sm-icon-line {
+  background: currentColor;
+}
