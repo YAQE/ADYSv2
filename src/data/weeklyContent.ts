@@ -1093,203 +1093,396 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
       ],
     },
   },
-  'YDİ110 Yabancı Dil II (İngilizce)': {
+  'BMB103 Bilgisayar Mühendisliğine Giriş': {
     1: {
-      description: `Osmanlı'dan Cumhuriyet'e uzanan süreçte toplumun bilim, akıl ve modern teknolojiyle tanışma evresi incelenir. Bir bilgisayar mühendisi olarak ülkenin teknolojik altyapısının ve endüstriyel gelişiminin köklerini anlamak, vizyoner bir bakış açısı kazandırır. Modernleşme hareketlerinin eğitim ve sanayiye olan yansımaları, günümüz bilişim devrimlerini yakalama çabalarımızın tarihsel bir prototipidir. Yeniliklere (inovasyon) açık bir toplum inşa etmenin zorlukları ve stratejileri mühendislik perspektifiyle değerlendirilir. Teknolojik bağımsızlığın temellerinin atıldığı bu dönem, milli projeler üretme motivasyonunuzu artırır.`,
+      description: `Bilgisayar mühendisliği serüvenine başlarken bölümün işleyişini, akademik takvimi ve üniversite kaynaklarını tanımak kritik bir ilk adımdır. Özellikle staj süreçlerinin nasıl yönetileceğini erken öğrenmek, kariyer planlaması için büyük avantaj sağlar. Bu hafta, öğrencilerin üniversite ekosistemine ve idari süreçlere adaptasyonunu hedefler. Kariyer rotanızı çizerken bu organizasyonel yapıyı bilmek size uzun vadede çok zaman kazandıracaktır. Öğrencilerin vizyonlarını genişletmeleri ve bölümün sunduğu fırsatları en verimli şekilde kullanmaları amaçlanır.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/search?q=t%C3%BCrk+modernle%C5%9Fmesi' },
-        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=t%C3%BCrk+modernle%C5%9Fmesi+tarihi' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.dr.com.tr/kitap/bilgisayar-bilimine-giris/jglenn-brookshear/egitim-ve-sinav-kitaplari/bilgisayar-kitaplari/diger/urunno=0000000700080' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bilgisayar+m%C3%BChendisli%C4%9Fi+oryantasyon' },
       ],
     },
     2: {
-      description: `İmparatorluğun son yıllarındaki siyasi, ekonomik ve askeri buhranlar ile bu çöküşü engellemek için yapılan reformlar ele alınır. Bilişim ve sanayi devrimini (Endüstri 1.0 ve 2.0) kaçıran bir devletin, dünya sahnesinde nasıl geride kaldığı gerçeğiyle yüzleşilir. Yazılım teknolojilerinde (Endüstri 4.0) treni kaçırmamak için tarihsel hatalardan ders çıkarma bilinci aşılanır. Altyapı eksikliklerinin ve çağın gerisinde kalmış kurumların, kriz anlarında sistemi nasıl çökerttiği (system failure) analiz edilir. Mühendis adaylarına, teknolojiyi takip etmemenin ulusal maliyetleri gösterilir.`,
+      description: `Bir bilgisayar mühendisi olarak, yazılımın üzerinde koştuğu donanımı anlamak kesinlikle zorunludur. İşlemci (CPU), bellek (RAM), anakart ve depolama birimlerinin birbirleriyle nasıl veri alışverişi yaptığı incelenir. Bu hafta, yazacağınız kodların fiziksel dünyada donanıma nasıl etki ettiğinin temelini oluşturur. Donanım darboğazlarını analiz edebilmek ve sistem performansını ölçmek için bu mimari bilinmelidir. IT terminolojisine giriş yapılarak sektörel iletişim becerileri sağlamlaştırılır.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://islamansiklopedisi.org.tr/osmanli-imparatorlugu' },
-        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=osmanl%C4%B1+imparatorlu%C4%9Fu+son+d%C3%B6nemi' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bilgisayar%C4%B1n+temel+bile%C5%9Fenleri+bilgisayar+m%C3%BChendisli%C4%9Fi' },
       ],
     },
     3: {
-      description: `Küresel güç dengelerinin sarsıldığı, mekanize savaş araçlarının ve ilk teknolojik silahların sahneye çıktığı 1. Dünya Savaşı incelenir. İletişim hatlarının (telgraf) ve lojistik ağların savaşın kaderini nasıl belirlediği mühendislik stratejileri açısından tartışılır. Şifreleme cihazlarının ve istihbaratın (ilkel kriptografi) cephedeki öneminin artması, bilgi güvenliğinin (cyber security) tarihsel kökenlerini oluşturur. Kıt kaynaklarla optimum savunma algoritmaları kurmanın askeri karşılıkları görülür. Büyük kriz anlarında problem çözme yeteneğinin (troubleshooting) ulusal boyuttaki yansımalarıdır.`,
+      description: `Makinelerin dilini anlamak için ikilik (binary), sekizlik (octal), onluk (decimal) ve on altılık (hexadecimal) sayı sistemleri öğrenilir. Bilgisayarların veriyi alt seviyede (low-level) nasıl sakladığı, okuduğu ve işlediği detaylıca kavranır. İkilik sistemde toplama, çıkarma gibi mantıksal işlemler ve tabanlar arası dönüşümler pratik edilir. Bu teorik temel; ağ yapıları, gömülü sistemler ve düşük seviyeli programlama için hayati önem taşır. Konu, bilgisayarın donanımsal sınırlarını ve hesaplama mantığını keşfetmenizi sağlar.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/I._D%C3%BCnya_Sava%C5%9F%C4%B1' },
-        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=birinci+d%C3%BCnya+sava%C5%9F%C4%B1+cepheler' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/computer_fundamentals/computer_number_system.htm' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1+sistemleri+bilgisayar+kavramlar%C4%B1' },
       ],
     },
     4: {
-      description: `Savaşın ardından imzalanan ateşkes ve ülkenin işgale uğramasıyla ortaya çıkan yönetimsel boşluk (system crash) dönemi analiz edilir. Merkezden yönetilemeyen bir yapının yerine, Anadolu'da yerel ve dağıtık (decentralized) direniş ağlarının (Kuvâ-yi Milliye) nasıl kurulduğu mühendislik bakışıyla yorumlanabilir. İletişim kanallarının kesilmesi üzerine kurulan alternatif haberleşme ağları, ağ güvenliği ve felaket kurtarma (disaster recovery) senaryolarına tarihi bir örnektir. Kriz anında otonom karar alabilen yerel birimlerin, ana sistemi ayakta tutma çabasıdır. Liderlik ve kriz yönetimi konularında derin bir vizyon sunar.`,
+      description: `Dijital elektronik ve bilgisayar mimarisinin sarsılmaz matematiksel temeli olan Boole cebri incelenir. AND, OR, NOT, XOR gibi mantık kapılarının işleyişi, devre tasarımları ve doğruluk tabloları öğrenilir. Yazılımda kurgulayacağınız karmaşık 'if-else' koşullarının arkasında yatan asıl donanımsal mantığı açıklar. Mantıksal ifadeleri sadeleştirerek daha az kaynak tüketen ve verimli algoritmalar kurma yeteneği kazandırır. Donanım (hardware) ile yazılım (software) dünyasının kesiştiği en temel soyutlama katmanıdır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/' },
-        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=mondros+ate%C5%9Fkes+antla%C5%9Fmas%C4%B1+ve+sonras%C4%B1' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/boolean-algebra/' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=boole+cebri+mant%C4%B1k+kap%C4%B1lar%C4%B1' },
       ],
     },
     5: {
-      description: `Tamamen çökmüş bir sistemin küllerinden doğarak, eldeki kısıtlı donanım ve insan kaynağıyla yeniden ayağa kaldırılması (rebooting) sürecidir. Askeri cephelerdeki stratejik manevralar, kaynak tahsisi (resource allocation) ve lojistik optimizasyon algoritmalarının en destansı tarihsel uygulamalarıdır. Başkomutanlık vizyonuyla, bağımsız değişkenlerin (cepheler, meclis, halk) tek bir hedefe (bağımsızlık) nasıl senkronize edildiği incelenir. İmkansız görünen projelerin, inanç, analitik planlama ve takım çalışmasıyla nasıl başarılabileceğinin en büyük kanıtıdır. Bir Türk mühendisinin ülkesine ve mesleğine olan adanmışlık ruhunu şekillendirir.`,
+      description: `Yazılım geliştirmenin tam kalbi olan problem çözme ve algoritmik düşünme becerilerinin temelleri bu haftada atılır. Bir problemin bilgisayar tarafından hatasız çözülebilmesi için gereken adım adım mantıksal süreçler tasarlanır. Kod yazmaya geçmeden önce zaman ve bellek karmaşıklığını hesaba katarak en verimli yolu bulma stratejileri incelenir. Veri veya arka uç (backend) mimarisi gibi ileri seviye mühendislik alanlarında inşa edilecek büyük projelerin taşıyıcı kolonudur. İyi bir bilgisayar mühendisini sadece 'kod yazan' birinden ayıran en temel mühendislik yetkinliği buradadır.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://tr.wikipedia.org/wiki/T%C3%BCrk_Kurtulu%C5%9F_Sava%C5%9F%C4%B1' },
-        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=kurtulu%C5%9F+sava%C5%9F%C4%B1+belgeseli' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/dsa/dsa_intro.php' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=algoritma+nedir+programlamaya+giri%C5%9F' },
       ],
     },
     6: {
-      description: `Askeri zaferin masada diplomatik ve hukuki bir protokolle tescillenmesi, uluslararası sistemde yeni devletin "tanınma" (authentication) süreci ele alınır. Yazılım projelerindeki ürün tesliminin ardından yapılan lisanslama ve telif hakları müzakerelerine benzer zorlu bir uluslararası sözleşme sürecidir. Ülkenin ekonomik bağımsızlığını (kapitülasyonların kaldırılması) sağlayarak, gelecekteki ulusal sanayi ve bilişim hamlelerinin önündeki engellerin (firewall) kaldırılmasıdır. Karşı tarafla yapılan zorlu müzakerelerde (negotiation) sınır şartlarının ve taviz verilmez noktaların belirlenmesi öğretilir. Uluslararası standartlara uyum ve entegrasyonun belgesidir.`,
+      description: `Zihinsel olarak kurulan soyut algoritmaların, evrensel sembollerle görsel bir haritaya dökülme sanatıdır. Başlangıç, bitiş, karar, döngü ve veri giriş/çıkış adımlarının standart geometrik şekillerle nasıl net bir şekilde ifade edileceği öğrenilir. Karmaşık program mantığını kodlamaya başlamadan önce sadeleştirip, olası mantık hatalarını (bug) daha tasarım aşamasında tespit etmeyi sağlar. Profesyonel ekip çalışmalarında, proje fikirlerini diğer mühendislere aktarmanın en etkili iletişim araçlarından biridir. Akış şemaları, kafanızdaki çözümleri somut mühendislik planlarına dönüştüren sağlam bir köprüdür.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/lozan-baris-antlasmasi/' },
-        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=lozan+bar%C4%B1%C5%9F+antla%C5%9Fmas%C4%B1+%C3%B6nemi' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@mjawad17/algorithms-in-computer-science-a-complete-beginners-guide-with-examples-types-and-analysis-7ae156894d2f' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ak%C4%B1%C5%9F+%C5%9Femalar%C4%B1+algoritma+%C3%B6rnekleri' },
       ],
     },
     7: {
-      description: `Türk modernleşmesinden başlayıp devletin yeniden kuruluş senedi olan Lozan'a kadar geçen sürecin analitik ve tarihsel olarak değerlendirildiği sınavdır. Mühendis adaylarının sadece kod yazan değil, ülkesinin kuruluş kodlarını (source code) da doğru analiz edebilen entelektüeller olması hedeflenir. Geçmişin kriz yönetim stratejilerini ve çözüm algoritmalarını kavrama düzeyi test edilir. Devrimler ve atılımlar dönemine geçmeden önce, altyapının ne kadar sağlam anlaşıldığını ölçer. Geleceğin teknolojilerini üretecek neslin tarihsel vizyon kontrolüdür.`,
+      description: `İnsanın bilgisayarla iletişim kurmasını sağlayan dillerin evrimi, seviyeleri (low-level vs. high-level) ve farklı paradigmaları incelenir. Derleyici (compiler) ile yorumlayıcı (interpreter) arasındaki yapısal farklar ve yazılan kodun makine diline nasıl çevrildiği kavranır. Yapısal, nesne yönelimli (OOP) ve fonksiyonel programlama dillerinin sektördeki kullanım senaryoları karşılaştırılır. Projenin türüne ve mimarisine göre en doğru teknoloji yığınını (stack) seçebilme vizyonu kazandırılır. Söz dizimi ezberlemek yerine, dillerin genel çalışma felsefesi ve arkasındaki tasarım mantığı aşılanır.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: '#' },
-        { title: '7. Hafta Ders Kaydi', type: 'Video', href: '#' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://aykutakman.com/blog/algoritma-akis-semalari-ve-kullanilan-sekiller' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=programlama+dilleri+seviyeleri+derleyici+yorumlay%C4%B1c%C4%B1' },
       ],
     },
     8: {
-      description: `Genç Cumhuriyetin eğitim, hukuk, sanayi ve toplumsal alanlarda yaptığı köklü güncellemeler (major system updates) ve yapısal reformlar incelenir. Harf devrimi, aslında toplumun bilgi işleme ve okur-yazarlık (data processing) hızını artırmak için yapılmış en büyük iletişim arayüzü (UI) değişikliğidir. Kurumların laikleşmesi ve modernleşmesi, devlet aygıtının daha rasyonel, bilimsel ve hızlı çalışan bir mimariye (refactoring) kavuşturulmasıdır. Sürekli gelişim (Continuous Integration) ve çağdaş uygarlık seviyesine ulaşma felsefesi aşılanır. Eski ve hantal kod bloklarının (geleneklerin) silinip, modern ve verimli yapılarla değiştirilmesidir.`,
+      description: `Donanım ile kullanıcı uygulamaları arasında yöneticilik yapan işletim sistemlerinin çekirdek (kernel) mimarisi tanıtılır. Bellek yönetimi, süreç (process) planlama, donanım kaynaklarının dağıtımı ve dosya sistemlerinin arka planda nasıl organize edildiği öğrenilir. Özellikle Linux gibi geliştirici odaklı ortamların çalışma prensipleri ve komut satırı kültürü vurgulanır. Yazılımlarınızın sistem kaynaklarını ne kadar tükettiğini analiz edebilmek için bu düşük seviyeli konseptlerin bilinmesi şarttır. Uygulamaların birbirine müdahale etmeden izole ve güvenli bir şekilde nasıl koşturulduğunun temelleri atılır.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.konusarakogren.com/blog/ingilizce-tanitimiataturk-ilkeleri/' },
-        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=atat%C3%BCrk+devrimleri+ve+%C3%B6nemi' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/operating-systems/' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=i%C5%9Fletim+sistemleri+nedir+bilgisayar+m%C3%BChendisli%C4%9Fi' },
       ],
     },
     9: {
-      description: `Türkiye Cumhuriyeti'nin yazılım mimarisini oluşturan, devletin ve toplumun çalışma prensiplerini belirleyen 6 temel anayasa (core principles) işlenir. Cumhuriyetçilik, halkçılık, laiklik gibi ilkeler; devlet sisteminin hata vermeden, rasyonel, kapsayıcı ve adil çalışmasını sağlayan "Object-Oriented" (Nesne Yönelimli) temel sınıflardır (base classes). İnkılapçılık ilkesi, donanımın ve yazılımın çağa göre sürekli güncellenmesi (update and upgrade) gerektiğini emreden mühendislik vizyonudur. Bu ilkeler, gelecekte kamu veya özel sektörde projeler geliştirirken sahip olmanız gereken aydın ve bilimsel etiğin temelini atar. Sistemin çökmesini engelleyen güvenlik duvarlarıdır.`,
+      description: `Bilginin bellekte en verimli şekilde organize edilmesi, depolanması ve hızlıca geri çağrılması için kullanılan standart yapılar incelenir. Diziler (arrays), bağlı listeler (linked lists), yığınlar (stacks) ve kuyruklar (queues) gibi temel veri saklama modellerine pratik bir giriş yapılır. Seçeceğiniz veri yapısının, kurduğunuz algoritmanın çalışma hızını ve bellek tüketimini nasıl doğrudan etkilediği analiz edilir. Milyonlarca satırlık verilerle uğraşılacak büyük çaplı endüstriyel projelerde doğru yapıyı kurmak projenin kaderini belirler. Yazılım mülakatlarının ve ileri seviye yazılım mühendisliğinin tartışmasız en çok üzerinde durulan konusudur.`,
       resources: [
-        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.konusarakogren.com/blog/ingilizce-tanitimiataturk-ilkeleri/' },
-        { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=atat%C3%BCrk+ilkeleri' },
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/dsa/' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+yap%C4%B1lar%C4%B1na+giri%C5%9F' },
       ],
     },
     10: {
-      description: `Çok partili hayata geçiş denemeleri, meclis içi muhalefet ve yeni devletin demokratik işletim sistemini (OS) kurma çabaları ele alınır. Tek çekirdekli (monolithic) bir yapıdan, çoklu işlemlerin ve farklı fikirlerin (multithreading) aynı anda barındığı demokratik bir meclis mimarisine geçişin zorlukları görülür. Şeyh Sait isyanı veya Menemen olayı gibi sisteme yönelik tehditlerin (malware/viruses) devlet aygıtı tarafından nasıl bertaraf edildiği (debugging) incelenir. Toplumsal kararlılığın ve siyasi dengelerin sağlanması sürecidir. Bir yönetim sisteminin (governance) sıfırdan nasıl inşa edildiğini gösterir.`,
+      description: `Modern web ve mobil uygulamaların hafızası olan veritabanı sistemlerinin temel kavramları ve İlişkisel Veritabanı Yönetim Sistemleri (RDBMS) öğrenilir. Tablolar arası mantıksal ilişkilerin kurulması ve Yapılandırılmış Sorgu Dili (SQL) ile temel ekleme, okuma, güncelleme, silme (CRUD) işlemlerinin nasıl yapılacağı incelenir. Verinin kalıcılığını (persistence) sağlarken hız, güvenlik ve veri bütünlüğü kıstaslarının nasıl ustalıkla dengeleneceği tartışılır. Veri mühendisliği veya güçlü backend mimarilerine yönelmeyi hedefleyen mühendis adayları için kilit roldedir. Büyük sistemlerin bilgi yığınlarını anlamlı bir şekilde nasıl saklayıp yönettiğine dair geniş bir ufuk açar.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/search?q=atat%C3%BCrk+d%C3%B6nemi+siyasal+hayat' },
-        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=atat%C3%BCrk+d%C3%B6nemi+i%C3%A7+politika' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/sql/' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veritaban%C4%B1+y%C3%B6netim+sistemleri+sql' },
       ],
     },
     11: {
-      description: `"Yurtta Sulh, Cihanda Sulh" ilkesi çerçevesinde Balkan Antantı, Sadabat Paktı ve Montrö Boğazlar Sözleşmesi gibi diplomatik ağ (networking) kurulumları işlenir. Türkiye'nin komşularıyla imzaladığı bu paktlar, uluslararası sistemde güvenlik duvarları (firewalls) oluşturarak ülkeyi yaklaşan 2. Dünya Savaşı virüsünden koruma stratejisidir. Hatay'ın anavatana katılması, uzun vadeli ve sabırlı bir diplomatik algoritmanın başarıyla sonuçlanması (successful execution) sürecidir. Dış dünyayla iletişim protokollerinin bağımsızlık ve rasyonel çıkarlar üzerine nasıl inşa edileceği öğretilir. Çok düğümlü (multi-node) küresel politikada denge kurma sanatıdır.`,
+      description: `Bilgisayar mühendisliği eğitiminin dünya çapındaki klasikleşmiş başlangıç noktası olan C dilinin tarihçesi ve sistem programlamadaki yeri öğrenilir. C'nin donanıma yakın yüksek performans sunan yapısı, derleme (compilation) aşamaları ve kütüphane bağlama işlemleri incelenir. Temel söz dizimi (syntax) kuralları, noktalı virgüllerin önemi ve kod bloklarının nasıl güvenli bir şekilde inşa edileceği kavranır. Python veya C# gibi diğer birçok modern programlama dilinin atası olduğu için, C dilini hakkıyla öğrenmek diğer teknolojilere adaptasyonu olağanüstü hızlandırır. Sadece ezbere kod yazmayı değil, arka planda makinenin nasıl çalıştığını hissetmeyi öğretir.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://atam.gov.tr/ataturk-donemi-turk-dis-politikasi/' },
-        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=atat%C3%BCrk+d%C3%B6nemi+d%C4%B1%C5%9F+politika' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/cprogramming/index.htm' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c+programlama+dersleri+giri%C5%9F' },
       ],
     },
     12: {
-      description: `Dünyayı kasıp kavuran savaş sırasında Türkiye'nin tarafsız kalma stratejisi (isolation) ve savaş sonrası çok partili hayata (demokrasi) kesin geçişi analiz edilir. Sistem kaynaklarının tamamen savunmaya ayrıldığı bu kriz döneminde, ekonomik darboğazlar ve varlık vergisi gibi olağanüstü hal (safe mode) politikaları incelenir. 1946 ve 1950 seçimleriyle iktidarın kansız bir şekilde el değiştirmesi, Türk siyasi sisteminin olgunluğunu ve güvenilirliğini (reliability) ispatlar. Soğuk Savaş dinamiklerinin iç siyasete ve teknolojik gelişim ivmemize olan etkileri tartışılır. Küresel bir savaşın ardından sistemi güncel küresel standartlara (demokrasiye) entegre etme sürecidir.`,
+      description: `Programın çalışma esnasında işlediği verileri geçici olarak tuttuğu bellek alanları olan değişkenler (variables) ve temel veri tipleri (int, float, char vb.) derinlemesine incelenir. C dilinde yazılmış her uygulamanın fırlatma rampası ve ana motoru olan 'main()' fonksiyonunun anatomisi ve çalışma mantığı öğrenilir. İşletim sisteminin bellekte nasıl yer ayırdığı ve değişkenlerin geçerlilik alanları (scope) üzerinde durulur. Değişken tiplerinin RAM üzerinde tam olarak kaç bayt kapladığını bilmek, donanım kaynaklarını optimize etmenin ilk ve en önemli adımıdır. Satırların yukarıdan aşağıya doğru nasıl sırayla derlenip çalıştırıldığı pratik olarak test edilir.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/search?q=ikinci+d%C3%BCnya+sava%C5%9F%C4%B1+t%C3%BCrkiye' },
-        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ikinci+d%C3%BCnya+sava%C5%9F%C4%B1+t%C3%BCrkiye+d%C4%B1%C5%9F+politikas%C4%B1' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://www.w3schools.com/c/c_variables.php' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c+programlama+de%C4%9Fi%C5%9Fkenler+ve+veri+tipleri' },
       ],
     },
     13: {
-      description: `Sovyet tehdidine karşı NATO'ya giriş süreci, Kore Savaşı ve Batı blokuyla yapılan entegrasyon (API/Protocol alignment) anlaşmaları ele alınır. Savunma ve teknoloji standartlarımızın tamamen Batı sistemlerine göre yeniden şekillendiği bu dönem, günümüz savunma sanayisinin kodlarını etkilemiştir. Marshall planı ve Truman doktrini ile ülkeye giren yabancı teknolojilerin (traktör, altyapı) milli sanayiye etkileri eleştirel bir gözle analiz edilir. Uluslararası güvenlik ağlarına bağlanmanın (joining the network) getirdiği yükümlülükler ve fırsatlar tartışılır. Küresel kutuplaşmada taraf seçmenin mühendislik ve sanayi rotamızı nasıl belirlediği görülür.`,
+      description: `Standart giriş/çıkış kütüphanesi (stdio.h) içinde yer alan ve programın ürettiği verileri ekrana yazdırmayı sağlayan 'printf' fonksiyonunun dinamikleri detaylıca öğrenilir. Farklı türdeki veri tiplerini konsolda düzgün formatlayarak göstermek için '%d', '%f', '%s' gibi format belirleyicilerin (format specifiers) nasıl entegre edileceği incelenir. Kodun belirli adımlarında değişkenlerin anlık değerlerini konsola basabilmek, geliştirme sürecindeki hata ayıklamanın (debugging) en temel ve hayat kurtarıcı aracıdır. Satır atlama ('\n') veya sekme bırakma ('\t') gibi özel kaçış dizileriyle (escape sequences) çıktıları görsel olarak düzenleme pratikleri yapılır. Yazılımın dış dünyayla kurduğu iletişimin ilk heyecan verici adımı bu fonksiyonla atılır.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://dergipark.org.tr/tr/search?q=sava%C5%9F+sonras%C4%B1+t%C3%BCrk+d%C4%B1%C5%9F+politikas%C4%B1' },
-        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=t%C3%BCrkiyenin+natoya+giri%C5%9Fi' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/printf-in-c/' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c+programlama+printf+kullan%C4%B1m%C4%B1' },
       ],
     },
     14: {
-      description: `Cumhuriyetin kuruluşundan bugüne kadar eğitim, sanayi, teknoloji ve bilişim sektörlerinde geldiğimiz nokta ile geleceğe yönelik vizyonlar tartışılır. Bir bilgisayar mühendisi adayı olarak, milli yapay zeka hamleleri, siber güvenlik stratejileri ve savunma sanayisindeki (İHA/SİHA) atılımlardaki rolünüz üzerine projeksiyonlar yapılır. Tarihsel süreçten alınan derslerle, dışa bağımlı olmayan, kendi teknolojisini (özgün kodunu) üreten bir nesil olmanın gerekliliği vurgulanır. Dönem boyunca işlenen tarihsel verilerin (Big Data), geleceği öngörmek (Machine Learning) için nasıl kullanılacağı felsefesiyle ders tamamlanır. Geçmişin mirasını geleceğin teknolojisiyle taçlandırma görevi genç mühendislere devredilir.`,
+      description: `Kullanıcının klavyeden girdiği verileri okuyup eş zamanlı olarak program içindeki ilgili değişkenlere aktarmayı sağlayan 'scanf' fonksiyonu ve çalışma mantığı öğrenilir. Bu sayede yazılan programlar sadece tekdüze çıktı veren statik yapılar olmaktan çıkıp, dış dünyadan gelen isteklere göre dinamik tepkiler üretebilir hale gelir. Verinin bellekteki tam ve doğru fiziksel adrese kaydedilebilmesi için ampersand ('&') operatörünün kullanım zorunluluğu (pointer mantığına ilk göz kırpma) kavranır. 'printf' ve 'scanf' fonksiyonlarının interaktif bir şekilde birlikte kullanılmasıyla ilk konsol tabanlı mini uygulamalar geliştirilir. Bilgisayar ile insan arasındaki karşılıklı veri alışverişi (I/O) döngüsü tamamlanarak yapısal programlama temeli sağlamlaştırılır.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.tubitak.gov.tr/' },
-        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=t%C3%BCrkiye+teknoloji+ve+sanayi+geli%C5%9Fimi' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/scanf-in-c/' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=c+programlama+scanf+kullan%C4%B1m%C4%B1' },
       ],
     },
   },
-  'DFD002 Diferansiyel Denklemler': {
+  'FZK107 Fizik I': {
     1: {
-      description: `Küresel teknoloji şirketlerinin veya uzaktan çalışma (Remote working) ağlarının merkezlerinden biri olan Birleşik Krallık'ın kültürel ve politik temellerini İngilizce okuma parçalarıyla analiz etmeye başlarsınız. Çeşitli milletlerin (İngiliz, İskoç, Galli) tek bir çatı altında nasıl "British" kimliğini oluşturduğu, farklı modüllerin ortak bir yazılım mimarisinde (system integration) uyumla çalışmasına benzetilebilir. İngiliz parlamenter sistemini anlatan ileri düzey metinler okunarak, akademik okuma yeteneği (Reading Comprehension) ve uluslararası terminoloji dağarcığı geliştirilir. Yabancı şirketlerin kurumsal iletişim dilinde neden daha resmi ve hiyerarşik (political) bir yapı olduğunu anlamanın sosyal kökenlerini keşfedersiniz. Evrensel iş İngilizcesine kültürel bir giriş yapılır.`,
+      description: `Fizik dünyasına giriş yapılarak, doğadaki büyüklüklerin nasıl ölçüldüğü ve ifade edildiği öğrenilir. Bilgisayar grafiklerinde (computer graphics) ve oyun motorlarında yön ve hız hesaplamalarının temeli olan vektörler detaylıca incelenir. Üç boyutlu uzayda objelerin hareketini kodlarken vektörel çarpım ve bileşenlere ayırma işlemleri hayati önem taşır. Skaler ve vektörel verilerin yazılımda nasıl modelleneceğine dair mühendislik bakış açısı kazanılır. Bu temel matematiksel ve fiziksel araçlar, karmaşık fizik motorlarının inşasında ilk basamaktır.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/reading' },
-        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=uk+culture+and+political+system+documentary' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/linear-kinematics/vectors-kinematics/a/vectors-and-scalars' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+vekt%C3%B6rler' },
       ],
     },
     2: {
-      description: `Din ve inanç özgürlüğü gibi hassas toplumsal yapıların Birleşik Krallık kültürü içindeki yeri, tarihsel okuma parçalarıyla (Historical Reading) İngilizce olarak tartışılır. Küresel ve çok uluslu (Multinational) yazılım ekiplerinde çalışırken, farklı dinlere ve inançlara sahip iş arkadaşlarıyla kapsayıcı (inclusive) ve empatik bir iletişim dili kurmanın sosyal temelleridir. Metinler aracılığıyla argüman oluşturma ve fikirleri İngilizce olarak kibar ama etkili bir şekilde ifade etme (Speaking) teknikleri pratik edilir. Kelime haznesine soyut ve felsefi terimler eklenerek, sadece kod blokları hakkında değil, derin konularda da akıcı tartışma (Fluency) yeteneği geliştirilir. Sosyal mühendislik (Social Engineering) ve iş etiği vizyonunuzu genişleten bir aşamadır.`,
+      description: `Cisimlerin uzaydaki hareketleri, ivme ve hız gibi kinematik kavramlar üzerinden matematiksel olarak modellenir. Oyun geliştirmede karakterlerin zıplaması, serbest düşmesi veya mermilerin atış hareketini simüle etmek için bu formüller doğrudan koda dökülür. Düzgün dairesel hareket prensipleri, endüstriyel otomasyonda kullanılan motorların ve eklemlerin dönüş mekaniklerini anlamanızı sağlar. Yazdığınız kodların fiziksel dünyadaki gerçekçi hareketleri nasıl taklit edebileceğinin algoritmik temelleri atılır. Hareket denklemleri, gerçek zamanlı animasyonların akıcılığını sağlayan temel formülleri barındırır.`,
       resources: [
-        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/vocabulary' },
-        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=religion+in+the+uk+history+and+culture' },
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/one-dimensional-motion' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+kinematik+at%C4%B1%C5%9F+hareketleri' },
       ],
     },
     3: {
-      description: `İngiliz kültüründeki aile dinamikleri, resmi tatiller, festivaller ve günlük yaşam rutinleri üzerinden günlük diyalog (Daily Conversation) kalıpları geliştirilir. Global şirketlerin takvimlerindeki tatil günlerinin (Bank Holidays vb.) çalışma takvimlerini (Sprints/Agile planning) nasıl etkilediği ve "Small Talk" (havadan sudan konuşma) kültürünün yabancı ekiplerle kaynaşmadaki (ice-breaking) önemi aşılanır. Toplantı öncesi veya sonrası "Christmas", "Halloween" veya kişisel tatiller hakkında akıcı İngilizce sohbet edebilmek, takım içi sosyal uyumu (team bonding) olağanüstü artırır. Gündelik yaşam kelimeleriyle dolu okuma parçalarıyla pratik çeviri becerileri ve İngilizce düşünme refleksleri hızlandırılır. Sosyal zeka (EQ) dil becerileriyle entegre edilir.`,
+      description: `Kinematiğin aksine, bu hafta hareketin kaynağı olan kuvvetler ve Newton'un hareket yasaları derinlemesine incelenir. Eylemsizlik, sürtünme ve yerçekimi gibi etkenler, fizik motorlarında objelerin birbirine uyguladığı tepkileri hesaplamak için algoritmalaştırılır. Bir dronun uçuş dinamiğini veya otonom araçların fren mesafesini hesaplayan yazılımlar tam olarak bu kurallara dayanır. Esneklik ve kayma modülleri, bilgisayar donanımlarının mekanik dayanımını ve haptik geribildirim tasarımlarını anlamada rol oynar. Doğadaki kuvvet etkileşimleri anlaşılarak, yazılım simülasyonlarının gerçekçiliği ve donanım uyumu artırılır.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/speaking' },
-        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=british+festivals+and+family+culture+esl' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/forces-newtons-laws' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+dinamik+newton+yasalar%C4%B1' },
       ],
     },
     4: {
-      description: `Özel kavramların ve terminolojilerin listelendiği sözlükçelerin (Glossary) nasıl verimli okunacağı ve bağlamdan anlam çıkarma (Guessing from context) stratejileri pratik edilir. Bir yazılım dokümantasyonu (Örneğin AWS veya Microsoft Azure belgeleri) okurken karşınıza çıkan yüzlerce bilinmeyen teknik terimi, tek tek sözlüğe bakmadan cümlenin gidişatından analiz ederek anlama yeteneğidir. Kelimelerin köklerini, öneklerini (prefixes) ve soneklerini (suffixes) inceleyerek yeni kelimeler türetme mantığı, aynı yazılımdaki değişken adlandırma standartlarını (Naming Conventions) çözmek gibidir. Teknik makaleleri (Whitepapers) tarama hızını (Skimming & Scanning) artıracak güçlü bir sözcük ve analitik okuma antrenmanıdır. Etkili bilgi çıkarma ve yorumlama becerisi pekiştirilir.`,
+      description: `Bir sistemde yapılan iş ve enerjinin bir formdan diğerine nasıl dönüştüğü, korunum yasalarıyla ele alınır. Bilgisayar mühendisliğinde, özellikle IoT ve gömülü sistemlerde batarya ömrünü optimize etmek için güç ve enerji tüketimi hesaplamaları fiziksel ilkelere dayanır. Korunumlu kuvvetlerin analizi, algoritmaların hesaplama maliyetlerini (computational cost) doğadaki enerji verimliliğine benzer şekilde optimize etmeye ilham verir. Potansiyel ve kinetik enerji dönüşümleri, simülasyonlarda enerji kayıplarını hesaplayarak daha tutarlı sistem modelleri kurmayı sağlar. Doğanın verimlilik prensipleri, donanım mimarisinde soğutma ve güç yönetimi sistemlerini anlamak için şarttır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/vocabulary/vocabulary-games' },
-        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=how+to+guess+meaning+from+context+in+english' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/work-and-energy' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+i%C5%9F+g%C3%BC%C3%A7+enerji' },
       ],
     },
     5: {
-      description: `Dünyanın finans ve teknoloji başkentlerinden biri olan Londra'nın tarihi, ekonomisi, mimarisi ve Silikon Kavşağı (Silicon Roundabout) gibi teknoloji merkezleri üzerine metinler incelenir. FinTech, yapay zeka ve startup ekosistemlerinin neden Londra'da kümelendiğini anlatan İngilizce analizler okuyarak girişimcilik (Entrepreneurship) vizyonunuzu yabancı dille harmanlarsınız. Metro (The Tube) veya şehir ulaşımıyla ilgili okumalar, yön tarif etme ve seyahat İngilizcesi pratiği yapmanın yanı sıra, karmaşık ağ (Network) yapılarını zihinde İngilizce kurgulamaya yardımcı olur. Metropol kültürü ve teknoloji merkezlerindeki (Hubs) hızlı iş yaşantısına dil bazında zihinsel hazırlık yapılır. Profesyonel kariyer hedeflerinize ilham verecek global metinler okunur.`,
+      description: `Çok parçacıklı sistemlerin kütle merkezi ve momentumun korunumu ilkeleri detaylıca öğrenilir. Oyun motorlarında objelerin birbirine çarpma (Collider) anındaki fiziksel tepkileri ile esnek ve esnek olmayan çarpışmaların matematiksel arka planı bu konudur. Otonom araç kaza simülasyonları veya bilgisayar grafiğindeki parçacık sistemleri (particle systems) geliştirilirken momentum formülleri kullanılır. İtme ve momentum değişimi, robotik kollarda hassas tutma işlemlerinin kontrol algoritmalarına yön verir. Dijital dünyadaki etkileşimlerin gerçeğe en yakın şekilde işlenmesini sağlayan anahtardır.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/listening' },
-        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=london+history+and+culture+documentary+for+students' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/linear-momentum' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+momentum+ve+%C3%A7arp%C4%B1%C5%9Fmalar' },
       ],
     },
     6: {
-      description: `İngiltere'nin Güneydoğu bölgesinin coğrafi yapısı, üniversiteleri (Oxford vs.) ve inovasyon merkezleri hakkında detaylı coğrafi/sosyal okuma parçaları ele alınır. Akademik araştırma kültürünün ve üniversite-sanayi işbirliğinin (University-Industry Collaboration) İngilizce metinler üzerinden nasıl ifade edildiği incelenerek, ileride okuyacağınız akademik makalelerin dil formatına aşina olmanız sağlanır. Mekan betimlemeleri (Descriptive Writing) sayesinde, sistem tasarımlarınızı veya bir yazılımın arayüzünü (UI/UX) detaylı İngilizce sıfatlar kullanarak anlatma yeteneğiniz (Speaking/Presenting) güçlendirilir. Coğrafi ve tarihsel dokunun ekonomiye etkileri tartışılırken mantıksal neden-sonuç (Cause-Effect) cümleleri kurma kalıpları pratik edilir. Karşılaştırmalı ve betimleyici dil yapıları sağlamlaştırılır.`,
+      description: `Çizgisel hareketten çıkılarak, cisimlerin bir eksen etrafındaki dönüş dinamikleri, tork ve eylemsizlik momenti kavramlarıyla incelenir. Soğutucu fanlar, optik sürücüler veya robotik eklemler gibi dönen donanım bileşenlerinin hareket algoritmaları bu kurallara göre kurgulanır. Açısal momentumun korunumu, uyduların veya mobil cihazlardaki jiroskop (gyroscope) sensörlerinden gelen verilerin işlenmesinde temeldir. Üç boyutlu uzayda objelerin kendi ekseni etrafında dönüşü (rotation) eylemsizlik matrisleri ile hesaplanarak kodlanır. Yazılımcıların, donanımın dairesel hareket sınırlarını ve stabilitesini analitik olarak modelleyebilmesi sağlanır.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/reading' },
-        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=southeast+england+geography+and+culture' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/torque-angular-momentum' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+tork+ve+a%C3%A7%C4%B1sal+momentum' },
       ],
     },
     7: {
-      description: `Tarım ile yüksek teknolojinin kesiştiği "Silicon Fen" (Cambridge çevresi teknoloji kümelenmesi) gibi bölgeleri barındıran East Anglia üzerine okumalar yapılır. Biyoteknoloji, Ar-Ge faaliyetleri ve bilgisayar bilimlerinin doğuşuna (Alan Turing, vb.) ev sahipliği yapmış bu bölgenin ekosistemini anlatan spesifik teknik/tarihi metinler çevrilir. Sadece Londra gibi metropollerin değil, sakin bölgelerin de nasıl global Ar-Ge üslerine dönüştüğünü tartışırken tartışma (Debating) ve fikir bildirme (Expressing Opinions) kalıplarını İngilizce kullanma refleksiniz gelişir. Bilimsel makaleler ve teknoloji haberlerini okurken ihtiyaç duyacağınız "Innovation, Research, Development" gibi kavram kümelerine hakimiyetiniz artar. Akademik İngilizcenin bilim ve coğrafyayla harmanlandığı haftadır.`,
+      description: `Dönme dinamiği ile katı cisimlerin statik denge koşulları birleştirilerek mekanik sistemlerin nasıl stabil kalacağı analiz edilir. Bir robotun veya sunucu kasasının (server rack) ağırlık merkezi hesabı yapılarak fiziksel olarak devrilmeden nasıl konumlandırılacağı planlanır. Kuvvet çiftleri ve hareket denklemleri, endüstriyel kolların kalibrasyon yazılımlarında hareket ve tork hesaplamalarında sıkça kullanılır. Statik denge, sensör verilerindeki gürültüleri filtreleyerek durağan durumları tespit eden algoritmaların mantığını oluşturur. Donanımsal sistemlerin kararlılık analizlerini yazılımsal olarak simüle etmek için gerekli altyapıyı sunar.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/vocabulary' },
-        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=east+anglia+cambridge+silicon+fen+tech' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://openstax.org/books/university-physics-volume-1/pages/12-1-conditions-for-static-equilibrium' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+kat%C4%B1+cisimlerin+dengesi' },
       ],
     },
     8: {
-      description: `Sanayi Devrimi'nin doğduğu topraklar olan Midlands (İngiltere'nin kalbi) bölgesinin tarihsel endüstriyel evrimi, fabrikalaşmadan dijitalleşmeye geçişi anlatan makalelerle işlenir. Donanım (Hardware), makine (Machinery) ve imalat (Manufacturing) sanayisinin Endüstri 1.0'dan Endüstri 4.0'a uzanan yolculuğunu anlatan İngilizce terimler dağarcığınıza (Tech-Vocab) eklenir. Bir ülkenin teknolojik altyapı çöküşlerini ve yeniden yapılanmasını anlatan vaka analizlerini (Case Studies) okuyup özetleme (Summarizing) teknikleriyle okuduğunu sentezleme yetisi artırılır. Sunum (Presentation) yetenekleri çalıştırılarak, geçmiş teknolojilerle güncel yazılımların kıyaslaması (Comparison) dinleyicilere İngilizce aktarılır. Teknik İngilizcenin tarihsel ve sanayisel formlarıyla pratik yapılır.`,
+      description: `Sistemlerin denge noktası etrafındaki periyodik salınımları, sönümlü hareket ve rezonans olayları incelenir. Bilgisayar ağlarında (networking) ve sinyal işlemede karşımıza çıkan dalga formları, frekans ve genlik kavramlarının fiziksel tabiatı kavranır. Saat vuruşları (clock cycles) üreten kristal osilatörlerin ve alternatif akım devrelerinin temel çalışma mantığı basit harmonik harekettir. Sönümlü salınımlar ve rezonans prensipleri, donanım titreşimlerinin mekanik parçalara zarar vermesini engelleyen veri analiz yöntemlerine yön verir. Ses işleme (audio processing) algoritmaları geliştirilirken dalgaların yapısal karakteristikleri temel alınır.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/speaking' },
-        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=midlands+england+industrial+revolution+history' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/mechanical-waves-and-sound' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+basit+harmonik+hareket' },
       ],
     },
     9: {
-      description: `Dönemin başından bu yana işlenen İngiltere'nin kültürel, politik ve coğrafi okuma parçalarından yola çıkarak İngilizce okuma (Reading), anlama (Comprehension) ve kelime (Vocabulary) kapasitesinin ölçüldüğü teorik sınavdır. Mühendis adaylarının, sadece kodlama dillerine değil, yabancı bir dilin karmaşık ve uzun paragraf yapılarına da odaklanıp (Attention to Detail) içinden istenilen veriyi (Information Extraction) çıkarabilme yeteneği sınanır. Okuma hızınız ve bilmediğiniz kelimeleri bağlamdan tahmin etme başarınız değerlendirilerek uluslararası sınavlara (IELTS/TOEFL) hazırlık seviyeniz analiz edilir. Konuşma (Speaking) pratiklerindeki akıcılığın ve özgüvenin ne ölçüde geliştiği gözlemlenir. Global iletişim yetkinliğinizin ara onay noktasıdır.`,
+      description: `Öğrencilerin dönemin başından bu yana öğrendikleri fizik yasalarını, analitik düşünme ve problem çözme yetenekleriyle harmanlayarak gösterecekleri ilk büyük değerlendirmedir. Yazılım mühendisliğinde kodların hata ayıklama testlerinden geçmesi gibi, mühendis adaylarının da bilimsel düşünce altyapısı bu sınavla sınanır. Mekanik, kinematik ve dinamik konularındaki teorik temelin, kodlanabilir gerçek dünya problemlerine ne kadar uyarlanabildiği ölçülür. Eksik öğrenilen algoritmik ve fiziksel modellerin tespit edilerek, akışkanlar ve termodinamik konularına daha sağlam bir zeminle geçilmesi hedeflenir. Bu hafta, mühendislik eğitimindeki matematiksel ve mantıksal sürecin ara kontrol noktasıdır.`,
       resources: [
         { title: '9. Hafta Sunum', type: 'PDF', href: '#' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: '#' },
       ],
     },
     10: {
-      description: `İngiltere'nin kuzey kırsalları, doğa koruma alanları ve sınır bölgelerinin karakteristik özelliklerini anlatan doğa-kültür ağırlıklı metinler üzerine çalışılır. Doğa ve çevre terminolojisi ile harmanlanan okumalar, sürdürülebilir teknoloji (Green IT), yenilenebilir enerji yazılımları veya karbon ayak izini azaltan IoT (Nesnelerin İnterneti) projeleri hakkında İngilizce makaleler okumak için dilsel bir temel atar. Topluluk karşısında tartışma aktivitelerinde (Group Discussions), teknolojinin çevreye etkisi ve kırsal kalkınma gibi konularda güçlü ve ikna edici İngilizce argümanlar kurma pratiği yapılır. Farklı yöresel aksanların ve diyalektlerin (Dialects) dinleme (Listening) egzersizleriyle tanıtılması, global toplantılardaki farklı İngilizce telaffuzlara adaptasyonu kolaylaştırır. Esnek okuma ve çok yönlü anlama becerileri hedeflenir.`,
+      description: `Sıvı ve gazların dinamiği, basınç, yüzey gerilimi ve Bernoulli ilkesi gibi akışkanlar mekaniği alanları öğrenilir. Yüksek performanslı bilgisayar donanımlarında hayati olan sıvı soğutma (liquid cooling) sistemlerinin tasarımında basınç ve akış hızı algoritmaları kullanılır. Aerodinamik simülasyonlar veya hava durumu modelleme yazılımları, süreklilik denklemlerinin büyük verilerle çözülmesine dayanır. Çip ve yarı iletken üretim tesislerindeki hassas hava akış sistemlerinin mantığı bu yasalara bağlıdır. Doğadaki akıcı ve sürekli fiziksel sistemlerin, ayrık (discrete) bilgisayar mantığıyla nasıl simüle edileceği üzerine güçlü bir vizyon katar.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/listening' },
-        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=yorkshire+dales+and+northern+england+documentary' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/fluids' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+ak%C4%B1%C5%9Fkanlar+mekani%C4%9Fi' },
       ],
     },
     11: {
-      description: `İngiltere'nin Güneybatı sahillerinin turizm, tarih ve denizcilik faaliyetlerini işleyen turistik ve ekonomik okuma metinleri incelenir. Yabancı müşterilere yazılım projeleri (Örneğin turizm rezervasyon sistemleri, denizcilik lojistik algoritmaları) sunarken ihtiyaç duyulacak coğrafi, lojistik ve hizmet sektörü İngilizcesi pratik edilir. Bir mekanı, uygulamayı veya sistemi detaylarıyla tanıtan (Promotional / Descriptive Text) yazıları okuyup benzer formlarda İngilizce sunumlar (Pitching) hazırlama etkinlikleri yapılır. Müşteri memnuniyeti, hizmet kalitesi ve deneyim (User Experience) odaklı kelime yapılarıyla iş İngilizcesi dağarcığı desteklenir. Anlatıma ikna edici ve çekici (Engaging) bir ton katmanın dilsel stratejileri kavranır.`,
+      description: `Makroskobik dünyadan mikroskobik boyuta inilerek moleküllerin kinetik teorisi ve istatistiksel durum denklemleri incelenir. Yarı iletken teknolojisi ve nano boyutlardaki işlemci üretiminde, maddelerin moleküler davranışlarını modellemek modern mimarinin temelidir. Büyük veri (Big Data) analitiğinde kullanılan "rastgele yürüyüş" ve istatistiksel olasılık algoritmaları, moleküler hareket modellerinden büyük ölçüde ilham alır. Enerjinin sistem içindeki eş dağılımı ilkesi, kuantum bilgisayar mimarilerinin ısıl durum analizlerinde ve malzeme simülasyonlarında kullanılır. Olasılığa dayalı fizik prensipleri, günümüzdeki makine öğrenmesi algoritmalarının kök felsefesine ışık tutar.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/vocabulary' },
-        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=south+west+england+cornwall+culture' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://hyperphysics.phy-astr.gsu.edu/hbase/Kinetic/kinthe.html' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+molek%C3%BCler+kinetik+teori' },
       ],
     },
     12: {
-      description: `Kendi özerk yapısı, tarihi, buluşları ve eğitim sistemiyle (Örneğin Edinburgh AI ve Robotik merkezleri) İskoçya'nın kültürel ve teknolojik profili İngilizce olarak analiz edilir. İskoçya'nın bilimsel keşiflerdeki (Örn. Telefonun icadı, Penisilin) rolünü okuyarak, bilim tarihi (History of Science) ve teknolojik inovasyonları anlatan akademik İngilizce metinleri tarama becerisi ivme kazanır. Farklı aksanlar serisinin en zorlusu olan İskoç aksanına dinleme egzersizleriyle maruz kalmak, uluslararası toplantılarda (Conference calls) her türlü telaffuzu anlayabilme "Parsing" (ayrıştırma) yeteneğini güçlendirir. İki farklı kültürün (İngiliz-İskoç) benzerliklerini ve farklılıklarını zıtlık bağlaçlarıyla (Although, However, Whereas) akıcı bir şekilde tartışma (Debating) pratiği pekiştirilir.`,
+      description: `İdeal sistem modellerinin ötesine geçilerek, gerçek gazların davranışları ve donanımları doğrudan etkileyen ısıl genleşme mekanikleri öğrenilir. Bilgisayar anakartlarındaki iletken yolların ve çiplerin ısıyla genleşerek zamanla mikro çatlaklara uğramasını öngören hesaplamaların temelidir. Sensörlerden toplanan anlık sıcaklık verilerinin kalibrasyonu ve işlemci çekirdeklerindeki aşırı ısınmayı denetleyen "thermal throttling" algoritmaları bu yasalarla yazılır. İç enerji kavramı, büyük veri merkezlerinin ve bulut sunucularının termal yönetimini planlayan devasa yazılımların çekirdeğini oluşturur. Donanım sağlığı (hardware health) ve yazılımsal güç yönetimi arasındaki hayati mühendislik köprüsü bu konularda kurulur.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/listening' },
-        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=scotland+history+culture+and+innovations' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://courses.lumenlearning.com/suny-physics/chapter/13-6-non-ideal-gas-behavior/' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+s%C4%B1cakl%C4%B1k+ve+genle%C5%9Fme' },
       ],
     },
     13: {
-      description: `Madencilik geçmişi, sanayinin dönüşümü ve dilin (Galce) korunması gibi konular üzerinden Galler'in sosyal ve ekonomik yapısını anlatan metinler okunur. Eski sanayi tesislerinin nasıl modern siber güvenlik ve bilişim (Tech Hub) kümelerine dönüştürüldüğünü anlatan İngilizce vaka çalışmalarını okuyarak sektörel dönüşüm İngilizcesi (Transformational Business English) geliştirilir. Doğal dillerin (Natural Languages) korunması ile programlama dillerinin eskimesi (Legacy Codes) arasında analojiler kurularak, sistemlerin hayatta kalma mücadeleleri İngilizce olarak kompozisyon/konuşma konusu yapılır. Sınıf içi röportaj (Interviewing) ve soru sorma/cevaplama pratikleri ile iş mülakatlarında kullanacağınız refleksif İngilizce düşünme hızı maksimize edilir. Kendiliğinden (Spontaneous) ve hatasız iletişim kurma özgüveni desteklenir.`,
+      description: `Enerjinin korunumu ilkesinin termodinamik yüzü olan birinci yasa ile ısının mekanik işe dönüşümü detaylandırılır. Yüksek hesaplama gücü gerektiren bilgisayar operasyonlarında tüketilen elektriğin iç enerjiye ve doğrudan ısıya dönüşümü matematiksel olarak analiz edilir. Endüstriyel IoT ağlarında ve çevresel otomasyon projelerinde, sıcaklık değişimlerini sürekli okuyup çevreyle etkileşime giren akıllı algoritmalar tasarlanırken bu fiziksel sınırlar referans alınır. Donanım seviyesindeki enerji verimliliği ve ısı dağılımı (heat dissipation) metrikleri tam anlamıyla birinci yasanın uygulamalarıdır. Sistem sınırları içindeki enerji giriş-çıkış dengesini algoritmik düzeyde koruma bilinci aşılanır.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/speaking' },
-        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=wales+culture+history+and+geography' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-first-law-of-thermodynamics' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+termodinami%C4%9Fin+birinci+yasas%C4%B1' },
       ],
     },
     14: {
-      description: `Politik süreçlerin çözümü, ekonomik toparlanma ve Kuzey İrlanda'nın kendine has sosyo-kültürel dinamikleri İngilizce araştırma metinleriyle incelenerek dönem tamamlanır. Bir toplumdaki zorlu kriz süreçlerinin ve barış antlaşmalarının (Troubles dönemi) yazılı metinlere nasıl döküldüğünü okumak, ileride yazılım şirketlerindeki büyük krizleri veya şirket birleşmelerini anlatan resmi PR (Halkla İlişkiler) ve kriz yönetimi (Crisis Management) metinlerini anlamanızı sağlar. Karmaşık ve çok taraflı olay örgüsünü (Complex narrative) kafada İngilizce olarak modelleyip bir başkasına özetleme (Paraphrasing) sanatının zirvesine ulaşılır. Bir bilgisayar mühendisi olarak, sadece kod okuyan değil; farklı kültürleri, sosyolojik analizleri ve uluslararası makaleleri akıcı bir şekilde anlayıp tartışabilen bir dünya vatandaşı formasyonuyla dil eğitimi noktalanır.`,
+      description: `Termodinamiğin zirvesi olan maksimum verimlilik sunan Carnot çevrimi ve evrendeki kaçınılmaz düzensizliği anlatan entropi yasası işlenir. Bilgisayar bilimlerindeki veri sıkıştırma algoritmalarında kullanılan "Shannon Entropisi", fiziksel entropi yasası ile mükemmel bir paralellik kurularak öğretilir. İkinci yasa, yazılım ve donanım bileşenlerinin hiçbir zaman yüzde yüz kusursuz verimle çalışamayacağını mühendislere matematiksel kanıtlarla gösterir. Sunucu tarlalarındaki muazzam atık ısının sistemden tahliyesi veya enerji kayıplarının yönetilmesi gibi makro mühendislik kararları bu prensipler üzerine inşa edilir. Dönem, mühendisliğin varoluş amacı olan kısıtlı kaynakları en verimli algoritmalarla yönetme mantığıyla son bulur.`,
       resources: [
-        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/reading' },
-        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=northern+ireland+history+and+culture+explained' },
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://www.khanacademy.org/science/physics/thermodynamics/laws-of-thermodynamics/a/what-is-the-second-law-of-thermodynamics' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+termodinami%C4%9Fin+ikinci+yasas%C4%B1+entropi' },
+      ],
+    },
+  },
+  'YDİ110 Yabancı Dil II (İngilizce)': {
+    1: {
+      description: `Belirli bir geçmiş zamanda tamamlanmış eylemleri bildiren "Past Simple" zamanın detaylı zaman zarfları (ago, last, yesterday) ile pratikleri yapılır. Yazılım log dosyalarını, "Server çöktü - Dün saat 5'te" (The server crashed yesterday at 5 PM) gibi net ve kanıta dayalı ifadelerle okuma ve yazma becerisi kazandırılır. Jira veya Github üzerinden yapılan günlük (Daily Scrum) toplantılarda takım arkadaşlarına bir gün önce bitirilen görevleri raporlamanın standart formülüdür. Eski sürümdeki (legacy) sistem değişikliklerini veya güvenlik ihlallerinin ne zaman gerçekleştiğini kronolojik ifade etmeyi öğretir. Eylemle zaman bağlantısını net ve kesin kurma pratiği aşılanır.`,
+      resources: [
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-simple' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ingilizce+ge%C3%A7mi%C5%9F+zaman+zaman+zarflar%C4%B1+ago+last+yesterday' },
+      ],
+    },
+    2: {
+      description: `Sıfatlar kullanılarak iki veya daha fazla sistemin, algoritmanın veya durumun İngilizce olarak yapısal karşılaştırmaları (Comparatives/Superlatives) öğrenilir. Donanım veya yazılım teknolojilerini değerlendirirken "Python is slower than C" veya "This is the most efficient algorithm" kalıplarıyla teknik analiz yapabilmenizi sağlar. Yurt dışı staj ve üniversite başvurularınızda (Örneğin Erasmus'ta farklı seçenekleri kıyaslarken) hedeflerinizi anlatmak için sıkça kullanacağınız yapıdır. Farklı veritabanı çözümlerinin performans kıyas raporlarını (benchmark tests) İngilizce kaynaklardan okuma yetisini artırır. Teknik olarak üstünlük ve denklik belirtme kabiliyetleri geliştirilir.`,
+      resources: [
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/comparative-and-superlative-adjectives' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=comparatives+and+superlatives+ingilizce+kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma' },
+      ],
+    },
+    3: {
+      description: `Sadece nesneleri (sıfatlarla) değil, eylemlerin nasıllığını (zarflarla) karşılaştırma yapıları incelenerek sistem çalışma hızları ve verimlilikleri ifade edilir. Bir algoritmanın diğerinden "daha hızlı" (faster) çalışması ile "daha verimli bir şekilde" (more efficiently) çalışması arasındaki İngilizce gramer farkı çözülür. Yüksek sadakatli (high-fidelity) bir kulaklığın sesi "daha net vermesi" (clearer) gibi donanımsal incelemeleri (hardware reviews) yabancı forumlarda okuma beceriniz gelişir. Sunucunun verileri nasıl işlediğine dair zarf/durum bildirimlerini İngilizce hatasız iletme stratejileridir. Detaylı durum betimlemeleriyle dilin sınırları genişletilir.`,
+      resources: [
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/comparative-and-superlative-adverbs' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ingilizce+zarflarla+kar%C5%9F%C4%B1la%C5%9Ft%C4%B1rma' },
+      ],
+    },
+    4: {
+      description: `Planlı gelecek (going to) ve eldeki verilere dayalı güçlü tahmin yapma kalıpları ile fiillerden sıfat üretme kuralları (e.g. interest -> interesting/interested) incelenir. Yazılım projenizin yol haritasını (Roadmap) yabancı yatırımcılara sunarken veya önümüzdeki ayki geliştirme planlarınızı izah ederken bu net gelecek kalıpları şarttır. Veri mühendisliği (Data Engineering) projelerinde istatistiklere dayanarak "Server is going to overload" gibi sistem tahminlerini (predictive analytics) dillendirmenin aracıdır. "Broken code", "developing technology" gibi fiilden türeyen teknik sıfatlar İngilizce okuma hızını inanılmaz artırır. Geleceğe dair mühendislik projeksiyonları dil kalıplarına dökülür.`,
+      resources: [
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/talking-about-the-future' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ingilizce+planl%C4%B1+gelecek+zaman+ve+s%C4%B1fat+t%C3%BCretme' },
+      ],
+    },
+    5: {
+      description: `Yakın zamanda olmuş, etkisi süren Present Perfect Tense zaman zarfları (just, already, yet) ve kişisel tecrübe sorgulamaları (Have you ever...?) işlenir. Takım içi mesajlaşmalarda (Slack/Discord) "I have *just* pushed the code" (Kodu az önce yolladım) veya "We haven't fixed the bug *yet*" (Hatayı henüz çözmedik) kalıpları yazılımcıların en çok kurduğu cümlelerdir. İş veya staj mülakatlarında IK uzmanlarının "Have you ever used Python?" şeklindeki tecrübe sorularına profesyonel cevaplar verebilmenin ön şartıdır. Yaşanan eylemin anlık durum güncellemelerini (Status update) eşzamanlı bildirme yeteneği kazandırır. Zamanlar arası anlamsal köprü kurma vizyonu sağlanır.`,
+      resources: [
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=present+perfect+tense+zaman+zarflar%C4%B1+yet+just+already' },
+      ],
+    },
+    6: {
+      description: `Geçmişte başlayıp hala devam eden eylemler (Present Perfect Continuous) ile 'since/for' kullanımı ve miktar bildiren 'too/enough' kalıpları ele alınır. "We have been developing this bot *since* March" (Bu botu Mart ayından beri geliştiriyoruz) diyerek projelerin süreç uzunluklarını (duration) vurgulama tekniğidir. Bellek (RAM) sınırlarına yaklaşan bir sistem için "The data is *too* large" (Veri çok büyük) veya "Not *enough* memory" ifadeleriyle sistem darboğazları izah edilir. Süreklilik bildiren yapıların algoritmik devamlılık döngülerine (continuous loops) dilbilgisel olarak benzediği fark edilir. Zaman dilimlerini esnek ve bağlamsal kullanma pratiğidir.`,
+      resources: [
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect-continuous' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=present+perfect+continuous+for+since' },
+      ],
+    },
+    7: {
+      description: `Karşılaştırma yapıları, geçmiş ve gelecek zamanlar ile süreç bildiren zaman kalıplarının kağıt üzerinde ve pratik olarak sınandığı ara değerlendirmedir. Mühendislik İngilizcesinin temeli olan durum bildirme, zaman planlaması ve kıyaslama yeteneklerinin gramer doğruluğu (syntax accuracy) test edilir. Yabancı dilde okuduğunu anlama seviyesinin (comprehension level) sektör literatürünü takip edip edemeyeceği dolaylı olarak ölçümlenir. Öğrencilerin Erasmus gibi uluslararası hedefleri doğrultusunda eksik kaldığı İngilizce yapı taşları tespit edilir. Gramer yapılarının kalıcı hafızaya kodlanması için kritik bir duraktır.`,
+      resources: [
+        { title: '7. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: '---' },
+      ],
+    },
+    8: {
+      description: `Geçmişte süregelen ve başka eylemlerce kesilen durumların anlatıldığı (Past Continuous) ve "when/while" bağlaçlarının ileri pratikleri yapılır. Sistem loglarında sıklıkla aranan asenkron hata raporlamalarının, "While the bot was scraping data, the connection was lost" şeklindeki ifade mantığıdır. Kesinti yönetimi (Interrupt handling), bilgisayar işletim sistemlerinin arka planında gerçekleşirken, bunun uluslararası dokümanlarda nasıl cümlelere döküldüğünü gösterir. Aynı anda gerçekleşen paralel olayların (multi-threading) dildeki ifadesini net ve kurallı kullanmayı öğretir. Karmaşık senaryoları olay sırasına göre kurgulama vizyonu katar.`,
+      resources: [
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/past-continuous' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=past+continuous+tense+when+while+kullan%C4%B1m%C4%B1' },
+      ],
+    },
+    9: {
+      description: `Eylemi yapanla etkilenenin aynı olduğu dönüşlü zamirler (myself, yourself vb.) ve sınıf içi inisiyatif alma üzerine konuşma pratikleri işlenir. Bilgisayar bilimindeki özyinelemeli (Recursive) fonksiyonların veya kendi kendini çağıran kod bloklarının dil yapısındaki tam felsefi karşılığıdır. "Sistem kendini yeniden başlatacak" (The system will restart *itself*) gibi otomasyon süreçlerini ve IoT bildirimlerini hatasız ifade etmek için hayati bir yapıdır. Kendine yetme ve kendi problemlerini çözme becerisi, dilde dönüşlü yapıları kullanarak bağımsız bir mühendis profili çizer. Otonom donanım veya yazılım hareketlerinin ifadeleri zenginleştirilir.`,
+      resources: [
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/reflexive-pronouns' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=reflexive+pronouns+d%C3%B6n%C3%BC%C5%9Fl%C3%BC+zamirler+ingilizce' },
+      ],
+    },
+    10: {
+      description: `Anlık gelişen olaylara karşı "will" kullanımı ile reaksiyon alma ve ihtimal/kesinlik derecelerini (must, may, might, can't) ifade etme kuralları öğrenilir. Kriz anlarında, örneğin bir sunucu çöküşünde anlık aksiyon alırken "I *will* restart the server" diyerek takım liderine hızlı karar bildirme yetisidir. Bir bug (hata) araştırırken "The problem *might* be in the database" diyerek olasılık derecelerini doğru İngilizceyle takım arkadaşlarına raporlama gücü kazandırır. Teşhis ve hata ayıklama (troubleshooting) konuşmalarında kesinlik ve varsayım arasındaki ince çizgiyi profesyonelce korur. Çevik (Agile) yönetim kültürünün anlık reaksiyon diline uyum sağlanır.`,
+      resources: [
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/certainty-and-possibility' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ingilizce+will+anl%C4%B1k+kararlar+ve+modals+of+deduction' },
+      ],
+    },
+    11: {
+      description: `Gelecekte gerçekleşmesi muhtemel durumlar ve koşullara bağlı olaylar, Birinci Tip Koşul Cümleleri (If Clause Type 1) ile incelenir. "Eğer bu kodu çalıştırırsan, sistem yavaşlayacak" (If you run this code, the system will slow down) gibi yazılımın neden-sonuç (cause and effect) test senaryolarını yazma pratiğidir. Kodların en temel yapıtaşı olan 'if-else' mantığının İngilizce literatürde nasıl varsayımsal dokümantasyonlara dönüştüğü çözümlenir. Risk analiz raporları ve gelecek teknoloji simülasyonları tasarlarken olasılık ağaçlarını dilbilgisine yedirmeyi öğretir. Yazılımsal şartlı ifadelerin kusursuz İngilizce gramerle sunulması hedeflenir.`,
+      resources: [
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/conditionals-1' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=if+clauses+type+1+ingilizce+ko%C5%9Fullu+c%C3%BCmleler' },
+      ],
+    },
+    12: {
+      description: `Bir kişinin ağzından çıkan cümlenin zaman/şahıs kipleri değiştirilerek üçüncü bir kişiye aktarıldığı (Reported Speech) dolaylı anlatım teknikleri öğrenilir. Takım toplantılarında "Müşteri arayüzün değişmesini istediğini söyledi" (The client said that they wanted the UI to be changed) gibi bilgi aktarımı yapmanın resmi formatıdır. Başka bir programcının projenizde oluşturduğu "Issue" (sorun) biletlerini tartışırken veya sözlü emirleri yazılı raporlara dökerken zorunlu olarak kullanılır. Bilginin kaynaktan hedefe bozulmadan, uygun protokol (gramer değişimi) ile aktarılmasını ifade eden haberleşme mimarisine benzer. Profesyonel iş raporlama dili kesin olarak oturtulur.`,
+      resources: [
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/reported-speech' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=reported+speech+dolayl%C4%B1+anlat%C4%B1m+ingilizce' },
+      ],
+    },
+    13: {
+      description: `Öznenin değil, uygulanan işin veya algoritmanın öne çıktığı Edilgen Yapı (Passive Voice) ile akademik ve objektif makale diline geçiş yapılır. Bütün kurulum kılavuzları, API yönergeleri ve hata mesajları ("The file was deleted") bu pasif zaman yapısı kurgulanarak kullanıcıya sunulur. Bir projenin sunumunda kişisel "Ben yaptım" yerine "Bot sistemi geliştirildi" diyerek profesyonel ve kurumsal bir imaj çizmeyi öğretir. Eylemin sonucuna (çıktıya) odaklanan mühendislik felsefesini, dildeki vurgu kurallarıyla birleştirir. Yazılımsal süreç bildirimlerinde nötr ve kesin ifadeler kullanma yetisi maksimize edilir.`,
+      resources: [
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/passive' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=passive+voice+edilgen+yap%C4%B1+ingilizce' },
+      ],
+    },
+    14: {
+      description: `Dönem boyunca öğrenilen zaman, koşul, pasif ve dolaylı anlatım yapılarının Türkçe-İngilizce teknik metin çevirileri ve konuşma aktiviteleri ile final sentezi yapılır. Açık kaynaklı (Open Source) dokümanları Türkçeye çevirerek topluluğa katkı sağlama veya kendi kodunuzun Readme dosyasını uluslararası standartlarda yazma pratikleridir. Çeşitli rol yapma (role-play) aktiviteleriyle bir teknik mülakatta İngilizce olarak kendinizi, ilgi alanlarınızı ve büyük veri (Big Data) gibi gelecek hedeflerinizi akıcı anlatma eşiği aşılır. Kelime dağarcığı ile gramerin, gerçek zamanlı düşünce sistemine entegre olması hedeflenir. Mühendisin donanım ve yazılım vizyonunu global bir dile başarılı bir şekilde dönüştürmesiyle dönem noktalanır.`,
+      resources: [
+        { title: '14. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/skills/speaking' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=ingilizce+teknik+%C3%A7eviri+ve+konu%C5%9Fma+pratikleri' },
+      ],
+    },
+  },
+  'DFD002 Diferansiyel Denklemler': {
+    1: {
+      description: `Doğadaki fiziksel değişim hızlarını matematiksel olarak modelleyen diferansiyel denklemlerin temel kavramlarına, mertebe ve derece tanımlarına giriş yapılır. Bilgisayar mühendisliğinde oyun motorları yazarken, hareket eden bir nesnenin hızını ve ivmesini anlık olarak hesaplamak için bu denklemlerin mantığı koda dökülür. Makine öğrenmesi modellerinin (sinir ağları) arkasındaki optimizasyon süreçleri sürekli değişim oranlarına dayanır. Zamanla değişen sistemleri (dinamik sistemler) anlamanın ve bilgisayarda simüle etmenin alfabesidir. Sabit verilerden ziyade "değişimin" matematiğine odaklanılır.`,
+      resources: [
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/Definitions.aspx' },
+        { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=adi+diferansiyel+denklemler+giri%C5%9F' },
+      ],
+    },
+    2: {
+      description: `Çözümü en temel ve kolay olan, x ve y değişkenlerinin eşitliğin zıt taraflarına ayrılarak integrallerinin alınabildiği denklem tipleri öğrenilir. Veritabanı yönetiminde (SQL) veya veri analizinde, kompleks bir veri setini bağımsız değişkenlere göre filtrelemek ve parçalamak (divide and conquer) mantığıyla çok benzerdir. Otonom robot algoritmalarında sensörlerden gelen sıcaklık soğuma eğrilerini veya batarya deşarj modellerini hesaplarken sıklıkla bu tipler kullanılır. Problemi izole edilebilir küçük modüllere ayırarak çözme disiplini aşılar. Yazılımsal iterasyonların kağıt üzerindeki ilk adımlarıdır.`,
+      resources: [
+        { title: '2. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/Separable.aspx' },
+        { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=de%C4%9Fi%C5%9Fkenlerine+ayr%C4%B1labilir+diferansiyel+denklemler' },
+      ],
+    },
+    3: {
+      description: `Değişkenlerine ayrılamayan ancak "integral çarpanı" gibi akıllı matematiksel hilelerle çözülebilir lineer (doğrusal) forma sokulan denklemler incelenir. İleride Ağ Mühendisliği (Networking) derslerinde göreceğiniz veri akış modelleri veya elektronik devrelerindeki (RC) akım analizleri lineer denklemlerle modellenir. Bernoulli denklemleri ise lineer olmayan karmaşık sistemleri, değişken değiştirmeyle lineer formata dönüştürerek çözmenin algoritmik bir örneğidir. Yazılımda kompleks ve çözülemez görünen bir mimariyi (Legacy Code), aracı bir tasarım kalıbı (Design Pattern) ile modernize etmeye benzer. Matematiksel manipülasyon yeteneğini artırır.`,
+      resources: [
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/Linear.aspx' },
+        { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=lineer+ve+bernoulli+diferansiyel+denklemleri' },
+      ],
+    },
+    4: {
+      description: `Çok değişkenli fonksiyonların kısmi türevlerini kullanarak kurulan ve potansiyel fonksiyonunu arayan "Tam" (Exact) diferansiyel denklemler öğretilir. Üç boyutlu bilgisayar grafiklerinde (3D Rendering) veya oyun geliştirmede (Unity/Unreal Engine) vektör alanlarını ve eğimlerini (gradient) hesaplarken bu teorik yapı arka planda sürekli çalışır. İki farklı değişkenin sisteme aynı anda etki ettiği durumlarda sistemin enerji veya durum (state) korunumunu test etmenin matematiksel yoludur. Programın farklı modüllerinin (örneğin CPU ve GPU) ortak paylaştığı kaynakları eşzamanlı tüketimlerini modellemeye benzer. Bütünsel düşünme ve kısmi türev mantığını oturtur.`,
+      resources: [
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/Exact.aspx' },
+        { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=tam+diferansiyel+denklemler' },
+      ],
+    },
+    5: {
+      description: `Sadece hız (birinci türev) değil, ivme (ikinci türev) ve "jerk" (üçüncü türev) gibi daha kompleks değişim dinamiklerini barındıran denklemlere geçilir. Otonom dron (İHA) yazılımları geliştirirken veya robotik kolları kodlarken, sarsıntısız ve yumuşak bir hareket (smooth transition) sağlamak için yüksek mertebeden türevlerin sıfırlanması gerekir. Mekanik sistemlerin titreşim (rezonans) analizleri, donanımın zarar görmemesi için bu matematiksel modeller üzerinden simüle edilir. Tek boyutlu düşünceden, çok katmanlı ve ivmelenen süreçleri analiz etme seviyesine çıkılır. Kodlanacak fizik motorlarının omurgasını oluşturur.`,
+      resources: [
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/HigherOrderIntro.aspx' },
+        { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=y%C3%BCksek+mertebeden+diferansiyel+denklemler' },
+      ],
+    },
+    6: {
+      description: `Yüksek mertebeden lineer denklemlerin genel çözüm yapıları (Homojen ve Özel çözümlerin toplamı) ve süperpozisyon ilkesi incelenir. İki farklı sinyalin (örneğin kablosuz ağlardaki radyo frekanslarının) havada çarpıştığında birbirlerini nasıl etkilediğini veya yeni bir sinyal oluşturduğunu (süperpozisyon) anlamak için şarttır. Fonksiyonların doğrusal bağımsızlığı (Wronskian determinantı), veri biliminde gereksiz/tekrar eden algoritmik değişkenleri filtreleme felsefesine dayanır. Sistemin genel bir kararlı duruma (steady-state) ve dış etkilere verdiği özel tepkiye (transient) ayrıştırılarak analiz edilmesidir. Karmaşık bir yazılımın loglarını ana akış ve istisnalar olarak ayırmaya benzer.`,
+      resources: [
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/SecondOrderConcepts.aspx' },
+        { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=y%C3%BCksek+mertebeden+lineer+diferansiyel+denklemler' },
+      ],
+    },
+    7: {
+      description: `Katsayıları değişken olmayan, yani zamanla sistemin fiziksel özellikleri değişmeyen denklemlerin karakteristik denklem (köklere ayırma) yöntemiyle çözümü öğretilir. Bilgisayarın içindeki kristal osilatörlerin ürettiği saat frekansları (clock cycles) sabit katsayılı diferansiyel denklemlerin harmonik çözümleridir. Karakteristik denklemin köklerinin reel veya karmaşık olması, yazılımda kontrol ettiğiniz bir donanımın (örneğin servo motor) hareketinin sönümlü mü yoksa salınımlı mı olacağını önceden gösterir. Matematiksel problemleri cebirsel polinomlara dönüştürerek çözme (optimizasyon) vizyonu kazandırır. Tahmin edilebilir donanım tepkilerinin garantisidir.`,
+      resources: [
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/RealRoots.aspx' },
+        { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sabit+katsay%C4%B1l%C4%B1+lineer+diferansiyel+denklemler' },
+      ],
+    },
+    8: {
+      description: `Homojen olmayan (dışarıdan bir kuvvet/veri girişi alan) sabit katsayılı denklemlerin özel çözümünü bulmak için "tahmin etme" yöntemidir. Sistem bir dış sinyal (örneğin ağdan gelen bir ping veya kullanıcı girdisi) aldığında, bu sinyale benzer bir çıktı üreteceği varsayımıyla algoritmik bir kalıp oluşturulur. Makine öğrenmesinde "Linear Regression" yaparken, veriye en uygun çizgiyi (denklemi) bulmak için katsayıları tahmine dayalı olarak optimize etme süreciyle felsefi olarak çok benzerdir. Beklenen çıktının formatını önceden bilip (örneğin JSON döneceğini bilip) parametreleri ona göre uydurma sanatıdır. Heuristic (sezgisel) algoritmaların matematiksel temelini atar.`,
+      resources: [
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/UndeterminedCoefficients.aspx' },
+        { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=belirsiz+katsay%C4%B1lar+y%C3%B6ntemi+diferansiyel' },
+      ],
+    },
+    9: {
+      description: `Katsayıları değişken (genellikle x'in kuvvetleri) olan Cauchy-Euler denklemlerinin, değişken değiştirmeyle sabit katsayılı forma nasıl indirgendiği öğrenilir. Görüntü işlemede resimlerin merkezden dışarıya doğru oluşan bozulmalarını (lens distortion) düzeltmek için ölçek bağımlı algoritmalar bu denklemlerle kurgulanır. Logaritmik dönüşümler kullanılarak, üstel olarak büyüyen işlemci (CPU) zaman karmaşıklıklarının doğrusal ve yönetilebilir seviyelere çekilmesi felsefesine benzer. Sistem değiştikçe kendini adapte eden yapıların (adaptive algorithms) çözümlenme stratejisidir. Zorlukları farklı bir uzaya taşıyarak kolaylaştırma öğretilir.`,
+      resources: [
+        { title: '9. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/EulerEquations.aspx' },
+        { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=euler+diferansiyel+denklemleri' },
+      ],
+    },
+    10: {
+      description: `Temel diferansiyel denklemlerin sınıflandırılması, analitik çözümleri ve sabit katsayılı sistemlerin tepkileri üzerine teorik bir değerlendirme sürecidir. Mühendisin, karşılaştığı dinamik problemi doğru matematiksel modele (algoritmik sınıfa) yerleştirip yerleştiremediği ölçülür. Kodlanacak karmaşık fizik ve mühendislik simülasyonlarının matematiksel ispatlarını kağıt üzerinde yapabilme becerisi test edilir. Sistem analizine (Laplace ve Matrisler) geçilmeden önce temel analitik zekanın onaylandığı duraktır. Hatalı hesaplamaların simülasyonları çökerteceği bilinciyle yüksek dikkat sınanır.`,
+      resources: [
+        { title: '10. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '10. Hafta Ders Kaydi', type: 'Video', href: '---' },
+      ],
+    },
+    11: {
+      description: `Birden fazla bilinmeyen fonksiyonun birbirine bağımlı olduğu, yani gerçek dünyadaki sistemlerin tam karşılığı olan çoklu denklem ağlarına geçilir. Çok oyunculu (multiplayer) bir ağ oyununda, oyuncuların konumlarının, hızlarının ve ağ gecikmelerinin birbirini anlık olarak etkilediği dinamik sunucu hesaplamaları bu sistemlerle modellenir. Yırtıcı-av modelleri gibi birbiriyle rekabet eden değişkenler, siber güvenlikte "Saldırgan - Savunma (IDS) Sistemi" arasındaki etkileşimleri simüle etmekte kullanılır. İzole problemleri değil, birbiriyle konuşan ve birbirini güncelleyen kompleks yazılım modüllerini analiz etmeyi sağlar. Sistem düşüncesinin (Systems Thinking) zirvesidir.`,
+      resources: [
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/SystemsIntro.aspx' },
+        { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=diferansiyel+denklem+sistemleri' },
+      ],
+    },
+    12: {
+      description: `Denklem sistemlerinin çözümü için matrislerin, özdeğerlerin (eigenvalues) ve özvektörlerin gücünden faydalanılan harika bir doğrusal cebir-kalkülüs birleşimidir. Modern bilgisayar biliminin kalbi olan büyük veri analizi, PageRank (Google aramaları) algoritmaları ve kuantum hesaplama mantığı bu yapıların çözümüyle var olur. Bir ağdaki (Network) veri akışının stabilitesi veya bir makine öğrenmesi modelinin "yakınsama" (convergence) hızı özdeğerlerin işaretlerine bakılarak saniyeler içinde hesaplanabilir. Döngüler yerine Vektörel (Matrix) hesaplama yaparak GPU (Ekran kartı) üzerinde devasa hız artışı sağlamanın matematiksel arka planıdır. Algoritmik mimaride paralel işlem gücünü temsil eder.`,
+      resources: [
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/SystemsDE.aspx' },
+        { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=lineer+diferansiyel+denklem+sistemleri+matris' },
+      ],
+    },
+    13: {
+      description: `Matris katsayıları sabit olan sistemlerin çözümleri ve özellikle kompleks özdeğerlerin sistemlerde yarattığı sarmal/salınımlı davranışlar (Faz Portreleri) incelenir. İnsansız hava araçlarının (İHA) uçuş kontrol yazılımlarında, rüzgar gibi dış etkenlere karşı uçağın devrilmeden stabil kalmasını sağlayan PID kontrolcüleri bu matris denklemleriyle hesaplanır. Robotik eklemlerin hareket sınırlarını ve stabilitesini (titremesini engellemek) simüle etmek için sönümleme katsayıları analiz edilir. Sistemin "çökecek mi" yoksa "dengeye mi oturacak" sorusunun görsel ve matematiksel ispatıdır. Güvenilir ve kırılmaz donanım-yazılım entegrasyonu kodlamak için şarttır.`,
+      resources: [
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/PhasePlane.aspx' },
+        { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sabit+katsay%C4%B1l%C4%B1+diferansiyel+denklem+sistemleri+faz+portresi' },
       ],
     },
   },
@@ -2002,24 +2195,21 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
       ],
     },
     2: {
-      description: `Ağ iletişimini standartlaştıran OSI (Open Systems Interconnection) referans modeli ve TCP/IP protokol yığınları detaylıca incelenir. İleride IoT cihazlarından sunucuya veri çekerken veya mikroservisler arası API haberleşmesi kurarken bu katmanlı mimarinin kurallarına uymak zorundasınız. Her bir ağ katmanının (Fiziksel, Veri Bağı, Ağ, Ulaşım, Uygulama) veriye nasıl başlık (header) ekleyerek paketlediği (encapsulation) öğretilir. Sistem darboğazlarını (bottlenecks) çözerken problemin yazılımda mı yoksa ağ katmanında mı olduğunu teşhis etme yeteneği aşılar. İnternetin anayasası niteliğindeki bu evrensel kurallar bütünü teorik olarak oturtulur.
-http://googleusercontent.com/image_content/426`,
+      description: `Ağ iletişimini standartlaştıran OSI (Open Systems Interconnection) referans modeli ve TCP/IP protokol yığınları detaylıca incelenir. İleride IoT cihazlarından sunucuya veri çekerken veya mikroservisler arası API haberleşmesi kurarken bu katmanlı mimarinin kurallarına uymak zorundasınız. Her bir ağ katmanının (Fiziksel, Veri Bağı, Ağ, Ulaşım, Uygulama) veriye nasıl başlık (header) ekleyerek paketlediği (encapsulation) öğretilir. Sistem darboğazlarını (bottlenecks) çözerken problemin yazılımda mı yoksa ağ katmanında mı olduğunu teşhis etme yeteneği aşılar. İnternetin anayasası niteliğindeki bu evrensel kurallar bütünü teorik olarak oturtulur.`,
       resources: [
         { title: '2. Hafta Sunum', type: 'PDF', href: 'https://aws.amazon.com/tr/what-is/osi-model/' },
         { title: '2. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=osi+referans+modeli+ve+katmanlar%C4%B1' },
       ],
     },
     3: {
-      description: `Sayısal (dijital) verilerin fiziksel ortamda taşınabilmesi için analog veya dijital sinyallere (işaretlere) nasıl dönüştürüldüğü analiz edilir. Genlik (Amplitude), frekans ve faz kavramları üzerinden modülasyon tekniklerinin mantığı kavranarak sinyal iletiminin sınırları çizilir. IoT projelerinde sensörlerden gelen analog frekansların mikrodenetleyiciye dijital olarak aktarılmasındaki o fiziksel sürecin arka planıdır. Bant genişliği (Bandwidth) kapasitesi ile veri aktarım hızı arasındaki matematiksel ilişki (Nyquist ve Shannon teoremleri) kanıtlanır. Gözle görülmeyen verinin elektromanyetik dalgalara kodlanma sanatıdır.
-http://googleusercontent.com/image_content/442`,
+      description: `Sayısal (dijital) verilerin fiziksel ortamda taşınabilmesi için analog veya dijital sinyallere (işaretlere) nasıl dönüştürüldüğü analiz edilir. Genlik (Amplitude), frekans ve faz kavramları üzerinden modülasyon tekniklerinin mantığı kavranarak sinyal iletiminin sınırları çizilir. IoT projelerinde sensörlerden gelen analog frekansların mikrodenetleyiciye dijital olarak aktarılmasındaki o fiziksel sürecin arka planıdır. Bant genişliği (Bandwidth) kapasitesi ile veri aktarım hızı arasındaki matematiksel ilişki (Nyquist ve Shannon teoremleri) kanıtlanır. Gözle görülmeyen verinin elektromanyetik dalgalara kodlanma sanatıdır.`,
       resources: [
         { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.sciencedirect.com/topics/computer-science/signal-propagation' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=bilgi+ta%C5%9F%C4%B1yan+i%C5%9Faretler+analog+dijital+sinyaller' },
       ],
     },
     4: {
-      description: `Ağların fiziksel altyapısını oluşturan Çift Burgulu (Twisted Pair), Koaksiyel ve Fiber Optik kabloların kapasiteleri ve zayıflama (attenuation) oranları incelenir. Devasa bulut veri merkezlerinin (Data Centers) birbirine bağlanmasında neden ışık hızında veri taşıyan fiber optiklerin kullanıldığı fiziksel sınırlarla açıklanır. Yerel ağlarda (LAN) veri kayıplarını en aza indirmek için doğru kablo tipini ve topolojisini seçme vizyonu kazandırılır. Elektromanyetik girişimin (EMI) bakır kablolardaki veriyi nasıl bozduğu ve bunun donanımsal olarak nasıl engellendiği öğretilir. Ağ mühendisliğinin fiziksel (Layer 1) dünyasına doğrudan temas edilir.
-http://googleusercontent.com/image_content/462`,
+      description: `Ağların fiziksel altyapısını oluşturan Çift Burgulu (Twisted Pair), Koaksiyel ve Fiber Optik kabloların kapasiteleri ve zayıflama (attenuation) oranları incelenir. Devasa bulut veri merkezlerinin (Data Centers) birbirine bağlanmasında neden ışık hızında veri taşıyan fiber optiklerin kullanıldığı fiziksel sınırlarla açıklanır. Yerel ağlarda (LAN) veri kayıplarını en aza indirmek için doğru kablo tipini ve topolojisini seçme vizyonu kazandırılır. Elektromanyetik girişimin (EMI) bakır kablolardaki veriyi nasıl bozduğu ve bunun donanımsal olarak nasıl engellendiği öğretilir. Ağ mühendisliğinin fiziksel (Layer 1) dünyasına doğrudan temas edilir.`,
       resources: [
         { title: '4. Hafta Sunum', type: 'PDF', href: 'https://beginnersbook.com/2021/12/types-of-transmission-media-guided-and-unguided/' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=kablolu+ileti%C5%9Fim+ortamlar%C4%B1+fiber+optik+utp' },
@@ -2198,8 +2388,7 @@ http://googleusercontent.com/image_content/462`,
   },
   'BMB319 Mantık Devreleri': {
     1: {
-      description: `Bilgisayarların dünyasında verinin 0 ve 1 seviyelerinde fiziksel olarak nasıl işlendiğini gösteren AND, OR, NOT, NAND gibi temel mantık kapıları ve doğruluk tabloları öğrenilir. Yazılımdaki \`if (a && b)\` gibi karar yapılarını çalıştıran fiziksel donanımların ve işlemci mimarilerinin (CPU) en küçük yapı taşlarıdır. Boole cebri teoremleri kullanılarak, karmaşık mantıksal ifadelerin nasıl daha az işlemci döngüsüyle çalışacak şekle dönüştürülebileceğinin matematiksel felsefesi verilir. Donanım geliştirme kartları (FPGA/ASIC) veya IoT cihazları üzerinde düşük seviyeli programlama yapabilmek için gereken sıfır noktasıdır. Elektrik voltajlarının mantıksal kararlara (True/False) dönüştüğü efsanevi geçiştir.
-http://googleusercontent.com/image_content/886`,
+      description: `Bilgisayarların dünyasında verinin 0 ve 1 seviyelerinde fiziksel olarak nasıl işlendiğini gösteren AND, OR, NOT, NAND gibi temel mantık kapıları ve doğruluk tabloları öğrenilir. Yazılımdaki \`if (a && b)\` gibi karar yapılarını çalıştıran fiziksel donanımların ve işlemci mimarilerinin (CPU) en küçük yapı taşlarıdır. Boole cebri teoremleri kullanılarak, karmaşık mantıksal ifadelerin nasıl daha az işlemci döngüsüyle çalışacak şekle dönüştürülebileceğinin matematiksel felsefesi verilir. Donanım geliştirme kartları (FPGA/ASIC) veya IoT cihazları üzerinde düşük seviyeli programlama yapabilmek için gereken sıfır noktasıdır. Elektrik voltajlarının mantıksal kararlara (True/False) dönüştüğü efsanevi geçiştir.`,
       resources: [
         { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/digital_circuits/digital_circuits_logic_gates.htm' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=mant%C4%B1k+kap%C4%B1lar%C4%B1+ve+boole+cebri+dijital+tasar%C4%B1m' },
@@ -2255,8 +2444,7 @@ http://googleusercontent.com/image_content/886`,
       ],
     },
     9: {
-      description: `İşlemcinin beyni olan ALU'nun (Aritmetik Lojik Birim) toplama, bitsel kaydırma, AND, XOR gibi donanımsal operasyonları nasıl milisaniyeler içinde tek bir saat vuruşunda (Clock Cycle) yaptığı incelenir. Kriptografi (şifreleme) algoritmalarında kullanılan XOR veya bitsel kaydırma (Shift/Rotate) işlemlerinin yazılımdan ziyade donanım seviyesinde neden çok daha hızlı ve verimli olduğu ispatlanır. Mikro seviyedeki bu basit işlemler birleşerek modern uygulamaların devasa matematiksel matris analizlerini veya görüntü işlemelerini oluşturur. CPU'nun en temel talimat setini (Instruction Set) anlayarak assembly diline ve performans optimizasyonuna zemin hazırlanır. Bilgisayarın dijital kaslarının çalışma mekanizmasıdır.
-http://googleusercontent.com/image_content/1034`,
+      description: `İşlemcinin beyni olan ALU'nun (Aritmetik Lojik Birim) toplama, bitsel kaydırma, AND, XOR gibi donanımsal operasyonları nasıl milisaniyeler içinde tek bir saat vuruşunda (Clock Cycle) yaptığı incelenir. Kriptografi (şifreleme) algoritmalarında kullanılan XOR veya bitsel kaydırma (Shift/Rotate) işlemlerinin yazılımdan ziyade donanım seviyesinde neden çok daha hızlı ve verimli olduğu ispatlanır. Mikro seviyedeki bu basit işlemler birleşerek modern uygulamaların devasa matematiksel matris analizlerini veya görüntü işlemelerini oluşturur. CPU'nun en temel talimat setini (Instruction Set) anlayarak assembly diline ve performans optimizasyonuna zemin hazırlanır. Bilgisayarın dijital kaslarının çalışma mekanizmasıdır.`,
       resources: [
         { title: '9. Hafta Sunum', type: 'PDF', href: 'https://maker.robotistan.com/mikroislemci/' },
         { title: '9. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=aritmetik+ve+mant%C4%B1ksal+mikro+i%C5%9Flemler+alu' },
