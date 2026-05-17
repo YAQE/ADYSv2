@@ -774,7 +774,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     12: {
       description: `Bir devrenin sadece etrafını değil, kendi içindeki akım değişimlerine karşı da nasıl bir manyetik direnç (öz-indüksiyon) gösterdiği incelenir. İndüktörler (bobinler) kullanılarak bilgisayar güç devrelerinde ani akım çekilmelerinin (spike) donanıma zarar vermesinin fiziksel olarak nasıl engellendiği kavranır. Enerjinin elektrik alan (kapasitör) yerine manyetik alanda depolanması ve salınması süreçleri analiz edilir. Sinyal filtreleme yazılımlarında düşük geçiren (Low-pass) veya yüksek geçiren (High-pass) donanımsal filtrelerin arkasındaki çalışma dinamiğidir. Ani değişimlere karşı sistem kararlılığını (stability) koruyan fizik kurallarıdır.`,
       resources: [
-        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://courses.lumenlearning.com/suny-physics/chapter/23-8-inductance/' },
+        { title: '12. Hafta Sunum', type: 'PDF', href: 'https://evrimagaci.org/manyetik-alan-nedir-nasil-olusur-ve-hayatimizi-nasil-etkiler-21437' },
         { title: '12. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+2+%C3%B6z+%C4%B0nd%C3%BCksiyon+ve+manyetik+enerji' },
       ],
     },
@@ -825,7 +825,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     5: {
       description: `Belirsiz integralin sınırlarla (alt ve üst limit) tanımlanarak, Riemann toplamları üzerinden alan hesaplama ve kümülatif net sonuç çıkarma işlemi incelenir. Bir algoritmanın \`0\` zamanından \`t\` zamanına kadar harcadığı toplam güç tüketimini veya kaynak (RAM/CPU) kullanımını hesaplamak için kullanılır. Sensörlerden gelen ayrık dijital verilerin toplam etkisini veya olasılık istatistiklerini (Big Data) hesaplamak belirli integral algoritmalarıyla yapılır. Belirli sınır koşulları koymak, yazılımda hata toleranslarını (bounds checking) belirlemekle örtüşen bir kavramdır. Sonsuzluğun, pratik fayda sağlayacak şekilde sınırlanması öğretilir.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/CalcI/DefiniteIntegrals.aspx' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.derspresso.com.tr/matematik/integral/belirli-integral-ozellik' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=matematik+2+belirli+integral+ve+riemann+toplam%C4%B1' },
       ],
     },
@@ -1332,7 +1332,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     6: {
       description: `Geçmişte başlayıp hala devam eden eylemler (Present Perfect Continuous) ile 'since/for' kullanımı ve miktar bildiren 'too/enough' kalıpları ele alınır. "We have been developing this bot *since* March" (Bu botu Mart ayından beri geliştiriyoruz) diyerek projelerin süreç uzunluklarını (duration) vurgulama tekniğidir. Bellek (RAM) sınırlarına yaklaşan bir sistem için "The data is *too* large" (Veri çok büyük) veya "Not *enough* memory" ifadeleriyle sistem darboğazları izah edilir. Süreklilik bildiren yapıların algoritmik devamlılık döngülerine (continuous loops) dilbilgisel olarak benzediği fark edilir. Zaman dilimlerini esnek ve bağlamsal kullanma pratiğidir.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/present-perfect-continuous' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://test-english.com/grammar-points/b1/present-perfect-simple-present-perfect-continuous/' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=present+perfect+continuous+for+since' },
       ],
     },
@@ -1367,7 +1367,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     11: {
       description: `Gelecekte gerçekleşmesi muhtemel durumlar ve koşullara bağlı olaylar, Birinci Tip Koşul Cümleleri (If Clause Type 1) ile incelenir. "Eğer bu kodu çalıştırırsan, sistem yavaşlayacak" (If you run this code, the system will slow down) gibi yazılımın neden-sonuç (cause and effect) test senaryolarını yazma pratiğidir. Kodların en temel yapıtaşı olan 'if-else' mantığının İngilizce literatürde nasıl varsayımsal dokümantasyonlara dönüştüğü çözümlenir. Risk analiz raporları ve gelecek teknoloji simülasyonları tasarlarken olasılık ağaçlarını dilbilgisine yedirmeyi öğretir. Yazılımsal şartlı ifadelerin kusursuz İngilizce gramerle sunulması hedeflenir.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/conditionals-1' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/verbs-time-clauses-if-clauses' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=if+clauses+type+1+ingilizce+ko%C5%9Fullu+c%C3%BCmleler' },
       ],
     },
@@ -1381,7 +1381,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     13: {
       description: `Öznenin değil, uygulanan işin veya algoritmanın öne çıktığı Edilgen Yapı (Passive Voice) ile akademik ve objektif makale diline geçiş yapılır. Bütün kurulum kılavuzları, API yönergeleri ve hata mesajları ("The file was deleted") bu pasif zaman yapısı kurgulanarak kullanıcıya sunulur. Bir projenin sunumunda kişisel "Ben yaptım" yerine "Bot sistemi geliştirildi" diyerek profesyonel ve kurumsal bir imaj çizmeyi öğretir. Eylemin sonucuna (çıktıya) odaklanan mühendislik felsefesini, dildeki vurgu kurallarıyla birleştirir. Yazılımsal süreç bildirimlerinde nötr ve kesin ifadeler kullanma yetisi maksimize edilir.`,
       resources: [
-        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/passive' },
+        { title: '13. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/passives' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=passive+voice+edilgen+yap%C4%B1+ingilizce' },
       ],
     },
@@ -1425,7 +1425,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     5: {
       description: `Sadece hız (birinci türev) değil, ivme (ikinci türev) ve "jerk" (üçüncü türev) gibi daha kompleks değişim dinamiklerini barındıran denklemlere geçilir. Otonom dron (İHA) yazılımları geliştirirken veya robotik kolları kodlarken, sarsıntısız ve yumuşak bir hareket (smooth transition) sağlamak için yüksek mertebeden türevlerin sıfırlanması gerekir. Mekanik sistemlerin titreşim (rezonans) analizleri, donanımın zarar görmemesi için bu matematiksel modeller üzerinden simüle edilir. Tek boyutlu düşünceden, çok katmanlı ve ivmelenen süreçleri analiz etme seviyesine çıkılır. Kodlanacak fizik motorlarının omurgasını oluşturur.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/HigherOrderIntro.aspx' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.derspresso.com.tr/matematik/diferansiyel-2' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=y%C3%BCksek+mertebeden+diferansiyel+denklemler' },
       ],
     },
@@ -1483,6 +1483,13 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
       resources: [
         { title: '13. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/DE/PhasePlane.aspx' },
         { title: '13. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=sabit+katsay%C4%B1l%C4%B1+diferansiyel+denklem+sistemleri+faz+portresi' },
+      ],
+    },
+    14: {
+      description: `Dönem sonu.`,
+      resources: [
+        { title: '14. Hafta Sunum', type: 'PDF', href: '#' },
+        { title: '14. Hafta Ders Kaydi', type: 'Video', href: '#' },
       ],
     },
   },
@@ -4511,7 +4518,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     4: {
       description: `Direnç devrelerinin daha kompleks topolojileri olan Yıldız-Üçgen (Wye-Delta) dönüşümleri ve köprü devreleri (Wheatstone Bridge) işlenir. Nesnelerin İnterneti (IoT) projelerinde hassas sensörler, analog veriyi okumak için Wheatstone köprüsü prensibini kullanır. Karmaşık ve içinden çıkılmaz gibi görünen bir devre mimarisini, eşdeğer ve daha basit bir modele (Refactoring) dönüştürme pratiği kazandırır. Sistem mühendisliğinde topolojinin sadece ağ (network) kablolarında değil, doğrudan donanım kartlarında (PCB) da önemli olduğu gösterilir. Yazılımın dış dünyadan en hassas verileri nasıl topladığının elektriksel tasarımıdır.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.javatpoint.com/star-delta-transformation' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://acikders.ankara.edu.tr/pluginfile.php/46083/mod_resource/content/0/3.HAFTA%20PDF.pdf' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=y%C4%B1ld%C4%B1z+%C3%BC%C3%A7gen+d%C3%B6n%C3%BC%C5%9F%C3%BCm%C3%BC+ve+wheatstone+k%C3%B6pr%C3%BCs%C3%BC' },
       ],
     },
@@ -4704,7 +4711,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     3: {
       description: `Newton, Lagrange ve Spline gibi interpolasyon yöntemleri ile eldeki ayrık veri noktaları arasından geçecek en uygun polinom fonksiyonunu bilgisayara buldurma işlemi öğrenilir. Oyun motorlarında veya 3D animasyonlarda anahtar kareler arasındaki yumuşak geçişleri (tweening) hesaplamak tamamen interpolasyon ile yapılır. Eksik veya kopuk sensör verilerinin arasını matematiksel olarak tahmin ederek veriyi tamamlama sanatıdır. Verinin denklemi olmadığında, veriye uyan bir denklem uydurma yetisi kazandırılır. Büyük veri biliminde veriyi pürüzsüzleştirme operasyonlarının kalbidir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/interpolation-in-numerical-methods/' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://calculator-online.net/tr/linear-interpolation-calculator/' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+analiz+interpolasyon+lagrange+newton' },
       ],
     },
@@ -4718,7 +4725,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     5: {
       description: `Eğri altındaki alanları (integral) Yamuk kuralı, Simpson kuralları yöntemleriyle bilgisayarlara döngüler üzerinden toplatarak hesaplatma stratejileridir. Diferansiyel formülü çok karmaşık olan bir enerji hesabını, küçük dilimlerine bölerek \`for\` döngüsüyle toplamak algoritmik verimlilik sağlar. Olasılık yoğunluk fonksiyonlarından kümülatif olasılıkları çıkarırken veri bilimi kütüphanelerinin arka planındaki çalışan algoritmalar tamamen bunlardır. Hangi yöntemin işlemciyi daha az yorarak daha az hatayla sonuç verdiğinin maliyet analizleri yapılır. Sürekli kalkülüsü bilgisayarın discrete mantığına uydurmanın zarif yoludur.`,
       resources: [
-        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/numerical-integration-in-numerical-methods/' },
+        { title: '5. Hafta Sunum', type: 'PDF', href: 'https://web.itu.edu.tr/kalenderli/sayisalintegrasyon-OK2016.pdf' },
         { title: '5. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=say%C4%B1sal+integrasyon+yamuk+ve+simpson+kural%C4%B1' },
       ],
     },
