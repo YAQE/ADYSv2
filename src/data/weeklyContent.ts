@@ -3846,7 +3846,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     8: {
       description: `Modern ZIP ve RAR formatlarının efsanevi temelleri olan, veriyi okudukça sözlüğü sıfırdan ve anlık oluşturan LZ77 (Kayan Pencere) ve LZ78 algoritmaları öğrenilir. Önceden gönderilen verilerin bir pencere (Sliding Window) içinde tutularak, tekrar eden kelimelerin "Geriye dön X adım, Y kadar kopyala" referanslarıyla nasıl inanılmaz bir oranda sıkıştırıldığı koda dökülür. Karşı tarafın (Alıcı) hiçbir sözlüğe sahip olmadan, gelen veriyle birlikte kendi sözlüğünü eşzamanlı nasıl inşa ettiği (Decompression) mantığı kavranır. Bugün her web sitesinin yüklenme hızını sağlayan GZIP ve Deflate mimarilerinin kalbindeki bu deha eseri algoritmalar mühendislik ufku açar. Dinamik belleğin ve geçmişi hatırlama sanatının zirvesidir.`,
       resources: [
-        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/lempel-ziv-algorithm-lz77-lz78-information-theory/' },
+        { title: '8. Hafta Sunum', type: 'PDF', href: 'https://en-wikibooks-org.translate.goog/wiki/Data_Compression/Dictionary_compression?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc' },
         { title: '8. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=lz77+ve+lz78+algoritmas%C4%B1+veri+s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma' },
       ],
     },
