@@ -157,7 +157,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     10: {
       description: `Daha büyük bir sistemin veya veri kümesinin içinde kuralları bozmadan var olan bağımsız alt kümelerin (subspaces) analizi yapılır. Bir yazılım projesindeki büyük modüllerin, kendi içinde çalışan bağımsız alt modüllere (microservices) ayrılmasına benzer bir felsefedir. Veri biliminde, devasa özellik uzaylarından sadece belirli kriterleri sağlayan anlamlı alt setleri izole etmeyi öğretir. Gerilen uzay (span) kavramı, sınırlı sayıda veriyle hangi olası sonuçların üretilebileceğini öngörmeye yarar. Bellek yönetimi yaparken alan sınırlarını (bounds) doğru çizmeyi simgeler.`,
       resources: [
-        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/LinAlg/Subspaces.aspx' },
+        { title: '10. Hafta Sunum', type: 'PDF', href: 'https://tr.khanacademy.org/math/linear-algebra/vectors-and-spaces' },
         { title: '10. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=alt+uzay+ve+germe+lineer+cebir' },
       ],
     },
@@ -215,7 +215,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     4: {
       description: `Bağımlı değişkenin (y) bağımsız değişken (x) cinsinden doğrudan yalnız bırakılamadığı karmaşık yapıların değişim oranları incelenir. Simülasyon yazılımlarında birbirine sıkı sıkıya bağlı çoklu donanım sensörlerinden gelen verilerin analizinde kapalı fonksiyon mantığı kullanılır. Eğrilerin her noktasındaki eğimi (teğeti) bulmak, bilgisayar grafiklerinde objelerin yüzey normallerini hesaplayarak ışıklandırma (rendering) yapmak için şarttır. Bu matematiksel zincir kuralları, arka arkaya çağrılan karmaşık kod fonksiyonlarının hata oranlarını hesaplamaya benzer. Matematiksel manevra kabiliyeti ve problem çözme ufku genişletilir.`,
       resources: [
-        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://tutorial.math.lamar.edu/Classes/CalcI/ImplicitDeriv.aspx' },
+        { title: '4. Hafta Sunum', type: 'PDF', href: 'https://www.derspresso.com.tr/matematik/turev/kapali-fonksiyon' },
         { title: '4. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=kapal%C4%B1+fonksiyonlar%C4%B1n+t%C3%BCrevi' },
       ],
     },
@@ -1267,7 +1267,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     11: {
       description: `Makroskobik dünyadan mikroskobik boyuta inilerek moleküllerin kinetik teorisi ve istatistiksel durum denklemleri incelenir. Yarı iletken teknolojisi ve nano boyutlardaki işlemci üretiminde, maddelerin moleküler davranışlarını modellemek modern mimarinin temelidir. Büyük veri (Big Data) analitiğinde kullanılan "rastgele yürüyüş" ve istatistiksel olasılık algoritmaları, moleküler hareket modellerinden büyük ölçüde ilham alır. Enerjinin sistem içindeki eş dağılımı ilkesi, kuantum bilgisayar mimarilerinin ısıl durum analizlerinde ve malzeme simülasyonlarında kullanılır. Olasılığa dayalı fizik prensipleri, günümüzdeki makine öğrenmesi algoritmalarının kök felsefesine ışık tutar.`,
       resources: [
-        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://hyperphysics.phy-astr.gsu.edu/hbase/Kinetic/kinthe.html' },
+        { title: '11. Hafta Sunum', type: 'PDF', href: 'https://evrimagaci.org/mikro-evrenden-makro-evrene-istatistiksel-fizik-ve-istatistik-mekanik-nedir-8362' },
         { title: '11. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=fizik+1+molek%C3%BCler+kinetik+teori' },
       ],
     },
@@ -3325,7 +3325,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     6: {
       description: `İzin isteme (PTO - Paid Time Off) süreçleri ve iş dünyasının, özellikle teknoloji sektörünün vazgeçilmezi olan Phrasal Verbs (Deyimsel Fiiller) işlenir. Bir sunucuyu kurarken "set up", sistemi kapatırken "shut down", yeni bir özelliği canlıya alırken "roll out" veya bir toplantıyı ertelerken "push back" demek, teknik iletişimin en doğal yoludur. Bu fiilleri bilmek, yabancı yazılımcılarla yapılan kod inceleme (Code Review) seanslarında veya teknik dokümantasyon okumalarında akıcılığınızı inanılmaz derecede artırır. Kurumsal hayatta tatil ve mazeret süreçlerini yöneticilere profesyonel bir İngilizce ile aktarmanın yazılı protokolleri öğretilir. Kitap İngilizcesinden, sokak ve ofis İngilizcesine geçişin kilit noktasıdır.`,
       resources: [
-        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://learnenglish.britishcouncil.org/vocabulary/advanced-vocabulary/phrasal-verbs' },
+        { title: '6. Hafta Sunum', type: 'PDF', href: 'https://www.indeed.com/career-advice/cover-letter-samples' },
         { title: '6. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=business+english+phrasal+verbs+for+work' },
       ],
     },
@@ -3790,7 +3790,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     1: {
       description: `Dijital dünyanın gigabaytlarca veriyi kısıtlı bant genişliğinden (Bandwidth) ve depolama alanlarından geçirebilmesinin arkasındaki matematiksel mucize olan veri sıkıştırma bilimine giriş yapılır. Shannon'ın Bilgi Teorisi (Information Theory) ışığında, bir verinin içindeki "gerçek bilgi" miktarı (Entropi) ile "gereksiz tekrar" (Redundancy) kavramları analiz edilir. Orijinal verinin birebir geri getirilebildiği Kayıpsız (Lossless - Örn: ZIP) teknikler ile insan algısının fark edemeyeceği detayların atıldığı Kayıplı (Lossy - Örn: JPEG/MP3) tekniklerin mühendislik kullanımları tartışılır. Bulut sistemleri ve ağ iletişiminin darboğazlarını yazılım algoritmalarıyla çözme vizyonu kazandırılır. Dosya boyutlarını kod satırlarıyla küçültme felsefesidir.`,
       resources: [
-        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://www.tutorialspoint.com/telecommunication_switching_systems_and_networks/telecommunication_switching_systems_and_networks_data_compression.htm' },
+        { title: '1. Hafta Sunum', type: 'PDF', href: 'https://medium.com/@rajat01221/an-in-depth-exploration-of-data-compression-algorithms-c409ec43f1e5' },
         { title: '1. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=veri+s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma+algoritmalar%C4%B1na+giri%C5%9F+entropi' },
       ],
     },
@@ -3804,7 +3804,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     3: {
       description: `Huffman algoritmasının aksine, her karaktere ayrı bir kod vermek yerine tüm dosyayı 0 ile 1 arasında tek bir virgüllü sayıya (Floating point) sıkıştıran devrimsel Aritmetik Kodlama (Arithmetic Coding) işlenir. Karmaşık hesaplamalara sahip olmasına rağmen, veri karakterlerinin ondalıklı olasılıklarına tam uyum sağlayarak Huffman'dan bile daha yüksek bir sıkıştırma oranına (Kompresyon Oranı) nasıl ulaştığı analiz edilir. İşlemci gücünün (CPU) fazla harcanmasına karşılık, bant genişliğinden (Bandwidth) tasarruf etme (Trade-off) mühendisliği JPEG2000 ve video kodekleri (H.264) üzerinden örneklendirilir. Sayıların olasılık uzayında sonsuz küçüklüğe giden fraktal yapısıyla veriyi izole etme matematiğidir. Kayan noktalı sayıların veri saklama sihridir.`,
       resources: [
-        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://www.geeksforgeeks.org/arithmetic-coding-in-data-compression/' },
+        { title: '3. Hafta Sunum', type: 'PDF', href: 'https://bilisim.io/2018/02/04/aritmetik-kodlama/' },
         { title: '3. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=aritmetik+kodlama+veri+s%C4%B1k%C4%B1%C5%9Ft%C4%B1rma' },
       ],
     },
@@ -3832,7 +3832,7 @@ const WEEKLY_CONTENT_OVERRIDES: Partial<WeeklyContentByCourse> = {
     7: {
       description: `Sözlüğün önceden bilinmediği, ancak tüm dosyanın ilk okuması yapılarak dosyaya özel bir sözlüğün (Semi-Static) oluşturulduğu ara algoritmalar incelenir. Dosya ile birlikte sözlüğün de karşı tarafa gönderilmesi zorunluluğunun yarattığı ek boyut (Overhead) sorunu ile sağladığı yüksek sıkıştırma oranının başa baş noktası matematiksel olarak hesaplanır. Kelimeler yerine hece veya daha küçük parçaların (N-gram) statik sözlüklere dinamik olarak nasıl eklendiği algoritmalaştırılır. Veri mühendisliği projelerinde, saklanacak log formatlarına veya metin yapılarına uygun özel sıkıştırma kütüphaneleri yazma vizyonu katar. Dosyanın DNA'sına uygun özel bir şifre kitabı oluşturma adımıdır.`,
       resources: [
-        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://xlinux.nist.gov/dads/HTML/dictionarycoder.html' },
+        { title: '7. Hafta Sunum', type: 'PDF', href: 'https://developer.chrome.com/blog/shared-dictionary-compression?hl=tr' },
         { title: '7. Hafta Ders Kaydi', type: 'Video', href: 'https://www.youtube.com/results?search_query=semi+static+dictionary+compression' },
       ],
     },
